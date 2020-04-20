@@ -1,4 +1,4 @@
-## Praca inżynierska:
+﻿## Praca inżynierska:
 *AR Foundation in Unity + Android/iOS*
 *Gra planszowa/karciana multiplayer LAN/online.*
 
@@ -10,3 +10,5 @@ wykorzystać różne feature'y AR Foundation do pracy).*
 - [ ] Gracz widzi wizualizację kart wszystkich przeciwników. Jest w stanie położyć kartę na stole i jest to wizualizowane dla każdego gracza znajdującego się w tej grze.
 - [ ] Jeśli jest to gra planszowa, to jest w stanie rzucić kostką sześcienną (lub jakąś inną- w zależności od rodzaju gry).
 - [ ] Zaimplementowane reguły gry.
+
+
