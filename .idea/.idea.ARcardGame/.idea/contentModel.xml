@@ -20,7 +20,9 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CardScript.cs" t="Include" />
+          <e p="CardsStackManager.cs" t="Include" />
           <e p="CubeUV.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
           <e p="HandManager.cs" t="Include" />
           <e p="InteractingEngine.cs" t="Include" />
           <e p="TrackedImageInfoExtendedManager.cs" t="Include" />
