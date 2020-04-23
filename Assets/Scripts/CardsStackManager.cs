@@ -3,8 +3,9 @@ using UnityEngine;
 
 public class CardsStackManager : MonoBehaviour
 {
+    float speed = 0.001f;
+    
     private GameObject card;
-    private float speed;
     private GameObject camera;
     private bool moveCardToHand;
 

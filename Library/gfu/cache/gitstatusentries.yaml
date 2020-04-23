@@ -13,15 +13,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-04-23T21:07:27.726+02:00
+  lastUpdatedAtString: 2020-04-23T21:42:47.778+02:00
   initializedAtString: 2020-04-23T14:43:11.208+02:00
   entries:
-  - path: .idea\.idea.ARcardGame\.idea\contentModel.xml
-    fullPath: D:\Repositories\ARcardGame\.idea\.idea.ARcardGame\.idea\contentModel.xml
-    projectPath: .idea\.idea.ARcardGame\.idea\contentModel.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assembly-CSharp.csproj
     fullPath: D:\Repositories\ARcardGame\Assembly-CSharp.csproj
     projectPath: Assembly-CSharp.csproj
@@ -32,14 +26,14 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Assets\Images\Materials\card1.mat
     projectPath: Assets\Images\Materials\card1.mat
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Assets\Images\Materials\card1.mat.meta
     fullPath: D:\Repositories\ARcardGame\Assets\Images\Materials\card1.mat.meta
     projectPath: Assets\Images\Materials\card1.mat.meta
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Assets\Materials\Outline.mat
     fullPath: D:\Repositories\ARcardGame\Assets\Materials\Outline.mat
     projectPath: Assets\Materials\Outline.mat
@@ -62,26 +56,44 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Assets\Scripts\CardsStackManager.cs
     projectPath: Assets\Scripts\CardsStackManager.cs
     originalPath: 
-    indexStatus: 4
+    indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\CardsStackManager.cs.meta
-    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\CardsStackManager.cs.meta
-    projectPath: Assets\Scripts\CardsStackManager.cs.meta
-    originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
   - path: Assets\Scripts\GameManager.cs
     fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameManager.cs
     projectPath: Assets\Scripts\GameManager.cs
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Assets\Scripts\GameManager.cs.meta
     fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameManager.cs.meta
     projectPath: Assets\Scripts\GameManager.cs.meta
     originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\TrackedImageInfoMultipleManager.cs
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\TrackedImageInfoMultipleManager.cs
+    projectPath: Assets\Scripts\TrackedImageInfoMultipleManager.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\StreamingAssets.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\StreamingAssets.meta
+    projectPath: Assets\StreamingAssets.meta
+    originalPath: 
     indexStatus: 4
     workTreeStatus: 0
+  - path: Assets\StreamingAssets\HiddenARCore.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\StreamingAssets\HiddenARCore.meta
+    projectPath: Assets\StreamingAssets\HiddenARCore.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Builds\CardARGame v.0.0.1.apk
+    fullPath: D:\Repositories\ARcardGame\Builds\CardARGame v.0.0.1.apk
+    projectPath: Builds\CardARGame v.0.0.1.apk
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\Artifacts\00\0049c166fc1526c294031d72e294b442
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\00\0049c166fc1526c294031d72e294b442
     projectPath: Library\Artifacts\00\0049c166fc1526c294031d72e294b442
@@ -91,6 +103,18 @@ MonoBehaviour:
   - path: Library\Artifacts\02\02e15602ab7680e3dd6e994a00941e01
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\02\02e15602ab7680e3dd6e994a00941e01
     projectPath: Library\Artifacts\02\02e15602ab7680e3dd6e994a00941e01
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\04\0418b75fb82a490d6d50e042985cf99d
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\04\0418b75fb82a490d6d50e042985cf99d
+    projectPath: Library\Artifacts\04\0418b75fb82a490d6d50e042985cf99d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\06\06532a0ec262599117d32fdc4265bb82
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\06\06532a0ec262599117d32fdc4265bb82
+    projectPath: Library\Artifacts\06\06532a0ec262599117d32fdc4265bb82
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -118,6 +142,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\26\265ab235d3254411a6fccf0a7949ceb6
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\26\265ab235d3254411a6fccf0a7949ceb6
+    projectPath: Library\Artifacts\26\265ab235d3254411a6fccf0a7949ceb6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\27\27f42990e2bb8f6539d56f9e274c5a9f
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\27\27f42990e2bb8f6539d56f9e274c5a9f
     projectPath: Library\Artifacts\27\27f42990e2bb8f6539d56f9e274c5a9f
@@ -130,12 +160,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\2e\2ed281c64e75fca4c6e9bbdf44ae71b2
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\2e\2ed281c64e75fca4c6e9bbdf44ae71b2
-    projectPath: Library\Artifacts\2e\2ed281c64e75fca4c6e9bbdf44ae71b2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\2f\2fd77deaae48b098f403d9de0f2d9e55
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\2f\2fd77deaae48b098f403d9de0f2d9e55
     projectPath: Library\Artifacts\2f\2fd77deaae48b098f403d9de0f2d9e55
@@ -145,6 +169,12 @@ MonoBehaviour:
   - path: Library\Artifacts\31\31e19316550b129549896d935e732497
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\31\31e19316550b129549896d935e732497
     projectPath: Library\Artifacts\31\31e19316550b129549896d935e732497
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\39\39d88f16a7d1f2a633f0f4ce2fe63e28
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\39\39d88f16a7d1f2a633f0f4ce2fe63e28
+    projectPath: Library\Artifacts\39\39d88f16a7d1f2a633f0f4ce2fe63e28
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -190,12 +220,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\47\47ef9779c78612d6c381cdf877fd5934
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\47\47ef9779c78612d6c381cdf877fd5934
-    projectPath: Library\Artifacts\47\47ef9779c78612d6c381cdf877fd5934
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\48\482c6c455e69e177d4cc8c235c0a693d
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\48\482c6c455e69e177d4cc8c235c0a693d
     projectPath: Library\Artifacts\48\482c6c455e69e177d4cc8c235c0a693d
@@ -217,6 +241,12 @@ MonoBehaviour:
   - path: Library\Artifacts\54\546986e88e33b1fcfc3ba5065c4d2b5d
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\54\546986e88e33b1fcfc3ba5065c4d2b5d
     projectPath: Library\Artifacts\54\546986e88e33b1fcfc3ba5065c4d2b5d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\56\567d78aeaa409c443c87dd22039cde23
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\56\567d78aeaa409c443c87dd22039cde23
+    projectPath: Library\Artifacts\56\567d78aeaa409c443c87dd22039cde23
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -304,9 +334,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\8c\8c6a64a1df9eb90b212fb39a020a4440
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\8c\8c6a64a1df9eb90b212fb39a020a4440
-    projectPath: Library\Artifacts\8c\8c6a64a1df9eb90b212fb39a020a4440
+  - path: Library\Artifacts\8e\8efd7a767f91857cdf082bcdc6732565
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\8e\8efd7a767f91857cdf082bcdc6732565
+    projectPath: Library\Artifacts\8e\8efd7a767f91857cdf082bcdc6732565
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -352,6 +382,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\ac\acc2b4b5939b04c495d179fc69004a74
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\ac\acc2b4b5939b04c495d179fc69004a74
+    projectPath: Library\Artifacts\ac\acc2b4b5939b04c495d179fc69004a74
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\b1\b10aaf1ed5be6d86e3b7afd3dd96316b
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\b1\b10aaf1ed5be6d86e3b7afd3dd96316b
     projectPath: Library\Artifacts\b1\b10aaf1ed5be6d86e3b7afd3dd96316b
@@ -361,6 +397,12 @@ MonoBehaviour:
   - path: Library\Artifacts\b3\b3091b214b9294d1353f7eb4e1afe8a8
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\b3\b3091b214b9294d1353f7eb4e1afe8a8
     projectPath: Library\Artifacts\b3\b3091b214b9294d1353f7eb4e1afe8a8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b5\b56e2bc4cf777dbd0f6790c86f139b51
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\b5\b56e2bc4cf777dbd0f6790c86f139b51
+    projectPath: Library\Artifacts\b5\b56e2bc4cf777dbd0f6790c86f139b51
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -379,6 +421,12 @@ MonoBehaviour:
   - path: Library\Artifacts\ce\ce80d243f57723ee67a028dec26f5f0a
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\ce\ce80d243f57723ee67a028dec26f5f0a
     projectPath: Library\Artifacts\ce\ce80d243f57723ee67a028dec26f5f0a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\cf\cf6162c078025ef3f7bc3e5f9a1648b6
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\cf\cf6162c078025ef3f7bc3e5f9a1648b6
+    projectPath: Library\Artifacts\cf\cf6162c078025ef3f7bc3e5f9a1648b6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -418,6 +466,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\fe\fe0f53060748805f341b6249578055ef
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\fe\fe0f53060748805f341b6249578055ef
+    projectPath: Library\Artifacts\fe\fe0f53060748805f341b6249578055ef
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\gfu\cache\branches.yaml
     fullPath: D:\Repositories\ARcardGame\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
@@ -448,9 +502,87 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: D:\Repositories\ARcardGame\Library\gfu\cache\repoinfo.yaml
-    projectPath: Library\gfu\cache\repoinfo.yaml
+  - path: Library\LastBuild.buildreport
+    fullPath: D:\Repositories\ARcardGame\Library\LastBuild.buildreport
+    projectPath: Library\LastBuild.buildreport
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\boot.config
+    fullPath: D:\Repositories\ARcardGame\Library\PlayerDataCache\Android\Data\boot.config
+    projectPath: Library\PlayerDataCache\Android\Data\boot.config
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\data.unity3d
+    fullPath: D:\Repositories\ARcardGame\Library\PlayerDataCache\Android\Data\data.unity3d
+    projectPath: Library\PlayerDataCache\Android\Data\data.unity3d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+    fullPath: D:\Repositories\ARcardGame\Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\Managed\Unity.Subsystem.Registration.dll
+    fullPath: D:\Repositories\ARcardGame\Library\PlayerDataCache\Android\Data\Managed\Unity.Subsystem.Registration.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Subsystem.Registration.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
+    fullPath: D:\Repositories\ARcardGame\Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\Managed\Unity.Timeline.dll
+    fullPath: D:\Repositories\ARcardGame\Library\PlayerDataCache\Android\Data\Managed\Unity.Timeline.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\Managed\Unity.XR.ARCore.dll
+    fullPath: D:\Repositories\ARcardGame\Library\PlayerDataCache\Android\Data\Managed\Unity.XR.ARCore.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.XR.ARCore.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\Managed\Unity.XR.ARFoundation.dll
+    fullPath: D:\Repositories\ARcardGame\Library\PlayerDataCache\Android\Data\Managed\Unity.XR.ARFoundation.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.XR.ARFoundation.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\Managed\Unity.XR.ARSubsystems.dll
+    fullPath: D:\Repositories\ARcardGame\Library\PlayerDataCache\Android\Data\Managed\Unity.XR.ARSubsystems.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.XR.ARSubsystems.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\Managed\UnityEngine.SpatialTracking.dll
+    fullPath: D:\Repositories\ARcardGame\Library\PlayerDataCache\Android\Data\Managed\UnityEngine.SpatialTracking.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\UnityEngine.SpatialTracking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\Managed\UnityEngine.UI.dll
+    fullPath: D:\Repositories\ARcardGame\Library\PlayerDataCache\Android\Data\Managed\UnityEngine.UI.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
+    fullPath: D:\Repositories\ARcardGame\Library\PlayerDataCache\Android\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
+    fullPath: D:\Repositories\ARcardGame\Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
+    projectPath: Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -484,6 +616,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\StateCache\Hierarchy\64918c-59248937e4bf00a499.json
+    fullPath: D:\Repositories\ARcardGame\Library\StateCache\Hierarchy\64918c-59248937e4bf00a499.json
+    projectPath: Library\StateCache\Hierarchy\64918c-59248937e4bf00a499.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\StateCache\Hierarchy\64918c-mainStage.json
     fullPath: D:\Repositories\ARcardGame\Library\StateCache\Hierarchy\64918c-mainStage.json
     projectPath: Library\StateCache\Hierarchy\64918c-mainStage.json
@@ -508,9 +646,435 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Temp\__Backupscenes\0.backup
+    fullPath: D:\Repositories\ARcardGame\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\.gradle\5.1.1\executionHistory\executionHistory.bin
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\.gradle\5.1.1\executionHistory\executionHistory.bin
+    projectPath: Temp\gradleOut\.gradle\5.1.1\executionHistory\executionHistory.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\.gradle\5.1.1\executionHistory\executionHistory.lock
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\.gradle\5.1.1\executionHistory\executionHistory.lock
+    projectPath: Temp\gradleOut\.gradle\5.1.1\executionHistory\executionHistory.lock
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\.gradle\5.1.1\fileHashes\fileHashes.bin
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\.gradle\5.1.1\fileHashes\fileHashes.bin
+    projectPath: Temp\gradleOut\.gradle\5.1.1\fileHashes\fileHashes.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\.gradle\5.1.1\fileHashes\fileHashes.lock
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\.gradle\5.1.1\fileHashes\fileHashes.lock
+    projectPath: Temp\gradleOut\.gradle\5.1.1\fileHashes\fileHashes.lock
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\.gradle\buildOutputCleanup\buildOutputCleanup.lock
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\.gradle\buildOutputCleanup\buildOutputCleanup.lock
+    projectPath: Temp\gradleOut\.gradle\buildOutputCleanup\buildOutputCleanup.lock
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\launcher\build\intermediates\bundle_manifest\release\processReleaseManifest\bundle-manifest\AndroidManifest.xml
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\launcher\build\intermediates\bundle_manifest\release\processReleaseManifest\bundle-manifest\AndroidManifest.xml
+    projectPath: Temp\gradleOut\launcher\build\intermediates\bundle_manifest\release\processReleaseManifest\bundle-manifest\AndroidManifest.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\launcher\build\intermediates\incremental\packageRelease\tmp\release\dex-renamer-state.txt
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\launcher\build\intermediates\incremental\packageRelease\tmp\release\dex-renamer-state.txt
+    projectPath: Temp\gradleOut\launcher\build\intermediates\incremental\packageRelease\tmp\release\dex-renamer-state.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\launcher\build\intermediates\incremental\packageRelease\tmp\release\file-input-save-data.txt
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\launcher\build\intermediates\incremental\packageRelease\tmp\release\file-input-save-data.txt
+    projectPath: Temp\gradleOut\launcher\build\intermediates\incremental\packageRelease\tmp\release\file-input-save-data.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\launcher\build\intermediates\incremental\packageRelease\tmp\release\zip-cache\qXrQBQSS4Ctf2KOPuno_M2jMhyg=
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\launcher\build\intermediates\incremental\packageRelease\tmp\release\zip-cache\qXrQBQSS4Ctf2KOPuno_M2jMhyg=
+    projectPath: Temp\gradleOut\launcher\build\intermediates\incremental\packageRelease\tmp\release\zip-cache\qXrQBQSS4Ctf2KOPuno_M2jMhyg=
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\launcher\build\intermediates\instant_app_manifest\release\AndroidManifest.xml
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\launcher\build\intermediates\instant_app_manifest\release\AndroidManifest.xml
+    projectPath: Temp\gradleOut\launcher\build\intermediates\instant_app_manifest\release\AndroidManifest.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\boot.config
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\boot.config
+    projectPath: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\boot.config
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\data.unity3d
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\data.unity3d
+    projectPath: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\data.unity3d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Assembly-CSharp.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Assembly-CSharp.dll
+    projectPath: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Unity.Subsystem.Registration.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Unity.Subsystem.Registration.dll
+    projectPath: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Unity.Subsystem.Registration.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Unity.TextMeshPro.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Unity.TextMeshPro.dll
+    projectPath: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Unity.Timeline.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Unity.Timeline.dll
+    projectPath: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Unity.XR.ARCore.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Unity.XR.ARCore.dll
+    projectPath: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Unity.XR.ARCore.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Unity.XR.ARFoundation.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Unity.XR.ARFoundation.dll
+    projectPath: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Unity.XR.ARFoundation.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Unity.XR.ARSubsystems.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Unity.XR.ARSubsystems.dll
+    projectPath: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\Unity.XR.ARSubsystems.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\UnityEngine.SpatialTracking.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\UnityEngine.SpatialTracking.dll
+    projectPath: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\UnityEngine.SpatialTracking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\UnityEngine.UI.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\UnityEngine.UI.dll
+    projectPath: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
+    projectPath: Temp\gradleOut\launcher\build\intermediates\merged_assets\release\out\bin\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml
+    projectPath: Temp\gradleOut\launcher\build\intermediates\merged_manifests\release\AndroidManifest.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\launcher\build\intermediates\processed_res\release\processReleaseResources\out\resources-release.ap_
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\launcher\build\intermediates\processed_res\release\processReleaseResources\out\resources-release.ap_
+    projectPath: Temp\gradleOut\launcher\build\intermediates\processed_res\release\processReleaseResources\out\resources-release.ap_
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\launcher\build\reports\lint-results-release-fatal.html
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\launcher\build\reports\lint-results-release-fatal.html
+    projectPath: Temp\gradleOut\launcher\build\reports\lint-results-release-fatal.html
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\build\intermediates\aapt_friendly_merged_manifests\release\aapt\AndroidManifest.xml
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\build\intermediates\aapt_friendly_merged_manifests\release\aapt\AndroidManifest.xml
+    projectPath: Temp\gradleOut\unityLibrary\build\intermediates\aapt_friendly_merged_manifests\release\aapt\AndroidManifest.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\boot.config
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\boot.config
+    projectPath: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\boot.config
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\data.unity3d
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\data.unity3d
+    projectPath: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\data.unity3d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Assembly-CSharp.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Assembly-CSharp.dll
+    projectPath: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Unity.Subsystem.Registration.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Unity.Subsystem.Registration.dll
+    projectPath: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Unity.Subsystem.Registration.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Unity.TextMeshPro.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Unity.TextMeshPro.dll
+    projectPath: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Unity.Timeline.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Unity.Timeline.dll
+    projectPath: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Unity.XR.ARCore.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Unity.XR.ARCore.dll
+    projectPath: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Unity.XR.ARCore.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Unity.XR.ARFoundation.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Unity.XR.ARFoundation.dll
+    projectPath: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Unity.XR.ARFoundation.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Unity.XR.ARSubsystems.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Unity.XR.ARSubsystems.dll
+    projectPath: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\Unity.XR.ARSubsystems.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\UnityEngine.SpatialTracking.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\UnityEngine.SpatialTracking.dll
+    projectPath: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\UnityEngine.SpatialTracking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\UnityEngine.UI.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\UnityEngine.UI.dll
+    projectPath: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
+    projectPath: Temp\gradleOut\unityLibrary\build\intermediates\library_assets\release\out\bin\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml
+    projectPath: Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml
+    projectPath: Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\boot.config
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\boot.config
+    projectPath: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\boot.config
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\data.unity3d
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\data.unity3d
+    projectPath: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\data.unity3d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Assembly-CSharp.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Assembly-CSharp.dll
+    projectPath: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Unity.Subsystem.Registration.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Unity.Subsystem.Registration.dll
+    projectPath: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Unity.Subsystem.Registration.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Unity.TextMeshPro.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Unity.TextMeshPro.dll
+    projectPath: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Unity.Timeline.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Unity.Timeline.dll
+    projectPath: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Unity.XR.ARCore.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Unity.XR.ARCore.dll
+    projectPath: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Unity.XR.ARCore.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Unity.XR.ARFoundation.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Unity.XR.ARFoundation.dll
+    projectPath: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Unity.XR.ARFoundation.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Unity.XR.ARSubsystems.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Unity.XR.ARSubsystems.dll
+    projectPath: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\Unity.XR.ARSubsystems.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\UnityEngine.SpatialTracking.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\UnityEngine.SpatialTracking.dll
+    projectPath: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\UnityEngine.SpatialTracking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\UnityEngine.UI.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\UnityEngine.UI.dll
+    projectPath: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
+    projectPath: Temp\gradleOut\unityLibrary\src\main\assets\bin\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\StagingArea\assets\bin\Data\boot.config
+    fullPath: D:\Repositories\ARcardGame\Temp\StagingArea\assets\bin\Data\boot.config
+    projectPath: Temp\StagingArea\assets\bin\Data\boot.config
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\StagingArea\assets\bin\Data\Managed\Assembly-CSharp.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\StagingArea\assets\bin\Data\Managed\Assembly-CSharp.dll
+    projectPath: Temp\StagingArea\assets\bin\Data\Managed\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\StagingArea\assets\bin\Data\Managed\Unity.Subsystem.Registration.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\StagingArea\assets\bin\Data\Managed\Unity.Subsystem.Registration.dll
+    projectPath: Temp\StagingArea\assets\bin\Data\Managed\Unity.Subsystem.Registration.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\StagingArea\assets\bin\Data\Managed\Unity.TextMeshPro.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\StagingArea\assets\bin\Data\Managed\Unity.TextMeshPro.dll
+    projectPath: Temp\StagingArea\assets\bin\Data\Managed\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\StagingArea\assets\bin\Data\Managed\Unity.Timeline.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\StagingArea\assets\bin\Data\Managed\Unity.Timeline.dll
+    projectPath: Temp\StagingArea\assets\bin\Data\Managed\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\StagingArea\assets\bin\Data\Managed\Unity.XR.ARCore.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\StagingArea\assets\bin\Data\Managed\Unity.XR.ARCore.dll
+    projectPath: Temp\StagingArea\assets\bin\Data\Managed\Unity.XR.ARCore.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\StagingArea\assets\bin\Data\Managed\Unity.XR.ARFoundation.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\StagingArea\assets\bin\Data\Managed\Unity.XR.ARFoundation.dll
+    projectPath: Temp\StagingArea\assets\bin\Data\Managed\Unity.XR.ARFoundation.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\StagingArea\assets\bin\Data\Managed\Unity.XR.ARSubsystems.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\StagingArea\assets\bin\Data\Managed\Unity.XR.ARSubsystems.dll
+    projectPath: Temp\StagingArea\assets\bin\Data\Managed\Unity.XR.ARSubsystems.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SpatialTracking.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SpatialTracking.dll
+    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.SpatialTracking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UI.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UI.dll
+    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
+    fullPath: D:\Repositories\ARcardGame\Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
+    projectPath: Temp\StagingArea\assets\bin\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\StagingArea\gradleWarmupArea\.gradle\5.1.1\executionHistory\executionHistory.lock
+    fullPath: D:\Repositories\ARcardGame\Temp\StagingArea\gradleWarmupArea\.gradle\5.1.1\executionHistory\executionHistory.lock
+    projectPath: Temp\StagingArea\gradleWarmupArea\.gradle\5.1.1\executionHistory\executionHistory.lock
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\StagingArea\gradleWarmupArea\.gradle\5.1.1\fileHashes\fileHashes.lock
+    fullPath: D:\Repositories\ARcardGame\Temp\StagingArea\gradleWarmupArea\.gradle\5.1.1\fileHashes\fileHashes.lock
+    projectPath: Temp\StagingArea\gradleWarmupArea\.gradle\5.1.1\fileHashes\fileHashes.lock
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\StagingArea\gradleWarmupArea\.gradle\buildOutputCleanup\buildOutputCleanup.lock
+    fullPath: D:\Repositories\ARcardGame\Temp\StagingArea\gradleWarmupArea\.gradle\buildOutputCleanup\buildOutputCleanup.lock
+    projectPath: Temp\StagingArea\gradleWarmupArea\.gradle\buildOutputCleanup\buildOutputCleanup.lock
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\StagingArea\gradleWarmupArea\.gradle\buildOutputCleanup\cache.properties
+    fullPath: D:\Repositories\ARcardGame\Temp\StagingArea\gradleWarmupArea\.gradle\buildOutputCleanup\cache.properties
+    projectPath: Temp\StagingArea\gradleWarmupArea\.gradle\buildOutputCleanup\cache.properties
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\StagingArea\raw\bin\Data\data.unity3d
+    fullPath: D:\Repositories\ARcardGame\Temp\StagingArea\raw\bin\Data\data.unity3d
+    projectPath: Temp\StagingArea\raw\bin\Data\data.unity3d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\StagingArea\UnityManifest.xml
+    fullPath: D:\Repositories\ARcardGame\Temp\StagingArea\UnityManifest.xml
+    projectPath: Temp\StagingArea\UnityManifest.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Temp\UnityTempFile-03baaab4e435d244db7f67c4387586a7
     fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-03baaab4e435d244db7f67c4387586a7
     projectPath: Temp\UnityTempFile-03baaab4e435d244db7f67c4387586a7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-06098399fdaac734bb36014c336abecd
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-06098399fdaac734bb36014c336abecd
+    projectPath: Temp\UnityTempFile-06098399fdaac734bb36014c336abecd
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -523,6 +1087,42 @@ MonoBehaviour:
   - path: Temp\UnityTempFile-0bc19fa18d6da944aa414322ef2ad22d
     fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-0bc19fa18d6da944aa414322ef2ad22d
     projectPath: Temp\UnityTempFile-0bc19fa18d6da944aa414322ef2ad22d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-0ee2127fb4610a249bebf35ce72f90bc
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-0ee2127fb4610a249bebf35ce72f90bc
+    projectPath: Temp\UnityTempFile-0ee2127fb4610a249bebf35ce72f90bc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-14c7fd294dab05b4c952e7984ae7e7b4
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-14c7fd294dab05b4c952e7984ae7e7b4
+    projectPath: Temp\UnityTempFile-14c7fd294dab05b4c952e7984ae7e7b4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-188bc4a6cfada9947b9ef613d0df22b8
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-188bc4a6cfada9947b9ef613d0df22b8
+    projectPath: Temp\UnityTempFile-188bc4a6cfada9947b9ef613d0df22b8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-19b3609f787a5244399516a96e388493
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-19b3609f787a5244399516a96e388493
+    projectPath: Temp\UnityTempFile-19b3609f787a5244399516a96e388493
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-1a0b797ef7ed75a4c8163dd4cca5ee03
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-1a0b797ef7ed75a4c8163dd4cca5ee03
+    projectPath: Temp\UnityTempFile-1a0b797ef7ed75a4c8163dd4cca5ee03
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-1bb7e33238e1136489204f79ecc34678
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-1bb7e33238e1136489204f79ecc34678
+    projectPath: Temp\UnityTempFile-1bb7e33238e1136489204f79ecc34678
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -544,6 +1144,36 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\UnityTempFile-2078ba9260a782d42b4f590030ef4c4e
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-2078ba9260a782d42b4f590030ef4c4e
+    projectPath: Temp\UnityTempFile-2078ba9260a782d42b4f590030ef4c4e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-25a8e72152dd4f0479d4e96249908748
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-25a8e72152dd4f0479d4e96249908748
+    projectPath: Temp\UnityTempFile-25a8e72152dd4f0479d4e96249908748
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-297c58b1bfc351e4588073098e4c2db0
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-297c58b1bfc351e4588073098e4c2db0
+    projectPath: Temp\UnityTempFile-297c58b1bfc351e4588073098e4c2db0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-2b57430142653ef47adaee518826da9c
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-2b57430142653ef47adaee518826da9c
+    projectPath: Temp\UnityTempFile-2b57430142653ef47adaee518826da9c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-346f09d0f7752e54d83e205bd4378748
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-346f09d0f7752e54d83e205bd4378748
+    projectPath: Temp\UnityTempFile-346f09d0f7752e54d83e205bd4378748
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-35dbe0c7b1dae83469767a8ec7332971
     fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-35dbe0c7b1dae83469767a8ec7332971
     projectPath: Temp\UnityTempFile-35dbe0c7b1dae83469767a8ec7332971
@@ -556,9 +1186,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\UnityTempFile-3a00752dc7268e04182fbe7949b39d9f
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-3a00752dc7268e04182fbe7949b39d9f
+    projectPath: Temp\UnityTempFile-3a00752dc7268e04182fbe7949b39d9f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-3a73796eb5042e2428ecab67ef2e13b3
     fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-3a73796eb5042e2428ecab67ef2e13b3
     projectPath: Temp\UnityTempFile-3a73796eb5042e2428ecab67ef2e13b3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-3b839173e1aa76b48a2130d87f933913
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-3b839173e1aa76b48a2130d87f933913
+    projectPath: Temp\UnityTempFile-3b839173e1aa76b48a2130d87f933913
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -568,9 +1210,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\UnityTempFile-41274daed5d54d540b077b78503e2b3f
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-41274daed5d54d540b077b78503e2b3f
+    projectPath: Temp\UnityTempFile-41274daed5d54d540b077b78503e2b3f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-41ad29995a7689a49a69b14553a118df
     fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-41ad29995a7689a49a69b14553a118df
     projectPath: Temp\UnityTempFile-41ad29995a7689a49a69b14553a118df
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-4529ef8e52bdcfe4083887d9da74acf0
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-4529ef8e52bdcfe4083887d9da74acf0
+    projectPath: Temp\UnityTempFile-4529ef8e52bdcfe4083887d9da74acf0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-4ee4e762fb6583a4182626c5e7c0a4fc
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-4ee4e762fb6583a4182626c5e7c0a4fc
+    projectPath: Temp\UnityTempFile-4ee4e762fb6583a4182626c5e7c0a4fc
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -592,15 +1252,39 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\UnityTempFile-5913463dc843ba3448ec40f5534014b9
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-5913463dc843ba3448ec40f5534014b9
+    projectPath: Temp\UnityTempFile-5913463dc843ba3448ec40f5534014b9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-59b625b0372a6114093bf544751ce3ef
     fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-59b625b0372a6114093bf544751ce3ef
     projectPath: Temp\UnityTempFile-59b625b0372a6114093bf544751ce3ef
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\UnityTempFile-5ad82c92ef6cdee49afcca4688ced1ec
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-5ad82c92ef6cdee49afcca4688ced1ec
+    projectPath: Temp\UnityTempFile-5ad82c92ef6cdee49afcca4688ced1ec
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-5cb36884bfe208d47b0ac87e02968212
     fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-5cb36884bfe208d47b0ac87e02968212
     projectPath: Temp\UnityTempFile-5cb36884bfe208d47b0ac87e02968212
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5f587db0e4c11b54685542c6963268a1
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-5f587db0e4c11b54685542c6963268a1
+    projectPath: Temp\UnityTempFile-5f587db0e4c11b54685542c6963268a1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-64a4200a6aa9b694b92ceea649036f87
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-64a4200a6aa9b694b92ceea649036f87
+    projectPath: Temp\UnityTempFile-64a4200a6aa9b694b92ceea649036f87
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -616,9 +1300,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\UnityTempFile-6a9731625279a6f41afe3767e367ce3f
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-6a9731625279a6f41afe3767e367ce3f
+    projectPath: Temp\UnityTempFile-6a9731625279a6f41afe3767e367ce3f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-6af7a6c140606b2498d0dedd569dbf31
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-6af7a6c140606b2498d0dedd569dbf31
+    projectPath: Temp\UnityTempFile-6af7a6c140606b2498d0dedd569dbf31
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-6c68845f025a2c749a1bb05f59a1c2a3
     fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-6c68845f025a2c749a1bb05f59a1c2a3
     projectPath: Temp\UnityTempFile-6c68845f025a2c749a1bb05f59a1c2a3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-6ce19babae216eb409cdb831c6675cc9
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-6ce19babae216eb409cdb831c6675cc9
+    projectPath: Temp\UnityTempFile-6ce19babae216eb409cdb831c6675cc9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -628,9 +1330,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\UnityTempFile-6f00dd1007767a04985fd13e9a541e8e
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-6f00dd1007767a04985fd13e9a541e8e
+    projectPath: Temp\UnityTempFile-6f00dd1007767a04985fd13e9a541e8e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-738d3c9c5ad879040851a34215051692
     fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-738d3c9c5ad879040851a34215051692
     projectPath: Temp\UnityTempFile-738d3c9c5ad879040851a34215051692
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7453ad8ab36f4934aa5c8f6d03a74cfe
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-7453ad8ab36f4934aa5c8f6d03a74cfe
+    projectPath: Temp\UnityTempFile-7453ad8ab36f4934aa5c8f6d03a74cfe
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-75ea482d6aedc794dbf630c18e5878de
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-75ea482d6aedc794dbf630c18e5878de
+    projectPath: Temp\UnityTempFile-75ea482d6aedc794dbf630c18e5878de
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -652,15 +1372,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\UnityTempFile-85f93006dd5a5874c8fc4652909b219a
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-85f93006dd5a5874c8fc4652909b219a
+    projectPath: Temp\UnityTempFile-85f93006dd5a5874c8fc4652909b219a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-8e62f84ed5974174abbe219ccdf9d1a7
     fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-8e62f84ed5974174abbe219ccdf9d1a7
     projectPath: Temp\UnityTempFile-8e62f84ed5974174abbe219ccdf9d1a7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\UnityTempFile-8f6453f508497f142a804a95a5fe93a0
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-8f6453f508497f142a804a95a5fe93a0
+    projectPath: Temp\UnityTempFile-8f6453f508497f142a804a95a5fe93a0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-8f6aeabc284906b458e985588a34eae9
     fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-8f6aeabc284906b458e985588a34eae9
     projectPath: Temp\UnityTempFile-8f6aeabc284906b458e985588a34eae9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-93768df94fde1b9489a9d39397f2dd2d
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-93768df94fde1b9489a9d39397f2dd2d
+    projectPath: Temp\UnityTempFile-93768df94fde1b9489a9d39397f2dd2d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -676,15 +1414,51 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\UnityTempFile-a006a0eb5a73f21499d8c17d6e96614b
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-a006a0eb5a73f21499d8c17d6e96614b
+    projectPath: Temp\UnityTempFile-a006a0eb5a73f21499d8c17d6e96614b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a4c116e982977d74da7718988e676bec
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-a4c116e982977d74da7718988e676bec
+    projectPath: Temp\UnityTempFile-a4c116e982977d74da7718988e676bec
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a6e6904e9e334f54c96bde95bce0c723
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-a6e6904e9e334f54c96bde95bce0c723
+    projectPath: Temp\UnityTempFile-a6e6904e9e334f54c96bde95bce0c723
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-a7d07379826d8754aab43a0ef9237429
     fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-a7d07379826d8754aab43a0ef9237429
     projectPath: Temp\UnityTempFile-a7d07379826d8754aab43a0ef9237429
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\UnityTempFile-ad443b5a511c41745a06e615ebc47817
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-ad443b5a511c41745a06e615ebc47817
+    projectPath: Temp\UnityTempFile-ad443b5a511c41745a06e615ebc47817
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-b23b93f7458a9bc448b7463543474c6f
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-b23b93f7458a9bc448b7463543474c6f
+    projectPath: Temp\UnityTempFile-b23b93f7458a9bc448b7463543474c6f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-b4b4303adc55cea44ba12b4505e65203
     fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-b4b4303adc55cea44ba12b4505e65203
     projectPath: Temp\UnityTempFile-b4b4303adc55cea44ba12b4505e65203
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-bb4555861764ec2499d537c2a48108bc
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-bb4555861764ec2499d537c2a48108bc
+    projectPath: Temp\UnityTempFile-bb4555861764ec2499d537c2a48108bc
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -706,9 +1480,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-c138028ceea408f41b38ebde7ba0d824
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-c138028ceea408f41b38ebde7ba0d824
-    projectPath: Temp\UnityTempFile-c138028ceea408f41b38ebde7ba0d824
+  - path: Temp\UnityTempFile-c3de009b6afc27f48b8b2cee4faab2cf
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-c3de009b6afc27f48b8b2cee4faab2cf
+    projectPath: Temp\UnityTempFile-c3de009b6afc27f48b8b2cee4faab2cf
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -721,6 +1495,12 @@ MonoBehaviour:
   - path: Temp\UnityTempFile-cc251d6ea360d1a42ab00155e2d4041d
     fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-cc251d6ea360d1a42ab00155e2d4041d
     projectPath: Temp\UnityTempFile-cc251d6ea360d1a42ab00155e2d4041d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d0fa5bc22f8c6634b999cf79ade08927
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-d0fa5bc22f8c6634b999cf79ade08927
+    projectPath: Temp\UnityTempFile-d0fa5bc22f8c6634b999cf79ade08927
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -748,15 +1528,87 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\UnityTempFile-e28e37f3496419a4bb06e79a39f71b48
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-e28e37f3496419a4bb06e79a39f71b48
+    projectPath: Temp\UnityTempFile-e28e37f3496419a4bb06e79a39f71b48
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e3f26d8ad468c08418b91387d3fa5e42
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-e3f26d8ad468c08418b91387d3fa5e42
+    projectPath: Temp\UnityTempFile-e3f26d8ad468c08418b91387d3fa5e42
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e5949643d3372814b9f9e7114cb3dcfd
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-e5949643d3372814b9f9e7114cb3dcfd
+    projectPath: Temp\UnityTempFile-e5949643d3372814b9f9e7114cb3dcfd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-e626e2ecbccca1048887c5e168fb6ffe
     fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-e626e2ecbccca1048887c5e168fb6ffe
     projectPath: Temp\UnityTempFile-e626e2ecbccca1048887c5e168fb6ffe
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\UnityTempFile-e671740862492c5458f8be178cfe6f3d
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-e671740862492c5458f8be178cfe6f3d
+    projectPath: Temp\UnityTempFile-e671740862492c5458f8be178cfe6f3d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e9091a2cc7303a146ba79250f4a8564c
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-e9091a2cc7303a146ba79250f4a8564c
+    projectPath: Temp\UnityTempFile-e9091a2cc7303a146ba79250f4a8564c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ed30d2cf3f488cc4fbb8d53ed58f5c05
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-ed30d2cf3f488cc4fbb8d53ed58f5c05
+    projectPath: Temp\UnityTempFile-ed30d2cf3f488cc4fbb8d53ed58f5c05
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-edb361ef31f3d824585a526a036ae18e
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-edb361ef31f3d824585a526a036ae18e
+    projectPath: Temp\UnityTempFile-edb361ef31f3d824585a526a036ae18e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f268135e3ceda5640afe522637bdea85
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-f268135e3ceda5640afe522637bdea85
+    projectPath: Temp\UnityTempFile-f268135e3ceda5640afe522637bdea85
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f37e1075ea08cf74d90e14ba10387cff
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-f37e1075ea08cf74d90e14ba10387cff
+    projectPath: Temp\UnityTempFile-f37e1075ea08cf74d90e14ba10387cff
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f61c4c90cba8d3d47a747e44be5465a7
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-f61c4c90cba8d3d47a747e44be5465a7
+    projectPath: Temp\UnityTempFile-f61c4c90cba8d3d47a747e44be5465a7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-f9d2a65946f4c564db7948c583a15a69
     fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-f9d2a65946f4c564db7948c583a15a69
     projectPath: Temp\UnityTempFile-f9d2a65946f4c564db7948c583a15a69
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-fd7b4a8758b3eef42827d1c119897e17
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-fd7b4a8758b3eef42827d1c119897e17
+    projectPath: Temp\UnityTempFile-fd7b4a8758b3eef42827d1c119897e17
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ff2591a612246084fbf62c19f81046b3
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-ff2591a612246084fbf62c19f81046b3
+    projectPath: Temp\UnityTempFile-ff2591a612246084fbf62c19f81046b3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

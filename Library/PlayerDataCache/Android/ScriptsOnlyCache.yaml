@@ -1,7 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CardScript
+    - CardsStackManager
     - CubeUV
+    - GameManager
     - TrackedImageInfoMultipleManager
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
@@ -107,6 +110,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13058}
     - Class: 114
+      Script: {instanceID: 13166}
+    - Class: 114
       Script: {instanceID: 13194}
     - Class: 114
       Script: {instanceID: 13226}
@@ -116,6 +121,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 15236}
     - Class: 114
       Script: {instanceID: 15844}
+    - Class: 114
+      Script: {instanceID: 18894}
+    - Class: 114
+      Script: {instanceID: 20626}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -749,10 +758,22 @@ ScriptsOnlyBuild:
     className: CubeUV
   - hash:
       serializedVersion: 2
-      Hash: 65d2bea3c2bb5fa611a79914afc89214
+      Hash: 2823ab5be58c57914ea842d347504cc4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TrackedImageInfoMultipleManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CardsStackManager
+  - hash:
+      serializedVersion: 2
+      Hash: 2fad3e3b019c07879e1db66853399fc2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

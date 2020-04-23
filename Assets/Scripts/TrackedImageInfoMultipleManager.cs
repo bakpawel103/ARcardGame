@@ -21,6 +21,8 @@ public class TrackedImageInfoMultipleManager : MonoBehaviour
     [SerializeField]
     private Vector3 scaleFactor = new Vector3(0.1f,0.1f,0.1f);
 
+    [SerializeField] private GameObject cardStack;
+
     private ARTrackedImageManager m_TrackedImageManager;
 
     private Dictionary<string, GameObject> arObjects = new Dictionary<string, GameObject>();
@@ -87,6 +89,8 @@ public class TrackedImageInfoMultipleManager : MonoBehaviour
             GameObject goARObject = arObjects[name];
             goARObject.SetActive(true);
             goARObject.transform.position = newPosition;
+            cardStack.transform.position = newPosition;
+            GameManager.instance.cardStackPosition = newPosition;
             goARObject.transform.localScale = scaleFactor;
             foreach(GameObject go in arObjects.Values)
             {

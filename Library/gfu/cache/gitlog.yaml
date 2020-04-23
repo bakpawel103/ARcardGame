@@ -13,9 +13,135 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-04-23T20:56:34.482+02:00
+  lastUpdatedAtString: 2020-04-23T21:14:03.660+02:00
   initializedAtString: 2020-04-23T14:43:05.380+02:00
   log:
+  - commitID: b9ac65ca8dcaec53719ee0981101d18b9e596c19
+    mergeA: 
+    mergeB: 
+    authorName: bakpawel
+    authorEmail: bakpawel103@gmail.com
+    commitEmail: bakpawel103@gmail.com
+    commitName: bakpawel
+    summary: Added card moving to camera on click on card stack
+    description: 
+    timeString: 2020-04-23T21:11:57.000+02:00
+    commitTimeString: 2020-04-23T21:11:57.000+02:00
+    changes:
+    - path: .idea\.idea.ARcardGame\.idea\contentModel.xml
+      fullPath: D:\Repositories\ARcardGame\.idea\.idea.ARcardGame\.idea\contentModel.xml
+      projectPath: .idea\.idea.ARcardGame\.idea\contentModel.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: D:\Repositories\ARcardGame\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\CardsStackManager.cs
+      fullPath: D:\Repositories\ARcardGame\Assets\Scripts\CardsStackManager.cs
+      projectPath: Assets\Scripts\CardsStackManager.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\CardsStackManager.cs.meta
+      fullPath: D:\Repositories\ARcardGame\Assets\Scripts\CardsStackManager.cs.meta
+      projectPath: Assets\Scripts\CardsStackManager.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\2e\2ed281c64e75fca4c6e9bbdf44ae71b2
+      fullPath: D:\Repositories\ARcardGame\Library\Artifacts\2e\2ed281c64e75fca4c6e9bbdf44ae71b2
+      projectPath: Library\Artifacts\2e\2ed281c64e75fca4c6e9bbdf44ae71b2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\47\47ef9779c78612d6c381cdf877fd5934
+      fullPath: D:\Repositories\ARcardGame\Library\Artifacts\47\47ef9779c78612d6c381cdf877fd5934
+      projectPath: Library\Artifacts\47\47ef9779c78612d6c381cdf877fd5934
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Artifacts\8c\8c6a64a1df9eb90b212fb39a020a4440
+      fullPath: D:\Repositories\ARcardGame\Library\Artifacts\8c\8c6a64a1df9eb90b212fb39a020a4440
+      projectPath: Library\Artifacts\8c\8c6a64a1df9eb90b212fb39a020a4440
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ProtocolInstance.json
+      fullPath: D:\Repositories\ARcardGame\Library\ProtocolInstance.json
+      projectPath: Library\ProtocolInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: D:\Repositories\ARcardGame\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: D:\Repositories\ARcardGame\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SourceAssetDB
+      fullPath: D:\Repositories\ARcardGame\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\Hierarchy\64918c-mainStage.json
+      fullPath: D:\Repositories\ARcardGame\Library\StateCache\Hierarchy\64918c-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\64918c-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Repositories\ARcardGame\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Repositories\ARcardGame\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Repositories\ARcardGame\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Repositories\ARcardGame\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Repositories\ARcardGame\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: D:\Repositories\ARcardGame\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-c138028ceea408f41b38ebde7ba0d824
+      fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-c138028ceea408f41b38ebde7ba0d824
+      projectPath: Temp\UnityTempFile-c138028ceea408f41b38ebde7ba0d824
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
   - commitID: ecb15eafecb65e7dbe410157415292c9a9a0f808
     mergeA: 
     mergeB: 
