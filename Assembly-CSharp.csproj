@@ -59,8 +59,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CardScript.cs" />
+     <Compile Include="Assets\Scripts\CubeUV.cs" />
      <Compile Include="Assets\Scripts\HandManager.cs" />
      <Compile Include="Assets\Scripts\InteractingEngine.cs" />
+     <Compile Include="Assets\Scripts\TrackedImageInfoExtendedManager.cs" />
+     <Compile Include="Assets\Scripts\TrackedImageInfoMultipleManager.cs" />
      <None Include="Assets\Shaders\Outline.shader" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
