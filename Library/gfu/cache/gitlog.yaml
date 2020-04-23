@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2020-04-23T14:43:05.668+02:00
+  initializedAtString: 2020-04-23T14:43:05.380+02:00
+  log:
+  - commitID: 346d50f8ca79579fd77f83bfcc3dcdb2a12fab40
+    mergeA: 
+    mergeB: 
+    authorName: pawelek103
+    authorEmail: 215675@edu.p.lodz.pl
+    commitEmail: 215675@edu.p.lodz.pl
+    commitName: pawelek103
+    summary: Added image to README.md
+    description: 
+    timeString: 2020-04-20T10:22:46.000+02:00
+    commitTimeString: 2020-04-20T10:22:46.000+02:00
+    changes:
+    - path: README.md
+      fullPath: D:\Repositories\ARcardGame\README.md
+      projectPath: README.md
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 1154a98a0ca14bb1e1d630f71587c5d27d77f996
+    mergeA: 
+    mergeB: 
+    authorName: bakpawel
+    authorEmail: 44525279+bakpawel103@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: "Konspekt pracy in\u017Cynierskiej v0.1.0"
+    description: 
+    timeString: 2020-04-20T10:15:12.000+02:00
+    commitTimeString: 2020-04-20T10:15:12.000+02:00
+    changes:
+    - path: README.md
+      fullPath: D:\Repositories\ARcardGame\README.md
+      projectPath: README.md
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: ade508dda9228ff72041e60f198ca91f798d7652
+    mergeA: 
+    mergeB: 
+    authorName: bakpawel
+    authorEmail: 44525279+bakpawel103@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: "Stworzony konspekt pracy in\u017Cynierskiej v0.0"
+    description: 
+    timeString: 2020-04-20T10:12:53.000+02:00
+    commitTimeString: 2020-04-20T10:12:53.000+02:00
+    changes:
+    - path: README.md
+      fullPath: D:\Repositories\ARcardGame\README.md
+      projectPath: README.md
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
