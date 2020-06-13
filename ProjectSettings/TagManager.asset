@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Card
   - Camera
+  - PlayerHand
+  - CardsStack
+  - MenuUI
+  - DebugLog
+  - DebugGO
   layers:
   - Default
   - TransparentFX

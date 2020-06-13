@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-04-23T20:56:32.862+02:00
-  initializedAtString: 2020-04-23T14:43:05.358+02:00
+  lastUpdatedAtString: 2020-06-13T09:39:42.907+02:00
+  initializedAtString: 2020-06-13T09:36:43.538+02:00
   currentGitRemote:
     name: origin
     url: https://github.com/bakpawel103/ARcardGame.git

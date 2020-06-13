@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 public class HandManager : MonoBehaviour
 {
@@ -11,16 +12,20 @@ public class HandManager : MonoBehaviour
 
     private void Awake()
     {
-        if (instance != null && instance != this)
+        if (instance == null)
+        {
+            instance = this;
+        } else if (instance != this)
         {
             Destroy(gameObject);
-            return;
         }
-     
-        instance = this;
-        DontDestroyOnLoad( gameObject );
     }
     void Start()
+    {
+        UpdateHand();
+    }
+
+    public void UpdateHand()
     {
         var halfCount = 0.0;
         var startingXPos = 0.0;
@@ -39,6 +44,14 @@ public class HandManager : MonoBehaviour
         {
             transform.GetChild(i).transform.position = new Vector3((float) startingXPos, transform.GetChild(i).transform.position.y, transform.GetChild(i).transform.position.z - startingZPos);
         }
+    }
+
+    public void AddNewCard()
+    {
+        GameObject newCardGO = Instantiate (GameManager.instance.cardPref, transform.position, Quaternion.identity) as GameObject;
+        newCardGO.transform.parent = transform;
+
+        UpdateHand();
     }
 
     public void HideHand()

@@ -5,7 +5,9 @@ ScriptsOnlyBuild:
     - CardsStackManager
     - CubeUV
     - GameManager
-    - TrackedImageInfoMultipleManager
+    - HandManager
+    - NetworkManager
+    - TrackedImageInfoExtendedManager
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
     - GitHub.Unity.BranchesCache
@@ -14,11 +16,12 @@ ScriptsOnlyBuild:
     - GitHub.Unity.GitLocksCache
     - GitHub.Unity.GitLogCache
     - GitHub.Unity.GitStatusCache
-    - GitHub.Unity.GitUserCache
     - GitHub.Unity.RepositoryInfoCache
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.XR.ARCore.Editor.dll:
+    - UnityEditor.XR.ARCore.ARCoreSettings
     Unity.XR.ARFoundation.dll:
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
@@ -50,6 +53,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
@@ -80,51 +86,61 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11172}
+      Script: {instanceID: 11204}
     - Class: 114
-      Script: {instanceID: 11352}
+      Script: {instanceID: 11386}
     - Class: 114
-      Script: {instanceID: 11394}
+      Script: {instanceID: 11392}
     - Class: 114
-      Script: {instanceID: 11582}
+      Script: {instanceID: 11430}
     - Class: 114
-      Script: {instanceID: 11772}
+      Script: {instanceID: 11536}
     - Class: 114
-      Script: {instanceID: 11802}
+      Script: {instanceID: 11604}
     - Class: 114
-      Script: {instanceID: 11856}
+      Script: {instanceID: 11622}
     - Class: 114
-      Script: {instanceID: 12052}
+      Script: {instanceID: 11792}
     - Class: 114
-      Script: {instanceID: 12318}
+      Script: {instanceID: 11816}
     - Class: 114
-      Script: {instanceID: 12488}
+      Script: {instanceID: 11846}
     - Class: 114
-      Script: {instanceID: 12562}
+      Script: {instanceID: 11904}
     - Class: 114
-      Script: {instanceID: 12752}
+      Script: {instanceID: 11954}
     - Class: 114
-      Script: {instanceID: 12868}
+      Script: {instanceID: 11956}
     - Class: 114
-      Script: {instanceID: 12892}
+      Script: {instanceID: 12194}
     - Class: 114
-      Script: {instanceID: 13058}
+      Script: {instanceID: 12232}
     - Class: 114
-      Script: {instanceID: 13166}
+      Script: {instanceID: 12462}
     - Class: 114
-      Script: {instanceID: 13194}
+      Script: {instanceID: 12634}
     - Class: 114
-      Script: {instanceID: 13226}
+      Script: {instanceID: 12708}
     - Class: 114
-      Script: {instanceID: 13290}
+      Script: {instanceID: 12748}
     - Class: 114
-      Script: {instanceID: 15236}
+      Script: {instanceID: 12904}
     - Class: 114
-      Script: {instanceID: 15844}
+      Script: {instanceID: 13022}
     - Class: 114
-      Script: {instanceID: 18894}
+      Script: {instanceID: 13048}
     - Class: 114
-      Script: {instanceID: 20626}
+      Script: {instanceID: 13126}
+    - Class: 114
+      Script: {instanceID: 13220}
+    - Class: 114
+      Script: {instanceID: 13330}
+    - Class: 114
+      Script: {instanceID: 13358}
+    - Class: 114
+      Script: {instanceID: 13392}
+    - Class: 114
+      Script: {instanceID: 13460}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -168,6 +184,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: b844b60f39a29d3cad6c8da3c62c8c04
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TrackedImageInfoMultipleManager
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -248,6 +270,12 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: 1664b58f56ec353db651566dec1c3a15
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -270,6 +298,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TrackedImageInfoExtendedManager
   - hash:
       serializedVersion: 2
       Hash: 7f5c55cb7b3151ce240452eb85500d32
@@ -360,6 +394,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CubeUV
   - hash:
       serializedVersion: 2
       Hash: 911628a8051e22c697e3d6b80cab5138
@@ -524,6 +564,12 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 6836ab391fc0066cc9c2ce09972def90
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NetworkManager
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -540,6 +586,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARTrackedImage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TCPClient
   - hash:
       serializedVersion: 2
       Hash: ca2a58dd7363525cbd2f65b2a150b41b
@@ -588,6 +640,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CardsStackManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -710,6 +768,12 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TCPServer
+  - hash:
+      serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -744,37 +808,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TrackedImageInfoExtendedManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CubeUV
-  - hash:
-      serializedVersion: 2
-      Hash: 2823ab5be58c57914ea842d347504cc4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TrackedImageInfoMultipleManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CardsStackManager
-  - hash:
-      serializedVersion: 2
-      Hash: 2fad3e3b019c07879e1db66853399fc2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Repositories/ARcardGame/Builds/CardARGame v.0.0.1.apk
+  playerPath: D:/Repositories/ARcardGame/Builds/CardARGame v.0.0.2.apk

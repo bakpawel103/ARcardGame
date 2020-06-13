@@ -1,27 +1,17 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 
 [RequireComponent(typeof(ARTrackedImageManager))]
 public class TrackedImageInfoMultipleManager : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject welcomePanel;
-
-    [SerializeField]
-    private Button dismissButton;
-
-    [SerializeField]
-    private Text imageTrackedText;
-
-    [SerializeField]
-    private GameObject[] arObjectsToPlace;
+    [FormerlySerializedAs("arObjectsToPlace")] [SerializeField]
+    public GameObject arObjectToPlace;
 
     [SerializeField]
     private Vector3 scaleFactor = new Vector3(0.1f,0.1f,0.1f);
-
-    [SerializeField] private GameObject cardStack;
 
     private ARTrackedImageManager m_TrackedImageManager;
 
@@ -29,16 +19,12 @@ public class TrackedImageInfoMultipleManager : MonoBehaviour
 
     void Awake()
     {
-        dismissButton.onClick.AddListener(Dismiss);
         m_TrackedImageManager = GetComponent<ARTrackedImageManager>();
         
         // setup all game objects in dictionary
-        foreach(GameObject arObject in arObjectsToPlace)
-        {
-            GameObject newARObject = Instantiate(arObject, Vector3.zero, Quaternion.identity);
-            newARObject.name = arObject.name;
-            arObjects.Add(arObject.name, newARObject);
-        }
+        GameObject newARObject = Instantiate(arObjectToPlace, Vector3.zero, Quaternion.identity);
+        newARObject.name = arObjectToPlace.name;
+        arObjects.Add(arObjectToPlace.name, newARObject);
     }
 
     void OnEnable()
@@ -50,8 +36,6 @@ public class TrackedImageInfoMultipleManager : MonoBehaviour
     {
         m_TrackedImageManager.trackedImagesChanged -= OnTrackedImagesChanged;
     }
-
-    private void Dismiss() => welcomePanel.SetActive(false);
 
     void OnTrackedImagesChanged(ARTrackedImagesChangedEventArgs eventArgs)
     {
@@ -73,9 +57,6 @@ public class TrackedImageInfoMultipleManager : MonoBehaviour
 
     private void UpdateARImage(ARTrackedImage trackedImage)
     {
-        // Display the name of the tracked image in the canvas
-        imageTrackedText.text = trackedImage.referenceImage.name;
-
         // Assign and Place Game Object
         AssignGameObject(trackedImage.referenceImage.name, trackedImage.transform.position);
 
@@ -84,12 +65,12 @@ public class TrackedImageInfoMultipleManager : MonoBehaviour
 
     void AssignGameObject(string name, Vector3 newPosition)
     {
-        if(arObjectsToPlace != null)
+        if(arObjectToPlace != null)
         {
             GameObject goARObject = arObjects[name];
             goARObject.SetActive(true);
             goARObject.transform.position = newPosition;
-            cardStack.transform.position = newPosition;
+            GameManager.instance.cardStackPref.transform.position = newPosition;
             GameManager.instance.cardStackPosition = newPosition;
             goARObject.transform.localScale = scaleFactor;
             foreach(GameObject go in arObjects.Values)

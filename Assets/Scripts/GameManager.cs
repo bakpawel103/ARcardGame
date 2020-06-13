@@ -1,13 +1,17 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    
-    public bool movingCard;
-    public GameObject cardGO;
+
+    public GameObject cardStackPref;
+    public GameObject cardPref;
     public Vector3 cardStackPosition;
+
+    public GameObject debugTextGO;
 
     void Awake()
     {
@@ -18,11 +22,10 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        movingCard = false;
     }
 
-    public void SetCardVisibility(bool visible)
+    public void AddLog(string log)
     {
-        cardGO.SetActive(visible);
+        debugTextGO.GetComponent<Text>().text += log + "\n";
     }
 }
