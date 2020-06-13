@@ -56,9 +56,9 @@ public class TCPServer : MonoBehaviour {
 	/// <summary> 	
 	/// Runs in background TcpServerThread; Handles incomming TcpClient requests 	
 	/// </summary> 	
-	private void ListenForIncommingRequests () { 		
-		try { 			
-			// Create listener on localhost port 8052.
+	private void ListenForIncommingRequests () {
+		try {
+			// Create listener on localhost port 8001.
 			tcpListener = new TcpListener(IPAddress.Any, port);
 			tcpListener.Start();
 			DebugInfo("[+][S] Server is listening");
@@ -82,19 +82,20 @@ public class TCPServer : MonoBehaviour {
 		TcpClient tcpClient = (TcpClient) client;
 		NetworkStream clientStream = tcpClient.GetStream();
 		Byte[] bytes = new Byte[1024];
+		
+		SendMessage(tcpClient, "Hello user!");
 
 		while (true)
-		{						
+		{
 			int length;
 			DebugInfo("\n[+][S] Accepted new client.");
-			SendMessage(tcpClient);
-			// Read incomming stream into byte arrary. 						
-			while ((length = clientStream.Read(bytes, 0, bytes.Length)) != 0) { 							
-				var incommingData = new byte[length]; 							
-				Array.Copy(bytes, 0, incommingData, 0, length);  							
-				// Convert byte array to string message. 							
+			// Read incomming stream into byte arrary.
+			while ((length = clientStream.Read(bytes, 0, bytes.Length)) != 0) {
+				var incommingData = new byte[length];
+				Array.Copy(bytes, 0, incommingData, 0, length);
+				// Convert byte array to string message.
 				string clientMessage = Encoding.ASCII.GetString(incommingData);
-				DebugInfo("[+][S] Client message received as: " + clientMessage);
+				DebugInfo("[+][S] Received: " + clientMessage);
 			}
 		}
 	}
@@ -102,7 +103,7 @@ public class TCPServer : MonoBehaviour {
 	/// <summary> 	
 	/// Send message to client using socket connection. 	
 	/// </summary> 	
-	private void SendMessage(TcpClient tcpClient) {
+	private void SendMessage(TcpClient tcpClient, string message) {
 		if (tcpClient == null) {             
 			return;
 		}  		
@@ -111,12 +112,10 @@ public class TCPServer : MonoBehaviour {
 			// Get a stream object for writing.
 			NetworkStream stream = tcpClient.GetStream();
 			if (stream.CanWrite) {
-				string serverMessage = "[+][S] This is a message from your server.";
 				// Convert string message to byte array.
-				byte[] serverMessageAsByteArray = Encoding.ASCII.GetBytes(serverMessage);
+				byte[] serverMessageAsByteArray = Encoding.ASCII.GetBytes(message);
 				// Write byte array to socketConnection stream.
 				stream.Write(serverMessageAsByteArray, 0, serverMessageAsByteArray.Length);
-				DebugInfo("[+][S] Server sent his message - should be received by client");   
 			}       
 		} 		
 		catch (SocketException socketException) {             

@@ -11,6 +11,12 @@ TagManager:
   - MenuUI
   - DebugLog
   - DebugGO
+  - JoinMenu
+  - MainMenu
+  - ServerAddressText
+  - ServerPortText
+  - ServerAddressDebugText
+  - ServerPortDebugText
   layers:
   - Default
   - TransparentFX

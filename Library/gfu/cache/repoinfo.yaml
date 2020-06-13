@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-06-13T09:39:42.907+02:00
-  initializedAtString: 2020-06-13T09:36:43.538+02:00
+  lastUpdatedAtString: 2020-06-13T12:44:03.706+02:00
+  initializedAtString: 2020-06-13T12:23:14.482+02:00
   currentGitRemote:
     name: origin
     url: https://github.com/bakpawel103/ARcardGame.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: Networking
+    tracking: 
   currentConfigBranch:
-    name: master
+    name: Networking
     remote:
-      name: origin
-      url: https://github.com/bakpawel103/ARcardGame.git
-    trackingBranch: master
+      name: 
+      url: 
+    trackingBranch: 
   currentConfigRemote:
     name: origin
     url: https://github.com/bakpawel103/ARcardGame.git

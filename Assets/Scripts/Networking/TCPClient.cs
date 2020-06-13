@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -44,22 +45,22 @@ public class TCPClient : MonoBehaviour {
 	/// </summary>
 	private void ListenForData() {
 		try {
-			socketConnection = new TcpClient();
-			socketConnection.Connect(host, port);
+			socketConnection = new TcpClient(host, port);
+			//socketConnection.Connect("127.0.0.1", port);
 			Byte[] bytes = new Byte[1024];
+			DebugInfo("\n[+][C] Connected to the server.");
+			SendMessage("Hello server!");
 			while (true) {
 				// Get a stream object for reading 				
 				using (NetworkStream stream = socketConnection.GetStream()) {
 					int length;
-					DebugInfo("\n[+][C] Connected to the server.");
-					SendMessage();
 					// Read incomming stream into byte arrary.
 					while ((length = stream.Read(bytes, 0, bytes.Length)) != 0) {
 						var incommingData = new byte[length];
 						Array.Copy(bytes, 0, incommingData, 0, length);					
 						// Convert byte array to string message.
 						string serverMessage = Encoding.ASCII.GetString(incommingData);
-						DebugInfo("[+][C] Server message received as: " + serverMessage);
+						DebugInfo("[+][C] Received: " + serverMessage);
 					}
 				}
 			}
@@ -72,7 +73,7 @@ public class TCPClient : MonoBehaviour {
 	/// <summary>
 	/// Send message to server using socket connection.
 	/// </summary>
-	private void SendMessage() {
+	private void SendMessage(string message) {
 		if (socketConnection == null) {
 			return;
 		}
@@ -80,12 +81,10 @@ public class TCPClient : MonoBehaviour {
 			// Get a stream object for writing.
 			NetworkStream stream = socketConnection.GetStream();
 			if (stream.CanWrite) {
-				string clientMessage = "[+][C] This is a message from one of your clients.";
 				// Convert string message to byte array.
-				byte[] clientMessageAsByteArray = Encoding.ASCII.GetBytes(clientMessage);
+				byte[] clientMessageAsByteArray = Encoding.ASCII.GetBytes(message);
 				// Write byte array to socketConnection stream.
 				stream.Write(clientMessageAsByteArray, 0, clientMessageAsByteArray.Length);
-				DebugInfo("[+][C] Client sent his message - should be received by server");
 			}
 		}
 		catch (SocketException socketException) {
