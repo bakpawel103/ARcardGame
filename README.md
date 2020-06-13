@@ -12,3 +12,8 @@ wykorzystać różne feature'y AR Foundation do pracy).*
 - [ ] Zaimplementowane reguły gry.
 
 
+
+Zrobione:
+- [x] Zaimplementowany model tcp Client-Server
+	- Po uruchomieniu aplikacji użytkownik wybiera pomiędzy hostowaniem nowego pokoju, a połączeniem z istniejącym pokojem
+	- W stworzonym panelu developerskim wyświetlając się informacje o przesyłanych i odbieranych danych
