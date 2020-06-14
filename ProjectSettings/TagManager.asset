@@ -17,6 +17,8 @@ TagManager:
   - ServerPortText
   - ServerAddressDebugText
   - ServerPortDebugText
+  - ServerUsernameText
+  - ServerUsernameDebugText
   layers:
   - Default
   - TransparentFX

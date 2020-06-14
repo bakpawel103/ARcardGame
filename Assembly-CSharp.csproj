@@ -58,17 +58,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\CardScript.cs" />
-     <Compile Include="Assets\Scripts\CardsStackManager.cs" />
-     <Compile Include="Assets\Scripts\CubeUV.cs" />
-     <Compile Include="Assets\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Scripts\HandManager.cs" />
-     <Compile Include="Assets\Scripts\InteractingEngine.cs" />
+     <Compile Include="Assets\Scripts\AR\TrackedImageInfoExtendedManager.cs" />
+     <Compile Include="Assets\Scripts\AR\TrackedImageInfoMultipleManager.cs" />
+     <Compile Include="Assets\Scripts\Entities\Client.cs" />
+     <Compile Include="Assets\Scripts\GameMechanisms\CardScript.cs" />
+     <Compile Include="Assets\Scripts\GameMechanisms\CardsStackManager.cs" />
+     <Compile Include="Assets\Scripts\GameMechanisms\CubeUV.cs" />
+     <Compile Include="Assets\Scripts\GameMechanisms\HandManager.cs" />
+     <Compile Include="Assets\Scripts\GameMechanisms\InteractingEngine.cs" />
+     <Compile Include="Assets\Scripts\Interfaces\IClient.cs" />
+     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
      <Compile Include="Assets\Scripts\Networking\NetworkManager.cs" />
+     <Compile Include="Assets\Scripts\Networking\Package.cs" />
+     <Compile Include="Assets\Scripts\Networking\PackageType.cs" />
      <Compile Include="Assets\Scripts\Networking\TCPClient.cs" />
      <Compile Include="Assets\Scripts\Networking\TCPServer.cs" />
-     <Compile Include="Assets\Scripts\TrackedImageInfoExtendedManager.cs" />
-     <Compile Include="Assets\Scripts\TrackedImageInfoMultipleManager.cs" />
      <None Include="Assets\Shaders\Outline.shader" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

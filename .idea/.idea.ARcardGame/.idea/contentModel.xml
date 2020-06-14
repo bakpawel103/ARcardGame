@@ -19,19 +19,33 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="CardScript.cs" t="Include" />
-          <e p="CardsStackManager.cs" t="Include" />
-          <e p="CubeUV.cs" t="Include" />
-          <e p="GameManager.cs" t="Include" />
-          <e p="HandManager.cs" t="Include" />
-          <e p="InteractingEngine.cs" t="Include" />
+          <e p="AR" t="Include">
+            <e p="TrackedImageInfoExtendedManager.cs" t="Include" />
+            <e p="TrackedImageInfoMultipleManager.cs" t="Include" />
+          </e>
+          <e p="Entities" t="Include">
+            <e p="Client.cs" t="Include" />
+          </e>
+          <e p="GameMechanisms" t="Include">
+            <e p="CardScript.cs" t="Include" />
+            <e p="CardsStackManager.cs" t="Include" />
+            <e p="CubeUV.cs" t="Include" />
+            <e p="HandManager.cs" t="Include" />
+            <e p="InteractingEngine.cs" t="Include" />
+          </e>
+          <e p="Interfaces" t="Include">
+            <e p="IClient.cs" t="Include" />
+          </e>
+          <e p="Managers" t="Include">
+            <e p="GameManager.cs" t="Include" />
+          </e>
           <e p="Networking" t="Include">
             <e p="NetworkManager.cs" t="Include" />
+            <e p="Package.cs" t="Include" />
+            <e p="PackageType.cs" t="Include" />
             <e p="TCPClient.cs" t="Include" />
             <e p="TCPServer.cs" t="Include" />
           </e>
-          <e p="TrackedImageInfoExtendedManager.cs" t="Include" />
-          <e p="TrackedImageInfoMultipleManager.cs" t="Include" />
         </e>
         <e p="Shaders" t="Include">
           <e p="Outline.shader" t="Include" />

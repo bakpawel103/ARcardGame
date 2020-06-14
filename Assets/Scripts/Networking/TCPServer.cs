@@ -1,48 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Net; 
-using System.Net.Sockets; 
-using System.Text; 
-using System.Threading; 
+using System.Net;
+using System.Net.Sockets;
+using System.Text;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class TCPServer : MonoBehaviour {
 	#region private members
-	/// <summary>
-	/// TCPListener to listen for incomming TCP connection
-	/// requests.
-	/// </summary>
 	private TcpListener tcpListener;
-	/// <summary>
-	/// Background thread for TcpServer workload.
-	/// </summary>
-	private Thread tcpListenerThread; 
-	/// <summary>
-	/// Create handle to connected tcp client.
-	/// </summary> 
-	private List<TcpClient> connectedTcpClients;
+	private Thread tcpListenerThread;
 	
-	private string host;
-	private int port;
-	
-	private Text debugText;
+	private List<Client> connectedClients;
+
 	private string debugString;
 	#endregion
 
-	void Start()
+	public void StartServer (int port)
 	{
-		connectedTcpClients = new List<TcpClient>();
-	}
+		connectedClients = new List<Client>();
+		tcpListener = new TcpListener(IPAddress.Any, port);
+		tcpListener.Start();
+		DebugInfo("[+][S] Server is listening");
 		
-	public void StartServer (string host, int port, Text debugText)
-	{
-		this.host = host;
-		this.port = port;
-		
-		this.debugText = debugText;
-		
-		// Start TcpServer background thread
 		tcpListenerThread = new Thread (new ThreadStart(ListenForIncommingRequests));
 		tcpListenerThread.IsBackground = true;
 		tcpListenerThread.Start();
@@ -50,25 +31,20 @@ public class TCPServer : MonoBehaviour {
 
 	void Update()
 	{
-		debugText.text = debugString;
+		GameManager.instance.debugLog.GetComponent<Text>().text = debugString;
 	}
 	
-	/// <summary> 	
-	/// Runs in background TcpServerThread; Handles incomming TcpClient requests 	
-	/// </summary> 	
 	private void ListenForIncommingRequests () {
 		try {
-			// Create listener on localhost port 8001.
-			tcpListener = new TcpListener(IPAddress.Any, port);
-			tcpListener.Start();
-			DebugInfo("[+][S] Server is listening");
 			while (true)
 			{
 				TcpClient connectedTcpClient = tcpListener.AcceptTcpClient();
-				connectedTcpClients.Add(connectedTcpClient);
+				DebugInfo("\n[+][S] Accepted new client.");
+				Client client = new Client((uint) connectedClients.Count, connectedTcpClient);
+				connectedClients.Add(client);
 				Thread clientThread = new Thread(new ParameterizedThreadStart(HandleClientComm));
 
-				clientThread.Start(connectedTcpClient);
+				clientThread.Start(client);
 			}
 		}
 		catch (SocketException socketException)
@@ -77,44 +53,61 @@ public class TCPServer : MonoBehaviour {
 		}     
 	}
 
-	private void HandleClientComm(object client)
+	private void HandleClientComm(object clientObj)
 	{
-		TcpClient tcpClient = (TcpClient) client;
-		NetworkStream clientStream = tcpClient.GetStream();
-		Byte[] bytes = new Byte[1024];
+		Client client = (Client) clientObj;
+		NetworkStream clientStream = client._tcpClient.GetStream();
+		byte[] bytes = new byte[1024];
 		
-		SendMessage(tcpClient, "Hello user!");
+		SendMessage(client._tcpClient, CreateSendingPackageString(PackageType.USER_ID, new Package(client._id)));
 
 		while (true)
 		{
 			int length;
-			DebugInfo("\n[+][S] Accepted new client.");
-			// Read incomming stream into byte arrary.
 			while ((length = clientStream.Read(bytes, 0, bytes.Length)) != 0) {
 				var incommingData = new byte[length];
 				Array.Copy(bytes, 0, incommingData, 0, length);
-				// Convert byte array to string message.
 				string clientMessage = Encoding.ASCII.GetString(incommingData);
 				DebugInfo("[+][S] Received: " + clientMessage);
 			}
 		}
 	}
+	
+	private void ReadPackageString(string packageString)
+	{
+		string[] decodedPackageArray = packageString.Split(';');
 
-	/// <summary> 	
-	/// Send message to client using socket connection. 	
-	/// </summary> 	
+		if (int.Parse(decodedPackageArray[0]).Equals((int) PackageType.USERNAME))
+		{
+			Client foundClient = connectedClients.Find(client => client._id == uint.Parse(decodedPackageArray[1]));
+			if (foundClient != null)
+			{
+				foundClient._username = decodedPackageArray[2];
+			}
+		}
+	}
+	
+	private string CreateSendingPackageString(PackageType packageType, Package package)
+	{
+		string packageString = "";
+			
+		if (packageType.Equals(PackageType.USER_ID))
+		{
+			packageString = packageType + ";" + package.id;
+		}
+
+		return packageString;
+	}
+
 	private void SendMessage(TcpClient tcpClient, string message) {
 		if (tcpClient == null) {             
 			return;
 		}  		
 		
-		try { 			
-			// Get a stream object for writing.
+		try {
 			NetworkStream stream = tcpClient.GetStream();
 			if (stream.CanWrite) {
-				// Convert string message to byte array.
 				byte[] serverMessageAsByteArray = Encoding.ASCII.GetBytes(message);
-				// Write byte array to socketConnection stream.
 				stream.Write(serverMessageAsByteArray, 0, serverMessageAsByteArray.Length);
 			}       
 		} 		

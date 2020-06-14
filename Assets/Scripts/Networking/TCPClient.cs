@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Linq;
-using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
@@ -8,22 +6,17 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class TCPClient : MonoBehaviour {
-	#region private members 	
-	private TcpClient socketConnection; 	
+	#region private member
+
+	private Client client;
 	private Thread clientReceiveThread;
 	
-	private string host;
-	private int port;
-	
-	private Text debugText;
 	private string debugString;
 	#endregion
 	
-	public void StartClient (string host, int port, Text debugText) {
-		this.host = host;
-		this.port = port;
-		
-		this.debugText = debugText;
+	public void StartClient (string username, string host, int port) {
+		client = new Client(new TcpClient(), username);
+		client._tcpClient.Connect(host, port);
 		
 		try {  			
 			clientReceiveThread = new Thread (new ThreadStart(ListenForData));
@@ -37,28 +30,22 @@ public class TCPClient : MonoBehaviour {
 
 	void Update()
 	{
-		debugText.text = debugString;
+		GameManager.instance.debugLog.GetComponent<Text>().text = debugString;
 	}
 	
-	/// <summary>
-	/// Runs in background clientReceiveThread; Listens for incomming data.
-	/// </summary>
 	private void ListenForData() {
 		try {
-			socketConnection = new TcpClient(host, port);
-			//socketConnection.Connect("127.0.0.1", port);
 			Byte[] bytes = new Byte[1024];
 			DebugInfo("\n[+][C] Connected to the server.");
-			SendMessage("Hello server!");
-			while (true) {
-				// Get a stream object for reading 				
-				using (NetworkStream stream = socketConnection.GetStream()) {
+			
+			SendMessage(CreateSendingPackageString(PackageType.USER_ID, new Package(client._id, client._username)));
+			
+			while (true) {			
+				using (NetworkStream stream = client._tcpClient.GetStream()) {
 					int length;
-					// Read incomming stream into byte arrary.
 					while ((length = stream.Read(bytes, 0, bytes.Length)) != 0) {
 						var incommingData = new byte[length];
-						Array.Copy(bytes, 0, incommingData, 0, length);					
-						// Convert byte array to string message.
+						Array.Copy(bytes, 0, incommingData, 0, length);
 						string serverMessage = Encoding.ASCII.GetString(incommingData);
 						DebugInfo("[+][C] Received: " + serverMessage);
 					}
@@ -69,21 +56,37 @@ public class TCPClient : MonoBehaviour {
 			DebugInfo("[-][C] Socket exception: " + socketException.Message + " | " + socketException.StackTrace);
 		}
 	}
+
+	private void ReadPackageString(string packageString)
+	{
+		string[] decodedPackageArray = packageString.Split(';');
+
+		if (int.Parse(decodedPackageArray[0]).Equals((int) PackageType.USER_ID))
+		{
+			client._id = uint.Parse(decodedPackageArray[1]);
+		}
+	}
 	
-	/// <summary>
-	/// Send message to server using socket connection.
-	/// </summary>
+	private string CreateSendingPackageString(PackageType packageType, Package package)
+	{
+		string packageString = "";
+			
+		if (packageType.Equals(PackageType.USERNAME))
+		{
+			packageString = packageType + ";" + package.id + ";" + package.username;
+		}
+
+		return packageString;
+	}
+	
 	private void SendMessage(string message) {
-		if (socketConnection == null) {
+		if (client._tcpClient == null) {
 			return;
 		}
 		try {
-			// Get a stream object for writing.
-			NetworkStream stream = socketConnection.GetStream();
+			NetworkStream stream = client._tcpClient.GetStream();
 			if (stream.CanWrite) {
-				// Convert string message to byte array.
 				byte[] clientMessageAsByteArray = Encoding.ASCII.GetBytes(message);
-				// Write byte array to socketConnection stream.
 				stream.Write(clientMessageAsByteArray, 0, clientMessageAsByteArray.Length);
 			}
 		}

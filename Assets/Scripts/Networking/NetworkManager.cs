@@ -1,59 +1,69 @@
 ﻿using System;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Networking;
 
 public class NetworkManager : MonoBehaviour
 {
+    [Header("Preffered Server Configuration")]
+    public string serverUsername;
     public string host;
     public int port;
-    public GameObject debugLogGO;
-    
-    private GameObject UICanvas;
-    private GameObject MainMenu;
-    private GameObject JoinMenu;
-    private Text ServerAddressDebugText;
-    private Text ServerPortDebugText;
 
     void Start()
     {
-        UICanvas = GameObject.FindGameObjectWithTag("MenuUI");
-        MainMenu = GameObject.FindGameObjectWithTag("MainMenu");
-        JoinMenu = GameObject.FindGameObjectWithTag("JoinMenu");
-        ServerAddressDebugText = GameObject.FindGameObjectWithTag("ServerAddressDebugText").GetComponent<Text>();
-        ServerPortDebugText = GameObject.FindGameObjectWithTag("ServerPortDebugText").GetComponent<Text>();
+        GameManager.instance.uiCanvas = GameObject.FindGameObjectWithTag("MenuUI");
+        GameManager.instance.mainMenu = GameObject.FindGameObjectWithTag("MainMenu");
+        GameManager.instance.joinMenu = GameObject.FindGameObjectWithTag("JoinMenu");
         
-        UICanvas.SetActive(true);
-        MainMenu.SetActive(true);
-        JoinMenu.SetActive(false);
+        GameManager.instance.serverUsernameText = GameObject.FindGameObjectWithTag("ServerUsernameText");
+        GameManager.instance.serverAddressText = GameObject.FindGameObjectWithTag("ServerAddressText");
+        GameManager.instance.serverPortText = GameObject.FindGameObjectWithTag("ServerPortText");
+        
+        GameManager.instance.serverUsernameDebugText = GameObject.FindGameObjectWithTag("ServerUsernameDebugText");
+        GameManager.instance.serverAddressDebugText = GameObject.FindGameObjectWithTag("ServerAddressDebugText");
+        GameManager.instance.serverPortDebugText = GameObject.FindGameObjectWithTag("ServerPortDebugText");
+
+
+        GameManager.instance.serverAddressText.GetComponent<Text>().text = host;
+        GameManager.instance.serverPortText.GetComponent<Text>().text = port.ToString();
+        
+        GameManager.instance.uiCanvas.SetActive(true);
+        GameManager.instance.mainMenu.SetActive(true);
+        GameManager.instance.joinMenu.SetActive(false);
     }
 
     public void HostServer()
     {
-        UICanvas.SetActive(false);
+        GameManager.instance.uiCanvas.SetActive(false);
 
-        ServerAddressDebugText.text = host;
-        ServerPortDebugText.text = port.ToString();
+        GameManager.instance.serverUsernameDebugText.GetComponent<Text>().text = serverUsername;
+        GameManager.instance.serverAddressDebugText.GetComponent<Text>().text = host;
+        GameManager.instance.serverPortDebugText.GetComponent<Text>().text = port.ToString();
         
         StartServerAndClient();
     }
 
     public void ShowJoinServerMenu()
     {
-        MainMenu.SetActive(false);
-        JoinMenu.SetActive(true);
+        GameManager.instance.mainMenu.SetActive(false);
+        GameManager.instance.joinMenu.SetActive(true);
+    }
+
+    public void BackToMainMenu()
+    {
+        GameManager.instance.mainMenu.SetActive(true);
+        GameManager.instance.joinMenu.SetActive(false);
     }
 
     public void JoinServer()
     {
-
-        if (GameObject.FindGameObjectWithTag("ServerAddressText") &&
-            GameObject.FindGameObjectWithTag("ServerPortText") &&
-            GameObject.FindGameObjectWithTag("ServerAddressText").GetComponent<Text>().text.Length > 0 &&
-            GameObject.FindGameObjectWithTag("ServerPortText").GetComponent<Text>().text.Length > 0) {
+        if (LoggingFormIsValid())
+        {
+            serverUsername = GameManager.instance.serverUsernameText.GetComponent<Text>().text;
+            host = GameManager.instance.serverAddressText.GetComponent<Text>().text;
+            port = Convert.ToInt32(GameManager.instance.serverPortText.GetComponent<Text>().text);
             
-            host = GameObject.FindGameObjectWithTag("ServerAddressText").GetComponent<Text>().text;
-            port = Convert.ToInt32(GameObject.FindGameObjectWithTag("ServerPortText").GetComponent<Text>().text);
+            GameManager.instance.uiCanvas.SetActive(false);
             
             StartClient();
         }
@@ -62,18 +72,26 @@ public class NetworkManager : MonoBehaviour
     private void StartServer()
     {
         gameObject.AddComponent<TCPServer>();
-        gameObject.GetComponent<TCPServer>().StartServer(host, port, debugLogGO.gameObject.GetComponent<Text>());
+        gameObject.GetComponent<TCPServer>().StartServer(port);
     }
 
     private void StartClient()
     {
         gameObject.AddComponent<TCPClient>();
-        gameObject.GetComponent<TCPClient>().StartClient(host, port, debugLogGO.gameObject.GetComponent<Text>());
+        gameObject.GetComponent<TCPClient>().StartClient(serverUsername, host, port);
     }
 
     private void StartServerAndClient()
     {
         StartServer();
         StartClient();
+    }
+
+    private static bool LoggingFormIsValid()
+    {
+        return GameManager.instance.serverUsernameText && GameManager.instance.serverAddressText && GameManager.instance.serverPortText &&
+               GameManager.instance.serverUsernameText.GetComponent<Text>().text.Length > 0 &&
+               GameManager.instance.serverAddressText.GetComponent<Text>().text.Length > 0 &&
+               GameManager.instance.serverPortText.GetComponent<Text>().text.Length > 0;
     }
 }
