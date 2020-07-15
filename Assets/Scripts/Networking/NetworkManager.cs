@@ -1,97 +1,226 @@
-﻿using System;
+﻿using System.Text.RegularExpressions;
+using System.Collections.Generic;
+using Photon.Pun;
+using Photon.Realtime;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class NetworkManager : MonoBehaviour
+public class NetworkManager : MonoBehaviourPunCallbacks
 {
-    [Header("Preffered Server Configuration")]
-    public string serverUsername;
-    public string host;
-    public int port;
+    public int maxRoomPlayer = 4;
+    
+     //Our player name
+    string playerName = "Player 1";
+    //Users are separated from each other by gameversion (which allows you to make breaking changes).
+    string gameVersion = "0.9";
+    //The list of created rooms
+    List<RoomInfo> createdRooms = new List<RoomInfo>();
+    //Use this name when creating a Room
+    string roomName = "Room 1";
+    Vector2 roomListScroll = Vector2.zero;
+    bool joiningRoom = false;
 
+    private GUIStyle buttonsStyle;
+    private GUIStyle labelStyle;
+    private GUIStyle textFieldStyle;
+    private GUIStyle smallLabelStyle;
+    private GUIStyle smallButtonsStyle;
+    private GUIStyle windowStyle;
+
+    private int spaceBetweenGUI = 20;
+
+    // Use this for initialization
     void Start()
     {
-        GameManager.instance.uiCanvas = GameObject.FindGameObjectWithTag("MenuUI");
-        GameManager.instance.mainMenu = GameObject.FindGameObjectWithTag("MainMenu");
-        GameManager.instance.joinMenu = GameObject.FindGameObjectWithTag("JoinMenu");
-        
-        GameManager.instance.serverUsernameText = GameObject.FindGameObjectWithTag("ServerUsernameText");
-        GameManager.instance.serverAddressText = GameObject.FindGameObjectWithTag("ServerAddressText");
-        GameManager.instance.serverPortText = GameObject.FindGameObjectWithTag("ServerPortText");
-        
-        GameManager.instance.serverUsernameDebugText = GameObject.FindGameObjectWithTag("ServerUsernameDebugText");
-        GameManager.instance.serverAddressDebugText = GameObject.FindGameObjectWithTag("ServerAddressDebugText");
-        GameManager.instance.serverPortDebugText = GameObject.FindGameObjectWithTag("ServerPortDebugText");
+        //This makes sure we can use PhotonNetwork.LoadLevel() on the master client and all clients in the same room sync their level automatically
+        PhotonNetwork.AutomaticallySyncScene = true;
 
-
-        GameManager.instance.serverAddressText.GetComponent<Text>().text = host;
-        GameManager.instance.serverPortText.GetComponent<Text>().text = port.ToString();
-        
-        GameManager.instance.uiCanvas.SetActive(true);
-        GameManager.instance.mainMenu.SetActive(true);
-        GameManager.instance.joinMenu.SetActive(false);
-    }
-
-    public void HostServer()
-    {
-        GameManager.instance.uiCanvas.SetActive(false);
-
-        GameManager.instance.serverUsernameDebugText.GetComponent<Text>().text = serverUsername;
-        GameManager.instance.serverAddressDebugText.GetComponent<Text>().text = host;
-        GameManager.instance.serverPortDebugText.GetComponent<Text>().text = port.ToString();
-        
-        StartServerAndClient();
-    }
-
-    public void ShowJoinServerMenu()
-    {
-        GameManager.instance.mainMenu.SetActive(false);
-        GameManager.instance.joinMenu.SetActive(true);
-    }
-
-    public void BackToMainMenu()
-    {
-        GameManager.instance.mainMenu.SetActive(true);
-        GameManager.instance.joinMenu.SetActive(false);
-    }
-
-    public void JoinServer()
-    {
-        if (LoggingFormIsValid())
+        if (!PhotonNetwork.IsConnected)
         {
-            serverUsername = GameManager.instance.serverUsernameText.GetComponent<Text>().text;
-            host = GameManager.instance.serverAddressText.GetComponent<Text>().text;
-            port = Convert.ToInt32(GameManager.instance.serverPortText.GetComponent<Text>().text);
-            
-            GameManager.instance.uiCanvas.SetActive(false);
-            
-            StartClient();
+            //Set the App version before connecting
+            PhotonNetwork.PhotonServerSettings.AppSettings.AppVersion = gameVersion;
+            // Connect to the photon master-server. We use the settings saved in PhotonServerSettings (a .asset file in this project)
+            PhotonNetwork.ConnectUsingSettings();
         }
     }
 
-    private void StartServer()
+    public override void OnDisconnected(DisconnectCause cause)
     {
-        gameObject.AddComponent<TCPServer>();
-        gameObject.GetComponent<TCPServer>().StartServer(port);
+        Debug.Log("OnFailedToConnectToPhoton. StatusCode: " + cause.ToString() + " ServerAddress: " + PhotonNetwork.ServerAddress);
     }
 
-    private void StartClient()
+    public override void OnConnectedToMaster()
     {
-        gameObject.AddComponent<TCPClient>();
-        gameObject.GetComponent<TCPClient>().StartClient(serverUsername, host, port);
+        Debug.Log("OnConnectedToMaster");
+        //After we connected to Master server, join the Lobby
+        PhotonNetwork.JoinLobby(TypedLobby.Default);
     }
 
-    private void StartServerAndClient()
+    public override void OnRoomListUpdate(List<RoomInfo> roomList)
     {
-        StartServer();
-        StartClient();
+        Debug.Log("We have received the Room list");
+        //After this callback, update the room list
+        createdRooms = roomList;
     }
 
-    private static bool LoggingFormIsValid()
+    void OnGUI()
     {
-        return GameManager.instance.serverUsernameText && GameManager.instance.serverAddressText && GameManager.instance.serverPortText &&
-               GameManager.instance.serverUsernameText.GetComponent<Text>().text.Length > 0 &&
-               GameManager.instance.serverAddressText.GetComponent<Text>().text.Length > 0 &&
-               GameManager.instance.serverPortText.GetComponent<Text>().text.Length > 0;
+        buttonsStyle = new GUIStyle(GUI.skin.button);
+        buttonsStyle.fontSize = 45;
+        smallButtonsStyle = new GUIStyle(GUI.skin.button);
+        smallButtonsStyle.fontSize = 40;
+        labelStyle = new GUIStyle(GUI.skin.label);
+        labelStyle.fontSize = 45;
+        smallLabelStyle = new GUIStyle(GUI.skin.label);
+        smallLabelStyle.fontSize = 40;
+        textFieldStyle = new GUIStyle(GUI.skin.textField);
+        textFieldStyle.fontSize = 45;
+        windowStyle = new GUIStyle (GUI.skin.window); 
+        // do whatever you want with this style, e.g.:
+        windowStyle.padding = new RectOffset(25,25,25,25);
+        
+        GUI.Window(0, new Rect(10, Screen.height/2-Screen.height/3/2, Screen.width-20, Screen.height/2), LobbyWindow, "", windowStyle);
+    }
+
+    void LobbyWindow(int index)
+    {
+        GUILayout.BeginVertical();
+            GUILayout.BeginHorizontal();
+                GUILayout.FlexibleSpace();
+                //Set player name and Refresh Room button
+                GUILayout.Label("Player Name: ", labelStyle, GUILayout.Width(300));
+                //Player name text field
+                playerName = GUILayout.TextField(playerName, textFieldStyle, GUILayout.Width(300));
+                
+                GUILayout.FlexibleSpace();
+            GUILayout.EndHorizontal();
+        GUILayout.EndVertical();
+
+        GUILayout.Space(spaceBetweenGUI);
+        
+        GUILayout.BeginVertical();
+            GUILayout.BeginHorizontal();
+                GUILayout.FlexibleSpace();
+                //Room name text field
+                roomName = GUILayout.TextField(roomName, textFieldStyle,GUILayout.Width(400));
+
+                if (GUILayout.Button("Create Room", buttonsStyle,GUILayout.Width(325)))
+                {
+                    if (roomName != "")
+                    {
+                        joiningRoom = true;
+
+                        RoomOptions roomOptions = new RoomOptions();
+                        roomOptions.IsOpen = true;
+                        roomOptions.IsVisible = true;
+                        roomOptions.MaxPlayers = (byte)maxRoomPlayer;
+
+                        PhotonNetwork.JoinOrCreateRoom(roomName, roomOptions, TypedLobby.Default);
+                    }
+                }
+                GUILayout.FlexibleSpace();
+            GUILayout.EndHorizontal();
+        GUILayout.EndVertical();
+
+        GUILayout.Space(spaceBetweenGUI);
+
+        //Scroll through available rooms
+        roomListScroll = GUILayout.BeginScrollView(roomListScroll,false, true);
+            if (createdRooms.Count == 0)
+            {
+                GUILayout.Label("No Rooms were created yet...", smallLabelStyle);
+            }
+            else
+            {
+                for (int i = 0; i < createdRooms.Count; i++)
+                {
+                    GUILayout.BeginHorizontal("box");
+                        GUILayout.Label(createdRooms[i].Name, labelStyle, GUILayout.Width(400));
+                        GUILayout.Label(createdRooms[i].PlayerCount + "/" + createdRooms[i].MaxPlayers, labelStyle);
+
+                        GUILayout.FlexibleSpace();
+
+                        if (GUILayout.Button("Join Room", smallButtonsStyle))
+                        {
+                            joiningRoom = true;
+
+                            //Set our Player name
+                            PhotonNetwork.NickName = playerName;
+
+                            //Join the Room
+                            PhotonNetwork.JoinRoom(createdRooms[i].Name);
+                        }
+                    GUILayout.EndHorizontal();
+                }
+            }
+        GUILayout.EndScrollView();
+        
+        GUILayout.Space(spaceBetweenGUI);
+        
+        GUILayout.BeginHorizontal();
+            GUILayout.FlexibleSpace();
+            GUI.enabled = (PhotonNetwork.NetworkClientState == ClientState.JoinedLobby || PhotonNetwork.NetworkClientState == ClientState.Disconnected) && !joiningRoom;
+            if (GUILayout.Button("Refresh", buttonsStyle, GUILayout.Width(200)))
+            {
+                if (PhotonNetwork.IsConnected)
+                {
+                    //Re-join Lobby to get the latest Room list
+                    PhotonNetwork.JoinLobby(TypedLobby.Default);
+                }
+                else
+                {
+                    //We are not connected, estabilish a new connection
+                    PhotonNetwork.ConnectUsingSettings();
+                }
+            }
+        GUILayout.EndHorizontal();
+
+        GUILayout.Space(spaceBetweenGUI);
+
+        GUILayout.BeginHorizontal();
+            GUILayout.Label("Status: " + Regex.Replace(PhotonNetwork.NetworkClientState.ToString(), "([A-Z])", " $1").Trim(), labelStyle);
+
+            if (joiningRoom || !PhotonNetwork.IsConnected || PhotonNetwork.NetworkClientState != ClientState.JoinedLobby)
+            {
+                GUI.enabled = false;
+            }
+        GUILayout.EndHorizontal();
+
+        if (joiningRoom)
+        {
+            GUI.enabled = true;
+            GUI.Label(new Rect(Screen.width/2, Screen.height/2, Screen.width, 40), "Connecting...", labelStyle);
+        }
+    }
+
+    public override void OnCreateRoomFailed(short returnCode, string message)
+    {
+        Debug.Log("OnCreateRoomFailed got called. This can happen if the room exists (even if not visible). Try another room name.");
+        joiningRoom = false;
+    }
+
+    public override void OnJoinRoomFailed(short returnCode, string message)
+    {
+        Debug.Log("OnJoinRoomFailed got called. This can happen if the room is not existing or full or closed.");
+        joiningRoom = false;
+    }
+
+    public override void OnJoinRandomFailed(short returnCode, string message)
+    {
+        Debug.Log("OnJoinRandomFailed got called. This can happen if the room is not existing or full or closed.");
+        joiningRoom = false;
+    }
+
+    public override void OnCreatedRoom()
+    {
+        Debug.Log("OnCreatedRoom");
+        //Set our player name
+        PhotonNetwork.NickName = playerName;
+        //Load the Scene called Game (Make sure it's added to build settings)
+        PhotonNetwork.LoadLevel("Game");
+    }
+
+    public override void OnJoinedRoom()
+    {
+        Debug.Log("OnJoinedRoom");
     }
 }

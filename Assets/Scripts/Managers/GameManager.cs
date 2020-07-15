@@ -12,14 +12,8 @@ public class GameManager : MonoBehaviour
     [Header("UI GameObjects")]
     public GameObject debugLog;
     public GameObject uiCanvas;
-    public GameObject mainMenu;
     public GameObject joinMenu;
-    public GameObject serverAddressText;
-    public GameObject serverPortText;
-    public GameObject serverUsernameText;
-    public GameObject serverAddressDebugText;
-    public GameObject serverPortDebugText;
-    public GameObject serverUsernameDebugText;
+    public GameObject roomNameInput;
 
     void Awake()
     {
