@@ -17,6 +17,9 @@
 - Po dołączeniu do pokoju, przechodzimy do sceny z grą, gdzie od razu zostaniemy poproszeni o zeskanowanie obrazka (Na początek ikonka Politechniki Łódzkiej)
 
 
+![Lobby image](https://github.com/bakpawel103/ARcardGame/blob/Networking/images/Lobby.png)
+
+
 | Użyta technologia | URL |
 | ------ | ------ |
 | Photon | https://www.photonengine.com/ |
