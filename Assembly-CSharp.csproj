@@ -77,6 +77,7 @@
      <Compile Include="Assets\Scripts\GameMechanisms\CubeUV.cs" />
      <Compile Include="Assets\Scripts\GameMechanisms\HandManager.cs" />
      <Compile Include="Assets\Scripts\GameMechanisms\InteractingEngine.cs" />
+     <Compile Include="Assets\Scripts\Managers\GUIStyleManager.cs" />
      <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
      <Compile Include="Assets\Scripts\Networking\NetworkManager.cs" />
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />

@@ -8,17 +8,11 @@ TagManager:
   - Camera
   - PlayerHand
   - CardsStack
-  - MenuUI
   - DebugLog
   - DebugGO
-  - JoinMenu
-  - MainMenu
-  - ServerAddressText
-  - ServerPortText
-  - ServerAddressDebugText
-  - ServerPortDebugText
-  - ServerUsernameText
-  - ServerUsernameDebugText
+  - PlayerNameInput
+  - RoomNameInput
+  - ScrollViewContent
   layers:
   - Default
   - TransparentFX
