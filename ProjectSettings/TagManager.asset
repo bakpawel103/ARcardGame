@@ -13,6 +13,11 @@ TagManager:
   - PlayerNameInput
   - RoomNameInput
   - ScrollViewContent
+  - StatusLabel
+  - ScanningHelper
+  - PlayersCountText
+  - CreateRoomButton
+  - RoomItems
   layers:
   - Default
   - TransparentFX

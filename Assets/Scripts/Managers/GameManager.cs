@@ -1,7 +1,9 @@
-﻿using UnityEngine;
+﻿using Photon.Pun;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour
+public class GameManager : MonoBehaviourPunCallbacks
 {
     public static GameManager instance;
 
@@ -12,8 +14,6 @@ public class GameManager : MonoBehaviour
     [Header("UI GameObjects")]
     public GameObject debugLog;
     public GameObject uiCanvas;
-    public GameObject joinMenu;
-    public GameObject roomNameInput;
 
     void Awake()
     {
@@ -26,8 +26,23 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    void Update()
+    {
+        GameObject.FindGameObjectWithTag("PlayersCountText").GetComponent<Text>().text = $"{(int)PhotonNetwork.CurrentRoom.PlayerCount}/{(int) PhotonNetwork.CurrentRoom.MaxPlayers}";
+    }
+
     public void AddLog(string log)
     {
         debugLog.GetComponent<Text>().text += log + "\n";
+    }
+    
+    public override void OnLeftRoom()
+    {
+        SceneManager.LoadScene(0);
+    }
+    
+    public void LeaveRoom()
+    {
+        PhotonNetwork.LeaveRoom();
     }
 }

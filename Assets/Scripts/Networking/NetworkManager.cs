@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using Photon.Pun;
 using Photon.Realtime;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,17 +15,19 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     private List<RoomInfo> createdRooms = new List<RoomInfo>();
     private GameObject roomName;
     private GameObject scrollViewContentGO;
+    private GameObject statusLabel;
     private bool joiningRoom = false;
 
     private GUIStyle lobbyGUISkin;
 
-    private int spaceBetweenGUI = 20;
+    private List<GameObject> scrollViewItemsList = new List<GameObject>();
 
     void Start()
     {
         playerName = GameObject.FindGameObjectWithTag("PlayerNameInput");
         roomName = GameObject.FindGameObjectWithTag("RoomNameInput");
         scrollViewContentGO = GameObject.FindGameObjectWithTag("ScrollViewContent");
+        statusLabel = GameObject.FindGameObjectWithTag("StatusLabel");
 
         //This makes sure we can use PhotonNetwork.LoadLevel() on the master client and all clients in the same room sync their level automatically
         PhotonNetwork.AutomaticallySyncScene = true;
@@ -44,9 +45,23 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     void Update()
     {
+        GameObject.FindGameObjectWithTag("CreateRoomButton").GetComponent<Button>().interactable =
+            !string.IsNullOrEmpty(playerName.GetComponent<InputField>().text) &&
+            !string.IsNullOrEmpty(roomName.GetComponent<InputField>().text);
+        playerName.GetComponent<InputField>().onValueChanged.AddListener((value) =>
+        {
+            foreach (var scrollViewItem in scrollViewItemsList)
+            {
+                scrollViewItem.transform.GetChild(2).GetChild(0).GetComponent<Button>().interactable =
+                    !string.IsNullOrEmpty(playerName.GetComponent<InputField>().text);
+            }
+        });
+        statusLabel.GetComponent<Text>().text = "Status: " +
+                                                Regex.Replace(PhotonNetwork.NetworkClientState.ToString(), "([A-Z])",
+                                                    " $1").Trim();
     }
 
-    public void CreateJoinRoom()
+    public void CreateRoom()
     {
         Debug.Log(roomName);
         if (roomName.GetComponent<InputField>().text != "")
@@ -84,7 +99,9 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
         for (int i = 0; i < createdRooms.Count; i++)
         {
-            GameObject itemPrefabInstance = Instantiate(scrollViewItemItemPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+            GameObject itemPrefabInstance =
+                Instantiate(scrollViewItemItemPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+            scrollViewItemsList.Add(itemPrefabInstance);
             if (itemPrefabInstance != null)
             {
                 itemPrefabInstance.transform.GetChild(0).GetComponent<Text>().text = createdRooms[i].Name;
@@ -92,9 +109,8 @@ public class NetworkManager : MonoBehaviourPunCallbacks
                     createdRooms[i].PlayerCount + "/" + createdRooms[i].MaxPlayers;
 
                 var i1 = i;
-                itemPrefabInstance.transform.GetChild(2).GetComponent<Button>().onClick.AddListener(() =>
+                itemPrefabInstance.transform.GetChild(2).GetChild(0).GetComponent<Button>().onClick.AddListener(() =>
                 {
-                    Debug.Log(i1);
                     joiningRoom = true;
                     PhotonNetwork.NickName = playerName.GetComponent<InputField>().text;
                     PhotonNetwork.JoinRoom(createdRooms[i1].Name);
@@ -106,9 +122,14 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     private void DeleteAllChildrenFromGameObject(GameObject gameObject)
     {
-        if (gameObject.transform.GetChildCount() > 0)
+        if (gameObject.transform.childCount > 1)
         {
-            Destroy(gameObject.transform.GetChild(0).gameObject);
+            scrollViewItemsList.Clear();
+            var clones = GameObject.FindGameObjectsWithTag("RoomItems");
+            foreach (var clone in clones)
+            {
+                Destroy(clone);
+            }
         }
     }
 

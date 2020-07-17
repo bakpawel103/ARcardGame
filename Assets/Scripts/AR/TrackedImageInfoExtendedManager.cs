@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 
 [RequireComponent(typeof(ARTrackedImageManager))]
@@ -9,6 +11,20 @@ public class TrackedImageInfoExtendedManager : MonoBehaviour
     private void Awake()
     {
         m_TrackedImageManager = GetComponent<ARTrackedImageManager>();
+        m_TrackedImageManager.trackedImagesChanged += TrackedImagesChanged;
+    }
+
+    private void TrackedImagesChanged(ARTrackedImagesChangedEventArgs obj)
+    {
+        if (obj.added.Count > 0)
+        {
+            GameObject.FindGameObjectWithTag("ScanningHelper").SetActive(false);
+        }
+
+        if (obj.removed.Count > 0)
+        {
+            GameObject.FindGameObjectWithTag("ScanningHelper").SetActive(true);
+        }
     }
 
     private void OnEnable()

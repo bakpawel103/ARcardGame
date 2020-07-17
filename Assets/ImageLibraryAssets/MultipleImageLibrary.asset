@@ -21,7 +21,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 8260940574797096266
       m_GuidHigh: 8068815930002924315
-    m_Size: {x: 0.79, y: 1.2410645}
+    m_Size: {x: 0.113, y: 0.17751935}
     m_SpecifySize: 1
     m_Name: CardsStack
     m_Texture: {fileID: 0}
