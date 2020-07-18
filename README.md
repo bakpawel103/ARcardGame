@@ -34,6 +34,18 @@ Gra:
 - Obrazek zachęty znika, gdy zdjęcie zostało zeskanowane
 
 
+##### *18.07.2020*
+Projekt:
+- 
+
+Lobby:
+- Poprawiona zmiana przycisków Create Room, Join oraz Refresh na aktywne i dezaktywowanie
+- 
+
+Gra:
+- 
+
+
 ![Lobby image](https://github.com/bakpawel103/ARcardGame/blob/Networking/images/Lobby.png)
 
 
