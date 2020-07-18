@@ -1,4 +1,6 @@
 ﻿using Photon.Pun;
+using Photon.Pun.Demo.PunBasics;
+using Photon.Realtime;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -10,6 +12,8 @@ public class GameManager : MonoBehaviourPunCallbacks
     public GameObject cardStackPref;
     public GameObject cardPref;
     public Vector3 cardStackPosition;
+
+    public GameObject playerPrefab;
 
     [Header("UI GameObjects")]
     public GameObject debugLog;
@@ -25,7 +29,7 @@ public class GameManager : MonoBehaviourPunCallbacks
             Destroy(gameObject);
         }
     }
-
+    
     void Update()
     {
         GameObject.FindGameObjectWithTag("PlayersCountText").GetComponent<Text>().text = $"{(int)PhotonNetwork.CurrentRoom.PlayerCount}/{(int) PhotonNetwork.CurrentRoom.MaxPlayers}";
@@ -44,5 +48,21 @@ public class GameManager : MonoBehaviourPunCallbacks
     public void LeaveRoom()
     {
         PhotonNetwork.LeaveRoom();
+    }
+
+    public override void OnPlayerEnteredRoom(Player newPlayer)
+    {
+        if (newPlayer.IsMasterClient)
+        {
+            Debug.Log($"Logged in user: {newPlayer.NickName} and isMasterClient {newPlayer.IsMasterClient}");
+            // we're in a room. spawn a character for the local player. it gets synced by using PhotonNetwork.Instantiate
+            PhotonNetwork.Instantiate("Player", new Vector3(0f, 5f, 0f), Quaternion.identity, 0);
+        }
+        else
+        {
+            Debug.Log($"Logged in user: {newPlayer.NickName} and isMasterClient {newPlayer.IsMasterClient}");
+            // we're in a room. spawn a character for the local player. it gets synced by using PhotonNetwork.Instantiate
+            PhotonNetwork.Instantiate("Player", new Vector3(0f, 5f, 0f), Quaternion.identity, 0);
+        }
     }
 }

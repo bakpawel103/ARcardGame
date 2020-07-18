@@ -385,6 +385,7 @@
           </e>
           <e p="Managers" t="Include">
             <e p="GameManager.cs" t="Include" />
+            <e p="GameplayManager.cs" t="Include" />
             <e p="GUIStyleManager.cs" t="Include" />
           </e>
           <e p="Networking" t="Include">

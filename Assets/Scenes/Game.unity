@@ -131,6 +131,8 @@ GameObject:
   m_Component:
   - component: {fileID: 223974228}
   - component: {fileID: 223974227}
+  - component: {fileID: 223974229}
+  - component: {fileID: 223974230}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -155,6 +157,8 @@ MonoBehaviour:
   cardPref: {fileID: 5920116004601942232, guid: 5c8871a4b7d1e8042936a9253158273f,
     type: 3}
   cardStackPosition: {x: 0, y: 0, z: 0}
+  playerPrefab: {fileID: 3394423477208511038, guid: 43e445a665f9b7d4eb569828b43d208c,
+    type: 3}
   debugLog: {fileID: 1381343884}
   uiCanvas: {fileID: 506235738}
 --- !u!4 &223974228
@@ -171,6 +175,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &223974229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223974226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8148e02fda5a43c1a2f9a3a61b437c1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &223974230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223974226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 0
+  OwnershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 0}
+  viewIdField: 1
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &256262307
 GameObject:
   m_ObjectHideFlags: 0

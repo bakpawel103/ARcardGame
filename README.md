@@ -2,6 +2,9 @@
 *AR Foundation in Unity + Android/iOS + Photon Networking System*
 *Gra planszowa/karciana multiplayer LAN/online.*
 
+### Trello ToDo List:
+- https://trello.com/invite/b/qa0HCiRn/9141d04ae80493bfdcfe7eb7a3bbdb09/ar-card-game
+
 ### Flow:
 - [x] Gracz w lobby przeszukuje istniejące pokoje i dołącza do któregoś z nich, bądz tworzy własny 4-ro osobowy pokój
 - [ ] Gracz poproszony jest o zeskanowanie obrazka, który będzie punktem zerowym przy trackowaniu
@@ -35,15 +38,11 @@ Gra:
 
 
 ##### *18.07.2020*
-Projekt:
-- 
-
 Lobby:
 - Poprawiona zmiana przycisków Create Room, Join oraz Refresh na aktywne i dezaktywowanie
-- 
 
 Gra:
-- 
+- Rozpoczęte prace nad modelem synchronizacji pozycji graczy w pokoju
 
 
 ![Lobby image](https://github.com/bakpawel103/ARcardGame/blob/Networking/images/Lobby.png)
@@ -54,3 +53,4 @@ Gra:
 | Photon | https://www.photonengine.com/ |
 | Unity | https://unity.com/ |
 | AR Foundation |  |
+| Trello | https://trello.com/invite/b/qa0HCiRn/9141d04ae80493bfdcfe7eb7a3bbdb09/ar-card-game |
