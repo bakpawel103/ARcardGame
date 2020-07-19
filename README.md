@@ -45,6 +45,11 @@ Gra:
 - Rozpoczęte prace nad modelem synchronizacji pozycji graczy w pokoju
 
 
+#### *19.07.2020*
+Gra:
+- Pierwsze wysłanie wiadomości do wszystkich uytkowników w pokoju
+
+
 ![Lobby image](https://github.com/bakpawel103/ARcardGame/blob/Networking/images/Lobby.png)
 
 

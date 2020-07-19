@@ -81,6 +81,7 @@
      <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
      <Compile Include="Assets\Scripts\Managers\GameplayManager.cs" />
      <Compile Include="Assets\Scripts\Networking\NetworkManager.cs" />
+     <Compile Include="Assets\Scripts\Networking\SendEvent.cs" />
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
      <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
      <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
