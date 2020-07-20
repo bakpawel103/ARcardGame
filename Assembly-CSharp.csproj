@@ -75,12 +75,14 @@
      <Compile Include="Assets\Scripts\GameMechanisms\CardScript.cs" />
      <Compile Include="Assets\Scripts\GameMechanisms\CardsStackManager.cs" />
      <Compile Include="Assets\Scripts\GameMechanisms\CubeUV.cs" />
+     <Compile Include="Assets\Scripts\GameMechanisms\GameManager.cs" />
+     <Compile Include="Assets\Scripts\GameMechanisms\GameplayManager.cs" />
      <Compile Include="Assets\Scripts\GameMechanisms\HandManager.cs" />
      <Compile Include="Assets\Scripts\GameMechanisms\InteractingEngine.cs" />
-     <Compile Include="Assets\Scripts\Managers\GUIStyleManager.cs" />
-     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
-     <Compile Include="Assets\Scripts\Managers\GameplayManager.cs" />
      <Compile Include="Assets\Scripts\Networking\NetworkManager.cs" />
+     <Compile Include="Assets\Scripts\Networking\Package\Package.cs" />
+     <Compile Include="Assets\Scripts\Networking\Package\PackageType.cs" />
+     <Compile Include="Assets\Scripts\Networking\RpcManager.cs" />
      <Compile Include="Assets\Scripts\Networking\SendEvent.cs" />
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
      <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />

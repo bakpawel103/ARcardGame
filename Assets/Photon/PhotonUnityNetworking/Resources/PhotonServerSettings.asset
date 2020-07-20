@@ -16,7 +16,7 @@ MonoBehaviour:
     AppIdRealtime: d037a135-625e-483a-b8c3-e488b8055353
     AppIdChat: 2ed6888d-0b0c-4bbf-b82a-b7b466a8ffbc
     AppIdVoice: 
-    AppVersion: 
+    AppVersion: 0.9
     UseNameServer: 1
     FixedRegion: 
     Server: 
@@ -39,6 +39,9 @@ MonoBehaviour:
   - Fire
   - RespawnSpaceship
   - ChatMessage
+  - RpcWithObjectArray
+  - RpcWithString
+  - RPC_ReceiveMyCustomSerialization
   DisableAutoOpenWizard: 1
   ShowSettings: 1
-  DevRegionSetOnce: 0
+  DevRegionSetOnce: 1

@@ -47,7 +47,12 @@ Gra:
 
 #### *19.07.2020*
 Gra:
-- Pierwsze wysłanie wiadomości do wszystkich uytkowników w pokoju
+- Pierwsze wysłanie wiadomości do wszystkich użytkowników w pokoju
+
+
+### *20.07.2020*
+Gra:
+- Zapoczątkowana struktura i model komunikacji pomiędzy użytkownikami pokoju a serwerem, który będzie menadżerem rozgrywki
 
 
 ![Lobby image](https://github.com/bakpawel103/ARcardGame/blob/Networking/images/Lobby.png)
