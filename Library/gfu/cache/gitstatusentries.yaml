@@ -13,18 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-07-20T20:20:05.329+02:00
-  initializedAtString: 2020-07-20T17:54:31.539+02:00
+  lastUpdatedAtString: 2020-07-28T16:01:02.235+02:00
+  initializedAtString: 2020-07-28T13:41:23.619+02:00
   entries:
   - path: .idea\.idea.ARcardGame\.idea\contentModel.xml
     fullPath: D:\Repositories\ARcardGame\.idea\.idea.ARcardGame\.idea\contentModel.xml
     projectPath: .idea\.idea.ARcardGame\.idea\contentModel.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: .idea\.idea.ARcardGame\.idea\indexLayout.xml
-    fullPath: D:\Repositories\ARcardGame\.idea\.idea.ARcardGame\.idea\indexLayout.xml
-    projectPath: .idea\.idea.ARcardGame\.idea\indexLayout.xml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -34,105 +28,430 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Photon\PhotonUnityNetworking\Resources\PhotonServerSettings.asset
-    fullPath: D:\Repositories\ARcardGame\Assets\Photon\PhotonUnityNetworking\Resources\PhotonServerSettings.asset
-    projectPath: Assets\Photon\PhotonUnityNetworking\Resources\PhotonServerSettings.asset
+  - path: Assets\Images\Cards.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards.meta
+    projectPath: Assets\Images\Cards.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Armor.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Armor.meta
+    projectPath: Assets\Images\Cards\Armor.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Armors.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Armors.meta
+    projectPath: Assets\Images\Cards\Armors.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Images\Cards\Enemies.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Enemies.meta
+    projectPath: Assets\Images\Cards\Enemies.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Images\Cards\Enemies\Elf.png
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Enemies\Elf.png
+    projectPath: Assets\Images\Cards\Enemies\Elf.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Images\Cards\Enemies\Elf.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Enemies\Elf.png.meta
+    projectPath: Assets\Images\Cards\Enemies\Elf.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Images\Cards\Enemies\Farmer.png
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Enemies\Farmer.png
+    projectPath: Assets\Images\Cards\Enemies\Farmer.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Images\Cards\Enemies\Farmer.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Enemies\Farmer.png.meta
+    projectPath: Assets\Images\Cards\Enemies\Farmer.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Images\Cards\Enemies\Gnome.png
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Enemies\Gnome.png
+    projectPath: Assets\Images\Cards\Enemies\Gnome.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Images\Cards\Enemies\Gnome.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Enemies\Gnome.png.meta
+    projectPath: Assets\Images\Cards\Enemies\Gnome.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Images\Cards\Enemies\Orc.png
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Enemies\Orc.png
+    projectPath: Assets\Images\Cards\Enemies\Orc.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Images\Cards\Enemies\Orc.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Enemies\Orc.png.meta
+    projectPath: Assets\Images\Cards\Enemies\Orc.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Images\Cards\Enemy.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Enemy.meta
+    projectPath: Assets\Images\Cards\Enemy.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Enemy\Elf.png
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Enemy\Elf.png
+    projectPath: Assets\Images\Cards\Enemy\Elf.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Enemy\Elf.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Enemy\Elf.png.meta
+    projectPath: Assets\Images\Cards\Enemy\Elf.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Enemy\Farmer.png
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Enemy\Farmer.png
+    projectPath: Assets\Images\Cards\Enemy\Farmer.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Enemy\Farmer.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Enemy\Farmer.png.meta
+    projectPath: Assets\Images\Cards\Enemy\Farmer.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Enemy\Gnome.png
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Enemy\Gnome.png
+    projectPath: Assets\Images\Cards\Enemy\Gnome.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Enemy\Gnome.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Enemy\Gnome.png.meta
+    projectPath: Assets\Images\Cards\Enemy\Gnome.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Enemy\Orc.png
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Enemy\Orc.png
+    projectPath: Assets\Images\Cards\Enemy\Orc.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Enemy\Orc.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Enemy\Orc.png.meta
+    projectPath: Assets\Images\Cards\Enemy\Orc.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Item.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Item.meta
+    projectPath: Assets\Images\Cards\Item.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Item\Consumable.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Item\Consumable.meta
+    projectPath: Assets\Images\Cards\Item\Consumable.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Item\Unconsumable.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Item\Unconsumable.meta
+    projectPath: Assets\Images\Cards\Item\Unconsumable.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Items.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Items.meta
+    projectPath: Assets\Images\Cards\Items.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Images\Cards\Items\Consumable.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Items\Consumable.meta
+    projectPath: Assets\Images\Cards\Items\Consumable.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Images\Cards\Items\Unconsumable.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Items\Unconsumable.meta
+    projectPath: Assets\Images\Cards\Items\Unconsumable.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Images\Cards\Template.png
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Template.png
+    projectPath: Assets\Images\Cards\Template.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Template.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Template.png.meta
+    projectPath: Assets\Images\Cards\Template.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Template.xcf
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Template.xcf
+    projectPath: Assets\Images\Cards\Template.xcf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Template.xcf.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Template.xcf.meta
+    projectPath: Assets\Images\Cards\Template.xcf.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Weapon.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Weapon.meta
+    projectPath: Assets\Images\Cards\Weapon.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Weapon\BasicBow.png
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Weapon\BasicBow.png
+    projectPath: Assets\Images\Cards\Weapon\BasicBow.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Weapon\BasicBow.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Weapon\BasicBow.png.meta
+    projectPath: Assets\Images\Cards\Weapon\BasicBow.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Weapon\OldAxe.png
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Weapon\OldAxe.png
+    projectPath: Assets\Images\Cards\Weapon\OldAxe.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Weapon\OldAxe.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Weapon\OldAxe.png.meta
+    projectPath: Assets\Images\Cards\Weapon\OldAxe.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Weapon\WoodenSword.png
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Weapon\WoodenSword.png
+    projectPath: Assets\Images\Cards\Weapon\WoodenSword.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Weapon\WoodenSword.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Weapon\WoodenSword.png.meta
+    projectPath: Assets\Images\Cards\Weapon\WoodenSword.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Images\Cards\Weapons.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Weapons.meta
+    projectPath: Assets\Images\Cards\Weapons.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Images\Cards\Weapons\BasicBow.png
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Weapons\BasicBow.png
+    projectPath: Assets\Images\Cards\Weapons\BasicBow.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Images\Cards\Weapons\BasicBow.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Weapons\BasicBow.png.meta
+    projectPath: Assets\Images\Cards\Weapons\BasicBow.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Images\Cards\Weapons\OldAxe.png
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Weapons\OldAxe.png
+    projectPath: Assets\Images\Cards\Weapons\OldAxe.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Images\Cards\Weapons\OldAxe.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Weapons\OldAxe.png.meta
+    projectPath: Assets\Images\Cards\Weapons\OldAxe.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Images\Cards\Weapons\WoodenSword.png
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Weapons\WoodenSword.png
+    projectPath: Assets\Images\Cards\Weapons\WoodenSword.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Images\Cards\Weapons\WoodenSword.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\Cards\Weapons\WoodenSword.png.meta
+    projectPath: Assets\Images\Cards\Weapons\WoodenSword.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Prefabs\Card.prefab
+    fullPath: D:\Repositories\ARcardGame\Assets\Prefabs\Card.prefab
+    projectPath: Assets\Prefabs\Card.prefab
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
+  - path: Assets\Prefabs\Card.prefab.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Prefabs\Card.prefab.meta
+    projectPath: Assets\Prefabs\Card.prefab.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Scenes\Game.unity
     fullPath: D:\Repositories\ARcardGame\Assets\Scenes\Game.unity
     projectPath: Assets\Scenes\Game.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scenes\ServerConnecting.unity
-    fullPath: D:\Repositories\ARcardGame\Assets\Scenes\ServerConnecting.unity
-    projectPath: Assets\Scenes\ServerConnecting.unity
+  - path: Assets\Scripts\GameMechanisms\Cards.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\Cards.meta
+    projectPath: Assets\Scripts\GameMechanisms\Cards.meta
     originalPath: 
-    indexStatus: 0
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Scripts\GameMechanisms\Cards\Attributes.cs
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\Cards\Attributes.cs
+    projectPath: Assets\Scripts\GameMechanisms\Cards\Attributes.cs
+    originalPath: 
+    indexStatus: 4
     workTreeStatus: 3
+  - path: Assets\Scripts\GameMechanisms\Cards\Attributes.cs.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\Cards\Attributes.cs.meta
+    projectPath: Assets\Scripts\GameMechanisms\Cards\Attributes.cs.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Scripts\GameMechanisms\Cards\Card.cs
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\Cards\Card.cs
+    projectPath: Assets\Scripts\GameMechanisms\Cards\Card.cs
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 3
+  - path: Assets\Scripts\GameMechanisms\Cards\Card.cs.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\Cards\Card.cs.meta
+    projectPath: Assets\Scripts\GameMechanisms\Cards\Card.cs.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Scripts\GameMechanisms\Cards\CardScript.cs
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\Cards\CardScript.cs
+    projectPath: Assets\Scripts\GameMechanisms\Cards\CardScript.cs
+    originalPath: Assets\Scripts\GameMechanisms\CardScript.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\GameMechanisms\Cards\CardScript.cs.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\Cards\CardScript.cs.meta
+    projectPath: Assets\Scripts\GameMechanisms\Cards\CardScript.cs.meta
+    originalPath: Assets\Scripts\GameMechanisms\CardScript.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\GameMechanisms\Cards\CardsStackManager.cs
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\Cards\CardsStackManager.cs
+    projectPath: Assets\Scripts\GameMechanisms\Cards\CardsStackManager.cs
+    originalPath: Assets\Scripts\GameMechanisms\CardsStackManager.cs
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\GameMechanisms\Cards\CardsStackManager.cs.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\Cards\CardsStackManager.cs.meta
+    projectPath: Assets\Scripts\GameMechanisms\Cards\CardsStackManager.cs.meta
+    originalPath: Assets\Scripts\GameMechanisms\CardsStackManager.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\GameMechanisms\Cards\CardTyoe.cs
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\Cards\CardTyoe.cs
+    projectPath: Assets\Scripts\GameMechanisms\Cards\CardTyoe.cs
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Scripts\GameMechanisms\Cards\CardTyoe.cs.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\Cards\CardTyoe.cs.meta
+    projectPath: Assets\Scripts\GameMechanisms\Cards\CardTyoe.cs.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Assets\Scripts\GameMechanisms\Cards\CardType.cs
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\Cards\CardType.cs
+    projectPath: Assets\Scripts\GameMechanisms\Cards\CardType.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\GameMechanisms\Cards\CardType.cs.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\Cards\CardType.cs.meta
+    projectPath: Assets\Scripts\GameMechanisms\Cards\CardType.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\GameMechanisms\Cards\HandManager.cs.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\Cards\HandManager.cs.meta
+    projectPath: Assets\Scripts\GameMechanisms\Cards\HandManager.cs.meta
+    originalPath: Assets\Scripts\GameMechanisms\HandManager.cs.meta
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Assets\Scripts\GameMechanisms\Cards\ICard.cs
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\Cards\ICard.cs
+    projectPath: Assets\Scripts\GameMechanisms\Cards\ICard.cs
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Scripts\GameMechanisms\Cards\ICard.cs.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\Cards\ICard.cs.meta
+    projectPath: Assets\Scripts\GameMechanisms\Cards\ICard.cs.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
   - path: Assets\Scripts\GameMechanisms\GameManager.cs
     fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\GameManager.cs
     projectPath: Assets\Scripts\GameMechanisms\GameManager.cs
-    originalPath: Assets\Scripts\Managers\GameManager.cs
-    indexStatus: 6
-    workTreeStatus: 0
-  - path: Assets\Scripts\GameMechanisms\GameManager.cs.meta
-    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\GameManager.cs.meta
-    projectPath: Assets\Scripts\GameMechanisms\GameManager.cs.meta
-    originalPath: Assets\Scripts\Managers\GameManager.cs.meta
-    indexStatus: 6
-    workTreeStatus: 0
-  - path: Assets\Scripts\GameMechanisms\GameplayManager.cs
-    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\GameplayManager.cs
-    projectPath: Assets\Scripts\GameMechanisms\GameplayManager.cs
-    originalPath: Assets\Scripts\Managers\GameplayManager.cs
-    indexStatus: 6
-    workTreeStatus: 0
-  - path: Assets\Scripts\GameMechanisms\GameplayManager.cs.meta
-    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\GameplayManager.cs.meta
-    projectPath: Assets\Scripts\GameMechanisms\GameplayManager.cs.meta
-    originalPath: Assets\Scripts\Managers\GameplayManager.cs.meta
-    indexStatus: 6
-    workTreeStatus: 0
-  - path: Assets\Scripts\Managers.meta
-    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\Managers.meta
-    projectPath: Assets\Scripts\Managers.meta
     originalPath: 
-    indexStatus: 5
-    workTreeStatus: 0
-  - path: Assets\Scripts\Managers\GUIStyleManager.cs
-    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\Managers\GUIStyleManager.cs
-    projectPath: Assets\Scripts\Managers\GUIStyleManager.cs
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\GameMechanisms\HandManager.cs -> Assets\Scripts\GameMechanisms\Cards\HandManager.cs
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\HandManager.cs
+      -> Assets\Scripts\GameMechanisms\Cards\HandManager.cs
+    projectPath: Assets\Scripts\GameMechanisms\HandManager.cs -> Assets\Scripts\GameMechanisms\Cards\HandManager.cs
     originalPath: 
-    indexStatus: 5
-    workTreeStatus: 0
-  - path: Assets\Scripts\Managers\GUIStyleManager.cs.meta
-    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\Managers\GUIStyleManager.cs.meta
-    projectPath: Assets\Scripts\Managers\GUIStyleManager.cs.meta
-    originalPath: 
-    indexStatus: 5
-    workTreeStatus: 0
-  - path: Assets\Scripts\Networking\Package.meta
-    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\Networking\Package.meta
-    projectPath: Assets\Scripts\Networking\Package.meta
+    indexStatus: 6
+    workTreeStatus: 3
+  - path: Assets\Scripts\UI.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\UI.meta
+    projectPath: Assets\Scripts\UI.meta
     originalPath: 
     indexStatus: 4
     workTreeStatus: 0
-  - path: Assets\Scripts\Networking\Package\Package.cs
-    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\Networking\Package\Package.cs
-    projectPath: Assets\Scripts\Networking\Package\Package.cs
+  - path: Assets\Scripts\UI\TabButton.cs
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\UI\TabButton.cs
+    projectPath: Assets\Scripts\UI\TabButton.cs
     originalPath: 
     indexStatus: 4
     workTreeStatus: 3
-  - path: Assets\Scripts\Networking\Package\Package.cs.meta
-    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\Networking\Package\Package.cs.meta
-    projectPath: Assets\Scripts\Networking\Package\Package.cs.meta
+  - path: Assets\Scripts\UI\TabButton.cs.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\UI\TabButton.cs.meta
+    projectPath: Assets\Scripts\UI\TabButton.cs.meta
     originalPath: 
     indexStatus: 4
     workTreeStatus: 0
-  - path: Assets\Scripts\Networking\Package\PackageType.cs
-    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\Networking\Package\PackageType.cs
-    projectPath: Assets\Scripts\Networking\Package\PackageType.cs
+  - path: Assets\Scripts\UI\TabGroup.cs
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\UI\TabGroup.cs
+    projectPath: Assets\Scripts\UI\TabGroup.cs
     originalPath: 
     indexStatus: 4
     workTreeStatus: 3
-  - path: Assets\Scripts\Networking\Package\PackageType.cs.meta
-    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\Networking\Package\PackageType.cs.meta
-    projectPath: Assets\Scripts\Networking\Package\PackageType.cs.meta
-    originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
-  - path: Assets\Scripts\Networking\RpcManager.cs
-    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\Networking\RpcManager.cs
-    projectPath: Assets\Scripts\Networking\RpcManager.cs
-    originalPath: 
-    indexStatus: 4
-    workTreeStatus: 3
-  - path: Assets\Scripts\Networking\RpcManager.cs.meta
-    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\Networking\RpcManager.cs.meta
-    projectPath: Assets\Scripts\Networking\RpcManager.cs.meta
+  - path: Assets\Scripts\UI\TabGroup.cs.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\UI\TabGroup.cs.meta
+    projectPath: Assets\Scripts\UI\TabGroup.cs.meta
     originalPath: 
     indexStatus: 4
     workTreeStatus: 0
@@ -140,107 +459,167 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Assets\StreamingAssets.meta
     projectPath: Assets\StreamingAssets.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\StreamingAssets\HiddenARCore.meta
-    fullPath: D:\Repositories\ARcardGame\Assets\StreamingAssets\HiddenARCore.meta
-    projectPath: Assets\StreamingAssets\HiddenARCore.meta
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Texutes\armour.png
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\armour.png
+    projectPath: Assets\UI\Texutes\armour.png
     originalPath: 
     indexStatus: 4
-    workTreeStatus: 5
-  - path: Assets\StreamingAssets\HiddenARCore\29098cfe-ba6b-4237-8001-45454f5822e3.imgdb
-    fullPath: D:\Repositories\ARcardGame\Assets\StreamingAssets\HiddenARCore\29098cfe-ba6b-4237-8001-45454f5822e3.imgdb
-    projectPath: Assets\StreamingAssets\HiddenARCore\29098cfe-ba6b-4237-8001-45454f5822e3.imgdb
+    workTreeStatus: 0
+  - path: Assets\UI\Texutes\armour.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\armour.png.meta
+    projectPath: Assets\UI\Texutes\armour.png.meta
     originalPath: 
     indexStatus: 4
-    workTreeStatus: 5
-  - path: Assets\StreamingAssets\HiddenARCore\29098cfe-ba6b-4237-8001-45454f5822e3.imgdb.meta
-    fullPath: D:\Repositories\ARcardGame\Assets\StreamingAssets\HiddenARCore\29098cfe-ba6b-4237-8001-45454f5822e3.imgdb.meta
-    projectPath: Assets\StreamingAssets\HiddenARCore\29098cfe-ba6b-4237-8001-45454f5822e3.imgdb.meta
+    workTreeStatus: 0
+  - path: Assets\UI\Texutes\armour_selected.png
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\armour_selected.png
+    projectPath: Assets\UI\Texutes\armour_selected.png
     originalPath: 
     indexStatus: 4
-    workTreeStatus: 5
-  - path: Assets\StreamingAssets\HiddenARCore\29098cfe-ba6b-4237-8001-45454f5822e3.imgdb-imglist.txt
-    fullPath: D:\Repositories\ARcardGame\Assets\StreamingAssets\HiddenARCore\29098cfe-ba6b-4237-8001-45454f5822e3.imgdb-imglist.txt
-    projectPath: Assets\StreamingAssets\HiddenARCore\29098cfe-ba6b-4237-8001-45454f5822e3.imgdb-imglist.txt
+    workTreeStatus: 0
+  - path: Assets\UI\Texutes\armour_selected.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\armour_selected.png.meta
+    projectPath: Assets\UI\Texutes\armour_selected.png.meta
     originalPath: 
     indexStatus: 4
-    workTreeStatus: 5
-  - path: Assets\StreamingAssets\HiddenARCore\29098cfe-ba6b-4237-8001-45454f5822e3.imgdb-imglist.txt.meta
-    fullPath: D:\Repositories\ARcardGame\Assets\StreamingAssets\HiddenARCore\29098cfe-ba6b-4237-8001-45454f5822e3.imgdb-imglist.txt.meta
-    projectPath: Assets\StreamingAssets\HiddenARCore\29098cfe-ba6b-4237-8001-45454f5822e3.imgdb-imglist.txt.meta
+    workTreeStatus: 0
+  - path: Assets\UI\Texutes\potion.png
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\potion.png
+    projectPath: Assets\UI\Texutes\potion.png
     originalPath: 
     indexStatus: 4
-    workTreeStatus: 5
-  - path: Assets\UI\Prefabs\Item.prefab
-    fullPath: D:\Repositories\ARcardGame\Assets\UI\Prefabs\Item.prefab
-    projectPath: Assets\UI\Prefabs\Item.prefab
+    workTreeStatus: 0
+  - path: Assets\UI\Texutes\potion.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\potion.png.meta
+    projectPath: Assets\UI\Texutes\potion.png.meta
     originalPath: 
-    indexStatus: 0
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Texutes\potion_selected.png
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\potion_selected.png
+    projectPath: Assets\UI\Texutes\potion_selected.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Texutes\potion_selected.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\potion_selected.png.meta
+    projectPath: Assets\UI\Texutes\potion_selected.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Texutes\weapon.png
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\weapon.png
+    projectPath: Assets\UI\Texutes\weapon.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Texutes\weapon.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\weapon.png.meta
+    projectPath: Assets\UI\Texutes\weapon.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Texutes\weapon_selected.png
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\weapon_selected.png
+    projectPath: Assets\UI\Texutes\weapon_selected.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Texutes\weapon_selected.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\weapon_selected.png.meta
+    projectPath: Assets\UI\Texutes\weapon_selected.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Xmls.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Xmls.meta
+    projectPath: Assets\Xmls.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Xmls\Cards.xml
+    fullPath: D:\Repositories\ARcardGame\Assets\Xmls\Cards.xml
+    projectPath: Assets\Xmls\Cards.xml
+    originalPath: 
+    indexStatus: 4
     workTreeStatus: 3
+  - path: Assets\Xmls\Cards.xml.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\Xmls\Cards.xml.meta
+    projectPath: Assets\Xmls\Cards.xml.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
   - path: Builds\CardARGame v.0.0.4.apk
     fullPath: D:\Repositories\ARcardGame\Builds\CardARGame v.0.0.4.apk
     projectPath: Builds\CardARGame v.0.0.4.apk
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: images\cardtemplatesize.png
+    fullPath: D:\Repositories\ARcardGame\images\cardtemplatesize.png
+    projectPath: images\cardtemplatesize.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
   - path: Library\ArtifactDB
     fullPath: D:\Repositories\ARcardGame\Library\ArtifactDB
     projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Artifacts\04\046972756625083f9e916384ae974eb6
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\04\046972756625083f9e916384ae974eb6
-    projectPath: Library\Artifacts\04\046972756625083f9e916384ae974eb6
+  - path: Library\Artifacts\00\005717ac5b41a0e2619ab1e276188219
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\00\005717ac5b41a0e2619ab1e276188219
+    projectPath: Library\Artifacts\00\005717ac5b41a0e2619ab1e276188219
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\02\029379d6c734fe3bb025fa3c22318ff5
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\02\029379d6c734fe3bb025fa3c22318ff5
+    projectPath: Library\Artifacts\02\029379d6c734fe3bb025fa3c22318ff5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\03\0330dc70c094cd0371f1ddf6f338ae1a
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\03\0330dc70c094cd0371f1ddf6f338ae1a
+    projectPath: Library\Artifacts\03\0330dc70c094cd0371f1ddf6f338ae1a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\03\038f198c71d568ae5c50289a5061eced
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\03\038f198c71d568ae5c50289a5061eced
+    projectPath: Library\Artifacts\03\038f198c71d568ae5c50289a5061eced
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\04\04df80e299a309bdc829e3bad39536d5
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\04\04df80e299a309bdc829e3bad39536d5
     projectPath: Library\Artifacts\04\04df80e299a309bdc829e3bad39536d5
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\08\08b1d42832c63853a088aa5c76cc1ce5
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\08\08b1d42832c63853a088aa5c76cc1ce5
     projectPath: Library\Artifacts\08\08b1d42832c63853a088aa5c76cc1ce5
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\0b\0b2d3818dc5e79d650617ea6e7d06762
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\0b\0b2d3818dc5e79d650617ea6e7d06762
+    projectPath: Library\Artifacts\0b\0b2d3818dc5e79d650617ea6e7d06762
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\0a\0ad2b7073e3e8f13826a9fede54a7dec
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\0a\0ad2b7073e3e8f13826a9fede54a7dec
-    projectPath: Library\Artifacts\0a\0ad2b7073e3e8f13826a9fede54a7dec
+  - path: Library\Artifacts\0c\0c890363da7a7832a8d20ac8d58a898e
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\0c\0c890363da7a7832a8d20ac8d58a898e
+    projectPath: Library\Artifacts\0c\0c890363da7a7832a8d20ac8d58a898e
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\0d\0d0285e401209be18298fdf001464d42
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\0d\0d0285e401209be18298fdf001464d42
-    projectPath: Library\Artifacts\0d\0d0285e401209be18298fdf001464d42
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\0e\0e32fcb6ae9abd6c0166e11bad5e1401
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\0e\0e32fcb6ae9abd6c0166e11bad5e1401
-    projectPath: Library\Artifacts\0e\0e32fcb6ae9abd6c0166e11bad5e1401
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\0f\0f0559296e560ea198f1d8e851f58af0
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\0f\0f0559296e560ea198f1d8e851f58af0
     projectPath: Library\Artifacts\0f\0f0559296e560ea198f1d8e851f58af0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\11\11374321c58b90a022b4f9c3740e9b6f
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\11\11374321c58b90a022b4f9c3740e9b6f
-    projectPath: Library\Artifacts\11\11374321c58b90a022b4f9c3740e9b6f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\11\117e65483695fb29519457ba82e2a30b
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\11\117e65483695fb29519457ba82e2a30b
-    projectPath: Library\Artifacts\11\117e65483695fb29519457ba82e2a30b
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -248,23 +627,35 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\11\11a1cd3be79a3d67eafef0772d1c2f51
     projectPath: Library\Artifacts\11\11a1cd3be79a3d67eafef0772d1c2f51
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\11\11a86c2c5d8c3b7dd1e13ca2c92b5c30
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\11\11a86c2c5d8c3b7dd1e13ca2c92b5c30
     projectPath: Library\Artifacts\11\11a86c2c5d8c3b7dd1e13ca2c92b5c30
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\11\11aa9c1ebdc2355ac9639bb1e1029f1a
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\11\11aa9c1ebdc2355ac9639bb1e1029f1a
-    projectPath: Library\Artifacts\11\11aa9c1ebdc2355ac9639bb1e1029f1a
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\13\132170c2e54054ab6b2b6dfe3594b06f
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\13\132170c2e54054ab6b2b6dfe3594b06f
+    projectPath: Library\Artifacts\13\132170c2e54054ab6b2b6dfe3594b06f
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\15\158abfdd8003f391198b1f7372a851b4
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\15\158abfdd8003f391198b1f7372a851b4
+    projectPath: Library\Artifacts\15\158abfdd8003f391198b1f7372a851b4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\15\15e770ae5bd67ec398ee2d7218d9de29
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\15\15e770ae5bd67ec398ee2d7218d9de29
     projectPath: Library\Artifacts\15\15e770ae5bd67ec398ee2d7218d9de29
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\17\173d85e0696f04700cd69868873fc020
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\17\173d85e0696f04700cd69868873fc020
+    projectPath: Library\Artifacts\17\173d85e0696f04700cd69868873fc020
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -272,41 +663,29 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\18\18ccf5e2adc056473c881966f36f8974
     projectPath: Library\Artifacts\18\18ccf5e2adc056473c881966f36f8974
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\1c\1c8701b29326ca1f381b9df7488dfdce
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\1c\1c8701b29326ca1f381b9df7488dfdce
+    projectPath: Library\Artifacts\1c\1c8701b29326ca1f381b9df7488dfdce
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\19\197471911c217fa6a145d21b7a1e3fd3
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\19\197471911c217fa6a145d21b7a1e3fd3
-    projectPath: Library\Artifacts\19\197471911c217fa6a145d21b7a1e3fd3
+  - path: Library\Artifacts\1d\1d42f4d095c1cf454dacf2b84271d161
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\1d\1d42f4d095c1cf454dacf2b84271d161
+    projectPath: Library\Artifacts\1d\1d42f4d095c1cf454dacf2b84271d161
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\1a\1af89d01bc30515da3d89d9ce5825d11
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\1a\1af89d01bc30515da3d89d9ce5825d11
-    projectPath: Library\Artifacts\1a\1af89d01bc30515da3d89d9ce5825d11
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\1b\1b76498d06a3cf6844f42fdce267c66c
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\1b\1b76498d06a3cf6844f42fdce267c66c
-    projectPath: Library\Artifacts\1b\1b76498d06a3cf6844f42fdce267c66c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\1c\1ccbd2eee25ba04e57b7a61e7c612968
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\1c\1ccbd2eee25ba04e57b7a61e7c612968
-    projectPath: Library\Artifacts\1c\1ccbd2eee25ba04e57b7a61e7c612968
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\1c\1cd0d7920e67e23902701a33ebcd6ba0
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\1c\1cd0d7920e67e23902701a33ebcd6ba0
-    projectPath: Library\Artifacts\1c\1cd0d7920e67e23902701a33ebcd6ba0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\1d\1d9ba2642390c23bcd338f364ac38768
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\1d\1d9ba2642390c23bcd338f364ac38768
     projectPath: Library\Artifacts\1d\1d9ba2642390c23bcd338f364ac38768
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\1d\1d9c171122c630b03a6275099bfeb74c
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\1d\1d9c171122c630b03a6275099bfeb74c
+    projectPath: Library\Artifacts\1d\1d9c171122c630b03a6275099bfeb74c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -314,17 +693,11 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\1e\1ee9e22b0c770a59a6e35315f9f1fa60
     projectPath: Library\Artifacts\1e\1ee9e22b0c770a59a6e35315f9f1fa60
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\1f\1f807cfa7058e91414b50a53fa50b832
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\1f\1f807cfa7058e91414b50a53fa50b832
     projectPath: Library\Artifacts\1f\1f807cfa7058e91414b50a53fa50b832
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\20\20a9cbcf748cd1cd3e793c05d97090ed
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\20\20a9cbcf748cd1cd3e793c05d97090ed
-    projectPath: Library\Artifacts\20\20a9cbcf748cd1cd3e793c05d97090ed
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -332,83 +705,125 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\20\20b477fb0dae05d9a20db97776afe6de
     projectPath: Library\Artifacts\20\20b477fb0dae05d9a20db97776afe6de
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\21\21b9aefa45737fe4f496359bb9bc84ad
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\21\21b9aefa45737fe4f496359bb9bc84ad
+    projectPath: Library\Artifacts\21\21b9aefa45737fe4f496359bb9bc84ad
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\21\21e626b49470887cd34bdec1b84a9d7e
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\21\21e626b49470887cd34bdec1b84a9d7e
-    projectPath: Library\Artifacts\21\21e626b49470887cd34bdec1b84a9d7e
+  - path: Library\Artifacts\23\233fbe0e02c6deff965ff5d4c7afd816
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\23\233fbe0e02c6deff965ff5d4c7afd816
+    projectPath: Library\Artifacts\23\233fbe0e02c6deff965ff5d4c7afd816
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\25\25e2068ad9d2138afe1ae81651b22073
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\25\25e2068ad9d2138afe1ae81651b22073
-    projectPath: Library\Artifacts\25\25e2068ad9d2138afe1ae81651b22073
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\28\28557378b273b18d7c8ce79b2a04d789
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\28\28557378b273b18d7c8ce79b2a04d789
+    projectPath: Library\Artifacts\28\28557378b273b18d7c8ce79b2a04d789
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\27\27b2bd7d5c30f55420317415d9f46e3c
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\27\27b2bd7d5c30f55420317415d9f46e3c
-    projectPath: Library\Artifacts\27\27b2bd7d5c30f55420317415d9f46e3c
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\28\28e8d75f476ee17ec35a0135d48281d7
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\28\28e8d75f476ee17ec35a0135d48281d7
+    projectPath: Library\Artifacts\28\28e8d75f476ee17ec35a0135d48281d7
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\28\284219b1327672e4f2e2485b8fc7c02e
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\28\284219b1327672e4f2e2485b8fc7c02e
-    projectPath: Library\Artifacts\28\284219b1327672e4f2e2485b8fc7c02e
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\29\29534a602ac3f271d46edc0fa06c7163
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\29\29534a602ac3f271d46edc0fa06c7163
+    projectPath: Library\Artifacts\29\29534a602ac3f271d46edc0fa06c7163
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\29\29f4d459121c31c3250f120e03dea157
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\29\29f4d459121c31c3250f120e03dea157
+    projectPath: Library\Artifacts\29\29f4d459121c31c3250f120e03dea157
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\2a\2a0562e19bbf08d213bb88164b617258
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\2a\2a0562e19bbf08d213bb88164b617258
     projectPath: Library\Artifacts\2a\2a0562e19bbf08d213bb88164b617258
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\2a\2ab6ef7a3f3c188d7ac49d902a094928
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\2a\2ab6ef7a3f3c188d7ac49d902a094928
-    projectPath: Library\Artifacts\2a\2ab6ef7a3f3c188d7ac49d902a094928
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\2a\2ae8c0b1b93c17a3baf8b5808a80ae12
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\2a\2ae8c0b1b93c17a3baf8b5808a80ae12
+    projectPath: Library\Artifacts\2a\2ae8c0b1b93c17a3baf8b5808a80ae12
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\2b\2b88429bce61654bd5bf6fe52dc12c7c
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\2b\2b88429bce61654bd5bf6fe52dc12c7c
+    projectPath: Library\Artifacts\2b\2b88429bce61654bd5bf6fe52dc12c7c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\2b\2bf22023511fecbde3a695eb9fdae1a1
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\2b\2bf22023511fecbde3a695eb9fdae1a1
+    projectPath: Library\Artifacts\2b\2bf22023511fecbde3a695eb9fdae1a1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\2b\2bf55c14814a251537589a3a58db5472
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\2b\2bf55c14814a251537589a3a58db5472
+    projectPath: Library\Artifacts\2b\2bf55c14814a251537589a3a58db5472
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\2c\2c4ec99b3215ad8799102bdc17cfbe59
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\2c\2c4ec99b3215ad8799102bdc17cfbe59
     projectPath: Library\Artifacts\2c\2c4ec99b3215ad8799102bdc17cfbe59
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\2d\2d184537f916687fc1d76418cce71ace
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\2d\2d184537f916687fc1d76418cce71ace
+    projectPath: Library\Artifacts\2d\2d184537f916687fc1d76418cce71ace
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\2e\2e4be8f403db8440e49c98e4502cc763
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\2e\2e4be8f403db8440e49c98e4502cc763
     projectPath: Library\Artifacts\2e\2e4be8f403db8440e49c98e4502cc763
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\2f\2f12b81fc4a4818c1734312ec6fdb308
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\2f\2f12b81fc4a4818c1734312ec6fdb308
-    projectPath: Library\Artifacts\2f\2f12b81fc4a4818c1734312ec6fdb308
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\2e\2eebec443f47d9b1c57cc651aaf849e7
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\2e\2eebec443f47d9b1c57cc651aaf849e7
+    projectPath: Library\Artifacts\2e\2eebec443f47d9b1c57cc651aaf849e7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\2f\2f77072546208bcb26265356fea41fb9
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\2f\2f77072546208bcb26265356fea41fb9
     projectPath: Library\Artifacts\2f\2f77072546208bcb26265356fea41fb9
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\2f\2fe9026938453e1661a4d70396ffa28b
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\2f\2fe9026938453e1661a4d70396ffa28b
-    projectPath: Library\Artifacts\2f\2fe9026938453e1661a4d70396ffa28b
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\30\3021d43808f52574186ded49c6e809ff
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\30\3021d43808f52574186ded49c6e809ff
+    projectPath: Library\Artifacts\30\3021d43808f52574186ded49c6e809ff
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\31\315d51fb44faac01f9524a993d676fd3
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\31\315d51fb44faac01f9524a993d676fd3
     projectPath: Library\Artifacts\31\315d51fb44faac01f9524a993d676fd3
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\31\31d9897ed9417c118f6f004984cf3e0b
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\31\31d9897ed9417c118f6f004984cf3e0b
     projectPath: Library\Artifacts\31\31d9897ed9417c118f6f004984cf3e0b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\33\333c6149d4478ecf8802f6c9cfd42c89
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\33\333c6149d4478ecf8802f6c9cfd42c89
+    projectPath: Library\Artifacts\33\333c6149d4478ecf8802f6c9cfd42c89
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -416,83 +831,83 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\33\335f53f216eb503992c099f681587267
     projectPath: Library\Artifacts\33\335f53f216eb503992c099f681587267
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\33\33d9c75b2da754951b375d48d55a73ec
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\33\33d9c75b2da754951b375d48d55a73ec
     projectPath: Library\Artifacts\33\33d9c75b2da754951b375d48d55a73ec
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\34\341d83522c27c4218debe21717592171
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\34\341d83522c27c4218debe21717592171
     projectPath: Library\Artifacts\34\341d83522c27c4218debe21717592171
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\35\35e592c6274761eac27483ae75e1183b
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\35\35e592c6274761eac27483ae75e1183b
     projectPath: Library\Artifacts\35\35e592c6274761eac27483ae75e1183b
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\36\36f7f26b131933f47b26f1c6c1eb337c
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\36\36f7f26b131933f47b26f1c6c1eb337c
+    projectPath: Library\Artifacts\36\36f7f26b131933f47b26f1c6c1eb337c
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\36\36cbbf85f00082045fda4be6402b836d
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\36\36cbbf85f00082045fda4be6402b836d
-    projectPath: Library\Artifacts\36\36cbbf85f00082045fda4be6402b836d
+  - path: Library\Artifacts\37\3786dc0ab257da12e98e30e024603c0d
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\37\3786dc0ab257da12e98e30e024603c0d
+    projectPath: Library\Artifacts\37\3786dc0ab257da12e98e30e024603c0d
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\38\38093e9954c09708f12d02ddf1f60e9b
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\38\38093e9954c09708f12d02ddf1f60e9b
-    projectPath: Library\Artifacts\38\38093e9954c09708f12d02ddf1f60e9b
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\37\37a0ffebf47b4ed654b7cb94d5dfc848
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\37\37a0ffebf47b4ed654b7cb94d5dfc848
+    projectPath: Library\Artifacts\37\37a0ffebf47b4ed654b7cb94d5dfc848
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\39\398d98729a52a9f94438199dc9b91c22
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\39\398d98729a52a9f94438199dc9b91c22
-    projectPath: Library\Artifacts\39\398d98729a52a9f94438199dc9b91c22
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\3a\3aaa0c57e40f0f668df322cdaa0522c5
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\3a\3aaa0c57e40f0f668df322cdaa0522c5
     projectPath: Library\Artifacts\3a\3aaa0c57e40f0f668df322cdaa0522c5
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\3a\3ac874317040766fdd264bc0255fc6bb
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\3a\3ac874317040766fdd264bc0255fc6bb
-    projectPath: Library\Artifacts\3a\3ac874317040766fdd264bc0255fc6bb
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\3c\3c2bbd5877861c7e35bc62e0012537cb
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\3c\3c2bbd5877861c7e35bc62e0012537cb
+    projectPath: Library\Artifacts\3c\3c2bbd5877861c7e35bc62e0012537cb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\3f\3f349227bb44b01d82e798861e3c7f3e
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\3f\3f349227bb44b01d82e798861e3c7f3e
     projectPath: Library\Artifacts\3f\3f349227bb44b01d82e798861e3c7f3e
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\40\409b14d874cc35454591df647e7972f4
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\40\409b14d874cc35454591df647e7972f4
     projectPath: Library\Artifacts\40\409b14d874cc35454591df647e7972f4
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\42\4245d987ea272e8feb5142e16dba32e3
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\42\4245d987ea272e8feb5142e16dba32e3
+    projectPath: Library\Artifacts\42\4245d987ea272e8feb5142e16dba32e3
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\42\42dc9b545711357277d5d4b12ad0d78b
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\42\42dc9b545711357277d5d4b12ad0d78b
-    projectPath: Library\Artifacts\42\42dc9b545711357277d5d4b12ad0d78b
+  - path: Library\Artifacts\43\4378897dd934ae061b26e521a3d88992
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\43\4378897dd934ae061b26e521a3d88992
+    projectPath: Library\Artifacts\43\4378897dd934ae061b26e521a3d88992
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\45\450ca326f28eae895a45f305fdee6e24
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\45\450ca326f28eae895a45f305fdee6e24
-    projectPath: Library\Artifacts\45\450ca326f28eae895a45f305fdee6e24
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\47\47038969c80d5d737c23a4a7361be512
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\47\47038969c80d5d737c23a4a7361be512
-    projectPath: Library\Artifacts\47\47038969c80d5d737c23a4a7361be512
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\44\44ff478f8bca63d5b0e385249ac07a5a
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\44\44ff478f8bca63d5b0e385249ac07a5a
+    projectPath: Library\Artifacts\44\44ff478f8bca63d5b0e385249ac07a5a
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -500,53 +915,59 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\47\471c046e93e69d7e83f4d92b668a9a3b
     projectPath: Library\Artifacts\47\471c046e93e69d7e83f4d92b668a9a3b
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\4b\4b82560a9d29d29ce17a6f9235abc77e
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\4b\4b82560a9d29d29ce17a6f9235abc77e
+    projectPath: Library\Artifacts\4b\4b82560a9d29d29ce17a6f9235abc77e
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\4d\4d2efe4dd92cb42e71d796b39bdf4174
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\4d\4d2efe4dd92cb42e71d796b39bdf4174
+    projectPath: Library\Artifacts\4d\4d2efe4dd92cb42e71d796b39bdf4174
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\4e\4e566b48fa4c2820096226bea2a136e5
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\4e\4e566b48fa4c2820096226bea2a136e5
+    projectPath: Library\Artifacts\4e\4e566b48fa4c2820096226bea2a136e5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\51\51aa19b58b9fdb7a48e6a4883cc6db97
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\51\51aa19b58b9fdb7a48e6a4883cc6db97
     projectPath: Library\Artifacts\51\51aa19b58b9fdb7a48e6a4883cc6db97
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\53\5303a2b200d3b2cd0108eabfba120a8f
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\53\5303a2b200d3b2cd0108eabfba120a8f
     projectPath: Library\Artifacts\53\5303a2b200d3b2cd0108eabfba120a8f
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\53\5387e7e6dfc4036b25a4567a2aaa292b
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\53\5387e7e6dfc4036b25a4567a2aaa292b
     projectPath: Library\Artifacts\53\5387e7e6dfc4036b25a4567a2aaa292b
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\53\539f12fe5008a1f3bab7e115aa4df3eb
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\53\539f12fe5008a1f3bab7e115aa4df3eb
+    projectPath: Library\Artifacts\53\539f12fe5008a1f3bab7e115aa4df3eb
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\54\546959a261751ba815b791ecf291b243
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\54\546959a261751ba815b791ecf291b243
-    projectPath: Library\Artifacts\54\546959a261751ba815b791ecf291b243
+  - path: Library\Artifacts\54\549177fad650b41ae7502c2a77ab5222
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\54\549177fad650b41ae7502c2a77ab5222
+    projectPath: Library\Artifacts\54\549177fad650b41ae7502c2a77ab5222
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\55\555695c2f8043474d68510255b768bf9
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\55\555695c2f8043474d68510255b768bf9
-    projectPath: Library\Artifacts\55\555695c2f8043474d68510255b768bf9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\56\56f911877f9b19fde378303548dcf108
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\56\56f911877f9b19fde378303548dcf108
-    projectPath: Library\Artifacts\56\56f911877f9b19fde378303548dcf108
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\59\594e3907edd7de5afe929b46f9a02a2a
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\59\594e3907edd7de5afe929b46f9a02a2a
-    projectPath: Library\Artifacts\59\594e3907edd7de5afe929b46f9a02a2a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\59\59ba66ed1db66da17672c7d608264e78
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\59\59ba66ed1db66da17672c7d608264e78
-    projectPath: Library\Artifacts\59\59ba66ed1db66da17672c7d608264e78
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\59\5963805ea5c42f3c0eb3095b00c6e7a1
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\59\5963805ea5c42f3c0eb3095b00c6e7a1
+    projectPath: Library\Artifacts\59\5963805ea5c42f3c0eb3095b00c6e7a1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -554,11 +975,17 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\5a\5a25332c550bb2f3253ec3a5980bf5bd
     projectPath: Library\Artifacts\5a\5a25332c550bb2f3253ec3a5980bf5bd
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\5a\5a7e1f323faa860b5231303f12acbdcd
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\5a\5a7e1f323faa860b5231303f12acbdcd
     projectPath: Library\Artifacts\5a\5a7e1f323faa860b5231303f12acbdcd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\5a\5a9bb4ad116d97a9b87d2fbf69987b42
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\5a\5a9bb4ad116d97a9b87d2fbf69987b42
+    projectPath: Library\Artifacts\5a\5a9bb4ad116d97a9b87d2fbf69987b42
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -566,71 +993,77 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\5b\5b5641842d7ee35b6a53086659ad8fbd
     projectPath: Library\Artifacts\5b\5b5641842d7ee35b6a53086659ad8fbd
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\5b\5be297b13cd5c5ef9ac8056c7b309ac1
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\5b\5be297b13cd5c5ef9ac8056c7b309ac1
     projectPath: Library\Artifacts\5b\5be297b13cd5c5ef9ac8056c7b309ac1
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\5d\5d6c4a700661b39ac2c4bc490b8d8ec0
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\5d\5d6c4a700661b39ac2c4bc490b8d8ec0
     projectPath: Library\Artifacts\5d\5d6c4a700661b39ac2c4bc490b8d8ec0
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\5f\5ffb812dd9af704e47fd805dcacd751d
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\5f\5ffb812dd9af704e47fd805dcacd751d
+    projectPath: Library\Artifacts\5f\5ffb812dd9af704e47fd805dcacd751d
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\5f\5f33557994e01ddf52135f57a38ae4ef
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\5f\5f33557994e01ddf52135f57a38ae4ef
-    projectPath: Library\Artifacts\5f\5f33557994e01ddf52135f57a38ae4ef
+  - path: Library\Artifacts\61\61bebdc28c38517c1a458546b7f84f75
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\61\61bebdc28c38517c1a458546b7f84f75
+    projectPath: Library\Artifacts\61\61bebdc28c38517c1a458546b7f84f75
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\63\630106468b70ca57d26296f57a8e4bcd
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\63\630106468b70ca57d26296f57a8e4bcd
-    projectPath: Library\Artifacts\63\630106468b70ca57d26296f57a8e4bcd
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\63\6396106015b9ee6034f8b8bde18b567e
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\63\6396106015b9ee6034f8b8bde18b567e
+    projectPath: Library\Artifacts\63\6396106015b9ee6034f8b8bde18b567e
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\63\63a113911d1ef690990a5a8e2a44edb1
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\63\63a113911d1ef690990a5a8e2a44edb1
-    projectPath: Library\Artifacts\63\63a113911d1ef690990a5a8e2a44edb1
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\68\68118aa861c122684ef93e6970dbd6bf
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\68\68118aa861c122684ef93e6970dbd6bf
+    projectPath: Library\Artifacts\68\68118aa861c122684ef93e6970dbd6bf
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\68\68ff34dae5c1ad7ed513d32275180226
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\68\68ff34dae5c1ad7ed513d32275180226
-    projectPath: Library\Artifacts\68\68ff34dae5c1ad7ed513d32275180226
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\68\68e190884d189ad1370d440024891260
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\68\68e190884d189ad1370d440024891260
+    projectPath: Library\Artifacts\68\68e190884d189ad1370d440024891260
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\69\69a031b956498be20b6e166d89d59c8d
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\69\69a031b956498be20b6e166d89d59c8d
-    projectPath: Library\Artifacts\69\69a031b956498be20b6e166d89d59c8d
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\69\69f4dba7a05233bdf8830e534bfedcef
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\69\69f4dba7a05233bdf8830e534bfedcef
+    projectPath: Library\Artifacts\69\69f4dba7a05233bdf8830e534bfedcef
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\6a\6a0b97bd02b2151096e84a822ef7fbc7
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\6a\6a0b97bd02b2151096e84a822ef7fbc7
-    projectPath: Library\Artifacts\6a\6a0b97bd02b2151096e84a822ef7fbc7
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\6a\6acd32018636433c807255fc9ec77e26
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\6a\6acd32018636433c807255fc9ec77e26
+    projectPath: Library\Artifacts\6a\6acd32018636433c807255fc9ec77e26
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\6a\6ae04aecf4a4c21eb2bbc1f5c43c2764
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\6a\6ae04aecf4a4c21eb2bbc1f5c43c2764
+    projectPath: Library\Artifacts\6a\6ae04aecf4a4c21eb2bbc1f5c43c2764
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\6c\6c8b15701c3b01335c6c08da923bf881
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\6c\6c8b15701c3b01335c6c08da923bf881
     projectPath: Library\Artifacts\6c\6c8b15701c3b01335c6c08da923bf881
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\6d\6d2acf4d947b53f627c18b0f6ca966fb
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\6d\6d2acf4d947b53f627c18b0f6ca966fb
     projectPath: Library\Artifacts\6d\6d2acf4d947b53f627c18b0f6ca966fb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\6d\6de86ef004ac761bd3d94a86233c21fa
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\6d\6de86ef004ac761bd3d94a86233c21fa
-    projectPath: Library\Artifacts\6d\6de86ef004ac761bd3d94a86233c21fa
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -638,23 +1071,23 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\6e\6e98fb889b29e6f21747e55f416e7269
     projectPath: Library\Artifacts\6e\6e98fb889b29e6f21747e55f416e7269
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\6f\6f64c9faaad7cf8b7e80afed570880ee
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\6f\6f64c9faaad7cf8b7e80afed570880ee
+    projectPath: Library\Artifacts\6f\6f64c9faaad7cf8b7e80afed570880ee
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\70\705663abe70df5e8f0ba398551f6a387
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\70\705663abe70df5e8f0ba398551f6a387
     projectPath: Library\Artifacts\70\705663abe70df5e8f0ba398551f6a387
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\70\708f3f3b30c7c0dcedca1a520b3ba909
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\70\708f3f3b30c7c0dcedca1a520b3ba909
-    projectPath: Library\Artifacts\70\708f3f3b30c7c0dcedca1a520b3ba909
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\70\70c404fd824a18da798db7a0686d58dc
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\70\70c404fd824a18da798db7a0686d58dc
-    projectPath: Library\Artifacts\70\70c404fd824a18da798db7a0686d58dc
+  - path: Library\Artifacts\70\706372ad548a2542beb429a4e9ce32a5
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\70\706372ad548a2542beb429a4e9ce32a5
+    projectPath: Library\Artifacts\70\706372ad548a2542beb429a4e9ce32a5
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -662,35 +1095,71 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\71\71223b9e8dfa8e853b04c2f357e9a5e4
     projectPath: Library\Artifacts\71\71223b9e8dfa8e853b04c2f357e9a5e4
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\71\7144337af5fc28dd4d79713635b3d874
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\71\7144337af5fc28dd4d79713635b3d874
+    projectPath: Library\Artifacts\71\7144337af5fc28dd4d79713635b3d874
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\71\718150631f21146f3cf61807db195495
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\71\718150631f21146f3cf61807db195495
+    projectPath: Library\Artifacts\71\718150631f21146f3cf61807db195495
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\71\71af3cae6bf3a5f6e5bb83f7a090a9a7
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\71\71af3cae6bf3a5f6e5bb83f7a090a9a7
+    projectPath: Library\Artifacts\71\71af3cae6bf3a5f6e5bb83f7a090a9a7
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Library\Artifacts\72\72007b711351919400f11738320e9b6a
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\72\72007b711351919400f11738320e9b6a
     projectPath: Library\Artifacts\72\72007b711351919400f11738320e9b6a
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\76\766cec3dcd6136c894e27f269b7bc74e
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\76\766cec3dcd6136c894e27f269b7bc74e
+    projectPath: Library\Artifacts\76\766cec3dcd6136c894e27f269b7bc74e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\79\79eb4103a9ca927f7b22757c7a20a48c
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\79\79eb4103a9ca927f7b22757c7a20a48c
+    projectPath: Library\Artifacts\79\79eb4103a9ca927f7b22757c7a20a48c
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\73\731b964944770dde333b3243a3cbe728
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\73\731b964944770dde333b3243a3cbe728
-    projectPath: Library\Artifacts\73\731b964944770dde333b3243a3cbe728
+  - path: Library\Artifacts\7a\7a595c9c7f945ac140c60b6604b2ff2f
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\7a\7a595c9c7f945ac140c60b6604b2ff2f
+    projectPath: Library\Artifacts\7a\7a595c9c7f945ac140c60b6604b2ff2f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\7c\7c0ce5a8a98056d11354a132361daafa
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\7c\7c0ce5a8a98056d11354a132361daafa
+    projectPath: Library\Artifacts\7c\7c0ce5a8a98056d11354a132361daafa
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\7b\7b2f0eb429b1c7f3aaf06f1d99f4d07a
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\7b\7b2f0eb429b1c7f3aaf06f1d99f4d07a
-    projectPath: Library\Artifacts\7b\7b2f0eb429b1c7f3aaf06f1d99f4d07a
+  - path: Library\Artifacts\7c\7c17d8b650be62e275bbbcc32837094f
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\7c\7c17d8b650be62e275bbbcc32837094f
+    projectPath: Library\Artifacts\7c\7c17d8b650be62e275bbbcc32837094f
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\7c\7c20721fd60c6db366107d6526d3b7b6
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\7c\7c20721fd60c6db366107d6526d3b7b6
-    projectPath: Library\Artifacts\7c\7c20721fd60c6db366107d6526d3b7b6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\7d\7d706bd91c7fd89cd4c01c8bc941756d
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\7d\7d706bd91c7fd89cd4c01c8bc941756d
     projectPath: Library\Artifacts\7d\7d706bd91c7fd89cd4c01c8bc941756d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\7d\7da75815a3063be5a355f9519e301cf4
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\7d\7da75815a3063be5a355f9519e301cf4
+    projectPath: Library\Artifacts\7d\7da75815a3063be5a355f9519e301cf4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -698,59 +1167,59 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\7e\7e43e8c8ed0956b4d6ea2479628b2371
     projectPath: Library\Artifacts\7e\7e43e8c8ed0956b4d6ea2479628b2371
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\7e\7ede4edc2ce9059596c61ba851d9f843
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\7e\7ede4edc2ce9059596c61ba851d9f843
     projectPath: Library\Artifacts\7e\7ede4edc2ce9059596c61ba851d9f843
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\80\80b08b089ecfe4667e50ad97018ecfd0
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\80\80b08b089ecfe4667e50ad97018ecfd0
-    projectPath: Library\Artifacts\80\80b08b089ecfe4667e50ad97018ecfd0
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\80\80b7fae13adc0463d8b14b54a95e945d
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\80\80b7fae13adc0463d8b14b54a95e945d
+    projectPath: Library\Artifacts\80\80b7fae13adc0463d8b14b54a95e945d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\84\84f3d8ac911a347178e491f2a2ccfae7
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\84\84f3d8ac911a347178e491f2a2ccfae7
+    projectPath: Library\Artifacts\84\84f3d8ac911a347178e491f2a2ccfae7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\85\85f6967492c80e3f254e502f4b657c64
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\85\85f6967492c80e3f254e502f4b657c64
     projectPath: Library\Artifacts\85\85f6967492c80e3f254e502f4b657c64
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\86\866072dfce4708d3ea8d79fa4d63a678
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\86\866072dfce4708d3ea8d79fa4d63a678
-    projectPath: Library\Artifacts\86\866072dfce4708d3ea8d79fa4d63a678
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\86\86b020934fd7eab89099c534712b734b
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\86\86b020934fd7eab89099c534712b734b
+    projectPath: Library\Artifacts\86\86b020934fd7eab89099c534712b734b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\86\86b5a9da3cfbbf1243909a417ed2ec8a
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\86\86b5a9da3cfbbf1243909a417ed2ec8a
     projectPath: Library\Artifacts\86\86b5a9da3cfbbf1243909a417ed2ec8a
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\8a\8a06a623f744dd3610e7b24a46a8a950
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\8a\8a06a623f744dd3610e7b24a46a8a950
-    projectPath: Library\Artifacts\8a\8a06a623f744dd3610e7b24a46a8a950
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\89\89183b1c6bc0f5cc0d8a2d0d5106576d
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\89\89183b1c6bc0f5cc0d8a2d0d5106576d
+    projectPath: Library\Artifacts\89\89183b1c6bc0f5cc0d8a2d0d5106576d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\89\89e5c296f93775bc58f27c786f505048
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\89\89e5c296f93775bc58f27c786f505048
+    projectPath: Library\Artifacts\89\89e5c296f93775bc58f27c786f505048
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\8a\8acc5c222f875df73d587daeb8cda65e
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\8a\8acc5c222f875df73d587daeb8cda65e
     projectPath: Library\Artifacts\8a\8acc5c222f875df73d587daeb8cda65e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\8b\8b35130da924d77b5905c442f55a12ee
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\8b\8b35130da924d77b5905c442f55a12ee
-    projectPath: Library\Artifacts\8b\8b35130da924d77b5905c442f55a12ee
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\8b\8b9d45a34ba28ca3fd00f02188f0e774
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\8b\8b9d45a34ba28ca3fd00f02188f0e774
-    projectPath: Library\Artifacts\8b\8b9d45a34ba28ca3fd00f02188f0e774
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -758,35 +1227,11 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\8b\8bd6c07d14c8cafaf76f9440bdb69b45
     projectPath: Library\Artifacts\8b\8bd6c07d14c8cafaf76f9440bdb69b45
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\8c\8c5a2505e49acda0e15b2e68e1bf35ce
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\8c\8c5a2505e49acda0e15b2e68e1bf35ce
-    projectPath: Library\Artifacts\8c\8c5a2505e49acda0e15b2e68e1bf35ce
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\8c\8cfa3e5a10657014a3fffea3ffbed71c
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\8c\8cfa3e5a10657014a3fffea3ffbed71c
     projectPath: Library\Artifacts\8c\8cfa3e5a10657014a3fffea3ffbed71c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\8e\8ed89e5cf9035d3b824899adf0c53052
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\8e\8ed89e5cf9035d3b824899adf0c53052
-    projectPath: Library\Artifacts\8e\8ed89e5cf9035d3b824899adf0c53052
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\8f\8f471036b64fae556cf112a9527377b0
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\8f\8f471036b64fae556cf112a9527377b0
-    projectPath: Library\Artifacts\8f\8f471036b64fae556cf112a9527377b0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\91\910ada2f0d6f52c37626eb38b4f75e6d
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\91\910ada2f0d6f52c37626eb38b4f75e6d
-    projectPath: Library\Artifacts\91\910ada2f0d6f52c37626eb38b4f75e6d
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -794,23 +1239,11 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\91\916f9305d997594a7812f6a0c65667cc
     projectPath: Library\Artifacts\91\916f9305d997594a7812f6a0c65667cc
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\92\9238306a51f949b306e8f9446fa02ec6
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\92\9238306a51f949b306e8f9446fa02ec6
-    projectPath: Library\Artifacts\92\9238306a51f949b306e8f9446fa02ec6
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\94\943ffc181df5a27c5a3173c660724718
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\94\943ffc181df5a27c5a3173c660724718
     projectPath: Library\Artifacts\94\943ffc181df5a27c5a3173c660724718
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\95\950918dac9819d49daf619f113d173ca
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\95\950918dac9819d49daf619f113d173ca
-    projectPath: Library\Artifacts\95\950918dac9819d49daf619f113d173ca
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -818,23 +1251,35 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\95\95a71b8d9054ac920595bd00fc26e451
     projectPath: Library\Artifacts\95\95a71b8d9054ac920595bd00fc26e451
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\95\95bba17b836ba245b67b077aad5746d9
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\95\95bba17b836ba245b67b077aad5746d9
-    projectPath: Library\Artifacts\95\95bba17b836ba245b67b077aad5746d9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\95\95c76bfe31b069e0b12d315e837ee827
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\95\95c76bfe31b069e0b12d315e837ee827
-    projectPath: Library\Artifacts\95\95c76bfe31b069e0b12d315e837ee827
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\96\969d51e774b038ca90ae41bdca799d1a
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\96\969d51e774b038ca90ae41bdca799d1a
     projectPath: Library\Artifacts\96\969d51e774b038ca90ae41bdca799d1a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\97\9707c256d1d5b807b29e8c4376ba90b9
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\97\9707c256d1d5b807b29e8c4376ba90b9
+    projectPath: Library\Artifacts\97\9707c256d1d5b807b29e8c4376ba90b9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\97\9752f5b34d3bbe4ab7dc5e18fb1335a9
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\97\9752f5b34d3bbe4ab7dc5e18fb1335a9
+    projectPath: Library\Artifacts\97\9752f5b34d3bbe4ab7dc5e18fb1335a9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\97\977366d250667c92720c015e36ee888f
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\97\977366d250667c92720c015e36ee888f
+    projectPath: Library\Artifacts\97\977366d250667c92720c015e36ee888f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\98\98c9abab4b1a7663a040fcf096c34fc2
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\98\98c9abab4b1a7663a040fcf096c34fc2
+    projectPath: Library\Artifacts\98\98c9abab4b1a7663a040fcf096c34fc2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -842,59 +1287,89 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\99\99a6ab1d449e29b8eef41dfaffa01257
     projectPath: Library\Artifacts\99\99a6ab1d449e29b8eef41dfaffa01257
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\9a\9a9bc2ed0d6dec79f2d4ce694cf3e3c6
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\9a\9a9bc2ed0d6dec79f2d4ce694cf3e3c6
-    projectPath: Library\Artifacts\9a\9a9bc2ed0d6dec79f2d4ce694cf3e3c6
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\9a\9a569b56cd014ea5d01487da4f349436
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\9a\9a569b56cd014ea5d01487da4f349436
+    projectPath: Library\Artifacts\9a\9a569b56cd014ea5d01487da4f349436
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\9b\9b62d9ba58120cab7f8c4c8c1ab86c6d
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\9b\9b62d9ba58120cab7f8c4c8c1ab86c6d
+    projectPath: Library\Artifacts\9b\9b62d9ba58120cab7f8c4c8c1ab86c6d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\9b\9b6fa495e2c0b4dd637e345b4ef09bfb
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\9b\9b6fa495e2c0b4dd637e345b4ef09bfb
+    projectPath: Library\Artifacts\9b\9b6fa495e2c0b4dd637e345b4ef09bfb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\9c\9c69ead80819dafacc1dfda025fbfa10
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\9c\9c69ead80819dafacc1dfda025fbfa10
     projectPath: Library\Artifacts\9c\9c69ead80819dafacc1dfda025fbfa10
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\9c\9c925a5ab83fea26be6cca6bb71ef688
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\9c\9c925a5ab83fea26be6cca6bb71ef688
     projectPath: Library\Artifacts\9c\9c925a5ab83fea26be6cca6bb71ef688
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\9c\9cec336f239be3c4a9d1fa7d9c1b8d09
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\9c\9cec336f239be3c4a9d1fa7d9c1b8d09
-    projectPath: Library\Artifacts\9c\9cec336f239be3c4a9d1fa7d9c1b8d09
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\9e\9e860026e62c301b4c29641f59333655
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\9e\9e860026e62c301b4c29641f59333655
-    projectPath: Library\Artifacts\9e\9e860026e62c301b4c29641f59333655
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\a1\a12b14cc2d798627b6d21fa5bc5a602d
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\a1\a12b14cc2d798627b6d21fa5bc5a602d
-    projectPath: Library\Artifacts\a1\a12b14cc2d798627b6d21fa5bc5a602d
+  - path: Library\Artifacts\9c\9cbde21f1ad6180463a13cae0aa47c4d
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\9c\9cbde21f1ad6180463a13cae0aa47c4d
+    projectPath: Library\Artifacts\9c\9cbde21f1ad6180463a13cae0aa47c4d
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\9f\9f939e90162f48a631546f9ec1c77473
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\9f\9f939e90162f48a631546f9ec1c77473
+    projectPath: Library\Artifacts\9f\9f939e90162f48a631546f9ec1c77473
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\a1\a12a8654ac27c5983291d23788d55676
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\a1\a12a8654ac27c5983291d23788d55676
+    projectPath: Library\Artifacts\a1\a12a8654ac27c5983291d23788d55676
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\a1\a183f4d7eabf57f3507ffff7644a779b
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\a1\a183f4d7eabf57f3507ffff7644a779b
+    projectPath: Library\Artifacts\a1\a183f4d7eabf57f3507ffff7644a779b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\a1\a1e090b569ecc275bec7ffc061f33699
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\a1\a1e090b569ecc275bec7ffc061f33699
+    projectPath: Library\Artifacts\a1\a1e090b569ecc275bec7ffc061f33699
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\a2\a220a641491d5836ba44fb1d3116df10
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\a2\a220a641491d5836ba44fb1d3116df10
     projectPath: Library\Artifacts\a2\a220a641491d5836ba44fb1d3116df10
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\a2\a2ce1c0c2516e9115e5a43667db96744
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\a2\a2ce1c0c2516e9115e5a43667db96744
-    projectPath: Library\Artifacts\a2\a2ce1c0c2516e9115e5a43667db96744
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\a3\a33fc9e37718f678933bbdc379030d67
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\a3\a33fc9e37718f678933bbdc379030d67
+    projectPath: Library\Artifacts\a3\a33fc9e37718f678933bbdc379030d67
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\a3\a368e37c8ad57514d8cb2b6a51056ffc
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\a3\a368e37c8ad57514d8cb2b6a51056ffc
     projectPath: Library\Artifacts\a3\a368e37c8ad57514d8cb2b6a51056ffc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a9\a9060ec0cb0200c57b2e694e75774873
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\a9\a9060ec0cb0200c57b2e694e75774873
+    projectPath: Library\Artifacts\a9\a9060ec0cb0200c57b2e694e75774873
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -902,59 +1377,41 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\a9\a97e37ad1a512bdca59620f8b6b1c1b3
     projectPath: Library\Artifacts\a9\a97e37ad1a512bdca59620f8b6b1c1b3
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\a9\a99def5190da7180f72e02aabb51c47a
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\a9\a99def5190da7180f72e02aabb51c47a
     projectPath: Library\Artifacts\a9\a99def5190da7180f72e02aabb51c47a
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ab\ab95581c5a1e2dffd229db7583c1f1ba
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\ab\ab95581c5a1e2dffd229db7583c1f1ba
+    projectPath: Library\Artifacts\ab\ab95581c5a1e2dffd229db7583c1f1ba
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\a9\a9c01677dac9f32609df2b97eef9785a
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\a9\a9c01677dac9f32609df2b97eef9785a
-    projectPath: Library\Artifacts\a9\a9c01677dac9f32609df2b97eef9785a
+  - path: Library\Artifacts\ac\ac7c0a5ed64541c9f7cdc1e9d1d283c8
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\ac\ac7c0a5ed64541c9f7cdc1e9d1d283c8
+    projectPath: Library\Artifacts\ac\ac7c0a5ed64541c9f7cdc1e9d1d283c8
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\aa\aaba66eacf2c64f3393bd72ef661cfd3
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\aa\aaba66eacf2c64f3393bd72ef661cfd3
-    projectPath: Library\Artifacts\aa\aaba66eacf2c64f3393bd72ef661cfd3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b1\b1475ee3da7e5f14ad796b1d9e593123
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\b1\b1475ee3da7e5f14ad796b1d9e593123
+    projectPath: Library\Artifacts\b1\b1475ee3da7e5f14ad796b1d9e593123
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ac\aca31db226b97cf353429aab3bb46072
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\ac\aca31db226b97cf353429aab3bb46072
-    projectPath: Library\Artifacts\ac\aca31db226b97cf353429aab3bb46072
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b1\b1f750dcd73da6342d9479ce088f21bb
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\b1\b1f750dcd73da6342d9479ce088f21bb
+    projectPath: Library\Artifacts\b1\b1f750dcd73da6342d9479ce088f21bb
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ad\adca931ce63e23aa201e5058aef44700
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\ad\adca931ce63e23aa201e5058aef44700
-    projectPath: Library\Artifacts\ad\adca931ce63e23aa201e5058aef44700
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b1\b1c7a9739cec415bfab1712736633851
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\b1\b1c7a9739cec415bfab1712736633851
-    projectPath: Library\Artifacts\b1\b1c7a9739cec415bfab1712736633851
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b2\b2246b41ff6568bc6a43d8893ec387df
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\b2\b2246b41ff6568bc6a43d8893ec387df
-    projectPath: Library\Artifacts\b2\b2246b41ff6568bc6a43d8893ec387df
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\b2\b24314ebd1aee8617f0ab02b49a2f534
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\b2\b24314ebd1aee8617f0ab02b49a2f534
     projectPath: Library\Artifacts\b2\b24314ebd1aee8617f0ab02b49a2f534
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\b2\b25570eaa92c1d88093e0642b59fd37f
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\b2\b25570eaa92c1d88093e0642b59fd37f
-    projectPath: Library\Artifacts\b2\b25570eaa92c1d88093e0642b59fd37f
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -962,35 +1419,53 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\b3\b3131fc61c16962f113d6fa405c10798
     projectPath: Library\Artifacts\b3\b3131fc61c16962f113d6fa405c10798
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b3\b3c8d1a2aebb537455ab960b878c7e67
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\b3\b3c8d1a2aebb537455ab960b878c7e67
+    projectPath: Library\Artifacts\b3\b3c8d1a2aebb537455ab960b878c7e67
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\b3\b3e239b6e23c0658bbddffb2d9423e26
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\b3\b3e239b6e23c0658bbddffb2d9423e26
-    projectPath: Library\Artifacts\b3\b3e239b6e23c0658bbddffb2d9423e26
+  - path: Library\Artifacts\b4\b433473853857ea07f3fb341b38927f5
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\b4\b433473853857ea07f3fb341b38927f5
+    projectPath: Library\Artifacts\b4\b433473853857ea07f3fb341b38927f5
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b8\b8020b835c7d0c5340e7678e811e0d0d
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\b8\b8020b835c7d0c5340e7678e811e0d0d
-    projectPath: Library\Artifacts\b8\b8020b835c7d0c5340e7678e811e0d0d
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b5\b590d1465f55d8997e7a686e40a5b704
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\b5\b590d1465f55d8997e7a686e40a5b704
+    projectPath: Library\Artifacts\b5\b590d1465f55d8997e7a686e40a5b704
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ba\baf329df74ae9906a4e27aaaf64dc48a
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\ba\baf329df74ae9906a4e27aaaf64dc48a
-    projectPath: Library\Artifacts\ba\baf329df74ae9906a4e27aaaf64dc48a
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b6\b657a723b3e4708e81b0950848840eb7
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\b6\b657a723b3e4708e81b0950848840eb7
+    projectPath: Library\Artifacts\b6\b657a723b3e4708e81b0950848840eb7
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\bb\bb9bedb805a42495e6572c42678db7b4
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\bb\bb9bedb805a42495e6572c42678db7b4
-    projectPath: Library\Artifacts\bb\bb9bedb805a42495e6572c42678db7b4
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b7\b708dcef05ff7da99ddb935994d207ee
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\b7\b708dcef05ff7da99ddb935994d207ee
+    projectPath: Library\Artifacts\b7\b708dcef05ff7da99ddb935994d207ee
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\bc\bc48ff4aaa085a2dc98daa8ea1c29f54
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\bc\bc48ff4aaa085a2dc98daa8ea1c29f54
-    projectPath: Library\Artifacts\bc\bc48ff4aaa085a2dc98daa8ea1c29f54
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b7\b79a3ee572657338a7dc48182133da22
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\b7\b79a3ee572657338a7dc48182133da22
+    projectPath: Library\Artifacts\b7\b79a3ee572657338a7dc48182133da22
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\bd\bd234d919114028ea6493f4b49e844c3
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\bd\bd234d919114028ea6493f4b49e844c3
+    projectPath: Library\Artifacts\bd\bd234d919114028ea6493f4b49e844c3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\bd\bd25b11f2a3ea690d29dc18b8ab7a342
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\bd\bd25b11f2a3ea690d29dc18b8ab7a342
+    projectPath: Library\Artifacts\bd\bd25b11f2a3ea690d29dc18b8ab7a342
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -998,95 +1473,119 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\bd\bd4295109e9a01d0168475a7ec43bd07
     projectPath: Library\Artifacts\bd\bd4295109e9a01d0168475a7ec43bd07
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\bd\bd89e3205844cfad02db6abae1803d5b
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\bd\bd89e3205844cfad02db6abae1803d5b
+    projectPath: Library\Artifacts\bd\bd89e3205844cfad02db6abae1803d5b
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\be\be6bec8e308b4cfcd42e7622982d8b85
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\be\be6bec8e308b4cfcd42e7622982d8b85
-    projectPath: Library\Artifacts\be\be6bec8e308b4cfcd42e7622982d8b85
+  - path: Library\Artifacts\bd\bdcd0db725539e8b09173767155a826d
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\bd\bdcd0db725539e8b09173767155a826d
+    projectPath: Library\Artifacts\bd\bdcd0db725539e8b09173767155a826d
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c0\c0bd6359b04be20d797710438f28c9e4
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\c0\c0bd6359b04be20d797710438f28c9e4
-    projectPath: Library\Artifacts\c0\c0bd6359b04be20d797710438f28c9e4
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\bf\bf10e63e78d7aa77b83311fd8bd9657d
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\bf\bf10e63e78d7aa77b83311fd8bd9657d
+    projectPath: Library\Artifacts\bf\bf10e63e78d7aa77b83311fd8bd9657d
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c0\c0ed6e5e1f56437159bcd1bfae14a379
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\c0\c0ed6e5e1f56437159bcd1bfae14a379
-    projectPath: Library\Artifacts\c0\c0ed6e5e1f56437159bcd1bfae14a379
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\bf\bf883f9245a0d987828c57a636e5a408
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\bf\bf883f9245a0d987828c57a636e5a408
+    projectPath: Library\Artifacts\bf\bf883f9245a0d987828c57a636e5a408
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c2\c2178b1ef20f5137911a23e6ed0a9720
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\c2\c2178b1ef20f5137911a23e6ed0a9720
-    projectPath: Library\Artifacts\c2\c2178b1ef20f5137911a23e6ed0a9720
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\c4\c47682def75bd42a0cfdb930c4cc1330
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\c4\c47682def75bd42a0cfdb930c4cc1330
+    projectPath: Library\Artifacts\c4\c47682def75bd42a0cfdb930c4cc1330
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c4\c4f9c2b9353f9d567ef5c63537186b66
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\c4\c4f9c2b9353f9d567ef5c63537186b66
-    projectPath: Library\Artifacts\c4\c4f9c2b9353f9d567ef5c63537186b66
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\c5\c5a3be63131bb4d90afe1b2eca688257
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\c5\c5a3be63131bb4d90afe1b2eca688257
     projectPath: Library\Artifacts\c5\c5a3be63131bb4d90afe1b2eca688257
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\c6\c626b2599dc943b65190954b85b07a65
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\c6\c626b2599dc943b65190954b85b07a65
     projectPath: Library\Artifacts\c6\c626b2599dc943b65190954b85b07a65
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c6\c63a643cd0cf012b583534cbd616b222
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\c6\c63a643cd0cf012b583534cbd616b222
-    projectPath: Library\Artifacts\c6\c63a643cd0cf012b583534cbd616b222
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\c7\c79255fa4415311501fc3045e8bd1636
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\c7\c79255fa4415311501fc3045e8bd1636
+    projectPath: Library\Artifacts\c7\c79255fa4415311501fc3045e8bd1636
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\c7\c79b782d6b4f2ff6a246c5c6c753c9f3
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\c7\c79b782d6b4f2ff6a246c5c6c753c9f3
+    projectPath: Library\Artifacts\c7\c79b782d6b4f2ff6a246c5c6c753c9f3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\c9\c945e978f710581c92a11cc0af2ce86e
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\c9\c945e978f710581c92a11cc0af2ce86e
+    projectPath: Library\Artifacts\c9\c945e978f710581c92a11cc0af2ce86e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ce\ce3f07077b4568cb608d3a525903cfe0
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\ce\ce3f07077b4568cb608d3a525903cfe0
+    projectPath: Library\Artifacts\ce\ce3f07077b4568cb608d3a525903cfe0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\cf\cf267d4a2a6e67f98be2af7f505f4148
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\cf\cf267d4a2a6e67f98be2af7f505f4148
     projectPath: Library\Artifacts\cf\cf267d4a2a6e67f98be2af7f505f4148
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\cf\cfe1488a31b9b51882f9f32f49392c18
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\cf\cfe1488a31b9b51882f9f32f49392c18
-    projectPath: Library\Artifacts\cf\cfe1488a31b9b51882f9f32f49392c18
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\cf\cf8045cfe7b9cb3956cb10cf8f0ae891
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\cf\cf8045cfe7b9cb3956cb10cf8f0ae891
+    projectPath: Library\Artifacts\cf\cf8045cfe7b9cb3956cb10cf8f0ae891
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\d0\d0b50826d8a195e5ba4c010bb0a403bc
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\d0\d0b50826d8a195e5ba4c010bb0a403bc
     projectPath: Library\Artifacts\d0\d0b50826d8a195e5ba4c010bb0a403bc
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\d0\d0c7b8b2815bf2b2ce4a0f232ef9ef64
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\d0\d0c7b8b2815bf2b2ce4a0f232ef9ef64
     projectPath: Library\Artifacts\d0\d0c7b8b2815bf2b2ce4a0f232ef9ef64
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d2\d210962c5c5089d5e026e8c591634117
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\d2\d210962c5c5089d5e026e8c591634117
+    projectPath: Library\Artifacts\d2\d210962c5c5089d5e026e8c591634117
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\d1\d106af3e3639617a3bd37489c3c53dc9
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\d1\d106af3e3639617a3bd37489c3c53dc9
-    projectPath: Library\Artifacts\d1\d106af3e3639617a3bd37489c3c53dc9
+  - path: Library\Artifacts\d3\d31953c95109e0336999ca035be64ae1
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\d3\d31953c95109e0336999ca035be64ae1
+    projectPath: Library\Artifacts\d3\d31953c95109e0336999ca035be64ae1
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d1\d1ad2620e4e6512a23cc8463bf0dc025
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\d1\d1ad2620e4e6512a23cc8463bf0dc025
-    projectPath: Library\Artifacts\d1\d1ad2620e4e6512a23cc8463bf0dc025
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\d3\d3acd84aa6c51980ac12f0bc04869c28
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\d3\d3acd84aa6c51980ac12f0bc04869c28
     projectPath: Library\Artifacts\d3\d3acd84aa6c51980ac12f0bc04869c28
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d4\d4a5964d6430a4a90bc357fce481da21
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\d4\d4a5964d6430a4a90bc357fce481da21
+    projectPath: Library\Artifacts\d4\d4a5964d6430a4a90bc357fce481da21
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1094,89 +1593,107 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\d4\d4a88fdf06cf19b7ac9e05a189415205
     projectPath: Library\Artifacts\d4\d4a88fdf06cf19b7ac9e05a189415205
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\d7\d79372536cfaab7b3966a2590ced75ce
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\d7\d79372536cfaab7b3966a2590ced75ce
-    projectPath: Library\Artifacts\d7\d79372536cfaab7b3966a2590ced75ce
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\d5\d52e43914bd27b581c3c9081c2f6534e
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\d5\d52e43914bd27b581c3c9081c2f6534e
+    projectPath: Library\Artifacts\d5\d52e43914bd27b581c3c9081c2f6534e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\d8\d80558f6963e45a8f84ac030b99805a7
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\d8\d80558f6963e45a8f84ac030b99805a7
+    projectPath: Library\Artifacts\d8\d80558f6963e45a8f84ac030b99805a7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\d8\d8902a9bc6abbb2f859ffe8979cd17de
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\d8\d8902a9bc6abbb2f859ffe8979cd17de
+    projectPath: Library\Artifacts\d8\d8902a9bc6abbb2f859ffe8979cd17de
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\d9\d9a557469a3f4ff55f5e0c8d0eda424e
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\d9\d9a557469a3f4ff55f5e0c8d0eda424e
     projectPath: Library\Artifacts\d9\d9a557469a3f4ff55f5e0c8d0eda424e
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\dc\dc031fc5455829ec349be9c1dcdfabe8
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\dc\dc031fc5455829ec349be9c1dcdfabe8
-    projectPath: Library\Artifacts\dc\dc031fc5455829ec349be9c1dcdfabe8
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\db\db70b83e1f0aaa5e922ddef5c864ea01
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\db\db70b83e1f0aaa5e922ddef5c864ea01
+    projectPath: Library\Artifacts\db\db70b83e1f0aaa5e922ddef5c864ea01
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\dd\dd05279567e5f0df0b633f658b05bbfd
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\dd\dd05279567e5f0df0b633f658b05bbfd
     projectPath: Library\Artifacts\dd\dd05279567e5f0df0b633f658b05bbfd
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\dd\dd6661bc157034cf83314419d31de554
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\dd\dd6661bc157034cf83314419d31de554
     projectPath: Library\Artifacts\dd\dd6661bc157034cf83314419d31de554
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\de\de31bf5dcad69a6a68e89c69bd1302a3
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\de\de31bf5dcad69a6a68e89c69bd1302a3
-    projectPath: Library\Artifacts\de\de31bf5dcad69a6a68e89c69bd1302a3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\e1\e15e0cd49ef90b361a76a4607efcb973
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\e1\e15e0cd49ef90b361a76a4607efcb973
     projectPath: Library\Artifacts\e1\e15e0cd49ef90b361a76a4607efcb973
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e3\e3ed893ebefc4ef7821055b874d545e8
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\e3\e3ed893ebefc4ef7821055b874d545e8
+    projectPath: Library\Artifacts\e3\e3ed893ebefc4ef7821055b874d545e8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e4\e472cab171df6ebd08c85bee0cc4911d
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\e4\e472cab171df6ebd08c85bee0cc4911d
+    projectPath: Library\Artifacts\e4\e472cab171df6ebd08c85bee0cc4911d
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\e2\e2053ac340d5d6f10ce6b503391ac8e9
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\e2\e2053ac340d5d6f10ce6b503391ac8e9
-    projectPath: Library\Artifacts\e2\e2053ac340d5d6f10ce6b503391ac8e9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e6\e60ac6048a4ef50f93889abcc815ce6f
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\e6\e60ac6048a4ef50f93889abcc815ce6f
-    projectPath: Library\Artifacts\e6\e60ac6048a4ef50f93889abcc815ce6f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\e6\e6f95c6d904907f2170bcfe96e2d65e4
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\e6\e6f95c6d904907f2170bcfe96e2d65e4
     projectPath: Library\Artifacts\e6\e6f95c6d904907f2170bcfe96e2d65e4
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e8\e8aa7c711e9775dce4431ebbc0fc1b80
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\e8\e8aa7c711e9775dce4431ebbc0fc1b80
+    projectPath: Library\Artifacts\e8\e8aa7c711e9775dce4431ebbc0fc1b80
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\e9\e90e6c3b024d82d0c002fec6fa8e278a
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\e9\e90e6c3b024d82d0c002fec6fa8e278a
-    projectPath: Library\Artifacts\e9\e90e6c3b024d82d0c002fec6fa8e278a
+  - path: Library\Artifacts\ea\ea6495039edbba00a1fe7eb9507578db
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\ea\ea6495039edbba00a1fe7eb9507578db
+    projectPath: Library\Artifacts\ea\ea6495039edbba00a1fe7eb9507578db
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\eb\ebb71f0a8ac31f4ad6c1a9778b7f23e9
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\eb\ebb71f0a8ac31f4ad6c1a9778b7f23e9
-    projectPath: Library\Artifacts\eb\ebb71f0a8ac31f4ad6c1a9778b7f23e9
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\eb\eb24d901e072dd9b12825477337ffb35
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\eb\eb24d901e072dd9b12825477337ffb35
+    projectPath: Library\Artifacts\eb\eb24d901e072dd9b12825477337ffb35
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\eb\eb49f1f35b2ce4d767b3c62682b2c90c
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\eb\eb49f1f35b2ce4d767b3c62682b2c90c
+    projectPath: Library\Artifacts\eb\eb49f1f35b2ce4d767b3c62682b2c90c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\ec\ec126e6010034b4a7b25b0530e180335
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\ec\ec126e6010034b4a7b25b0530e180335
     projectPath: Library\Artifacts\ec\ec126e6010034b4a7b25b0530e180335
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ed\ed77412fee7725a4101a55aa4adafc6b
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\ed\ed77412fee7725a4101a55aa4adafc6b
-    projectPath: Library\Artifacts\ed\ed77412fee7725a4101a55aa4adafc6b
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ef\ef3a9ebea1602b70c85178500940eb90
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\ef\ef3a9ebea1602b70c85178500940eb90
+    projectPath: Library\Artifacts\ef\ef3a9ebea1602b70c85178500940eb90
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1184,44 +1701,68 @@ MonoBehaviour:
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\f0\f025a3cf87b915ddb7807d634bb0da7f
     projectPath: Library\Artifacts\f0\f025a3cf87b915ddb7807d634bb0da7f
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\f4\f457bed12a2fefcf969dc8b681616976
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\f4\f457bed12a2fefcf969dc8b681616976
+    projectPath: Library\Artifacts\f4\f457bed12a2fefcf969dc8b681616976
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\f1\f111376ae02945929ce3247fcb8af434
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\f1\f111376ae02945929ce3247fcb8af434
-    projectPath: Library\Artifacts\f1\f111376ae02945929ce3247fcb8af434
+  - path: Library\Artifacts\f5\f5968403382e02717f4bcd27ed92b001
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\f5\f5968403382e02717f4bcd27ed92b001
+    projectPath: Library\Artifacts\f5\f5968403382e02717f4bcd27ed92b001
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f4\f437a321798be63f07f07bee8352d0cb
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\f4\f437a321798be63f07f07bee8352d0cb
-    projectPath: Library\Artifacts\f4\f437a321798be63f07f07bee8352d0cb
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f6\f65b1b6befdfbbfe9ea5ce1e3e762856
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\f6\f65b1b6befdfbbfe9ea5ce1e3e762856
+    projectPath: Library\Artifacts\f6\f65b1b6befdfbbfe9ea5ce1e3e762856
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f9\f930434d2ca9ad9dd4d15ec4db94d93f
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\f9\f930434d2ca9ad9dd4d15ec4db94d93f
-    projectPath: Library\Artifacts\f9\f930434d2ca9ad9dd4d15ec4db94d93f
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f7\f747aebb278ef93e86fe26fb6e5e0e60
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\f7\f747aebb278ef93e86fe26fb6e5e0e60
+    projectPath: Library\Artifacts\f7\f747aebb278ef93e86fe26fb6e5e0e60
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\fa\fa8b19955ab6a8294e68e4d0ed397587
-    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\fa\fa8b19955ab6a8294e68e4d0ed397587
-    projectPath: Library\Artifacts\fa\fa8b19955ab6a8294e68e4d0ed397587
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f7\f7eb27718f7554436c55dd21a9b3b5dd
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\f7\f7eb27718f7554436c55dd21a9b3b5dd
+    projectPath: Library\Artifacts\f7\f7eb27718f7554436c55dd21a9b3b5dd
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f8\f86b9359c1f532b82c97739a06deacd8
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\f8\f86b9359c1f532b82c97739a06deacd8
+    projectPath: Library\Artifacts\f8\f86b9359c1f532b82c97739a06deacd8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f9\f9bf9f126f7580fdc8c9886d1c8f2ebf
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\f9\f9bf9f126f7580fdc8c9886d1c8f2ebf
+    projectPath: Library\Artifacts\f9\f9bf9f126f7580fdc8c9886d1c8f2ebf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\fb\fb121836673747c61d995cdef2d880aa
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\fb\fb121836673747c61d995cdef2d880aa
     projectPath: Library\Artifacts\fb\fb121836673747c61d995cdef2d880aa
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\ff\ff69538abe4b47f98da89af50d0dc751
     fullPath: D:\Repositories\ARcardGame\Library\Artifacts\ff\ff69538abe4b47f98da89af50d0dc751
     projectPath: Library\Artifacts\ff\ff69538abe4b47f98da89af50d0dc751
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\CurrentLayout-default.dwlt
+    fullPath: D:\Repositories\ARcardGame\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\CurrentMaximizeLayout.dwlt
     fullPath: D:\Repositories\ARcardGame\Library\CurrentMaximizeLayout.dwlt
     projectPath: Library\CurrentMaximizeLayout.dwlt
@@ -1263,7 +1804,7 @@ MonoBehaviour:
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
+    workTreeStatus: 3
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: D:\Repositories\ARcardGame\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
@@ -1276,9 +1817,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: D:\Repositories\ARcardGame\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\LastBuild.buildreport
     fullPath: D:\Repositories\ARcardGame\Library\LastBuild.buildreport
     projectPath: Library\LastBuild.buildreport
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: D:\Repositories\ARcardGame\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1408,12 +1961,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\SceneVisibilityState.asset
-    fullPath: D:\Repositories\ARcardGame\Library\SceneVisibilityState.asset
-    projectPath: Library\SceneVisibilityState.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: D:\Repositories\ARcardGame\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -1474,15 +2021,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\StateCache\Hierarchy\64918c-59248937e4bf00a499.json
+    fullPath: D:\Repositories\ARcardGame\Library\StateCache\Hierarchy\64918c-59248937e4bf00a499.json
+    projectPath: Library\StateCache\Hierarchy\64918c-59248937e4bf00a499.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\StateCache\Hierarchy\64918c-mainStage.json
     fullPath: D:\Repositories\ARcardGame\Library\StateCache\Hierarchy\64918c-mainStage.json
     projectPath: Library\StateCache\Hierarchy\64918c-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\StateCache\SceneView\246728-a1a98e86cfa9d13488.json
-    fullPath: D:\Repositories\ARcardGame\Library\StateCache\SceneView\246728-a1a98e86cfa9d13488.json
-    projectPath: Library\StateCache\SceneView\246728-a1a98e86cfa9d13488.json
+  - path: Library\StateCache\SceneView\246728-59248937e4bf00a499.json
+    fullPath: D:\Repositories\ARcardGame\Library\StateCache\SceneView\246728-59248937e4bf00a499.json
+    projectPath: Library\StateCache\SceneView\246728-59248937e4bf00a499.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1498,9 +2051,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: README.md
-    fullPath: D:\Repositories\ARcardGame\README.md
-    projectPath: README.md
+  - path: ProjectSettings\ProjectSettings.asset
+    fullPath: D:\Repositories\ARcardGame\ProjectSettings\ProjectSettings.asset
+    projectPath: ProjectSettings\ProjectSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\QualitySettings.asset
+    fullPath: D:\Repositories\ARcardGame\ProjectSettings\QualitySettings.asset
+    projectPath: ProjectSettings\QualitySettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -9397,861 +9956,477 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-03e469a7960c8e74da9759864b093ca0
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-03e469a7960c8e74da9759864b093ca0
-    projectPath: Temp\UnityTempFile-03e469a7960c8e74da9759864b093ca0
+  - path: Temp\UnityTempFile-00c7098254adf24478364f4752fb77b7
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-00c7098254adf24478364f4752fb77b7
+    projectPath: Temp\UnityTempFile-00c7098254adf24478364f4752fb77b7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0791250da522c714d9a87e836c3706b2
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-0791250da522c714d9a87e836c3706b2
-    projectPath: Temp\UnityTempFile-0791250da522c714d9a87e836c3706b2
+  - path: Temp\UnityTempFile-00f51119d6cbdad4d9368adcc0cb7438
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-00f51119d6cbdad4d9368adcc0cb7438
+    projectPath: Temp\UnityTempFile-00f51119d6cbdad4d9368adcc0cb7438
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-07b15fd12c3268a45ac412c6f32e1ffd
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-07b15fd12c3268a45ac412c6f32e1ffd
-    projectPath: Temp\UnityTempFile-07b15fd12c3268a45ac412c6f32e1ffd
+  - path: Temp\UnityTempFile-00fd12c1c5700d2488787863732463fb
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-00fd12c1c5700d2488787863732463fb
+    projectPath: Temp\UnityTempFile-00fd12c1c5700d2488787863732463fb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-09517d311cc1b6143b5a54ae2c91f3d9
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-09517d311cc1b6143b5a54ae2c91f3d9
-    projectPath: Temp\UnityTempFile-09517d311cc1b6143b5a54ae2c91f3d9
+  - path: Temp\UnityTempFile-01772e68640e69a4599e3e8955f6747b
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-01772e68640e69a4599e3e8955f6747b
+    projectPath: Temp\UnityTempFile-01772e68640e69a4599e3e8955f6747b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0c76859932e0fdf41ab11890e227146c
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-0c76859932e0fdf41ab11890e227146c
-    projectPath: Temp\UnityTempFile-0c76859932e0fdf41ab11890e227146c
+  - path: Temp\UnityTempFile-075f3169d3186814ca15cb74624c1139
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-075f3169d3186814ca15cb74624c1139
+    projectPath: Temp\UnityTempFile-075f3169d3186814ca15cb74624c1139
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0e7b0ba22ec200445ac5c89d3fd9a71b
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-0e7b0ba22ec200445ac5c89d3fd9a71b
-    projectPath: Temp\UnityTempFile-0e7b0ba22ec200445ac5c89d3fd9a71b
+  - path: Temp\UnityTempFile-096a5b6a12bc1474bac79facb45d27b1
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-096a5b6a12bc1474bac79facb45d27b1
+    projectPath: Temp\UnityTempFile-096a5b6a12bc1474bac79facb45d27b1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0e922402be4cd4b4ab9f93570ed60cce
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-0e922402be4cd4b4ab9f93570ed60cce
-    projectPath: Temp\UnityTempFile-0e922402be4cd4b4ab9f93570ed60cce
+  - path: Temp\UnityTempFile-0ae634178f21ca9458e24012ae69830a
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-0ae634178f21ca9458e24012ae69830a
+    projectPath: Temp\UnityTempFile-0ae634178f21ca9458e24012ae69830a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0fd38e4b453babc4da413ae204ecdb78
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-0fd38e4b453babc4da413ae204ecdb78
-    projectPath: Temp\UnityTempFile-0fd38e4b453babc4da413ae204ecdb78
+  - path: Temp\UnityTempFile-0cd0768459311fa4c95e45c28927aa44
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-0cd0768459311fa4c95e45c28927aa44
+    projectPath: Temp\UnityTempFile-0cd0768459311fa4c95e45c28927aa44
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-10fcad43e6c4d7d479224778b9218b26
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-10fcad43e6c4d7d479224778b9218b26
-    projectPath: Temp\UnityTempFile-10fcad43e6c4d7d479224778b9218b26
+  - path: Temp\UnityTempFile-0dfddf7bb1dc50a4b9f55c966c38d44f
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-0dfddf7bb1dc50a4b9f55c966c38d44f
+    projectPath: Temp\UnityTempFile-0dfddf7bb1dc50a4b9f55c966c38d44f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-12ea84de317907d498e7c31cbd4555a5
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-12ea84de317907d498e7c31cbd4555a5
-    projectPath: Temp\UnityTempFile-12ea84de317907d498e7c31cbd4555a5
+  - path: Temp\UnityTempFile-0f354f15b6457a94cbba2eb0df977b13
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-0f354f15b6457a94cbba2eb0df977b13
+    projectPath: Temp\UnityTempFile-0f354f15b6457a94cbba2eb0df977b13
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-130a5df951f7ad44ab3373d5279afe91
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-130a5df951f7ad44ab3373d5279afe91
-    projectPath: Temp\UnityTempFile-130a5df951f7ad44ab3373d5279afe91
+  - path: Temp\UnityTempFile-10e9d9dc4036b994090cba75ccd6d387
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-10e9d9dc4036b994090cba75ccd6d387
+    projectPath: Temp\UnityTempFile-10e9d9dc4036b994090cba75ccd6d387
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-13da96565ee725d43b10dd310ab3a4df
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-13da96565ee725d43b10dd310ab3a4df
-    projectPath: Temp\UnityTempFile-13da96565ee725d43b10dd310ab3a4df
+  - path: Temp\UnityTempFile-124885068bc0e4f45b17cdf05d67d7f2
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-124885068bc0e4f45b17cdf05d67d7f2
+    projectPath: Temp\UnityTempFile-124885068bc0e4f45b17cdf05d67d7f2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-140a77928ade6744d9f60aa567601cf7
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-140a77928ade6744d9f60aa567601cf7
-    projectPath: Temp\UnityTempFile-140a77928ade6744d9f60aa567601cf7
+  - path: Temp\UnityTempFile-13e2380027a8da94d91067e6bf125e13
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-13e2380027a8da94d91067e6bf125e13
+    projectPath: Temp\UnityTempFile-13e2380027a8da94d91067e6bf125e13
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-17fa5f5be5e24ad418716ad3bb8322bb
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-17fa5f5be5e24ad418716ad3bb8322bb
-    projectPath: Temp\UnityTempFile-17fa5f5be5e24ad418716ad3bb8322bb
+  - path: Temp\UnityTempFile-1501dc6540d1bc949a7f2f208ab971da
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-1501dc6540d1bc949a7f2f208ab971da
+    projectPath: Temp\UnityTempFile-1501dc6540d1bc949a7f2f208ab971da
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-21336f6eb82a9684e9360b0523f8ce2f
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-21336f6eb82a9684e9360b0523f8ce2f
-    projectPath: Temp\UnityTempFile-21336f6eb82a9684e9360b0523f8ce2f
+  - path: Temp\UnityTempFile-1f325f11580895e4e8691f48b31ed048
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-1f325f11580895e4e8691f48b31ed048
+    projectPath: Temp\UnityTempFile-1f325f11580895e4e8691f48b31ed048
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-22dac2fb41d67e6439f59c42aa97049b
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-22dac2fb41d67e6439f59c42aa97049b
-    projectPath: Temp\UnityTempFile-22dac2fb41d67e6439f59c42aa97049b
+  - path: Temp\UnityTempFile-2da909c3fcff86642a455c175e0ef2f4
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-2da909c3fcff86642a455c175e0ef2f4
+    projectPath: Temp\UnityTempFile-2da909c3fcff86642a455c175e0ef2f4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2499398c8ad739144ac4044a625ab997
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-2499398c8ad739144ac4044a625ab997
-    projectPath: Temp\UnityTempFile-2499398c8ad739144ac4044a625ab997
+  - path: Temp\UnityTempFile-30108fa3486fc0b4aa7b80fe382688b2
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-30108fa3486fc0b4aa7b80fe382688b2
+    projectPath: Temp\UnityTempFile-30108fa3486fc0b4aa7b80fe382688b2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-268a539a837868c4e9abce8b94cc742c
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-268a539a837868c4e9abce8b94cc742c
-    projectPath: Temp\UnityTempFile-268a539a837868c4e9abce8b94cc742c
+  - path: Temp\UnityTempFile-32968ca3b0bfd9f41b46ead7da34e0ad
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-32968ca3b0bfd9f41b46ead7da34e0ad
+    projectPath: Temp\UnityTempFile-32968ca3b0bfd9f41b46ead7da34e0ad
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-270333a9d8ffe1d459d3aea74b09f8b5
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-270333a9d8ffe1d459d3aea74b09f8b5
-    projectPath: Temp\UnityTempFile-270333a9d8ffe1d459d3aea74b09f8b5
+  - path: Temp\UnityTempFile-3315349780f79dd4ca4f19963cae741b
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-3315349780f79dd4ca4f19963cae741b
+    projectPath: Temp\UnityTempFile-3315349780f79dd4ca4f19963cae741b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2a7e5b23b69a7f045b4594a364251b20
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-2a7e5b23b69a7f045b4594a364251b20
-    projectPath: Temp\UnityTempFile-2a7e5b23b69a7f045b4594a364251b20
+  - path: Temp\UnityTempFile-36135a3a46b715e4789be7f20df316a2
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-36135a3a46b715e4789be7f20df316a2
+    projectPath: Temp\UnityTempFile-36135a3a46b715e4789be7f20df316a2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2acbdfe8559eec349b147a60897441b3
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-2acbdfe8559eec349b147a60897441b3
-    projectPath: Temp\UnityTempFile-2acbdfe8559eec349b147a60897441b3
+  - path: Temp\UnityTempFile-42a8321fbbbabf346867e85937200af3
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-42a8321fbbbabf346867e85937200af3
+    projectPath: Temp\UnityTempFile-42a8321fbbbabf346867e85937200af3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2d3252ace57f2eb4483096bbb686d624
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-2d3252ace57f2eb4483096bbb686d624
-    projectPath: Temp\UnityTempFile-2d3252ace57f2eb4483096bbb686d624
+  - path: Temp\UnityTempFile-453f0ee74fbe229478a5869bf9fb4f5b
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-453f0ee74fbe229478a5869bf9fb4f5b
+    projectPath: Temp\UnityTempFile-453f0ee74fbe229478a5869bf9fb4f5b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2d63252ae83c9c04299cf4786d0d46e4
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-2d63252ae83c9c04299cf4786d0d46e4
-    projectPath: Temp\UnityTempFile-2d63252ae83c9c04299cf4786d0d46e4
+  - path: Temp\UnityTempFile-4a13b1b3d63d27f42b2bd97f65aa5d1b
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-4a13b1b3d63d27f42b2bd97f65aa5d1b
+    projectPath: Temp\UnityTempFile-4a13b1b3d63d27f42b2bd97f65aa5d1b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2df9740475023de41ad5cf5d5b7decbb
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-2df9740475023de41ad5cf5d5b7decbb
-    projectPath: Temp\UnityTempFile-2df9740475023de41ad5cf5d5b7decbb
+  - path: Temp\UnityTempFile-4d3325308b9197e4e9ffa1dc8fcfb7c9
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-4d3325308b9197e4e9ffa1dc8fcfb7c9
+    projectPath: Temp\UnityTempFile-4d3325308b9197e4e9ffa1dc8fcfb7c9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-315f74a220bf6c047bcde3a57e53aa2b
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-315f74a220bf6c047bcde3a57e53aa2b
-    projectPath: Temp\UnityTempFile-315f74a220bf6c047bcde3a57e53aa2b
+  - path: Temp\UnityTempFile-52391771257ea8d44b58c0d59ca6bf62
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-52391771257ea8d44b58c0d59ca6bf62
+    projectPath: Temp\UnityTempFile-52391771257ea8d44b58c0d59ca6bf62
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3244b979b47358e418b5e59afe655465
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-3244b979b47358e418b5e59afe655465
-    projectPath: Temp\UnityTempFile-3244b979b47358e418b5e59afe655465
+  - path: Temp\UnityTempFile-5287a556d9098db48bde4391019a1e14
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-5287a556d9098db48bde4391019a1e14
+    projectPath: Temp\UnityTempFile-5287a556d9098db48bde4391019a1e14
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-327b1b951ada0aa4dae9ef357d5196a6
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-327b1b951ada0aa4dae9ef357d5196a6
-    projectPath: Temp\UnityTempFile-327b1b951ada0aa4dae9ef357d5196a6
+  - path: Temp\UnityTempFile-554493057e9b39c4386c189583aaf368
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-554493057e9b39c4386c189583aaf368
+    projectPath: Temp\UnityTempFile-554493057e9b39c4386c189583aaf368
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3358b4208dee2cd47957c7d61f9caffe
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-3358b4208dee2cd47957c7d61f9caffe
-    projectPath: Temp\UnityTempFile-3358b4208dee2cd47957c7d61f9caffe
+  - path: Temp\UnityTempFile-5552e2c5477c83041b994e5b3ad11e3b
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-5552e2c5477c83041b994e5b3ad11e3b
+    projectPath: Temp\UnityTempFile-5552e2c5477c83041b994e5b3ad11e3b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-38b46f8d581817e4598a0700fbaece38
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-38b46f8d581817e4598a0700fbaece38
-    projectPath: Temp\UnityTempFile-38b46f8d581817e4598a0700fbaece38
+  - path: Temp\UnityTempFile-57567a3d5d9f4d5488a54035bb92868a
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-57567a3d5d9f4d5488a54035bb92868a
+    projectPath: Temp\UnityTempFile-57567a3d5d9f4d5488a54035bb92868a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-39642e1f638f81f4397ce72af773718b
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-39642e1f638f81f4397ce72af773718b
-    projectPath: Temp\UnityTempFile-39642e1f638f81f4397ce72af773718b
+  - path: Temp\UnityTempFile-5976b3d680866f74e9e8c537b28ffedb
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-5976b3d680866f74e9e8c537b28ffedb
+    projectPath: Temp\UnityTempFile-5976b3d680866f74e9e8c537b28ffedb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3ca243bf86696e44bb9ef252fd9cb67c
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-3ca243bf86696e44bb9ef252fd9cb67c
-    projectPath: Temp\UnityTempFile-3ca243bf86696e44bb9ef252fd9cb67c
+  - path: Temp\UnityTempFile-5c1e0e9ae378e8447b6bca800909a09a
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-5c1e0e9ae378e8447b6bca800909a09a
+    projectPath: Temp\UnityTempFile-5c1e0e9ae378e8447b6bca800909a09a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3e4edd24f180c0848aaa3890460c3750
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-3e4edd24f180c0848aaa3890460c3750
-    projectPath: Temp\UnityTempFile-3e4edd24f180c0848aaa3890460c3750
+  - path: Temp\UnityTempFile-5dcb349c5e7a5024da64754fb5b18309
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-5dcb349c5e7a5024da64754fb5b18309
+    projectPath: Temp\UnityTempFile-5dcb349c5e7a5024da64754fb5b18309
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3f0a8a2c732006c4eace700a004596d2
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-3f0a8a2c732006c4eace700a004596d2
-    projectPath: Temp\UnityTempFile-3f0a8a2c732006c4eace700a004596d2
+  - path: Temp\UnityTempFile-5f9dbf3790983f64985baf6de9ed4b25
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-5f9dbf3790983f64985baf6de9ed4b25
+    projectPath: Temp\UnityTempFile-5f9dbf3790983f64985baf6de9ed4b25
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3f8a909ec13120e42a7d323f67c88b33
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-3f8a909ec13120e42a7d323f67c88b33
-    projectPath: Temp\UnityTempFile-3f8a909ec13120e42a7d323f67c88b33
+  - path: Temp\UnityTempFile-624eb62dc0c68f74b9bfc642a1991efe
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-624eb62dc0c68f74b9bfc642a1991efe
+    projectPath: Temp\UnityTempFile-624eb62dc0c68f74b9bfc642a1991efe
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4065aa6f628d3c74e85ab8348cf2a769
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-4065aa6f628d3c74e85ab8348cf2a769
-    projectPath: Temp\UnityTempFile-4065aa6f628d3c74e85ab8348cf2a769
+  - path: Temp\UnityTempFile-633faa0b34db43d4da6c5cfd3603361a
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-633faa0b34db43d4da6c5cfd3603361a
+    projectPath: Temp\UnityTempFile-633faa0b34db43d4da6c5cfd3603361a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-41797c229deea4e469bb143e5bd268e7
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-41797c229deea4e469bb143e5bd268e7
-    projectPath: Temp\UnityTempFile-41797c229deea4e469bb143e5bd268e7
+  - path: Temp\UnityTempFile-64060555314ea934e96bdc631e849106
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-64060555314ea934e96bdc631e849106
+    projectPath: Temp\UnityTempFile-64060555314ea934e96bdc631e849106
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-424f74520c34bf54f88b957081cf19a3
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-424f74520c34bf54f88b957081cf19a3
-    projectPath: Temp\UnityTempFile-424f74520c34bf54f88b957081cf19a3
+  - path: Temp\UnityTempFile-6708e1e9bd1060f49bb83ad9d5f63056
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-6708e1e9bd1060f49bb83ad9d5f63056
+    projectPath: Temp\UnityTempFile-6708e1e9bd1060f49bb83ad9d5f63056
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4289980f556344e419024782a5b11920
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-4289980f556344e419024782a5b11920
-    projectPath: Temp\UnityTempFile-4289980f556344e419024782a5b11920
+  - path: Temp\UnityTempFile-683490cb2148f69448ffdfff3615da60
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-683490cb2148f69448ffdfff3615da60
+    projectPath: Temp\UnityTempFile-683490cb2148f69448ffdfff3615da60
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-440e05f3cd1ae73408f9bc1f921ed6c5
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-440e05f3cd1ae73408f9bc1f921ed6c5
-    projectPath: Temp\UnityTempFile-440e05f3cd1ae73408f9bc1f921ed6c5
+  - path: Temp\UnityTempFile-6f3fc6e822e37194f998c06e684cdc53
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-6f3fc6e822e37194f998c06e684cdc53
+    projectPath: Temp\UnityTempFile-6f3fc6e822e37194f998c06e684cdc53
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-46dc388e1f9658d4683f142ef6fa900b
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-46dc388e1f9658d4683f142ef6fa900b
-    projectPath: Temp\UnityTempFile-46dc388e1f9658d4683f142ef6fa900b
+  - path: Temp\UnityTempFile-73a52518a577ea143b9f103828169a82
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-73a52518a577ea143b9f103828169a82
+    projectPath: Temp\UnityTempFile-73a52518a577ea143b9f103828169a82
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-47725519bfdb60b4e9d23f2a04d6b5ea
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-47725519bfdb60b4e9d23f2a04d6b5ea
-    projectPath: Temp\UnityTempFile-47725519bfdb60b4e9d23f2a04d6b5ea
+  - path: Temp\UnityTempFile-742ce5271b8c3b34caedcc7b6daf861c
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-742ce5271b8c3b34caedcc7b6daf861c
+    projectPath: Temp\UnityTempFile-742ce5271b8c3b34caedcc7b6daf861c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5017dc0fedfaacb449940723946b56dd
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-5017dc0fedfaacb449940723946b56dd
-    projectPath: Temp\UnityTempFile-5017dc0fedfaacb449940723946b56dd
+  - path: Temp\UnityTempFile-75333b85af07cc44585c6798aa8fd9f3
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-75333b85af07cc44585c6798aa8fd9f3
+    projectPath: Temp\UnityTempFile-75333b85af07cc44585c6798aa8fd9f3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-56b4eea4cfdbb5c46abdf748385d84c7
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-56b4eea4cfdbb5c46abdf748385d84c7
-    projectPath: Temp\UnityTempFile-56b4eea4cfdbb5c46abdf748385d84c7
+  - path: Temp\UnityTempFile-7ab2ff844715a7c4397f5873083556ef
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-7ab2ff844715a7c4397f5873083556ef
+    projectPath: Temp\UnityTempFile-7ab2ff844715a7c4397f5873083556ef
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5996e0818d685fe438009b7217533e09
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-5996e0818d685fe438009b7217533e09
-    projectPath: Temp\UnityTempFile-5996e0818d685fe438009b7217533e09
+  - path: Temp\UnityTempFile-81a17d308c3242a42ab5a7c79563d90b
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-81a17d308c3242a42ab5a7c79563d90b
+    projectPath: Temp\UnityTempFile-81a17d308c3242a42ab5a7c79563d90b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5b2dc59316b47d246a5d00fa05daea3e
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-5b2dc59316b47d246a5d00fa05daea3e
-    projectPath: Temp\UnityTempFile-5b2dc59316b47d246a5d00fa05daea3e
+  - path: Temp\UnityTempFile-82c5f978d395c644386e247caef5b6ee
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-82c5f978d395c644386e247caef5b6ee
+    projectPath: Temp\UnityTempFile-82c5f978d395c644386e247caef5b6ee
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5c6795caf6c600449a78fd9f9effd2f2
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-5c6795caf6c600449a78fd9f9effd2f2
-    projectPath: Temp\UnityTempFile-5c6795caf6c600449a78fd9f9effd2f2
+  - path: Temp\UnityTempFile-885949570824fd949b32b61817152bb5
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-885949570824fd949b32b61817152bb5
+    projectPath: Temp\UnityTempFile-885949570824fd949b32b61817152bb5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5cba87d87ba7b6b46992f24739e7b6b4
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-5cba87d87ba7b6b46992f24739e7b6b4
-    projectPath: Temp\UnityTempFile-5cba87d87ba7b6b46992f24739e7b6b4
+  - path: Temp\UnityTempFile-8b5f207e134a69b41b1ac5b94380da10
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-8b5f207e134a69b41b1ac5b94380da10
+    projectPath: Temp\UnityTempFile-8b5f207e134a69b41b1ac5b94380da10
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-62bdcdcc20811074da96689b8df9b9ec
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-62bdcdcc20811074da96689b8df9b9ec
-    projectPath: Temp\UnityTempFile-62bdcdcc20811074da96689b8df9b9ec
+  - path: Temp\UnityTempFile-8e42908c003d79343a7032fc480de474
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-8e42908c003d79343a7032fc480de474
+    projectPath: Temp\UnityTempFile-8e42908c003d79343a7032fc480de474
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-656c37cb13891ec4d81aa27f5a494066
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-656c37cb13891ec4d81aa27f5a494066
-    projectPath: Temp\UnityTempFile-656c37cb13891ec4d81aa27f5a494066
+  - path: Temp\UnityTempFile-8e58cdfb28556884aa9452956e4966e8
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-8e58cdfb28556884aa9452956e4966e8
+    projectPath: Temp\UnityTempFile-8e58cdfb28556884aa9452956e4966e8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-6577687e199e0b84086f711d414744b5
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-6577687e199e0b84086f711d414744b5
-    projectPath: Temp\UnityTempFile-6577687e199e0b84086f711d414744b5
+  - path: Temp\UnityTempFile-96bcaf6e7f6fffd4dad13b0fb1e193a2
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-96bcaf6e7f6fffd4dad13b0fb1e193a2
+    projectPath: Temp\UnityTempFile-96bcaf6e7f6fffd4dad13b0fb1e193a2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-664c432c80422fd45a7e0709f23f3ef6
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-664c432c80422fd45a7e0709f23f3ef6
-    projectPath: Temp\UnityTempFile-664c432c80422fd45a7e0709f23f3ef6
+  - path: Temp\UnityTempFile-9ae944851a881a246954d781e6f138b5
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-9ae944851a881a246954d781e6f138b5
+    projectPath: Temp\UnityTempFile-9ae944851a881a246954d781e6f138b5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-672eaca1c970eb1489b22b9b70540002
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-672eaca1c970eb1489b22b9b70540002
-    projectPath: Temp\UnityTempFile-672eaca1c970eb1489b22b9b70540002
+  - path: Temp\UnityTempFile-9bb56c22c41822e4f92508d1f0a6f36a
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-9bb56c22c41822e4f92508d1f0a6f36a
+    projectPath: Temp\UnityTempFile-9bb56c22c41822e4f92508d1f0a6f36a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-6751f4b1a7a04dc47b7cd87ab5bd2b81
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-6751f4b1a7a04dc47b7cd87ab5bd2b81
-    projectPath: Temp\UnityTempFile-6751f4b1a7a04dc47b7cd87ab5bd2b81
+  - path: Temp\UnityTempFile-9d794ff0e796dd8479585bf83c55b470
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-9d794ff0e796dd8479585bf83c55b470
+    projectPath: Temp\UnityTempFile-9d794ff0e796dd8479585bf83c55b470
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-6e2103e6c6380ce4b9135c2748b83b31
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-6e2103e6c6380ce4b9135c2748b83b31
-    projectPath: Temp\UnityTempFile-6e2103e6c6380ce4b9135c2748b83b31
+  - path: Temp\UnityTempFile-9fad2a60b1971be4da45078d737089c8
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-9fad2a60b1971be4da45078d737089c8
+    projectPath: Temp\UnityTempFile-9fad2a60b1971be4da45078d737089c8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-6e50502af30f3a142b4fff15e618eed0
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-6e50502af30f3a142b4fff15e618eed0
-    projectPath: Temp\UnityTempFile-6e50502af30f3a142b4fff15e618eed0
+  - path: Temp\UnityTempFile-a697abf6052e7fb478b20d6f01843970
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-a697abf6052e7fb478b20d6f01843970
+    projectPath: Temp\UnityTempFile-a697abf6052e7fb478b20d6f01843970
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-6f30db40a6013f74d810f6c600bbc737
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-6f30db40a6013f74d810f6c600bbc737
-    projectPath: Temp\UnityTempFile-6f30db40a6013f74d810f6c600bbc737
+  - path: Temp\UnityTempFile-aa3fba17fb805794f9bb4b62f7e6977c
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-aa3fba17fb805794f9bb4b62f7e6977c
+    projectPath: Temp\UnityTempFile-aa3fba17fb805794f9bb4b62f7e6977c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-72170d78fa5573f4a8215cacfd2f20cd
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-72170d78fa5573f4a8215cacfd2f20cd
-    projectPath: Temp\UnityTempFile-72170d78fa5573f4a8215cacfd2f20cd
+  - path: Temp\UnityTempFile-abc8ebab35837f14baacf123e915ce34
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-abc8ebab35837f14baacf123e915ce34
+    projectPath: Temp\UnityTempFile-abc8ebab35837f14baacf123e915ce34
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-73364ff6ad8cde2428af2a84b2f1d28f
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-73364ff6ad8cde2428af2a84b2f1d28f
-    projectPath: Temp\UnityTempFile-73364ff6ad8cde2428af2a84b2f1d28f
+  - path: Temp\UnityTempFile-ae839bb682ff0f249a341557439a1133
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-ae839bb682ff0f249a341557439a1133
+    projectPath: Temp\UnityTempFile-ae839bb682ff0f249a341557439a1133
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-742880181669bd14d8254e1320249746
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-742880181669bd14d8254e1320249746
-    projectPath: Temp\UnityTempFile-742880181669bd14d8254e1320249746
+  - path: Temp\UnityTempFile-b15370db4ac6eb84bb88bffef55ef276
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-b15370db4ac6eb84bb88bffef55ef276
+    projectPath: Temp\UnityTempFile-b15370db4ac6eb84bb88bffef55ef276
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-74e05e72dda3c5149a0321d94b756961
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-74e05e72dda3c5149a0321d94b756961
-    projectPath: Temp\UnityTempFile-74e05e72dda3c5149a0321d94b756961
+  - path: Temp\UnityTempFile-b8f6878df4f1bbd4fb854062f912dc6a
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-b8f6878df4f1bbd4fb854062f912dc6a
+    projectPath: Temp\UnityTempFile-b8f6878df4f1bbd4fb854062f912dc6a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-7559b5770ecf4e240bb68a25f00b70eb
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-7559b5770ecf4e240bb68a25f00b70eb
-    projectPath: Temp\UnityTempFile-7559b5770ecf4e240bb68a25f00b70eb
+  - path: Temp\UnityTempFile-bb729a03d9b52ff4d9705c961f17e704
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-bb729a03d9b52ff4d9705c961f17e704
+    projectPath: Temp\UnityTempFile-bb729a03d9b52ff4d9705c961f17e704
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-78c85eae2888cca409aaea42b5deb377
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-78c85eae2888cca409aaea42b5deb377
-    projectPath: Temp\UnityTempFile-78c85eae2888cca409aaea42b5deb377
+  - path: Temp\UnityTempFile-bd7f490f9f66867488a689acd091b88e
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-bd7f490f9f66867488a689acd091b88e
+    projectPath: Temp\UnityTempFile-bd7f490f9f66867488a689acd091b88e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-796ed8e278324ac4ca6bef9e1d1cb402
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-796ed8e278324ac4ca6bef9e1d1cb402
-    projectPath: Temp\UnityTempFile-796ed8e278324ac4ca6bef9e1d1cb402
+  - path: Temp\UnityTempFile-c1383f5a0fea4b14ba422db5b5287daf
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-c1383f5a0fea4b14ba422db5b5287daf
+    projectPath: Temp\UnityTempFile-c1383f5a0fea4b14ba422db5b5287daf
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-7a4d0f843decca24a8cc83bf082b954c
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-7a4d0f843decca24a8cc83bf082b954c
-    projectPath: Temp\UnityTempFile-7a4d0f843decca24a8cc83bf082b954c
+  - path: Temp\UnityTempFile-c1d82a3f48b0c5549b805d99e8cf0f3f
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-c1d82a3f48b0c5549b805d99e8cf0f3f
+    projectPath: Temp\UnityTempFile-c1d82a3f48b0c5549b805d99e8cf0f3f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-7be2d0060b7670942894ff5ee81e6234
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-7be2d0060b7670942894ff5ee81e6234
-    projectPath: Temp\UnityTempFile-7be2d0060b7670942894ff5ee81e6234
+  - path: Temp\UnityTempFile-c822a1a7cc2f9ed40af220656ed34378
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-c822a1a7cc2f9ed40af220656ed34378
+    projectPath: Temp\UnityTempFile-c822a1a7cc2f9ed40af220656ed34378
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-7c70b0d788646774f8fb1ae1841ef870
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-7c70b0d788646774f8fb1ae1841ef870
-    projectPath: Temp\UnityTempFile-7c70b0d788646774f8fb1ae1841ef870
+  - path: Temp\UnityTempFile-c9dc4c3f6bf125e49bfab5e42e7e1422
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-c9dc4c3f6bf125e49bfab5e42e7e1422
+    projectPath: Temp\UnityTempFile-c9dc4c3f6bf125e49bfab5e42e7e1422
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-7e68b018e80a885469b52e12c458bac2
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-7e68b018e80a885469b52e12c458bac2
-    projectPath: Temp\UnityTempFile-7e68b018e80a885469b52e12c458bac2
+  - path: Temp\UnityTempFile-ccc8accee4a362744b2750526d3ff9eb
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-ccc8accee4a362744b2750526d3ff9eb
+    projectPath: Temp\UnityTempFile-ccc8accee4a362744b2750526d3ff9eb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-7eb52f63ebb5456449109dec80d56a7d
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-7eb52f63ebb5456449109dec80d56a7d
-    projectPath: Temp\UnityTempFile-7eb52f63ebb5456449109dec80d56a7d
+  - path: Temp\UnityTempFile-cf898ffe43cfa9b459a59dc53c7ff8a8
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-cf898ffe43cfa9b459a59dc53c7ff8a8
+    projectPath: Temp\UnityTempFile-cf898ffe43cfa9b459a59dc53c7ff8a8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-7ef7ddfa6a82fec41876bdf6e12686bd
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-7ef7ddfa6a82fec41876bdf6e12686bd
-    projectPath: Temp\UnityTempFile-7ef7ddfa6a82fec41876bdf6e12686bd
+  - path: Temp\UnityTempFile-d455c1cf9ce1050448d9487524d88e1e
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-d455c1cf9ce1050448d9487524d88e1e
+    projectPath: Temp\UnityTempFile-d455c1cf9ce1050448d9487524d88e1e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-7f233ae260acacc4186e4e4c3bad2a1d
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-7f233ae260acacc4186e4e4c3bad2a1d
-    projectPath: Temp\UnityTempFile-7f233ae260acacc4186e4e4c3bad2a1d
+  - path: Temp\UnityTempFile-d4ed2b46450e0fe45bfd7ef944f2449d
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-d4ed2b46450e0fe45bfd7ef944f2449d
+    projectPath: Temp\UnityTempFile-d4ed2b46450e0fe45bfd7ef944f2449d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-805d27dbf2d77e249b48620908d4d41c
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-805d27dbf2d77e249b48620908d4d41c
-    projectPath: Temp\UnityTempFile-805d27dbf2d77e249b48620908d4d41c
+  - path: Temp\UnityTempFile-d74e9fdc361e01c47892149197ff3e9a
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-d74e9fdc361e01c47892149197ff3e9a
+    projectPath: Temp\UnityTempFile-d74e9fdc361e01c47892149197ff3e9a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-821f50234c9365949a65a202f2bef709
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-821f50234c9365949a65a202f2bef709
-    projectPath: Temp\UnityTempFile-821f50234c9365949a65a202f2bef709
+  - path: Temp\UnityTempFile-d92352ea087b78a4999f2d43b94fab91
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-d92352ea087b78a4999f2d43b94fab91
+    projectPath: Temp\UnityTempFile-d92352ea087b78a4999f2d43b94fab91
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-83048a491bf04a54696ada8c56be6d51
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-83048a491bf04a54696ada8c56be6d51
-    projectPath: Temp\UnityTempFile-83048a491bf04a54696ada8c56be6d51
+  - path: Temp\UnityTempFile-e49413ed5665bed49a54abfbc38e4c34
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-e49413ed5665bed49a54abfbc38e4c34
+    projectPath: Temp\UnityTempFile-e49413ed5665bed49a54abfbc38e4c34
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-831427498c687044c9c99b667c7daaa2
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-831427498c687044c9c99b667c7daaa2
-    projectPath: Temp\UnityTempFile-831427498c687044c9c99b667c7daaa2
+  - path: Temp\UnityTempFile-ef24de81f4a569447afdd9afdb1d483b
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-ef24de81f4a569447afdd9afdb1d483b
+    projectPath: Temp\UnityTempFile-ef24de81f4a569447afdd9afdb1d483b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-895e2b292e6b6c849896266e2acfe289
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-895e2b292e6b6c849896266e2acfe289
-    projectPath: Temp\UnityTempFile-895e2b292e6b6c849896266e2acfe289
+  - path: Temp\UnityTempFile-efe64de600f8f28498167911a864a59c
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-efe64de600f8f28498167911a864a59c
+    projectPath: Temp\UnityTempFile-efe64de600f8f28498167911a864a59c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-8cfa8a3eac1a61343969f00525e50a6d
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-8cfa8a3eac1a61343969f00525e50a6d
-    projectPath: Temp\UnityTempFile-8cfa8a3eac1a61343969f00525e50a6d
+  - path: Temp\UnityTempFile-f477b65474f85e64e9352d05d2180b3e
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-f477b65474f85e64e9352d05d2180b3e
+    projectPath: Temp\UnityTempFile-f477b65474f85e64e9352d05d2180b3e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-8fcb478e919924e4fabf4084fb361287
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-8fcb478e919924e4fabf4084fb361287
-    projectPath: Temp\UnityTempFile-8fcb478e919924e4fabf4084fb361287
+  - path: Temp\UnityTempFile-f696eb7332233e1428af97976cfd7b6d
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-f696eb7332233e1428af97976cfd7b6d
+    projectPath: Temp\UnityTempFile-f696eb7332233e1428af97976cfd7b6d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-9164386bff0a965459fae654d01edfdb
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-9164386bff0a965459fae654d01edfdb
-    projectPath: Temp\UnityTempFile-9164386bff0a965459fae654d01edfdb
+  - path: Temp\UnityTempFile-f8015a8e6f621bf41812056093aaa7ef
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-f8015a8e6f621bf41812056093aaa7ef
+    projectPath: Temp\UnityTempFile-f8015a8e6f621bf41812056093aaa7ef
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-91fbf69d2e658ba4181e18d74575214b
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-91fbf69d2e658ba4181e18d74575214b
-    projectPath: Temp\UnityTempFile-91fbf69d2e658ba4181e18d74575214b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-92280deae5bd1ad41a0b9d3739227778
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-92280deae5bd1ad41a0b9d3739227778
-    projectPath: Temp\UnityTempFile-92280deae5bd1ad41a0b9d3739227778
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-93006b091c889a14099d4efff85d2ae3
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-93006b091c889a14099d4efff85d2ae3
-    projectPath: Temp\UnityTempFile-93006b091c889a14099d4efff85d2ae3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-941a39a5f97fcb445845ba32889a0584
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-941a39a5f97fcb445845ba32889a0584
-    projectPath: Temp\UnityTempFile-941a39a5f97fcb445845ba32889a0584
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9bb7d7ae6ddf52c4d82c53292ac3fed1
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-9bb7d7ae6ddf52c4d82c53292ac3fed1
-    projectPath: Temp\UnityTempFile-9bb7d7ae6ddf52c4d82c53292ac3fed1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9bd3f3c15b2068a46a3f5af61eaec035
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-9bd3f3c15b2068a46a3f5af61eaec035
-    projectPath: Temp\UnityTempFile-9bd3f3c15b2068a46a3f5af61eaec035
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9c0ec6e08c1afba4dbb719d977b6ae3e
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-9c0ec6e08c1afba4dbb719d977b6ae3e
-    projectPath: Temp\UnityTempFile-9c0ec6e08c1afba4dbb719d977b6ae3e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9c7caf51416667e4d9ef44e033ccb59b
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-9c7caf51416667e4d9ef44e033ccb59b
-    projectPath: Temp\UnityTempFile-9c7caf51416667e4d9ef44e033ccb59b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9db5aab126f782f4d927078e0126798f
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-9db5aab126f782f4d927078e0126798f
-    projectPath: Temp\UnityTempFile-9db5aab126f782f4d927078e0126798f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a1cf2a25151036f43a6210d78e060fa9
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-a1cf2a25151036f43a6210d78e060fa9
-    projectPath: Temp\UnityTempFile-a1cf2a25151036f43a6210d78e060fa9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a329ae4825e21de43b02df667484cb2c
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-a329ae4825e21de43b02df667484cb2c
-    projectPath: Temp\UnityTempFile-a329ae4825e21de43b02df667484cb2c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a7c6369f497b53e4581e370ab8d39427
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-a7c6369f497b53e4581e370ab8d39427
-    projectPath: Temp\UnityTempFile-a7c6369f497b53e4581e370ab8d39427
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a8206759f2c235943858af02aa093415
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-a8206759f2c235943858af02aa093415
-    projectPath: Temp\UnityTempFile-a8206759f2c235943858af02aa093415
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a86855afa5364564dab58a14bda63952
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-a86855afa5364564dab58a14bda63952
-    projectPath: Temp\UnityTempFile-a86855afa5364564dab58a14bda63952
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a9194b8d37ae66c4bbe414ed2b3f58ac
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-a9194b8d37ae66c4bbe414ed2b3f58ac
-    projectPath: Temp\UnityTempFile-a9194b8d37ae66c4bbe414ed2b3f58ac
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-aaf82b4e7df0e2c4296676534d07e583
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-aaf82b4e7df0e2c4296676534d07e583
-    projectPath: Temp\UnityTempFile-aaf82b4e7df0e2c4296676534d07e583
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-abd541e751191584eb42086a062090cb
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-abd541e751191584eb42086a062090cb
-    projectPath: Temp\UnityTempFile-abd541e751191584eb42086a062090cb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-af11f557816365d4ab587b4884ec9269
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-af11f557816365d4ab587b4884ec9269
-    projectPath: Temp\UnityTempFile-af11f557816365d4ab587b4884ec9269
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b0b6a969b5727194d969498724e4de7c
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-b0b6a969b5727194d969498724e4de7c
-    projectPath: Temp\UnityTempFile-b0b6a969b5727194d969498724e4de7c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b0f91016e762b28448c670a3c074af5a
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-b0f91016e762b28448c670a3c074af5a
-    projectPath: Temp\UnityTempFile-b0f91016e762b28448c670a3c074af5a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b2366d23c61969e4087b27a89f5ad1df
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-b2366d23c61969e4087b27a89f5ad1df
-    projectPath: Temp\UnityTempFile-b2366d23c61969e4087b27a89f5ad1df
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b3c51d2528f7f4b45b2e5a8b7e8279c1
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-b3c51d2528f7f4b45b2e5a8b7e8279c1
-    projectPath: Temp\UnityTempFile-b3c51d2528f7f4b45b2e5a8b7e8279c1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b511125d87102564ba2765d726b958bc
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-b511125d87102564ba2765d726b958bc
-    projectPath: Temp\UnityTempFile-b511125d87102564ba2765d726b958bc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bad2bc458375b5f4bbec38b2343f0315
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-bad2bc458375b5f4bbec38b2343f0315
-    projectPath: Temp\UnityTempFile-bad2bc458375b5f4bbec38b2343f0315
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bb090ef0988f1a244845e6fe3400980f
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-bb090ef0988f1a244845e6fe3400980f
-    projectPath: Temp\UnityTempFile-bb090ef0988f1a244845e6fe3400980f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bb3d95967dbc0ae47affec6f4ca55ce4
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-bb3d95967dbc0ae47affec6f4ca55ce4
-    projectPath: Temp\UnityTempFile-bb3d95967dbc0ae47affec6f4ca55ce4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bc18ab82be43d354bb2ca8933023f75c
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-bc18ab82be43d354bb2ca8933023f75c
-    projectPath: Temp\UnityTempFile-bc18ab82be43d354bb2ca8933023f75c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bcf9667680b3325408422ff73ef37359
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-bcf9667680b3325408422ff73ef37359
-    projectPath: Temp\UnityTempFile-bcf9667680b3325408422ff73ef37359
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bdaa71a2ad464d140b848d83cd90f8ce
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-bdaa71a2ad464d140b848d83cd90f8ce
-    projectPath: Temp\UnityTempFile-bdaa71a2ad464d140b848d83cd90f8ce
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c38a1d2e19b46a5429018c410defc21e
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-c38a1d2e19b46a5429018c410defc21e
-    projectPath: Temp\UnityTempFile-c38a1d2e19b46a5429018c410defc21e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c4ddf1afd3be45a40adf413072aa722e
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-c4ddf1afd3be45a40adf413072aa722e
-    projectPath: Temp\UnityTempFile-c4ddf1afd3be45a40adf413072aa722e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c8242da8a344a61429ace6573aa820d2
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-c8242da8a344a61429ace6573aa820d2
-    projectPath: Temp\UnityTempFile-c8242da8a344a61429ace6573aa820d2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c8993fee1c3083442a073b0502d37444
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-c8993fee1c3083442a073b0502d37444
-    projectPath: Temp\UnityTempFile-c8993fee1c3083442a073b0502d37444
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-cc9a3de25d4f20a41a6e6b77c0f196c3
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-cc9a3de25d4f20a41a6e6b77c0f196c3
-    projectPath: Temp\UnityTempFile-cc9a3de25d4f20a41a6e6b77c0f196c3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-cd34d1d9e15bd01428915668c0b96913
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-cd34d1d9e15bd01428915668c0b96913
-    projectPath: Temp\UnityTempFile-cd34d1d9e15bd01428915668c0b96913
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d06aa9395d7976b4a9e26841498d56c1
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-d06aa9395d7976b4a9e26841498d56c1
-    projectPath: Temp\UnityTempFile-d06aa9395d7976b4a9e26841498d56c1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d0db6ffd3c6c6b94482cbd2ba0b0587a
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-d0db6ffd3c6c6b94482cbd2ba0b0587a
-    projectPath: Temp\UnityTempFile-d0db6ffd3c6c6b94482cbd2ba0b0587a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d23fe2cc661b10245ab67036951fcbb3
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-d23fe2cc661b10245ab67036951fcbb3
-    projectPath: Temp\UnityTempFile-d23fe2cc661b10245ab67036951fcbb3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d2b92e63e39866a42be39c067c1e2f64
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-d2b92e63e39866a42be39c067c1e2f64
-    projectPath: Temp\UnityTempFile-d2b92e63e39866a42be39c067c1e2f64
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d3129742a69deff428b165938940bbe4
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-d3129742a69deff428b165938940bbe4
-    projectPath: Temp\UnityTempFile-d3129742a69deff428b165938940bbe4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d3e264833d08f57499b0b8b5cbec97ba
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-d3e264833d08f57499b0b8b5cbec97ba
-    projectPath: Temp\UnityTempFile-d3e264833d08f57499b0b8b5cbec97ba
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d433efd8ec2e767408fd6c903ab74247
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-d433efd8ec2e767408fd6c903ab74247
-    projectPath: Temp\UnityTempFile-d433efd8ec2e767408fd6c903ab74247
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d5a969fe9e1f40d4aac79e748bc520d1
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-d5a969fe9e1f40d4aac79e748bc520d1
-    projectPath: Temp\UnityTempFile-d5a969fe9e1f40d4aac79e748bc520d1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d7ddc8ac529cd5542abb834aa184702e
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-d7ddc8ac529cd5542abb834aa184702e
-    projectPath: Temp\UnityTempFile-d7ddc8ac529cd5542abb834aa184702e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ddfd4ffef3d4e8440bd789e4bce8e4f2
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-ddfd4ffef3d4e8440bd789e4bce8e4f2
-    projectPath: Temp\UnityTempFile-ddfd4ffef3d4e8440bd789e4bce8e4f2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e01f4c51b46f0e642bf149af3413309d
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-e01f4c51b46f0e642bf149af3413309d
-    projectPath: Temp\UnityTempFile-e01f4c51b46f0e642bf149af3413309d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e10de73a32a77d44d9f18816d37c217b
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-e10de73a32a77d44d9f18816d37c217b
-    projectPath: Temp\UnityTempFile-e10de73a32a77d44d9f18816d37c217b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e2172dffb8cc6b94fb96dca58db0010a
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-e2172dffb8cc6b94fb96dca58db0010a
-    projectPath: Temp\UnityTempFile-e2172dffb8cc6b94fb96dca58db0010a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e557862175d269f4a8a5845f13593e1e
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-e557862175d269f4a8a5845f13593e1e
-    projectPath: Temp\UnityTempFile-e557862175d269f4a8a5845f13593e1e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e5cfcda17e6ff6145b6cbf21627a9ecf
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-e5cfcda17e6ff6145b6cbf21627a9ecf
-    projectPath: Temp\UnityTempFile-e5cfcda17e6ff6145b6cbf21627a9ecf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e87624356520c4443a56e580df6be6bc
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-e87624356520c4443a56e580df6be6bc
-    projectPath: Temp\UnityTempFile-e87624356520c4443a56e580df6be6bc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e9191eb6a6609524eaebaf3b34ff06db
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-e9191eb6a6609524eaebaf3b34ff06db
-    projectPath: Temp\UnityTempFile-e9191eb6a6609524eaebaf3b34ff06db
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-eae2385a105ef6140b397e8c4e33f01f
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-eae2385a105ef6140b397e8c4e33f01f
-    projectPath: Temp\UnityTempFile-eae2385a105ef6140b397e8c4e33f01f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ec320385bcde83b4a8384167182db5ae
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-ec320385bcde83b4a8384167182db5ae
-    projectPath: Temp\UnityTempFile-ec320385bcde83b4a8384167182db5ae
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ec7312b3c816ae343b27d405f31656e2
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-ec7312b3c816ae343b27d405f31656e2
-    projectPath: Temp\UnityTempFile-ec7312b3c816ae343b27d405f31656e2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f1b5cf756946f0a48baffb9fbcb494c8
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-f1b5cf756946f0a48baffb9fbcb494c8
-    projectPath: Temp\UnityTempFile-f1b5cf756946f0a48baffb9fbcb494c8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f5fe49a8dc6b5bc42a080586d2e88ca2
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-f5fe49a8dc6b5bc42a080586d2e88ca2
-    projectPath: Temp\UnityTempFile-f5fe49a8dc6b5bc42a080586d2e88ca2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f81834b441eeb6f428db7bb725afe9d7
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-f81834b441eeb6f428db7bb725afe9d7
-    projectPath: Temp\UnityTempFile-f81834b441eeb6f428db7bb725afe9d7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f911bee3fcb518d4c8fd3fd2c2538d66
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-f911bee3fcb518d4c8fd3fd2c2538d66
-    projectPath: Temp\UnityTempFile-f911bee3fcb518d4c8fd3fd2c2538d66
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-fa2abd46dc3981a4b8cabc4a4bf1deb2
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-fa2abd46dc3981a4b8cabc4a4bf1deb2
-    projectPath: Temp\UnityTempFile-fa2abd46dc3981a4b8cabc4a4bf1deb2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-fa923f0abe978204fa96c8544e0d1e80
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-fa923f0abe978204fa96c8544e0d1e80
-    projectPath: Temp\UnityTempFile-fa923f0abe978204fa96c8544e0d1e80
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-fab92fa85cd3598449be8a4f72205e68
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-fab92fa85cd3598449be8a4f72205e68
-    projectPath: Temp\UnityTempFile-fab92fa85cd3598449be8a4f72205e68
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-fb969af824cb9874a89c2cd03d57f1df
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-fb969af824cb9874a89c2cd03d57f1df
-    projectPath: Temp\UnityTempFile-fb969af824cb9874a89c2cd03d57f1df
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-fdc13eb4e101b7346a37dcc078a5d61d
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-fdc13eb4e101b7346a37dcc078a5d61d
-    projectPath: Temp\UnityTempFile-fdc13eb4e101b7346a37dcc078a5d61d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ff07b2e530d3edf4e92fd35c1a3bdc2c
-    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-ff07b2e530d3edf4e92fd35c1a3bdc2c
-    projectPath: Temp\UnityTempFile-ff07b2e530d3edf4e92fd35c1a3bdc2c
+  - path: Temp\UnityTempFile-fe35ad356c0e0df4ebe37775b0acf666
+    fullPath: D:\Repositories\ARcardGame\Temp\UnityTempFile-fe35ad356c0e0df4ebe37775b0acf666
+    projectPath: Temp\UnityTempFile-fe35ad356c0e0df4ebe37775b0acf666
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

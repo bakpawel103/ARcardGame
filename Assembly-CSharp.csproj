@@ -72,18 +72,24 @@
      <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
      <Compile Include="Assets\Scripts\AR\TrackedImageInfoExtendedManager.cs" />
      <Compile Include="Assets\Scripts\AR\TrackedImageInfoMultipleManager.cs" />
-     <Compile Include="Assets\Scripts\GameMechanisms\CardScript.cs" />
-     <Compile Include="Assets\Scripts\GameMechanisms\CardsStackManager.cs" />
+     <Compile Include="Assets\Scripts\GameMechanisms\Cards\Attributes.cs" />
+     <Compile Include="Assets\Scripts\GameMechanisms\Cards\Card.cs" />
+     <Compile Include="Assets\Scripts\GameMechanisms\Cards\CardScript.cs" />
+     <Compile Include="Assets\Scripts\GameMechanisms\Cards\CardType.cs" />
+     <Compile Include="Assets\Scripts\GameMechanisms\Cards\CardsStackManager.cs" />
+     <Compile Include="Assets\Scripts\GameMechanisms\Cards\HandManager.cs" />
+     <Compile Include="Assets\Scripts\GameMechanisms\Cards\ICard.cs" />
      <Compile Include="Assets\Scripts\GameMechanisms\CubeUV.cs" />
      <Compile Include="Assets\Scripts\GameMechanisms\GameManager.cs" />
      <Compile Include="Assets\Scripts\GameMechanisms\GameplayManager.cs" />
-     <Compile Include="Assets\Scripts\GameMechanisms\HandManager.cs" />
      <Compile Include="Assets\Scripts\GameMechanisms\InteractingEngine.cs" />
      <Compile Include="Assets\Scripts\Networking\NetworkManager.cs" />
      <Compile Include="Assets\Scripts\Networking\Package\Package.cs" />
      <Compile Include="Assets\Scripts\Networking\Package\PackageType.cs" />
      <Compile Include="Assets\Scripts\Networking\RpcManager.cs" />
      <Compile Include="Assets\Scripts\Networking\SendEvent.cs" />
+     <Compile Include="Assets\Scripts\UI\TabButton.cs" />
+     <Compile Include="Assets\Scripts\UI\TabGroup.cs" />
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
      <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
      <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
@@ -91,6 +97,7 @@
      <None Include="Assets\Shaders\Outline.shader" />
      <None Include="Assets\Photon\PhotonLibs\Photon3Unity3D.xml" />
      <None Include="Assets\Photon\PhotonUnityNetworking\link.xml" />
+     <None Include="Assets\Xmls\Cards.xml" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

@@ -377,12 +377,18 @@
             <e p="TrackedImageInfoMultipleManager.cs" t="Include" />
           </e>
           <e p="GameMechanisms" t="Include">
-            <e p="CardScript.cs" t="Include" />
-            <e p="CardsStackManager.cs" t="Include" />
+            <e p="Cards" t="Include">
+              <e p="Attributes.cs" t="Include" />
+              <e p="Card.cs" t="Include" />
+              <e p="CardScript.cs" t="Include" />
+              <e p="CardsStackManager.cs" t="Include" />
+              <e p="CardType.cs" t="Include" />
+              <e p="HandManager.cs" t="Include" />
+              <e p="ICard.cs" t="Include" />
+            </e>
             <e p="CubeUV.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
             <e p="GameplayManager.cs" t="Include" />
-            <e p="HandManager.cs" t="Include" />
             <e p="InteractingEngine.cs" t="Include" />
           </e>
           <e p="Networking" t="Include">
@@ -394,9 +400,16 @@
             <e p="RpcManager.cs" t="Include" />
             <e p="SendEvent.cs" t="Include" />
           </e>
+          <e p="UI" t="Include">
+            <e p="TabButton.cs" t="Include" />
+            <e p="TabGroup.cs" t="Include" />
+          </e>
         </e>
         <e p="Shaders" t="Include">
           <e p="Outline.shader" t="Include" />
+        </e>
+        <e p="Xmls" t="Include">
+          <e p="Cards.xml" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

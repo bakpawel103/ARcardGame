@@ -32,8 +32,11 @@ public class GameManager : MonoBehaviourPunCallbacks
 
     void Update()
     {
-        GameObject.FindGameObjectWithTag("PlayersCountText").GetComponent<Text>().text =
-            $"{(int) PhotonNetwork.CurrentRoom.PlayerCount}/{(int) PhotonNetwork.CurrentRoom.MaxPlayers}";
+        if (PhotonNetwork.CurrentRoom.PlayerCount != null && PhotonNetwork.CurrentRoom.MaxPlayers != null)
+        {
+            GameObject.FindGameObjectWithTag("PlayersCountText").GetComponent<Text>().text =
+                $"{(int) PhotonNetwork.CurrentRoom.PlayerCount}/{(int) PhotonNetwork.CurrentRoom.MaxPlayers}";
+        }
     }
 
     public void AddLog(string log)

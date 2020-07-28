@@ -54,6 +54,13 @@ Gra:
 Gra:
 - Zapoczątkowana struktura i model komunikacji pomiędzy użytkownikami pokoju a serwerem, który będzie menadżerem rozgrywki
 
+### *28.07.2020*
+Projekt:
+- Rozpoczęte tworzenie systemu kart
+
+Gra:
+- Dodanie widoku paneli w grze, w której będą znajdować się karty gracza
+
 
 ![Lobby image](https://github.com/bakpawel103/ARcardGame/blob/Networking/images/Lobby.png)
 

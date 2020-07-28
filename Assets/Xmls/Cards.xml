@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Cards>
+    <Card>
+        <Name>Elf</Name>
+        <Type>Archer</Type>
+        <CardType>Enemy</CardType>
+        <Attribute>
+            <Attack>5</Attack>
+            <Defence>2</Defence>
+        </Attribute>
+        <FileName>Elf.png</FileName>
+    </Card>
+    <Card>
+        <Name>Farmer</Name>
+        <Type>Warrior</Type>
+        <CardType>Enemy</CardType>
+        <Attribute>
+            <Attack>1</Attack>
+            <Defence>2</Defence>
+        </Attribute>
+        <FileName>Farmer.png</FileName>
+    </Card>
+    <Card>
+        <Name>Gnome</Name>
+        <Type>Warrior</Type>
+        <CardType>Enemy</CardType>
+        <Attribute>
+            <Attack>2</Attack>
+            <Defence>5</Defence>
+        </Attribute>
+        <FileName>Gnome.png</FileName>
+    </Card>
+    <Card>
+        <Name>Orc</Name>
+        <Type>Warrior</Type>
+        <CardType>Enemy</CardType>
+        <Attribute>
+            <Attack>3</Attack>
+            <Defence>6</Defence>
+        </Attribute>
+        <FileName>Orc.png</FileName>
+    </Card>
+    <Card>
+        <Name>Basic Bow</Name>
+        <Type>Bow</Type>
+        <CardType>Weapon</CardType>
+        <Attribute>
+            <Attack>3</Attack>
+        </Attribute>
+        <FileName>BasicBow.png</FileName>
+    </Card>
+    <Card>
+        <Name>Old axe</Name>
+        <Type>Axe</Type>
+        <CardType>Weapon</CardType>
+        <Attribute>
+            <Attack>1</Attack>
+        </Attribute>
+        <FileName>OldAxe.png</FileName>
+    </Card>
+    <Card>
+        <Name>Wooden sword</Name>
+        <Type>Sword</Type>
+        <CardType>Weapon</CardType>
+        <Attribute>
+            <Attack>2</Attack>
+        </Attribute>
+        <FileName>WoodenSword.png</FileName>
+    </Card>
+</Cards>
