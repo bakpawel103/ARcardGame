@@ -1,6 +1,5 @@
 D:\Repositories\ARcardGame\Temp\bin\Debug\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.pdb
-D:\Repositories\ARcardGame\Temp\bin\Debug\Boo.Lang.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\GitHub.Api.45.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\GitHub.Logging.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\GitHub.Unity.45.dll
@@ -126,12 +125,8 @@ D:\Repositories\ARcardGame\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.Android.Extensions.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.Graphs.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.iOS.Extensions.Common.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.iOS.Extensions.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.TestRunner.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.UI.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.VR.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.WindowsStandalone.Extensions.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.AIModule.dll
@@ -195,8 +190,6 @@ D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.VideoModule.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.VRModule.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.WindModule.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.XRModule.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityScript.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityScript.Lang.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\websocket-sharp.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.CompilationPipeline.Common.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.Cecil.dll
@@ -208,10 +201,6 @@ D:\Repositories\ARcardGame\Temp\bin\Debug\System.Configuration.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\System.EnterpriseServices.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\System.Transactions.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\System.Diagnostics.Tracing.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\Boo.Lang.Compiler.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\Boo.Lang.PatternMatching.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\Boo.Lang.Parser.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\Boo.Lang.Useful.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.CecilTools.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\PhotonRealtime.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\PhotonUnityNetworking.pdb
@@ -282,7 +271,6 @@ D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.VehiclesModule.xml
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.VideoModule.xml
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.WindModule.xml
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.XRModule.xml
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.iOS.Extensions.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\Photon3Unity3D.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\Photon3Unity3D.xml
 D:\Repositories\ARcardGame\Temp\bin\Debug\GitHub.Api.45.pdb
@@ -291,10 +279,12 @@ D:\Repositories\ARcardGame\Temp\bin\Debug\GitHub.Unity.45.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\GitHub.UnityShim.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\nunit.framework.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\nunit.framework.xml
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.pdb
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.iOS.Extensions.Common.pdb
 D:\Repositories\ARcardGame\obj\Debug\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csprojAssemblyReference.cache
 D:\Repositories\ARcardGame\obj\Debug\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj.CoreCompileInputs.cache
 D:\Repositories\ARcardGame\obj\Debug\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj.CopyComplete
 D:\Repositories\ARcardGame\obj\Debug\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
 D:\Repositories\ARcardGame\obj\Debug\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.pdb
+D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.UIElementsNativeModule.dll
+D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.VirtualTexturingModule.dll
+D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.UIElementsNativeModule.xml
+D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.VirtualTexturingModule.xml

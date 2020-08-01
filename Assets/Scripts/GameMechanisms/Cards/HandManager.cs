@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Xml.Serialization;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
+using UnityEngine.UI;
 
 public class HandManager : MonoBehaviour
 {
-    public double cardDistance = 0.3f;
-    public float closer = 0.1f;
-
-    public List<Card> cardsInHands = new List<Card>();
+    public CardsList<Card> cardsInHands = new CardsList<Card>();
 
     public static HandManager instance = null;
 
@@ -17,42 +14,53 @@ public class HandManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-        } else if (instance != this)
+        }
+        else if (instance != this)
         {
             Destroy(gameObject);
         }
     }
+
     void Start()
     {
-        UpdateHand();
+        cardsInHands.ListChanged += () => { UpdateHand(); };
     }
 
     public void UpdateHand()
     {
-        var halfCount = 0.0;
-        var startingXPos = 0.0;
-        var startingZPos = 0.0f;
-        if (transform.childCount % 2 != 0)
-        {
-            halfCount = Math.Floor((float) transform.childCount / 2);
-            startingXPos = -halfCount * cardDistance;
-        }
-        else
-        {
-            halfCount = Math.Floor((float) transform.childCount / 2);
-            startingXPos = (-halfCount * cardDistance) - cardDistance/2;
-        }
-        for (var i = 0; i < transform.childCount; ++i, startingXPos += cardDistance, startingZPos += closer)
-        {
-            transform.GetChild(i).transform.position = new Vector3((float) startingXPos, transform.GetChild(i).transform.position.y, transform.GetChild(i).transform.position.z - startingZPos);
-        }
     }
 
     public void AddNewCard()
     {
-        GameObject newCardGO = Instantiate (GameManager.instance.cardPref, transform.position, Quaternion.identity) as GameObject;
-        newCardGO.transform.parent = transform;
+        try
+        {
+            Card newCard = CardsManager.instance.cardsCollection.GetRandomCardOfType(CardType.WEAPON, CardType.ARMOUR);
+            GameObject newCardGO =
+                Instantiate(GameManager.instance.cardPreviewPref, transform.position, Quaternion.identity) as GameObject;
+            newCardGO.gameObject.GetComponent<CardScript>().SetCard(newCard);
+            newCardGO.gameObject.GetComponent<CardScript>().SetSprite();
 
-        UpdateHand();
+            switch (newCard.cardType)
+            {
+                case CardType.ARMOUR:
+                    newCardGO.transform.SetParent(transform.GetChild(1).transform.GetChild(0).transform.GetChild(0).transform.GetChild(0).transform);
+                    break;
+                case CardType.ITEM:
+                    newCardGO.transform.SetParent(transform.GetChild(1).transform.GetChild(1).transform.GetChild(0).transform.GetChild(0).transform);
+                    break;
+                case CardType.WEAPON:
+                    newCardGO.transform.SetParent(transform.GetChild(1).transform.GetChild(2).transform.GetChild(0).transform.GetChild(0).transform);
+                    break;
+            }
+
+            GameManager.instance.debugLog.GetComponent<Text>().text += "Added new card\n";
+
+            UpdateHand();
+        }
+        catch (Exception exception)
+        {
+            GameManager.instance.debugLog.GetComponent<Text>().text += "AddNewCard: " + exception.Message;
+            Debug.Log(exception);
+        }
     }
 }

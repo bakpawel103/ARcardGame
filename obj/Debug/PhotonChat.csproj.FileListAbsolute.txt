@@ -124,11 +124,7 @@ D:\Repositories\ARcardGame\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.Android.Extensions.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.Graphs.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.iOS.Extensions.Common.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.iOS.Extensions.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.UI.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.VR.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.WindowsStandalone.Extensions.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.AIModule.dll
@@ -261,15 +257,12 @@ D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.VehiclesModule.xml
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.VideoModule.xml
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.WindModule.xml
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.XRModule.xml
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.iOS.Extensions.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\Photon3Unity3D.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\Photon3Unity3D.xml
 D:\Repositories\ARcardGame\Temp\bin\Debug\GitHub.Api.45.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\GitHub.Logging.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\GitHub.Unity.45.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\GitHub.UnityShim.pdb
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.pdb
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.iOS.Extensions.Common.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
 D:\Repositories\ARcardGame\obj\Debug\PhotonChat.csprojAssemblyReference.cache
@@ -277,3 +270,7 @@ D:\Repositories\ARcardGame\obj\Debug\PhotonChat.csproj.CoreCompileInputs.cache
 D:\Repositories\ARcardGame\obj\Debug\PhotonChat.csproj.CopyComplete
 D:\Repositories\ARcardGame\obj\Debug\PhotonChat.dll
 D:\Repositories\ARcardGame\obj\Debug\PhotonChat.pdb
+D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.UIElementsNativeModule.dll
+D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.VirtualTexturingModule.dll
+D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.UIElementsNativeModule.xml
+D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.VirtualTexturingModule.xml

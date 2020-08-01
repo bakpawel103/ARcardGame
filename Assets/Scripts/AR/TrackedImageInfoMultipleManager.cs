@@ -80,7 +80,7 @@ public class TrackedImageInfoMultipleManager : MonoBehaviour
                 {
                     go.SetActive(false);
                 }
-            } 
+            }
         }
     }
 }

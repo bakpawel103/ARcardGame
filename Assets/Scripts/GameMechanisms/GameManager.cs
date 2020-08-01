@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviourPunCallbacks
 
     public GameObject cardStackPref;
     public GameObject cardPref;
+    public GameObject cardPreviewPref;
     public Vector3 cardStackPosition;
 
     public GameObject playerPrefab;
@@ -32,11 +33,8 @@ public class GameManager : MonoBehaviourPunCallbacks
 
     void Update()
     {
-        if (PhotonNetwork.CurrentRoom.PlayerCount != null && PhotonNetwork.CurrentRoom.MaxPlayers != null)
-        {
-            GameObject.FindGameObjectWithTag("PlayersCountText").GetComponent<Text>().text =
-                $"{(int) PhotonNetwork.CurrentRoom.PlayerCount}/{(int) PhotonNetwork.CurrentRoom.MaxPlayers}";
-        }
+        GameObject.FindGameObjectWithTag("PlayersCountText").GetComponent<Text>().text =
+            $"{(int) PhotonNetwork.CurrentRoom.PlayerCount}/{(int) PhotonNetwork.CurrentRoom.MaxPlayers}";
     }
 
     public void AddLog(string log)

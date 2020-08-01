@@ -1,23 +1,43 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class CardScript : MonoBehaviour
 {
-    void Update()
+    public Card card;
+
+    private GameObject cardPref;
+
+    public void SetCard(Card card)
     {
-        if ((Input.touchCount > 0) && (Input.GetTouch(0).phase == TouchPhase.Began))
+        this.card = card;
+    }
+
+    public void SetSprite()
+    {
+        GetComponent<Image>().sprite = card.previewSprite;
+    }
+
+    public void OnMouseDown()
+    {
+        GameManager.instance.debugLog.GetComponent<Text>().text +=
+            "test\n";
+        if (card != null)
         {
-            Ray raycast = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
-            RaycastHit raycastHit;
-            if (Physics.Raycast(raycast, out raycastHit))
-            {
-                Debug.Log("Tapped");
-                if (raycastHit.collider.CompareTag("Card"))
-                {
-                    Debug.Log($"Tapped Card");
-                }
-            }
+            cardPref = Instantiate(GameManager.instance.cardPref, transform.position, Quaternion.identity) as GameObject;
+            cardPref.transform.SetParent(transform);
+            
+            cardPref.transform.GetChild(0).GetComponent<Text>().text = card.name;
+            cardPref.transform.GetChild(1).GetComponent<Text>().text = card.type;
+            cardPref.transform.GetChild(2).GetComponent<Text>().text = card.information;
+            cardPref.transform.GetChild(3).GetComponent<Text>().text = card.attributes.attack.ToString();
+            cardPref.transform.GetChild(4).GetComponent<Text>().text = card.attributes.defence.ToString();
+            cardPref.transform.GetChild(5).GetComponent<Image>().sprite = card.sprite;
         }
+    }
+
+    public void OnMouseUp()
+    {
+        Destroy(cardPref);
     }
 }

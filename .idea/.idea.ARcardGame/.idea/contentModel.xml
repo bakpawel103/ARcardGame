@@ -371,6 +371,13 @@
             </e>
           </e>
         </e>
+        <e p="Resources" t="Include">
+          <e p="Packages" t="Include">
+            <e p="Default" t="Include">
+              <e p="Default.xml" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="AR" t="Include">
             <e p="TrackedImageInfoExtendedManager.cs" t="Include" />
@@ -381,6 +388,8 @@
               <e p="Attributes.cs" t="Include" />
               <e p="Card.cs" t="Include" />
               <e p="CardScript.cs" t="Include" />
+              <e p="CardsList.cs" t="Include" />
+              <e p="CardsManager.cs" t="Include" />
               <e p="CardsStackManager.cs" t="Include" />
               <e p="CardType.cs" t="Include" />
               <e p="HandManager.cs" t="Include" />
@@ -390,6 +399,7 @@
             <e p="GameManager.cs" t="Include" />
             <e p="GameplayManager.cs" t="Include" />
             <e p="InteractingEngine.cs" t="Include" />
+            <e p="XmlDeSerializer.cs" t="Include" />
           </e>
           <e p="Networking" t="Include">
             <e p="NetworkManager.cs" t="Include" />
@@ -407,9 +417,6 @@
         </e>
         <e p="Shaders" t="Include">
           <e p="Outline.shader" t="Include" />
-        </e>
-        <e p="Xmls" t="Include">
-          <e p="Cards.xml" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

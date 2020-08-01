@@ -19,6 +19,7 @@ public class TrackedImageInfoExtendedManager : MonoBehaviour
         if (obj.added.Count > 0)
         {
             GameObject.FindGameObjectWithTag("ScanningHelper").SetActive(false);
+            CardsManager.instance.LoadCardsDataFromXml();
         }
 
         if (obj.removed.Count > 0)

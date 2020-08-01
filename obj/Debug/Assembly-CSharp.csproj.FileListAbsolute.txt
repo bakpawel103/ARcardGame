@@ -1,6 +1,5 @@
 D:\Repositories\ARcardGame\Temp\bin\Debug\Assembly-CSharp.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\Assembly-CSharp.pdb
-D:\Repositories\ARcardGame\Temp\bin\Debug\Boo.Lang.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\Microsoft.CSharp.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\mscorlib.dll
@@ -116,7 +115,6 @@ D:\Repositories\ARcardGame\Temp\bin\Debug\System.Xml.XmlDocument.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\System.Xml.XmlSerializer.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\System.Xml.XPath.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.CollabProxy.Editor.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.Rider.Editor.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.Subsystem.Registration.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.TextMeshPro.dll
@@ -131,8 +129,6 @@ D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.XR.ARFoundation.Editor.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.XR.ARSubsystems.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.XR.ARSubsystems.Editor.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.iOS.Extensions.Common.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.SpatialTracking.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.UI.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.XR.LegacyInputHelpers.dll
@@ -197,8 +193,6 @@ D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.VRModule.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.WindModule.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.XR.LegacyInputHelpers.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.XRModule.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityScript.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityScript.Lang.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.CompilationPipeline.Common.dll
@@ -211,10 +205,6 @@ D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.TestRunner.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\System.Configuration.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\System.EnterpriseServices.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\System.Transactions.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\Boo.Lang.Compiler.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\Boo.Lang.PatternMatching.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\Boo.Lang.Parser.dll
-D:\Repositories\ARcardGame\Temp\bin\Debug\Boo.Lang.Useful.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.CecilTools.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.TestRunner.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.xml
@@ -231,7 +221,6 @@ D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.XR.ARFoundation.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.UI.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.XR.ARCore.Editor.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.Timeline.pdb
-D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.XR.LegacyInputHelpers.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.Rider.Editor.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.SpatialTracking.pdb
@@ -296,8 +285,6 @@ D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.VehiclesModule.xml
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.VideoModule.xml
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.WindModule.xml
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.XRModule.xml
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.pdb
-D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEditor.iOS.Extensions.Common.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
 D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.InternalAPIEditorBridge.005.pdb
@@ -327,3 +314,13 @@ D:\Repositories\ARcardGame\Temp\bin\Debug\Photon3Unity3D.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\Photon3Unity3D.xml
 D:\Repositories\ARcardGame\Temp\bin\Debug\nunit.framework.pdb
 D:\Repositories\ARcardGame\Temp\bin\Debug\nunit.framework.xml
+D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.VisualStudio.Editor.dll
+D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.XR.Management.dll
+D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.XR.Management.Editor.dll
+D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.UIElementsNativeModule.dll
+D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.VirtualTexturingModule.dll
+D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.XR.Management.pdb
+D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.XR.Management.Editor.pdb
+D:\Repositories\ARcardGame\Temp\bin\Debug\Unity.VisualStudio.Editor.pdb
+D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.UIElementsNativeModule.xml
+D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.VirtualTexturingModule.xml
