@@ -31,12 +31,6 @@ public class GameManager : MonoBehaviourPunCallbacks
         }
     }
 
-    void Update()
-    {
-        GameObject.FindGameObjectWithTag("PlayersCountText").GetComponent<Text>().text =
-            $"{(int) PhotonNetwork.CurrentRoom.PlayerCount}/{(int) PhotonNetwork.CurrentRoom.MaxPlayers}";
-    }
-
     public void AddLog(string log)
     {
         debugLog.GetComponent<Text>().text += log + "\n";
@@ -77,6 +71,13 @@ public class GameManager : MonoBehaviourPunCallbacks
 
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
+        if (PhotonNetwork.CurrentRoom != null)
+        {
+            GameObject.FindGameObjectWithTag("PlayersCountText").GetComponent<Text>().text =
+                $"{(int) PhotonNetwork.CurrentRoom.PlayerCount}/{(int) PhotonNetwork.CurrentRoom.MaxPlayers}";
+        }
+
+        debugLog.GetComponent<Text>().text += "New user logged in: " + newPlayer.NickName;
         if (newPlayer.IsMasterClient)
         {
             //Debug.Log($"Logged in user: {newPlayer.NickName} and isMasterClient {newPlayer.IsMasterClient}");

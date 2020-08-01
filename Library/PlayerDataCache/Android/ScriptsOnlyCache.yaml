@@ -82,6 +82,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.InputField
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
+    - UnityEngine.UI.RectMask2D
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Shadow
@@ -107,8 +108,6 @@ ScriptsOnlyBuild:
     - Class: 43
       Script: {instanceID: 0}
     - Class: 48
-      Script: {instanceID: 0}
-    - Class: 61
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
@@ -142,6 +141,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12362}
     - Class: 114
       Script: {instanceID: 12386}
+    - Class: 114
+      Script: {instanceID: 12470}
     - Class: 114
       Script: {instanceID: 12620}
     - Class: 114
@@ -322,7 +323,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14936}
     - Class: 114
-      Script: {instanceID: 15892}
+      Script: {instanceID: 15920}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128

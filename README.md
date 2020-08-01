@@ -61,6 +61,10 @@ Projekt:
 Gra:
 - Dodanie widoku paneli w grze, w której będą znajdować się karty gracza
 
+### *01.08.2020*
+Gra:
+- Działający widok z kartami gracza oraz typami kart
+
 
 ![Lobby image](https://github.com/bakpawel103/ARcardGame/blob/Networking/images/Lobby.png)
 

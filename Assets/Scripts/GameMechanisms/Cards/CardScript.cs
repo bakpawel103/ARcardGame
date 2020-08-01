@@ -2,7 +2,7 @@
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class CardScript : MonoBehaviour
+public class CardScript : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     public Card card;
 
@@ -18,14 +18,14 @@ public class CardScript : MonoBehaviour
         GetComponent<Image>().sprite = card.previewSprite;
     }
 
-    public void OnMouseDown()
+    public void OnPointerDown(PointerEventData eventData) 
     {
         GameManager.instance.debugLog.GetComponent<Text>().text +=
             "test\n";
         if (card != null)
         {
-            cardPref = Instantiate(GameManager.instance.cardPref, transform.position, Quaternion.identity) as GameObject;
-            cardPref.transform.SetParent(transform);
+            cardPref = Instantiate(GameManager.instance.cardPref, new Vector3(Screen.width/2, Screen.height/2), Quaternion.identity) as GameObject;
+            cardPref.transform.SetParent(GameObject.FindGameObjectWithTag("CardPlaceholder").transform);
             
             cardPref.transform.GetChild(0).GetComponent<Text>().text = card.name;
             cardPref.transform.GetChild(1).GetComponent<Text>().text = card.type;
@@ -36,7 +36,7 @@ public class CardScript : MonoBehaviour
         }
     }
 
-    public void OnMouseUp()
+    public void OnPointerUp(PointerEventData eventData) 
     {
         Destroy(cardPref);
     }
