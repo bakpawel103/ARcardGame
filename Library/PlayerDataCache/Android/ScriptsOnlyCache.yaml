@@ -136,6 +136,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12260}
     - Class: 114
+      Script: {instanceID: 12276}
+    - Class: 114
       Script: {instanceID: 12316}
     - Class: 114
       Script: {instanceID: 12362}
@@ -927,7 +929,7 @@ ScriptsOnlyBuild:
     className: CubeUV
   - hash:
       serializedVersion: 2
-      Hash: ce3bf287724b93e3602a167e99e6f0f7
+      Hash: 590838e35f73823bd31de7f6be79e883
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: HandManager

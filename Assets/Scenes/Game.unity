@@ -364,7 +364,7 @@ MonoBehaviour:
   cardStackPref: {fileID: 4798978535067844421, guid: 59248937e4bf00a4992f4b368e896d0f,
     type: 3}
   cardPref: {fileID: 25160718696776553, guid: f5c84c31712d5fd4d9659685977adc9e, type: 3}
-  cardPreviewPref: {fileID: 4614991035145812112, guid: efe342caee8e758479628624e167dd99,
+  cardPreviewPref: {fileID: 3272691290572989064, guid: efe342caee8e758479628624e167dd99,
     type: 3}
   cardStackPosition: {x: 0, y: 0, z: 0}
   playerPrefab: {fileID: 3394423477208511038, guid: 43e445a665f9b7d4eb569828b43d208c,
@@ -524,8 +524,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1200130224}
   m_HandleRect: {fileID: 1200130223}
   m_Direction: 2
-  m_Value: -0.0000005016074
-  m_Size: 0.59439534
+  m_Value: -0.0000045144666
+  m_Size: 0.45986652
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1170,7 +1170,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 121.67914}
+  m_AnchoredPosition: {x: 0, y: 121.679596}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &600490429
@@ -2309,7 +2309,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.000579834}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1013949766
@@ -2332,8 +2332,8 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 128, y: 128}
-  m_Spacing: {x: 20, y: 20}
+  m_CellSize: {x: 164, y: 164}
+  m_Spacing: {x: 25, y: 70}
   m_Constraint: 1
   m_ConstraintCount: 6
 --- !u!114 &1013949767
@@ -2611,7 +2611,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 128, y: 128}
-  m_Spacing: {x: 20, y: 20}
+  m_Spacing: {x: 25, y: 70}
   m_Constraint: 1
   m_ConstraintCount: 6
 --- !u!114 &1138845246
@@ -4111,6 +4111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ccea345a79724440a1e878e754c4c95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cardsInHandsGO: []
 --- !u!1 &1574398305
 GameObject:
   m_ObjectHideFlags: 0
@@ -4579,7 +4580,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 128, y: 128}
-  m_Spacing: {x: 20, y: 20}
+  m_Spacing: {x: 25, y: 70}
   m_Constraint: 1
   m_ConstraintCount: 6
 --- !u!114 &1894535358

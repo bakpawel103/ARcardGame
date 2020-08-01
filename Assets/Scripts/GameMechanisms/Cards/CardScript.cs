@@ -16,12 +16,11 @@ public class CardScript : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public void SetSprite()
     {
         GetComponent<Image>().sprite = card.previewSprite;
+        transform.GetChild(0).GetComponent<Text>().text = card.name;
     }
 
     public void OnPointerDown(PointerEventData eventData) 
     {
-        GameManager.instance.debugLog.GetComponent<Text>().text +=
-            "test\n";
         if (card != null)
         {
             cardPref = Instantiate(GameManager.instance.cardPref, new Vector3(Screen.width/2, Screen.height/2), Quaternion.identity) as GameObject;

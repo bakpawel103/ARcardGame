@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Xml.Serialization;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,6 +7,7 @@ using UnityEngine.UI;
 public class HandManager : MonoBehaviour
 {
     public CardsList<Card> cardsInHands = new CardsList<Card>();
+    public List<GameObject> cardsInHandsGO = new List<GameObject>();
 
     public static HandManager instance = null;
 
@@ -23,7 +25,7 @@ public class HandManager : MonoBehaviour
 
     void Start()
     {
-        cardsInHands.ListChanged += () => { UpdateHand(); };
+        cardsInHands.ListChanged += UpdateHand;
     }
 
     public void UpdateHand()
@@ -39,6 +41,9 @@ public class HandManager : MonoBehaviour
                 Instantiate(GameManager.instance.cardPreviewPref, transform.position, Quaternion.identity) as GameObject;
             newCardGO.gameObject.GetComponent<CardScript>().SetCard(newCard);
             newCardGO.gameObject.GetComponent<CardScript>().SetSprite();
+            
+            cardsInHands.Add(newCard);
+            cardsInHandsGO.Add(newCardGO);
 
             switch (newCard.cardType)
             {
@@ -52,8 +57,6 @@ public class HandManager : MonoBehaviour
                     newCardGO.transform.SetParent(transform.GetChild(1).transform.GetChild(2).transform.GetChild(0).transform.GetChild(0).transform);
                     break;
             }
-
-            GameManager.instance.debugLog.GetComponent<Text>().text += "Added new card\n";
 
             UpdateHand();
         }

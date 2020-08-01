@@ -63,8 +63,8 @@ Gra:
 
 ### *01.08.2020*
 Gra:
-- Działający widok z kartami gracza oraz typami kart
-
+- Działający widok z kartami gracza oraz przechodzeniem pomiędzy zakładkami z typami kart (ARMOUR, WEAPON, ITEMS)
+- Wciśnięcie w kafelek z miniaturą karty powoduje wyświetlenie preview karty na środku ekranu- preview znika po puszczeniu kafelka
 
 ![Lobby image](https://github.com/bakpawel103/ARcardGame/blob/Networking/images/Lobby.png)
 
