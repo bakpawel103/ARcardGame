@@ -77,33 +77,46 @@ Gra:
 
 
 ### *Screenshots*
+
+#### Lobby 0.1
 <table style="padding:10px">
 	<tr>
 		<td>
 			<img src="./images/Lobby_0.1.png" alt="Lobby 0.1" width = 216px height = 456px >
 		</td>
+	</tr>
+</table>
+
+#### Lobby 0.2
+<table style="padding:10px">
+	<tr>
 		<td>
 			<img src="./images/Lobby_0.2_1.jpg" alt="Lobby 0.2 1" width = 216px height = 456px>
 		</td>
 		<td>
 			<img src="./images/Lobby_0.2_2.jpg" alt="Lobby 0.2 2" width = 216px height = 456px>
 		</td>
-	</tr>
-	<tr>
 		<td>
 			<img src="./images/Lobby_0.2_3.jpg" alt="Lobby 0.2 3" width = 216px height = 456px>
 		</td>
+	</tr>
+</table>
+
+
+#### Game 0.2
+<table style="padding:10px">
+	<tr>
 		<td>
 			<img src="./images/Game_0.2_1.jpg" alt="Game 0.2 1" width = 216px height = 456px >
 		</td>
 		<td>
 			<img src="./images/Game_0.2_2.jpg" alt="Game 0.2 2" width = 216px height = 456px>
 		</td>
-	</tr>
-	<tr>
 		<td>
 			<img src="./images/Game_0.2_3.jpg" alt="Game 0.2 3" width = 216px height = 456px>
 		</td>
+	</tr>
+	<tr>
 		<td>
 			<img src="./images/Game_0.2_4.jpg" alt="Game 0.2 4" width = 216px height = 456px>
 		</td>
