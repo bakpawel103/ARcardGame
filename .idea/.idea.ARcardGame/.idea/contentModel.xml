@@ -418,6 +418,13 @@
         <e p="Shaders" t="Include">
           <e p="Outline.shader" t="Include" />
         </e>
+        <e p="UI" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="Peace Sans" t="Include">
+              <e p="FREE FONT LICENSE.txt" t="Include" />
+            </e>
+          </e>
+        </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />

@@ -15,4 +15,9 @@ public class GameplayManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    public void EndTurn()
+    {
+        
+    }
 }

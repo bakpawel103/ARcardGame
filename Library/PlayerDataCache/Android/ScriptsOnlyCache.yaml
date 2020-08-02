@@ -325,7 +325,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14936}
     - Class: 114
-      Script: {instanceID: 15920}
+      Script: {instanceID: 15904}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -665,7 +665,7 @@ ScriptsOnlyBuild:
     className: ConnectAndJoinRandomLb
   - hash:
       serializedVersion: 2
-      Hash: 5392ca8db3942c90ca06de671dc823b4
+      Hash: 5af5ebee85e6dcc8027db65a88e0a258
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager

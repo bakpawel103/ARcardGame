@@ -48,13 +48,13 @@ public class HandManager : MonoBehaviour
             switch (newCard.cardType)
             {
                 case CardType.ARMOUR:
-                    newCardGO.transform.SetParent(transform.GetChild(1).transform.GetChild(0).transform.GetChild(0).transform.GetChild(0).transform);
+                    newCardGO.transform.SetParent(transform.GetChild(2).transform.GetChild(0).transform.GetChild(0).transform.GetChild(0).transform);
                     break;
                 case CardType.ITEM:
-                    newCardGO.transform.SetParent(transform.GetChild(1).transform.GetChild(1).transform.GetChild(0).transform.GetChild(0).transform);
+                    newCardGO.transform.SetParent(transform.GetChild(2).transform.GetChild(1).transform.GetChild(0).transform.GetChild(0).transform);
                     break;
                 case CardType.WEAPON:
-                    newCardGO.transform.SetParent(transform.GetChild(1).transform.GetChild(2).transform.GetChild(0).transform.GetChild(0).transform);
+                    newCardGO.transform.SetParent(transform.GetChild(2).transform.GetChild(2).transform.GetChild(0).transform.GetChild(0).transform);
                     break;
             }
 
@@ -62,7 +62,7 @@ public class HandManager : MonoBehaviour
         }
         catch (Exception exception)
         {
-            GameManager.instance.debugLog.GetComponent<Text>().text += "AddNewCard: " + exception.Message;
+            GameManager.instance.AddLog("AddNewCard: " + exception.Message);
             Debug.Log(exception);
         }
     }

@@ -13,18 +13,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-08-01T13:53:47.452+02:00
-  initializedAtString: 2020-08-01T11:29:10.410+02:00
+  lastUpdatedAtString: 2020-08-02T12:35:10.877+02:00
+  initializedAtString: 2020-08-02T09:58:12.311+02:00
   entries:
-  - path: Assets\Prefabs\CardPreviewPrefab.prefab
-    fullPath: D:\Repositories\ARcardGame\Assets\Prefabs\CardPreviewPrefab.prefab
-    projectPath: Assets\Prefabs\CardPreviewPrefab.prefab
+  - path: .idea\.idea.ARcardGame\.idea\contentModel.xml
+    fullPath: D:\Repositories\ARcardGame\.idea\.idea.ARcardGame\.idea\contentModel.xml
+    projectPath: .idea\.idea.ARcardGame\.idea\contentModel.xml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Prefabs\CardPreviewPrefab.prefab.meta
-    fullPath: D:\Repositories\ARcardGame\Assets\Prefabs\CardPreviewPrefab.prefab.meta
-    projectPath: Assets\Prefabs\CardPreviewPrefab.prefab.meta
+  - path: Assembly-CSharp.csproj
+    fullPath: D:\Repositories\ARcardGame\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Images\LobbyBackground.jpg
+    fullPath: D:\Repositories\ARcardGame\Assets\Images\LobbyBackground.jpg
+    projectPath: Assets\Images\LobbyBackground.jpg
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Prefabs\CardPrefab.prefab
+    fullPath: D:\Repositories\ARcardGame\Assets\Prefabs\CardPrefab.prefab
+    projectPath: Assets\Prefabs\CardPrefab.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Prefabs\CardPreviewPrefab.prefab
+    fullPath: D:\Repositories\ARcardGame\Assets\Prefabs\CardPreviewPrefab.prefab
+    projectPath: Assets\Prefabs\CardPreviewPrefab.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -34,15 +52,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\GameMechanisms\Cards\CardScript.cs
-    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\Cards\CardScript.cs
-    projectPath: Assets\Scripts\GameMechanisms\Cards\CardScript.cs
+  - path: Assets\Scenes\ServerConnecting.unity
+    fullPath: D:\Repositories\ARcardGame\Assets\Scenes\ServerConnecting.unity
+    projectPath: Assets\Scenes\ServerConnecting.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\GameMechanisms\Cards\CardsStackManager.cs
-    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\Cards\CardsStackManager.cs
-    projectPath: Assets\Scripts\GameMechanisms\Cards\CardsStackManager.cs
+  - path: Assets\Scripts\GameMechanisms\Cards\CardsManager.cs
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\Cards\CardsManager.cs
+    projectPath: Assets\Scripts\GameMechanisms\Cards\CardsManager.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -58,9 +76,698 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Assets\Scripts\GameMechanisms\GameplayManager.cs
+    fullPath: D:\Repositories\ARcardGame\Assets\Scripts\GameMechanisms\GameplayManager.cs
+    projectPath: Assets\Scripts\GameMechanisms\GameplayManager.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\UI\Fonts\CastIron-Condensed.otf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\CastIron-Condensed.otf
+    projectPath: Assets\UI\Fonts\CastIron-Condensed.otf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\CastIron-Condensed.otf.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\CastIron-Condensed.otf.meta
+    projectPath: Assets\UI\Fonts\CastIron-Condensed.otf.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\FREE+High-Life+Lite.otf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\FREE+High-Life+Lite.otf
+    projectPath: Assets\UI\Fonts\FREE+High-Life+Lite.otf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\FREE+High-Life+Lite.otf.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\FREE+High-Life+Lite.otf.meta
+    projectPath: Assets\UI\Fonts\FREE+High-Life+Lite.otf.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Halogen+Free.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Halogen+Free.meta
+    projectPath: Assets\UI\Fonts\Halogen+Free.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Halogen+Free\__MACOSX.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Halogen+Free\__MACOSX.meta
+    projectPath: Assets\UI\Fonts\Halogen+Free\__MACOSX.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Halogen+Free\__MACOSX\._Halogen Free
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Halogen+Free\__MACOSX\._Halogen
+      Free
+    projectPath: Assets\UI\Fonts\Halogen+Free\__MACOSX\._Halogen Free
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Halogen+Free\__MACOSX\Halogen Free.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Halogen+Free\__MACOSX\Halogen
+      Free.meta
+    projectPath: Assets\UI\Fonts\Halogen+Free\__MACOSX\Halogen Free.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Halogen+Free\__MACOSX\Halogen Free\._- Desktop Commercial
+      Use License.pdf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Halogen+Free\__MACOSX\Halogen
+      Free\._- Desktop Commercial Use License.pdf
+    projectPath: Assets\UI\Fonts\Halogen+Free\__MACOSX\Halogen Free\._- Desktop Commercial
+      Use License.pdf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Halogen+Free\__MACOSX\Halogen Free\._.DS_Store
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Halogen+Free\__MACOSX\Halogen
+      Free\._.DS_Store
+    projectPath: Assets\UI\Fonts\Halogen+Free\__MACOSX\Halogen Free\._.DS_Store
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Halogen+Free\__MACOSX\Halogen Free\._HalogenbyPixelSurplus-Regular.otf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Halogen+Free\__MACOSX\Halogen
+      Free\._HalogenbyPixelSurplus-Regular.otf
+    projectPath: Assets\UI\Fonts\Halogen+Free\__MACOSX\Halogen Free\._HalogenbyPixelSurplus-Regular.otf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Halogen+Free\__MACOSX\Halogen Free\._HalogenRoughbyPixelSurplus-Regular.otf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Halogen+Free\__MACOSX\Halogen
+      Free\._HalogenRoughbyPixelSurplus-Regular.otf
+    projectPath: Assets\UI\Fonts\Halogen+Free\__MACOSX\Halogen Free\._HalogenRoughbyPixelSurplus-Regular.otf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Halogen+Free\Halogen Free.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Halogen+Free\Halogen Free.meta
+    projectPath: Assets\UI\Fonts\Halogen+Free\Halogen Free.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Halogen+Free\Halogen Free\- Desktop Commercial Use License.pdf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Halogen+Free\Halogen Free\-
+      Desktop Commercial Use License.pdf
+    projectPath: Assets\UI\Fonts\Halogen+Free\Halogen Free\- Desktop Commercial Use
+      License.pdf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Halogen+Free\Halogen Free\- Desktop Commercial Use License.pdf.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Halogen+Free\Halogen Free\-
+      Desktop Commercial Use License.pdf.meta
+    projectPath: Assets\UI\Fonts\Halogen+Free\Halogen Free\- Desktop Commercial Use
+      License.pdf.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Halogen+Free\Halogen Free\.DS_Store
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Halogen+Free\Halogen Free\.DS_Store
+    projectPath: Assets\UI\Fonts\Halogen+Free\Halogen Free\.DS_Store
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Fonts\Halogen+Free\Halogen Free\HalogenbyPixelSurplus-Regular.otf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Halogen+Free\Halogen Free\HalogenbyPixelSurplus-Regular.otf
+    projectPath: Assets\UI\Fonts\Halogen+Free\Halogen Free\HalogenbyPixelSurplus-Regular.otf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Halogen+Free\Halogen Free\HalogenbyPixelSurplus-Regular.otf.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Halogen+Free\Halogen Free\HalogenbyPixelSurplus-Regular.otf.meta
+    projectPath: Assets\UI\Fonts\Halogen+Free\Halogen Free\HalogenbyPixelSurplus-Regular.otf.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Halogen+Free\Halogen Free\HalogenRoughbyPixelSurplus-Regular.otf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Halogen+Free\Halogen Free\HalogenRoughbyPixelSurplus-Regular.otf
+    projectPath: Assets\UI\Fonts\Halogen+Free\Halogen Free\HalogenRoughbyPixelSurplus-Regular.otf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Halogen+Free\Halogen Free\HalogenRoughbyPixelSurplus-Regular.otf.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Halogen+Free\Halogen Free\HalogenRoughbyPixelSurplus-Regular.otf.meta
+    projectPath: Assets\UI\Fonts\Halogen+Free\Halogen Free\HalogenRoughbyPixelSurplus-Regular.otf.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Nikoleta-Font.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Nikoleta-Font.meta
+    projectPath: Assets\UI\Fonts\Nikoleta-Font.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Nikoleta-Font\NIKOLETA.otf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Nikoleta-Font\NIKOLETA.otf
+    projectPath: Assets\UI\Fonts\Nikoleta-Font\NIKOLETA.otf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Nikoleta-Font\NIKOLETA.otf.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Nikoleta-Font\NIKOLETA.otf.meta
+    projectPath: Assets\UI\Fonts\Nikoleta-Font\NIKOLETA.otf.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Nikoleta-Font\NIKOLETA.ttf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Nikoleta-Font\NIKOLETA.ttf
+    projectPath: Assets\UI\Fonts\Nikoleta-Font\NIKOLETA.ttf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Nikoleta-Font\NIKOLETA.ttf.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Nikoleta-Font\NIKOLETA.ttf.meta
+    projectPath: Assets\UI\Fonts\Nikoleta-Font\NIKOLETA.ttf.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Nikoleta-Font\Thank you!.gif
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Nikoleta-Font\Thank you!.gif
+    projectPath: Assets\UI\Fonts\Nikoleta-Font\Thank you!.gif
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Nikoleta-Font\Thank you!.gif.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Nikoleta-Font\Thank you!.gif.meta
+    projectPath: Assets\UI\Fonts\Nikoleta-Font\Thank you!.gif.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Old+Growth.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Old+Growth.meta
+    projectPath: Assets\UI\Fonts\Old+Growth.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Old+Growth\__MACOSX.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Old+Growth\__MACOSX.meta
+    projectPath: Assets\UI\Fonts\Old+Growth\__MACOSX.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Old+Growth\__MACOSX\._Old Growth
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Old+Growth\__MACOSX\._Old
+      Growth
+    projectPath: Assets\UI\Fonts\Old+Growth\__MACOSX\._Old Growth
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Old+Growth\__MACOSX\Old Growth.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Old+Growth\__MACOSX\Old
+      Growth.meta
+    projectPath: Assets\UI\Fonts\Old+Growth\__MACOSX\Old Growth.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Old+Growth\__MACOSX\Old Growth\._- Desktop Commercial Use
+      License.pdf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Old+Growth\__MACOSX\Old
+      Growth\._- Desktop Commercial Use License.pdf
+    projectPath: Assets\UI\Fonts\Old+Growth\__MACOSX\Old Growth\._- Desktop Commercial
+      Use License.pdf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Old+Growth\__MACOSX\Old Growth\._.DS_Store
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Old+Growth\__MACOSX\Old
+      Growth\._.DS_Store
+    projectPath: Assets\UI\Fonts\Old+Growth\__MACOSX\Old Growth\._.DS_Store
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Old+Growth\__MACOSX\Old Growth\._OldGrowth-Regular.otf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Old+Growth\__MACOSX\Old
+      Growth\._OldGrowth-Regular.otf
+    projectPath: Assets\UI\Fonts\Old+Growth\__MACOSX\Old Growth\._OldGrowth-Regular.otf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Old+Growth\Old Growth.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Old+Growth\Old Growth.meta
+    projectPath: Assets\UI\Fonts\Old+Growth\Old Growth.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Old+Growth\Old Growth\- Desktop Commercial Use License.pdf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Old+Growth\Old Growth\-
+      Desktop Commercial Use License.pdf
+    projectPath: Assets\UI\Fonts\Old+Growth\Old Growth\- Desktop Commercial Use License.pdf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Old+Growth\Old Growth\- Desktop Commercial Use License.pdf.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Old+Growth\Old Growth\-
+      Desktop Commercial Use License.pdf.meta
+    projectPath: Assets\UI\Fonts\Old+Growth\Old Growth\- Desktop Commercial Use License.pdf.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Old+Growth\Old Growth\.DS_Store
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Old+Growth\Old Growth\.DS_Store
+    projectPath: Assets\UI\Fonts\Old+Growth\Old Growth\.DS_Store
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Fonts\Old+Growth\Old Growth\OldGrowth-Regular.otf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Old+Growth\Old Growth\OldGrowth-Regular.otf
+    projectPath: Assets\UI\Fonts\Old+Growth\Old Growth\OldGrowth-Regular.otf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Old+Growth\Old Growth\OldGrowth-Regular.otf.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Old+Growth\Old Growth\OldGrowth-Regular.otf.meta
+    projectPath: Assets\UI\Fonts\Old+Growth\Old Growth\OldGrowth-Regular.otf.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Peace Sans.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Peace Sans.meta
+    projectPath: Assets\UI\Fonts\Peace Sans.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Peace Sans\__MACOSX.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Peace Sans\__MACOSX.meta
+    projectPath: Assets\UI\Fonts\Peace Sans\__MACOSX.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Peace Sans\__MACOSX\._FREE FONT LICENSE.txt
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Peace Sans\__MACOSX\._FREE
+      FONT LICENSE.txt
+    projectPath: Assets\UI\Fonts\Peace Sans\__MACOSX\._FREE FONT LICENSE.txt
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Peace Sans\__MACOSX\._Peace Sans.otf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Peace Sans\__MACOSX\._Peace
+      Sans.otf
+    projectPath: Assets\UI\Fonts\Peace Sans\__MACOSX\._Peace Sans.otf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Peace Sans\__MACOSX\._Peace Sans.pdf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Peace Sans\__MACOSX\._Peace
+      Sans.pdf
+    projectPath: Assets\UI\Fonts\Peace Sans\__MACOSX\._Peace Sans.pdf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Peace Sans\FREE FONT LICENSE.txt
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Peace Sans\FREE FONT LICENSE.txt
+    projectPath: Assets\UI\Fonts\Peace Sans\FREE FONT LICENSE.txt
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Peace Sans\FREE FONT LICENSE.txt.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Peace Sans\FREE FONT LICENSE.txt.meta
+    projectPath: Assets\UI\Fonts\Peace Sans\FREE FONT LICENSE.txt.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Peace Sans\Peace Sans.otf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Peace Sans\Peace Sans.otf
+    projectPath: Assets\UI\Fonts\Peace Sans\Peace Sans.otf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Peace Sans\Peace Sans.otf.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Peace Sans\Peace Sans.otf.meta
+    projectPath: Assets\UI\Fonts\Peace Sans\Peace Sans.otf.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Peace Sans\Peace Sans.pdf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Peace Sans\Peace Sans.pdf
+    projectPath: Assets\UI\Fonts\Peace Sans\Peace Sans.pdf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Peace Sans\Peace Sans.pdf.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Peace Sans\Peace Sans.pdf.meta
+    projectPath: Assets\UI\Fonts\Peace Sans\Peace Sans.pdf.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Westfalia+Free.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Westfalia+Free.meta
+    projectPath: Assets\UI\Fonts\Westfalia+Free.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Westfalia+Free\__MACOSX.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Westfalia+Free\__MACOSX.meta
+    projectPath: Assets\UI\Fonts\Westfalia+Free\__MACOSX.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Westfalia+Free\__MACOSX\._Westfalia Free
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Westfalia+Free\__MACOSX\._Westfalia
+      Free
+    projectPath: Assets\UI\Fonts\Westfalia+Free\__MACOSX\._Westfalia Free
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Westfalia+Free\__MACOSX\Westfalia Free.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Westfalia+Free\__MACOSX\Westfalia
+      Free.meta
+    projectPath: Assets\UI\Fonts\Westfalia+Free\__MACOSX\Westfalia Free.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Westfalia+Free\__MACOSX\Westfalia Free\._- Desktop Commercial
+      Use License.pdf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Westfalia+Free\__MACOSX\Westfalia
+      Free\._- Desktop Commercial Use License.pdf
+    projectPath: Assets\UI\Fonts\Westfalia+Free\__MACOSX\Westfalia Free\._- Desktop
+      Commercial Use License.pdf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Westfalia+Free\__MACOSX\Westfalia Free\._.DS_Store
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Westfalia+Free\__MACOSX\Westfalia
+      Free\._.DS_Store
+    projectPath: Assets\UI\Fonts\Westfalia+Free\__MACOSX\Westfalia Free\._.DS_Store
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Westfalia+Free\__MACOSX\Westfalia Free\._Westfalia-Regular.otf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Westfalia+Free\__MACOSX\Westfalia
+      Free\._Westfalia-Regular.otf
+    projectPath: Assets\UI\Fonts\Westfalia+Free\__MACOSX\Westfalia Free\._Westfalia-Regular.otf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Westfalia+Free\Westfalia Free.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Westfalia+Free\Westfalia
+      Free.meta
+    projectPath: Assets\UI\Fonts\Westfalia+Free\Westfalia Free.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Westfalia+Free\Westfalia Free\- Desktop Commercial Use
+      License.pdf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Westfalia+Free\Westfalia
+      Free\- Desktop Commercial Use License.pdf
+    projectPath: Assets\UI\Fonts\Westfalia+Free\Westfalia Free\- Desktop Commercial
+      Use License.pdf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Westfalia+Free\Westfalia Free\- Desktop Commercial Use
+      License.pdf.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Westfalia+Free\Westfalia
+      Free\- Desktop Commercial Use License.pdf.meta
+    projectPath: Assets\UI\Fonts\Westfalia+Free\Westfalia Free\- Desktop Commercial
+      Use License.pdf.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Westfalia+Free\Westfalia Free\.DS_Store
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Westfalia+Free\Westfalia
+      Free\.DS_Store
+    projectPath: Assets\UI\Fonts\Westfalia+Free\Westfalia Free\.DS_Store
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UI\Fonts\Westfalia+Free\Westfalia Free\Westfalia-Regular.otf
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Westfalia+Free\Westfalia
+      Free\Westfalia-Regular.otf
+    projectPath: Assets\UI\Fonts\Westfalia+Free\Westfalia Free\Westfalia-Regular.otf
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Fonts\Westfalia+Free\Westfalia Free\Westfalia-Regular.otf.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Fonts\Westfalia+Free\Westfalia
+      Free\Westfalia-Regular.otf.meta
+    projectPath: Assets\UI\Fonts\Westfalia+Free\Westfalia Free\Westfalia-Regular.otf.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Prefabs\Item.prefab
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Prefabs\Item.prefab
+    projectPath: Assets\UI\Prefabs\Item.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\UI\Textures.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Textures.meta
+    projectPath: Assets\UI\Textures.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Textures\armour.png
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Textures\armour.png
+    projectPath: Assets\UI\Textures\armour.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Textures\armour.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Textures\armour.png.meta
+    projectPath: Assets\UI\Textures\armour.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Textures\armour_selected.png
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Textures\armour_selected.png
+    projectPath: Assets\UI\Textures\armour_selected.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Textures\armour_selected.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Textures\armour_selected.png.meta
+    projectPath: Assets\UI\Textures\armour_selected.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Textures\potion.png
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Textures\potion.png
+    projectPath: Assets\UI\Textures\potion.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Textures\potion.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Textures\potion.png.meta
+    projectPath: Assets\UI\Textures\potion.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Textures\potion_selected.png
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Textures\potion_selected.png
+    projectPath: Assets\UI\Textures\potion_selected.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Textures\potion_selected.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Textures\potion_selected.png.meta
+    projectPath: Assets\UI\Textures\potion_selected.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Textures\weapon.png
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Textures\weapon.png
+    projectPath: Assets\UI\Textures\weapon.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Textures\weapon.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Textures\weapon.png.meta
+    projectPath: Assets\UI\Textures\weapon.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Textures\weapon_selected.png
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Textures\weapon_selected.png
+    projectPath: Assets\UI\Textures\weapon_selected.png
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Textures\weapon_selected.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Textures\weapon_selected.png.meta
+    projectPath: Assets\UI\Textures\weapon_selected.png.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\UI\Texutes\armour.png
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\armour.png
+    projectPath: Assets\UI\Texutes\armour.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Texutes\armour.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\armour.png.meta
+    projectPath: Assets\UI\Texutes\armour.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Texutes\armour_selected.png
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\armour_selected.png
+    projectPath: Assets\UI\Texutes\armour_selected.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Texutes\armour_selected.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\armour_selected.png.meta
+    projectPath: Assets\UI\Texutes\armour_selected.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Texutes\potion.png
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\potion.png
+    projectPath: Assets\UI\Texutes\potion.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Texutes\potion.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\potion.png.meta
+    projectPath: Assets\UI\Texutes\potion.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Texutes\potion_selected.png
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\potion_selected.png
+    projectPath: Assets\UI\Texutes\potion_selected.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Texutes\potion_selected.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\potion_selected.png.meta
+    projectPath: Assets\UI\Texutes\potion_selected.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Texutes\weapon.png
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\weapon.png
+    projectPath: Assets\UI\Texutes\weapon.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Texutes\weapon.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\weapon.png.meta
+    projectPath: Assets\UI\Texutes\weapon.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Texutes\weapon_selected.png
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\weapon_selected.png
+    projectPath: Assets\UI\Texutes\weapon_selected.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\UI\Texutes\weapon_selected.png.meta
+    fullPath: D:\Repositories\ARcardGame\Assets\UI\Texutes\weapon_selected.png.meta
+    projectPath: Assets\UI\Texutes\weapon_selected.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Builds\CardARGame v.0.0.4.apk
     fullPath: D:\Repositories\ARcardGame\Builds\CardARGame v.0.0.4.apk
     projectPath: Builds\CardARGame v.0.0.4.apk
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: images\cardtemplatesize.png
+    fullPath: D:\Repositories\ARcardGame\images\cardtemplatesize.png
+    projectPath: images\cardtemplatesize.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: images\Game_0.2_1.jpg
+    fullPath: D:\Repositories\ARcardGame\images\Game_0.2_1.jpg
+    projectPath: images\Game_0.2_1.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: images\Game_0.2_2.jpg
+    fullPath: D:\Repositories\ARcardGame\images\Game_0.2_2.jpg
+    projectPath: images\Game_0.2_2.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: images\Game_0.2_3.jpg
+    fullPath: D:\Repositories\ARcardGame\images\Game_0.2_3.jpg
+    projectPath: images\Game_0.2_3.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: images\Game_0.2_4.jpg
+    fullPath: D:\Repositories\ARcardGame\images\Game_0.2_4.jpg
+    projectPath: images\Game_0.2_4.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: images\Game_0.2_5.jpg
+    fullPath: D:\Repositories\ARcardGame\images\Game_0.2_5.jpg
+    projectPath: images\Game_0.2_5.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: images\Lobby.png
+    fullPath: D:\Repositories\ARcardGame\images\Lobby.png
+    projectPath: images\Lobby.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: images\Lobby_0.1.png
+    fullPath: D:\Repositories\ARcardGame\images\Lobby_0.1.png
+    projectPath: images\Lobby_0.1.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: images\Lobby_0.2_1.jpg
+    fullPath: D:\Repositories\ARcardGame\images\Lobby_0.2_1.jpg
+    projectPath: images\Lobby_0.2_1.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: images\Lobby_0.2_2.jpg
+    fullPath: D:\Repositories\ARcardGame\images\Lobby_0.2_2.jpg
+    projectPath: images\Lobby_0.2_2.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: images\Lobby_0.2_3.jpg
+    fullPath: D:\Repositories\ARcardGame\images\Lobby_0.2_3.jpg
+    projectPath: images\Lobby_0.2_3.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ArtifactDB
+    fullPath: D:\Repositories\ARcardGame\Library\ArtifactDB
+    projectPath: Library\ArtifactDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Artifacts\1d\1d8a0c922c94f792b72bc91d4aa34211
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\1d\1d8a0c922c94f792b72bc91d4aa34211
+    projectPath: Library\Artifacts\1d\1d8a0c922c94f792b72bc91d4aa34211
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b0\b0ea50a9913c0a9f7c3850dd2bda9417
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\b0\b0ea50a9913c0a9f7c3850dd2bda9417
+    projectPath: Library\Artifacts\b0\b0ea50a9913c0a9f7c3850dd2bda9417
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b2\b2d761bc33c157548784464613571939
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\b2\b2d761bc33c157548784464613571939
+    projectPath: Library\Artifacts\b2\b2d761bc33c157548784464613571939
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\fb\fb7d0e3a7f6f3fe5aa0498c6b65b8d89
+    fullPath: D:\Repositories\ARcardGame\Library\Artifacts\fb\fb7d0e3a7f6f3fe5aa0498c6b65b8d89
+    projectPath: Library\Artifacts\fb\fb7d0e3a7f6f3fe5aa0498c6b65b8d89
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\EditorUserBuildSettings.asset
+    fullPath: D:\Repositories\ARcardGame\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -97,6 +804,12 @@ MonoBehaviour:
   - path: Library\gfu\cache\repoinfo.yaml
     fullPath: D:\Repositories\ARcardGame\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: D:\Repositories\ARcardGame\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -154,6 +867,30 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\ShaderCache\EditorEncounteredVariants
+    fullPath: D:\Repositories\ARcardGame\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: D:\Repositories\ARcardGame\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\shadercompiler-UnityShaderCompiler.exe7.log
+    fullPath: D:\Repositories\ARcardGame\Library\shadercompiler-UnityShaderCompiler.exe7.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\SourceAssetDB
+    fullPath: D:\Repositories\ARcardGame\Library\SourceAssetDB
+    projectPath: Library\SourceAssetDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\StateCache\MainStageHierarchy\47\4731a15999aeffc757555d40dc4fa5b2.json
     fullPath: D:\Repositories\ARcardGame\Library\StateCache\MainStageHierarchy\47\4731a15999aeffc757555d40dc4fa5b2.json
     projectPath: Library\StateCache\MainStageHierarchy\47\4731a15999aeffc757555d40dc4fa5b2.json
@@ -163,6 +900,12 @@ MonoBehaviour:
   - path: Library\StateCache\PrefabStageHierarchy\85\85706aeb94acf8b1a98c13d9a1cefe20.json
     fullPath: D:\Repositories\ARcardGame\Library\StateCache\PrefabStageHierarchy\85\85706aeb94acf8b1a98c13d9a1cefe20.json
     projectPath: Library\StateCache\PrefabStageHierarchy\85\85706aeb94acf8b1a98c13d9a1cefe20.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\PrefabStageHierarchy\93\93637aa7c1d8b24aa35d04e1017ca069.json
+    fullPath: D:\Repositories\ARcardGame\Library\StateCache\PrefabStageHierarchy\93\93637aa7c1d8b24aa35d04e1017ca069.json
+    projectPath: Library\StateCache\PrefabStageHierarchy\93\93637aa7c1d8b24aa35d04e1017ca069.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -178,9 +921,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: ProjectSettings\ProjectSettings.asset
-    fullPath: D:\Repositories\ARcardGame\ProjectSettings\ProjectSettings.asset
-    projectPath: ProjectSettings\ProjectSettings.asset
+  - path: Library\StateCache\SceneView\ae\ae9f2c6b60034ef956c9c9f9509e5856.json
+    fullPath: D:\Repositories\ARcardGame\Library\StateCache\SceneView\ae\ae9f2c6b60034ef956c9c9f9509e5856.json
+    projectPath: Library\StateCache\SceneView\ae\ae9f2c6b60034ef956c9c9f9509e5856.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: D:\Repositories\ARcardGame\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: README.md
+    fullPath: D:\Repositories\ARcardGame\README.md
+    projectPath: README.md
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

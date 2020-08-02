@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviourPunCallbacks
 
     [Header("UI GameObjects")]
     public GameObject debugLog;
+    public GameObject debugLogGO;
     public GameObject uiCanvas;
 
     void Awake()
@@ -43,6 +44,11 @@ public class GameManager : MonoBehaviourPunCallbacks
     public void AddLog(string log)
     {
         debugLog.GetComponent<Text>().text += log + "\n";
+    }
+
+    public void SwitchDebugLogPanel()
+    {
+        debugLogGO.SetActive(!debugLogGO.activeSelf);
     }
 
     public override void OnLeftRoom()
@@ -75,7 +81,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     [PunRPC]
     void RpcWithObjectArray(object[] objectArray, PhotonMessageInfo info)
     {
-        debugLog.GetComponent<Text>().text += $"RpcWithObjectArray from {info.Sender.NickName}: {objectArray}";
+        AddLog($"RpcWithObjectArray from {info.Sender.NickName}: {objectArray}");
     }
 
     public override void OnPlayerEnteredRoom(Player newPlayer)
@@ -86,7 +92,7 @@ public class GameManager : MonoBehaviourPunCallbacks
                 $"{(int) PhotonNetwork.CurrentRoom.PlayerCount}/{(int) PhotonNetwork.CurrentRoom.MaxPlayers}";
         }
 
-        debugLog.GetComponent<Text>().text += "New user logged in: " + newPlayer.NickName;
+        GameManager.instance.AddLog("New user logged in: " + newPlayer.NickName);
         if (newPlayer.IsMasterClient)
         {
             //Debug.Log($"Logged in user: {newPlayer.NickName} and isMasterClient {newPlayer.IsMasterClient}");

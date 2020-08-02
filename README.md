@@ -7,10 +7,10 @@
 
 ### Flow:
 - [x] Gracz w lobby przeszukuje istniejące pokoje i dołącza do któregoś z nich, bądz tworzy własny 4-ro osobowy pokój
-- [ ] Gracz poproszony jest o zeskanowanie obrazka, który będzie punktem zerowym przy trackowaniu
-- [ ] Pozostali gracze mogą dołączyć do gry, wyszukując podany pokój w lobby
+- [x] Gracz poproszony jest o zeskanowanie obrazka, który będzie punktem zerowym przy trackowaniu
+- [x] Pozostali gracze mogą dołączyć do gry, wyszukując podany pokój w lobby
 - [ ] Gracz widzi wizualizację kart wszystkich przeciwników. Jest w stanie położyć kartę na stole i jest to wizualizowane dla każdego gracza znajdującego się w tej grze.
-- [ ] Jeśli jest to gra planszowa, to jest w stanie rzucić kostką sześcienną (lub jakąś inną- w zależności od rodzaju gry).
+- [ ] Gracz może rzucić kostką sześcienną.
 - [ ] Zaimplementowane reguły gry.
 
 
@@ -66,12 +66,54 @@ Gra:
 - Działający widok z kartami gracza oraz przechodzeniem pomiędzy zakładkami z typami kart (ARMOUR, WEAPON, ITEMS)
 - Wciśnięcie w kafelek z miniaturą karty powoduje wyświetlenie preview karty na środku ekranu- preview znika po puszczeniu kafelka
 
-![Lobby image](https://github.com/bakpawel103/ARcardGame/blob/Networking/images/Lobby.png)
+##### *02.08.2020*
+Lobby:
+- Poprawianie wyglądu lobby
+
+Gra:
+- Poprawienie wyglądu gry
+- Dodanie przycisku End Turn
+- Dodanie przycisku oraz metody do pokazywania i ukrywania panelu z debug logiem
+
+<table style="padding:10px">
+  <tr>
+    <td>
+		<img src="./images/Lobby_0.1.png" alt="Lobby 0.1" width = 279px height = 496px >
+	</td>
+    <td>
+		<img src="./images/Lobby_0.2_1.jpg" alt="Lobby 0.2 1" width = 279px height = 496px>
+	</td>
+	<td>
+		<img src="./images/Lobby_0.2_2.jpg" alt="Lobby 0.2 2" width = 288px height = 512px>
+	</td>
+	<td>
+		<img src="./images/Lobby_0.2_3.jpg" alt="Lobby 0.2 3" width =  279px height = 496px>
+	</td>
+  </tr>
+  <tr>
+    <td>
+		<img src="./images/Game_0.2_1.jpg" alt="Game 0.2 1" width = 279px height = 496px >
+	</td>
+    <td>
+		<img src="./images/Game_0.2_2.jpg" alt="Game 0.2 2" width = 279px height = 496px>
+	</td>
+	<td>
+		<img src="./images/Game_0.2_3.jpg" alt="Game 0.2 3" width = 288px height = 512px>
+	</td>
+	<td>
+		<img src="./images/Game_0.2_4.jpg" alt="Game 0.2 4" width =  279px height = 496px>
+	</td>
+	<td>
+		<img src="./images/Game_0.2_5.jpg" alt="Game 0.2 5" width =  279px height = 496px>
+	</td>
+  </tr>
+</table>
 
 
 | Użyta technologia | URL |
 | ------ | ------ |
 | Photon | https://www.photonengine.com/ |
 | Unity | https://unity.com/ |
-| AR Foundation |  |
+| AR Foundation | https://unity.com/unity/features/arfoundation |
 | Trello | https://trello.com/invite/b/qa0HCiRn/9141d04ae80493bfdcfe7eb7a3bbdb09/ar-card-game |
+| Fonts | https://www.pixelsurplus.com/freebies |
