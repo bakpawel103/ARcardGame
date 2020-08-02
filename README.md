@@ -76,37 +76,39 @@ Gra:
 - Dodanie przycisku oraz metody do pokazywania i ukrywania panelu z debug logiem
 
 <table style="padding:10px">
-  <tr>
-    <td>
-		<img src="./images/Lobby_0.1.png" alt="Lobby 0.1" width = 279px height = 496px >
-	</td>
-    <td>
-		<img src="./images/Lobby_0.2_1.jpg" alt="Lobby 0.2 1" width = 279px height = 496px>
-	</td>
-	<td>
-		<img src="./images/Lobby_0.2_2.jpg" alt="Lobby 0.2 2" width = 288px height = 512px>
-	</td>
-	<td>
-		<img src="./images/Lobby_0.2_3.jpg" alt="Lobby 0.2 3" width =  279px height = 496px>
-	</td>
-  </tr>
-  <tr>
-    <td>
-		<img src="./images/Game_0.2_1.jpg" alt="Game 0.2 1" width = 279px height = 496px >
-	</td>
-    <td>
-		<img src="./images/Game_0.2_2.jpg" alt="Game 0.2 2" width = 279px height = 496px>
-	</td>
-	<td>
-		<img src="./images/Game_0.2_3.jpg" alt="Game 0.2 3" width = 288px height = 512px>
-	</td>
-	<td>
-		<img src="./images/Game_0.2_4.jpg" alt="Game 0.2 4" width =  279px height = 496px>
-	</td>
-	<td>
-		<img src="./images/Game_0.2_5.jpg" alt="Game 0.2 5" width =  279px height = 496px>
-	</td>
-  </tr>
+	<tr>
+		<td>
+			<img src="./images/Lobby_0.1.png" alt="Lobby 0.1" width = 216px height = 456px >
+		</td>
+		<td>
+			<img src="./images/Lobby_0.2_1.jpg" alt="Lobby 0.2 1" width = 216px height = 456px>
+		</td>
+		<td>
+			<img src="./images/Lobby_0.2_2.jpg" alt="Lobby 0.2 2" width = 216px height = 456px>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img src="./images/Lobby_0.2_3.jpg" alt="Lobby 0.2 3" width = 216px height = 456px>
+		</td>
+		<td>
+			<img src="./images/Game_0.2_1.jpg" alt="Game 0.2 1" width = 216px height = 456px >
+		</td>
+		<td>
+			<img src="./images/Game_0.2_2.jpg" alt="Game 0.2 2" width = 216px height = 456px>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img src="./images/Game_0.2_3.jpg" alt="Game 0.2 3" width = 216px height = 456px>
+		</td>
+		<td>
+			<img src="./images/Game_0.2_4.jpg" alt="Game 0.2 4" width = 216px height = 456px>
+		</td>
+		<td>
+			<img src="./images/Game_0.2_5.jpg" alt="Game 0.2 5" width = 216px height = 456px>
+		</td>
+	</tr>
 </table>
 
 
