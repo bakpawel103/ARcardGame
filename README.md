@@ -1,11 +1,11 @@
-﻿# Praca inżynierska:
+﻿# *Praca inżynierska:*
 *AR Foundation in Unity + Android/iOS + Photon Networking System*
 *Gra planszowa/karciana multiplayer LAN/online.*
 
-### Trello ToDo List:
+### *Trello ToDo List:*
 - https://trello.com/invite/b/qa0HCiRn/9141d04ae80493bfdcfe7eb7a3bbdb09/ar-card-game
 
-### Flow:
+### *Flow:*
 - [x] Gracz w lobby przeszukuje istniejące pokoje i dołącza do któregoś z nich, bądz tworzy własny 4-ro osobowy pokój
 - [x] Gracz poproszony jest o zeskanowanie obrazka, który będzie punktem zerowym przy trackowaniu
 - [x] Pozostali gracze mogą dołączyć do gry, wyszukując podany pokój w lobby
@@ -14,7 +14,7 @@
 - [ ] Zaimplementowane reguły gry.
 
 
-### News:
+### *News:*
 ##### *16.07.2020*
 Projekt:
 - Przejście z TCPClient i TCPListener na framework Photon
@@ -25,7 +25,7 @@ Lobby:
 - Przebudowany system lobby z GUI do UI, który pozwala na sprawniejszą i wydajniejszą responsywność widoku oraz wydajniejsze pisanie kodu
 
 
-##### *17.07.2020*
+### *17.07.2020*
 Lobby:
 - Przycisk Create Room dostępny, gdy uzupełniono polę Player Name oraz Room Name
 - Przycisk Join Room dostępny, gdy uzupełniono polę Player Name
@@ -37,7 +37,7 @@ Gra:
 - Obrazek zachęty znika, gdy zdjęcie zostało zeskanowane
 
 
-##### *18.07.2020*
+### *18.07.2020*
 Lobby:
 - Poprawiona zmiana przycisków Create Room, Join oraz Refresh na aktywne i dezaktywowanie
 
@@ -45,7 +45,7 @@ Gra:
 - Rozpoczęte prace nad modelem synchronizacji pozycji graczy w pokoju
 
 
-#### *19.07.2020*
+### *19.07.2020*
 Gra:
 - Pierwsze wysłanie wiadomości do wszystkich użytkowników w pokoju
 
@@ -66,7 +66,7 @@ Gra:
 - Działający widok z kartami gracza oraz przechodzeniem pomiędzy zakładkami z typami kart (ARMOUR, WEAPON, ITEMS)
 - Wciśnięcie w kafelek z miniaturą karty powoduje wyświetlenie preview karty na środku ekranu- preview znika po puszczeniu kafelka
 
-##### *02.08.2020*
+### *02.08.2020*
 Lobby:
 - Poprawianie wyglądu lobby
 
@@ -75,6 +75,8 @@ Gra:
 - Dodanie przycisku End Turn
 - Dodanie przycisku oraz metody do pokazywania i ukrywania panelu z debug logiem
 
+
+### *Screenshots*
 <table style="padding:10px">
 	<tr>
 		<td>
@@ -112,6 +114,7 @@ Gra:
 </table>
 
 
+### *Użyte technologie*
 | Użyta technologia | URL |
 | ------ | ------ |
 | Photon | https://www.photonengine.com/ |
