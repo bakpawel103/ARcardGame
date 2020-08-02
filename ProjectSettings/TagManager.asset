@@ -18,6 +18,7 @@ TagManager:
   - PlayersCountText
   - CreateRoomButton
   - RoomItems
+  - CardPlaceholder
   layers:
   - Default
   - TransparentFX
