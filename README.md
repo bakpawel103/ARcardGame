@@ -15,65 +15,123 @@
 
 
 ### *News:*
-##### *16.07.2020*
-Projekt:
-- Przejście z TCPClient i TCPListener na framework Photon
-- Pierwsza scena, to scena z lobby, w którym możemy przeszukać istniejące pokoje i dołączyć do jednego z nich, bądź stworzyć własny
-- Po dołączeniu do pokoju, przechodzimy do sceny z grą, gdzie od razu zostaniemy poproszeni o zeskanowanie obrazka (Na początek ikonka Politechniki Łódzkiej)
-
-Lobby:
-- Przebudowany system lobby z GUI do UI, który pozwala na sprawniejszą i wydajniejszą responsywność widoku oraz wydajniejsze pisanie kodu
-
-
-### *17.07.2020*
-Lobby:
-- Przycisk Create Room dostępny, gdy uzupełniono polę Player Name oraz Room Name
-- Przycisk Join Room dostępny, gdy uzupełniono polę Player Name
-
-Gra:
-- Dodany przycisk wychodzenia z pokoju
-- Dodany panel, w którym wyświetlana jest liczebność pokoju, w którym jest gracz
-- Dodany obrazek zachęty do zeskanowania zdjęcia, który będzie punktem zerowym trackowania
-- Obrazek zachęty znika, gdy zdjęcie zostało zeskanowane
-
-
-### *18.07.2020*
-Lobby:
-- Poprawiona zmiana przycisków Create Room, Join oraz Refresh na aktywne i dezaktywowanie
-
-Gra:
-- Rozpoczęte prace nad modelem synchronizacji pozycji graczy w pokoju
-
-
-### *19.07.2020*
-Gra:
-- Pierwsze wysłanie wiadomości do wszystkich użytkowników w pokoju
-
-
-### *20.07.2020*
-Gra:
-- Zapoczątkowana struktura i model komunikacji pomiędzy użytkownikami pokoju a serwerem, który będzie menadżerem rozgrywki
-
-### *28.07.2020*
-Projekt:
-- Rozpoczęte tworzenie systemu kart
-
-Gra:
-- Dodanie widoku paneli w grze, w której będą znajdować się karty gracza
-
-### *01.08.2020*
-Gra:
-- Działający widok z kartami gracza oraz przechodzeniem pomiędzy zakładkami z typami kart (ARMOUR, WEAPON, ITEMS)
-- Wciśnięcie w kafelek z miniaturą karty powoduje wyświetlenie preview karty na środku ekranu- preview znika po puszczeniu kafelka
-
-### *02.08.2020*
-Lobby:
-- Poprawianie wyglądu lobby
-
-Gra:
-- Poprawienie wyglądu gry
-- Dodanie przycisku End Turn
-- Dodanie przycisku oraz metody do pokazywania i ukrywania panelu z debug logiem
+<table>
+  <tr>
+    <th>Data</th>
+    <th>Projekt</th>
+    <th>Lobby</th>
+    <th>Gra</th>
+  </tr>
+  <tr>
+    <td>16.07.2020</td>
+    <td>
+      <ul>
+        <li>Przejście z TCPClient i TCPListener na framework Photon</li>
+        <li>Pierwsza scena, to scena z lobby, w którym możemy przeszukać istniejące pokoje i dołączyć do jednego z nich, bądź stworzyć własny</li>
+        <li>Po dołączeniu do pokoju, przechodzimy do sceny z grą, gdzie od razu zostaniemy poproszeni o zeskanowanie obrazka (Na początek ikonka Politechniki Łódzkiej)</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Przebudowany system lobby z GUI do UI, który pozwala na sprawniejszą i wydajniejszą responsywność widoku oraz wydajniejsze pisanie kodu</li>
+      </ul>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>17.07.2020</td>
+    <td></td>
+    <td>
+      <ul>
+        <li>Przycisk Create Room dostępny, gdy uzupełniono polę Player Name oraz Room Name</li>
+        <li>Przycisk Join Room dostępny, gdy uzupełniono polę Player Name</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Dodany przycisk wychodzenia z pokoju</li>
+        <li>Dodany panel, w którym wyświetlana jest liczebność pokoju, w którym jest gracz</li>
+        <li>Dodany obrazek zachęty do zeskanowania zdjęcia, który będzie punktem zerowym trackowania</li>
+        <li>Obrazek zachęty znika, gdy zdjęcie zostało zeskanowane</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>18.07.2020</td>
+    <td></td>
+    <td>
+      <ul>
+        <li>Poprawiona zmiana przycisków Create Room, Join oraz Refresh na aktywne i dezaktywowanie</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Rozpoczęte prace nad modelem synchronizacji pozycji graczy w pokoju</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>19.07.2020</td>
+    <td></td>
+    <td></td>
+    <td>
+      <ul>
+        <li>Pierwsze wysłanie wiadomości do wszystkich użytkowników w pokoju</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>20.07.2020</td>
+    <td></td>
+    <td></td>
+    <td>
+      <ul>
+        <li>Zapoczątkowana struktura i model komunikacji pomiędzy użytkownikami pokoju a serwerem, który będzie menadżerem rozgrywki</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>28.07.2020</td>
+    <td>
+      <ul>
+        <li>Rozpoczęte tworzenie systemu kart</li>
+      </ul>
+    </td>
+    <td></td>
+    <td>
+      <ul>
+        <li>Dodanie widoku paneli w grze, w której będą znajdować się karty gracza</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>01.08.2020</td>
+    <td></td>
+    <td></td>
+    <td>
+      <ul>
+        <li>Działający widok z kartami gracza oraz przechodzeniem pomiędzy zakładkami z typami kart (ARMOUR, WEAPON, ITEMS)</li>
+        <li>Wciśnięcie w kafelek z miniaturą karty powoduje wyświetlenie preview karty na środku ekranu- preview znika po puszczeniu kafelka</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>02.08.2020</td>
+    <td></td>
+    <td>
+      <ul>
+        <li>Poprawianie wyglądu lobby</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Poprawienie wyglądu gry</li>
+        <li>Dodanie przycisku End Turn</li>
+        <li>Dodanie przycisku oraz metody do pokazywania i ukrywania panelu z debug logiem</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 
 ### *Screenshots*
