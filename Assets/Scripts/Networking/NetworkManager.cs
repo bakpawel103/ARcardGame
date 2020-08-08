@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Photon.Pun;
 using Photon.Realtime;
+using UI;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -45,15 +46,14 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     void Update()
     {
-        GameObject.FindGameObjectWithTag("CreateRoomButton").GetComponent<Button>().interactable =
+        GameObject.FindGameObjectWithTag("CreateRoomButton").GetComponent<DynamicBackgroundButton>().SetInteractable(
             !string.IsNullOrEmpty(playerName.GetComponent<InputField>().text) &&
-            !string.IsNullOrEmpty(roomName.GetComponent<InputField>().text);
+            !string.IsNullOrEmpty(roomName.GetComponent<InputField>().text));
         playerName.GetComponent<InputField>().onValueChanged.AddListener((value) =>
         {
             foreach (var scrollViewItem in scrollViewItemsList)
             {
-                scrollViewItem.transform.GetChild(2).GetChild(0).GetComponent<Button>().interactable =
-                    !string.IsNullOrEmpty(playerName.GetComponent<InputField>().text);
+                scrollViewItem.transform.GetChild(2).GetChild(0).GetComponent<DynamicBackgroundButton>().SetInteractable(!string.IsNullOrEmpty(playerName.GetComponent<InputField>().text));
             }
         });
         statusLabel.GetComponent<Text>().text = "Status: " +
@@ -109,12 +109,13 @@ public class NetworkManager : MonoBehaviourPunCallbacks
                     createdRooms[i].PlayerCount + "/" + createdRooms[i].MaxPlayers;
 
                 var i1 = i;
-                itemPrefabInstance.transform.GetChild(2).GetChild(0).GetComponent<Button>().onClick.AddListener(() =>
-                {
-                    joiningRoom = true;
-                    PhotonNetwork.NickName = playerName.GetComponent<InputField>().text;
-                    PhotonNetwork.JoinRoom(createdRooms[i1].Name);
-                });
+                itemPrefabInstance.transform.GetChild(2).GetChild(0).GetComponent<DynamicBackgroundButton>().onClick
+                    .AddListener(() =>
+                    {
+                        joiningRoom = true;
+                        PhotonNetwork.NickName = playerName.GetComponent<InputField>().text;
+                        PhotonNetwork.JoinRoom(createdRooms[i1].Name);
+                    });
                 itemPrefabInstance.transform.SetParent(scrollViewContentGO.transform, false);
             }
         }

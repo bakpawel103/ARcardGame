@@ -53,6 +53,7 @@ public class GameManager : MonoBehaviourPunCallbacks
 
     public override void OnLeftRoom()
     {
+        PhotonNetwork.LeaveRoom();
         SceneManager.LoadScene(0);
     }
 

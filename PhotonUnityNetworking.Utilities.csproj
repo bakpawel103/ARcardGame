@@ -274,6 +274,9 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>D:/Unity/Editors/2020.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="JMOAssets_CartoonFXFreeWelcome">
+ <HintPath>D:/Repositories/ARcardGame/Assets/JMO Assets/Editor/JMOAssets_CartoonFXFreeWelcome.dll</HintPath>
+ </Reference>
  <Reference Include="Photon3Unity3D">
  <HintPath>D:/Repositories/ARcardGame/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>

@@ -273,3 +273,4 @@ D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.UIElementsNativeModule.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.VirtualTexturingModule.dll
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.UIElementsNativeModule.xml
 D:\Repositories\ARcardGame\Temp\bin\Debug\UnityEngine.VirtualTexturingModule.xml
+D:\Repositories\ARcardGame\Temp\bin\Debug\JMOAssets_CartoonFXFreeWelcome.dll

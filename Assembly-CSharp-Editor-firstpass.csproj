@@ -66,11 +66,17 @@
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEngine.Monetization">
+ <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Subsystem.Registration">
  <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder">
+ <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARSubsystems">
  <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
@@ -78,8 +84,17 @@
  <Reference Include="Unity.XR.ARSubsystems.Editor">
  <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.XR.ARCore">
  <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.Editor">
+ <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+ <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARFoundation.Editor">
  <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
@@ -108,6 +123,9 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
  <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
@@ -116,6 +134,9 @@
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AddOns.Editor">
+ <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>D:/Repositories/ARcardGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
@@ -323,6 +344,9 @@
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>D:/Unity/Editors/2020.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="JMOAssets_CartoonFXFreeWelcome">
+ <HintPath>D:/Repositories/ARcardGame/Assets/JMO Assets/Editor/JMOAssets_CartoonFXFreeWelcome.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
  <HintPath>D:/Repositories/ARcardGame/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>

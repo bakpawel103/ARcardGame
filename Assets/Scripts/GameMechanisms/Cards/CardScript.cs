@@ -2,6 +2,7 @@
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(Image))]
 public class CardScript : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     public Card card;
@@ -19,7 +20,7 @@ public class CardScript : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         transform.GetChild(0).GetComponent<Text>().text = card.name;
     }
 
-    public void OnPointerDown(PointerEventData eventData) 
+    public void OnPointerDown(PointerEventData eventData)
     {
         if (card != null)
         {

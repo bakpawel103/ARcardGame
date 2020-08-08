@@ -6,11 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ServerConnecting.unity
-    guid: db6331eedc705e1418d12e4f3f6a2d97
-  - enabled: 1
-    path: Assets/Scenes/Game.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Dice/scenes/Demo/demo.unity
+    guid: 00000000000000000000000000000000
   m_configObjects:
-    com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: ddf5b7d3f592f8f43b8c4d63a927669a,
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b0fa9de2f8d6cbd46b53765eb93c9a08,
       type: 2}

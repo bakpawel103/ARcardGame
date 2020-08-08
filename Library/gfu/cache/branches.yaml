@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-08-02T11:31:24.427+02:00
-  initializedAtString: 2020-08-02T11:27:35.899+02:00
+  lastUpdatedAtString: 2020-08-08T14:12:20.260+02:00
+  initializedAtString: 2020-08-08T14:12:19.915+02:00
   localBranches:
   - name: CardSystem
-    tracking: origin/CardSystem
+    tracking: 
   - name: master
     tracking: origin/master
   remoteBranches:
@@ -44,9 +44,9 @@ MonoBehaviour:
     values:
     - name: CardSystem
       remote:
-        name: origin
-        url: https://github.com/bakpawel103/ARcardGame.git
-      trackingBranch: CardSystem
+        name: 
+        url: 
+      trackingBranch: 
     - name: master
       remote:
         name: origin
