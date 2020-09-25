@@ -2,9 +2,10 @@
 
 public class GameplayManager : MonoBehaviour
 {
-    
     public static GameplayManager instance;
 
+    private bool yourTurn = false;
+    
     void Awake()
     {
         if (instance == null)
@@ -14,6 +15,11 @@ public class GameplayManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void SetYourTurn(bool yourTurn)
+    {
+        this.yourTurn = yourTurn;
     }
 
     public void EndTurn()
