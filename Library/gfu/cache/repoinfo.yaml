@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-08-08T14:12:20.049+02:00
-  initializedAtString: 2020-08-08T14:12:19.751+02:00
+<<<<<<< HEAD
+  lastUpdatedAtString: 2020-10-01T19:35:56.685+02:00
+  initializedAtString: 2020-10-01T18:46:54.586+02:00
+=======
+  lastUpdatedAtString: 2020-09-25T15:46:28.263+02:00
+  initializedAtString: 2020-09-25T15:46:28.263+02:00
+>>>>>>> d7442c1a3e288cfbbd5ea6cddc24f614252550f4
   currentGitRemote:
     name: origin
     url: https://github.com/bakpawel103/ARcardGame.git
@@ -24,14 +29,24 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: CardSystem
+    name: pc-gameplay-system
+<<<<<<< HEAD
+    tracking: origin/pc-gameplay-system
+  currentConfigBranch:
+    name: pc-gameplay-system
+    remote:
+      name: origin
+      url: https://github.com/bakpawel103/ARcardGame.git
+    trackingBranch: pc-gameplay-system
+=======
     tracking: 
   currentConfigBranch:
-    name: CardSystem
+    name: pc-gameplay-system
     remote:
       name: 
       url: 
     trackingBranch: 
+>>>>>>> d7442c1a3e288cfbbd5ea6cddc24f614252550f4
   currentConfigRemote:
     name: origin
     url: https://github.com/bakpawel103/ARcardGame.git

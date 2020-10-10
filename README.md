@@ -131,6 +131,19 @@
       </ul>
     </td>
   </tr>
+<<<<<<< HEAD
+  <tr>
+    <td>10.10.2020</td>
+    <td>
+      <ul>
+        <li>Dodanie sktyptu Pythonowego, który generuje Hight Mapy. Będą wykorzystywane do tworzenia planszy 3d w grze z rzeczywistych obszarów na Ziemi</li>
+      </ul>
+	</td>
+    <td></td>
+	<td></td>
+  </tr>
+=======
+>>>>>>> d7442c1a3e288cfbbd5ea6cddc24f614252550f4
 </table>
 
 

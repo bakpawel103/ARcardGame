@@ -8,17 +8,21 @@ public class GameManager : MonoBehaviourPunCallbacks
 {
     public static GameManager instance;
 
-    public GameObject cardStackPref;
     public GameObject cardPref;
     public GameObject cardPreviewPref;
+<<<<<<< HEAD
+=======
+    public GameObject boardPref;
     public Vector3 cardStackPosition;
 
     public GameObject playerPrefab;
+>>>>>>> d7442c1a3e288cfbbd5ea6cddc24f614252550f4
 
     [Header("UI GameObjects")]
     public GameObject debugLog;
     public GameObject debugLogGO;
     public GameObject uiCanvas;
+    public GameObject scanningHelperGO;
 
     void Awake()
     {
@@ -43,6 +47,7 @@ public class GameManager : MonoBehaviourPunCallbacks
 
     public void AddLog(string log)
     {
+        Debug.Log(log);
         debugLog.GetComponent<Text>().text += log + "\n";
     }
 
@@ -56,33 +61,10 @@ public class GameManager : MonoBehaviourPunCallbacks
         PhotonNetwork.LeaveRoom();
         SceneManager.LoadScene(0);
     }
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
     public void LeaveRoom()
     {
         PhotonNetwork.LeaveRoom();
-    }
-
-    public void SendStringMessage()
-    {
-        photonView.RPC("RpcWithString", RpcTarget.Others, "jup", "and jup.");
-    }
-    
-    [PunRPC]
-    void RpcWithString(string a, string b, PhotonMessageInfo info)
-    {
-        debugLog.GetComponent<Text>().text += $"Chat message from {info.Sender.NickName}: {a} {b}";
-    }
-    
-    public void SendArrayObjectMessage()
-    {
-        object[] objectArray = { 1, 2, 3, 4, 5, 6 };
-        photonView.RPC("RpcWithObjectArray", RpcTarget.Others, objectArray as object);
-    }
-    
-    [PunRPC]
-    void RpcWithObjectArray(object[] objectArray, PhotonMessageInfo info)
-    {
-        AddLog($"RpcWithObjectArray from {info.Sender.NickName}: {objectArray}");
     }
 
     public override void OnPlayerEnteredRoom(Player newPlayer)
