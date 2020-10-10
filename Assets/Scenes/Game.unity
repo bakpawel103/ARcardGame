@@ -332,6 +332,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardPref: {fileID: 25160718696776553, guid: f5c84c31712d5fd4d9659685977adc9e, type: 3}
   cardPreviewPref: {fileID: 3272691290572989064, guid: efe342caee8e758479628624e167dd99,
+<<<<<<< HEAD
+=======
+    type: 3}
+  boardPref: {fileID: 8280569118308688403, guid: c1321293c879aba48967ff6fa0780a0e,
+    type: 3}
+  cardStackPosition: {x: 0, y: 0, z: 0}
+  playerPrefab: {fileID: 3394423477208511038, guid: 43e445a665f9b7d4eb569828b43d208c,
+>>>>>>> d7442c1a3e288cfbbd5ea6cddc24f614252550f4
     type: 3}
   debugLog: {fileID: 1381343884}
   debugLogGO: {fileID: 1396159191}
@@ -1959,8 +1967,13 @@ Camera:
     y: 0
     width: 1
     height: 1
+<<<<<<< HEAD
   near clip plane: 0.01
   far clip plane: 10
+=======
+  near clip plane: 1.05
+  far clip plane: 81
+>>>>>>> d7442c1a3e288cfbbd5ea6cddc24f614252550f4
   field of view: 58.817554
   orthographic: 0
   orthographic size: 5
@@ -2095,7 +2108,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1007617123}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 5.02, z: -2.59}
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+>>>>>>> d7442c1a3e288cfbbd5ea6cddc24f614252550f4
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 916622415}

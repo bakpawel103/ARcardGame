@@ -61,6 +61,10 @@
      <Compile Include="Assets\Scripts\Networking\RpcManager.cs" />
      <Compile Include="Assets\Models\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
      <Compile Include="Assets\Scripts\GameMechanisms\Cards\CardsManager.cs" />
+<<<<<<< HEAD
+=======
+     <Compile Include="Assets\Scripts\AR\TrackedImageInfoMultipleManager.cs" />
+>>>>>>> d7442c1a3e288cfbbd5ea6cddc24f614252550f4
      <Compile Include="Assets\Models\Table and chair\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\AntiAliasing.cs" />
      <Compile Include="Assets\Scripts\Networking\Package\Package.cs" />
      <Compile Include="Assets\Models\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />

@@ -10,6 +10,13 @@ public class GameManager : MonoBehaviourPunCallbacks
 
     public GameObject cardPref;
     public GameObject cardPreviewPref;
+<<<<<<< HEAD
+=======
+    public GameObject boardPref;
+    public Vector3 cardStackPosition;
+
+    public GameObject playerPrefab;
+>>>>>>> d7442c1a3e288cfbbd5ea6cddc24f614252550f4
 
     [Header("UI GameObjects")]
     public GameObject debugLog;
