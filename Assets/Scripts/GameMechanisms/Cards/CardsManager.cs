@@ -48,8 +48,7 @@ public class CardsManager : MonoBehaviour
         }
         catch (Exception exception)
         {
-            GameManager.instance.debugLog.GetComponent<Text>().text +=
-                "LoadCardsDataFromXml: " + exception.Message;
+            GameManager.instance.AddLog("LoadCardsDataFromXml: " + exception.Message);
         }
     }
 }

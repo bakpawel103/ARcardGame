@@ -13,19 +13,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-07-31T14:48:09.863+02:00
-  initializedAtString: 2020-07-30T18:03:33.989+02:00
+  lastUpdatedAtString: 2020-10-01T19:35:56.710+02:00
+  initializedAtString: 2020-10-01T19:31:56.529+02:00
   localBranches:
   - name: master
     tracking: origin/master
-  - name: Networking
-    tracking: origin/Networking
+  - name: pc-gameplay-system
+    tracking: origin/pc-gameplay-system
   remoteBranches:
+  - name: origin/CardSystem
+    tracking: '[None]'
   - name: origin/HEAD
     tracking: '[None]'
   - name: origin/master
     tracking: '[None]'
-  - name: origin/Networking
+  - name: origin/pc-gameplay-system
     tracking: '[None]'
   remotes:
   - name: origin
@@ -38,28 +40,34 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - master
-    - Networking
+    - pc-gameplay-system
     values:
     - name: master
       remote:
         name: origin
         url: https://github.com/bakpawel103/ARcardGame.git
       trackingBranch: master
-    - name: Networking
+    - name: pc-gameplay-system
       remote:
         name: origin
         url: https://github.com/bakpawel103/ARcardGame.git
-      trackingBranch: Networking
+      trackingBranch: pc-gameplay-system
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
+      - CardSystem
       - HEAD
       - master
-      - Networking
+      - pc-gameplay-system
     subKeyValues:
     - Values:
+      - name: CardSystem
+        remote:
+          name: origin
+          url: https://github.com/bakpawel103/ARcardGame.git
+        trackingBranch: 
       - name: HEAD
         remote:
           name: origin
@@ -70,7 +78,7 @@ MonoBehaviour:
           name: origin
           url: https://github.com/bakpawel103/ARcardGame.git
         trackingBranch: 
-      - name: Networking
+      - name: pc-gameplay-system
         remote:
           name: origin
           url: https://github.com/bakpawel103/ARcardGame.git

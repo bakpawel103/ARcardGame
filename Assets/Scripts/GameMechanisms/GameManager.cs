@@ -8,16 +8,14 @@ public class GameManager : MonoBehaviourPunCallbacks
 {
     public static GameManager instance;
 
-    public GameObject cardStackPref;
     public GameObject cardPref;
     public GameObject cardPreviewPref;
-    public Vector3 cardStackPosition;
-
-    public GameObject playerPrefab;
 
     [Header("UI GameObjects")]
     public GameObject debugLog;
+    public GameObject debugLogGO;
     public GameObject uiCanvas;
+    public GameObject scanningHelperGO;
 
     void Awake()
     {
@@ -31,52 +29,46 @@ public class GameManager : MonoBehaviourPunCallbacks
         }
     }
 
-    void Update()
+    void Start()
     {
-        GameObject.FindGameObjectWithTag("PlayersCountText").GetComponent<Text>().text =
-            $"{(int) PhotonNetwork.CurrentRoom.PlayerCount}/{(int) PhotonNetwork.CurrentRoom.MaxPlayers}";
+        if (PhotonNetwork.CurrentRoom != null)
+        {
+            GameObject.FindGameObjectWithTag("PlayersCountText").GetComponent<Text>().text =
+                $"{(int) PhotonNetwork.CurrentRoom.PlayerCount}/{(int) PhotonNetwork.CurrentRoom.MaxPlayers}";
+        }
     }
 
     public void AddLog(string log)
     {
+        Debug.Log(log);
         debugLog.GetComponent<Text>().text += log + "\n";
+    }
+
+    public void SwitchDebugLogPanel()
+    {
+        debugLogGO.SetActive(!debugLogGO.activeSelf);
     }
 
     public override void OnLeftRoom()
     {
+        PhotonNetwork.LeaveRoom();
         SceneManager.LoadScene(0);
     }
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
     public void LeaveRoom()
     {
         PhotonNetwork.LeaveRoom();
     }
 
-    public void SendStringMessage()
-    {
-        photonView.RPC("RpcWithString", RpcTarget.Others, "jup", "and jup.");
-    }
-    
-    [PunRPC]
-    void RpcWithString(string a, string b, PhotonMessageInfo info)
-    {
-        debugLog.GetComponent<Text>().text += $"Chat message from {info.Sender.NickName}: {a} {b}";
-    }
-    
-    public void SendArrayObjectMessage()
-    {
-        object[] objectArray = { 1, 2, 3, 4, 5, 6 };
-        photonView.RPC("RpcWithObjectArray", RpcTarget.Others, objectArray as object);
-    }
-    
-    [PunRPC]
-    void RpcWithObjectArray(object[] objectArray, PhotonMessageInfo info)
-    {
-        debugLog.GetComponent<Text>().text += $"RpcWithObjectArray from {info.Sender.NickName}: {objectArray}";
-    }
-
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
+        if (PhotonNetwork.CurrentRoom != null)
+        {
+            GameObject.FindGameObjectWithTag("PlayersCountText").GetComponent<Text>().text =
+                $"{(int) PhotonNetwork.CurrentRoom.PlayerCount}/{(int) PhotonNetwork.CurrentRoom.MaxPlayers}";
+        }
+
+        GameManager.instance.AddLog("New user logged in: " + newPlayer.NickName);
         if (newPlayer.IsMasterClient)
         {
             //Debug.Log($"Logged in user: {newPlayer.NickName} and isMasterClient {newPlayer.IsMasterClient}");

@@ -4,20 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Card
-  - Camera
-  - PlayerHand
-  - CardsStack
-  - DebugLog
-  - DebugGO
-  - PlayerNameInput
-  - RoomNameInput
-  - ScrollViewContent
-  - StatusLabel
-  - ScanningHelper
-  - PlayersCountText
-  - CreateRoomButton
+  - FxTemporaire
   - RoomItems
+  - Bullet
+  - CardsStack
   layers:
   - Default
   - TransparentFX
