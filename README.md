@@ -198,6 +198,10 @@
 </table>
 
 
+### *Bibliografia*
+https://www.youtube.com/watch?v=4u5WCXNZ56I
+
+
 ### *Użyte technologie*
 | Użyta technologia | URL |
 | ------ | ------ |
