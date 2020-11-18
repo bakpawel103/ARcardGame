@@ -69,8 +69,8 @@ MonoBehaviour:
     Asset: {fileID: 102900000, guid: 9da574c0affd04d42a6b1e5db09e82b4, type: 3}
   - Name: PressableButtonExample
     Path: Assets/MixedRealityToolkit.Examples/Demos/UX/PressableButton/Scenes/PressableButtonExample.unity
-    Included: 1
-    BuildIndex: 0
+    Included: 0
+    BuildIndex: -1
     Tag: Untagged
     Asset: {fileID: 102900000, guid: b2d06bb8d7f107d4783a56c796c5c120, type: 3}
   - Name: HandMenuExamples

@@ -1,20 +1,16 @@
 ﻿# *Praca inżynierska:*
 *AR Foundation + Mixed Reality Toolkit + Photon Networking
-*Wieloosobowa gra w warcaby przez LAN/online.*
 
-### *Trello ToDo List:*
-- https://trello.com/invite/b/qa0HCiRn/9141d04ae80493bfdcfe7eb7a3bbdb09/ar-card-game
+*Wieloosobowa gra w warcaby przez LAN/online.*
 
 ### *Flow:*
 - [ ] Gracz w lobby przeszukuje istniejące pokoje i dołącza do któregoś z nich, bądz tworzy własny 4-ro osobowy pokój
 - [ ] Gracz poproszony jest o wybranie miejsca trackowania, gdzie zostanie postawiona plansza z warcabami
 - [ ] Drugi gracz może dołączyć do gry, wyszukując podany pokój w lobby
 
-
 ### *News:*
   18.11.2020:
     Rozpoczęcie projektu od początku- spowodowane dołączeniem do projektu modułu Mixed Reality Toolkit
-
 
 ### *Bibliografia*
 

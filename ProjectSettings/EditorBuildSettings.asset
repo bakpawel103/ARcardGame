@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MixedRealityToolkit.Examples/Demos/UX/PressableButton/Scenes/PressableButtonExample.unity
-    guid: b2d06bb8d7f107d4783a56c796c5c120
+    path: Assets/Scenes/StartScene.unity
+    guid: bb25fa57dfc19e34bab35cba4b56c2be
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 3f92ef0ae41003b4c85484e50a4ac73d
   m_configObjects: {}
