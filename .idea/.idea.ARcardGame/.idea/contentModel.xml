@@ -2245,7 +2245,22 @@
             </e>
           </e>
         </e>
+        <e p="QuickOutline" t="Include">
+          <e p="readme.txt" t="Include" />
+          <e p="Resources" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="OutlineFill.shader" t="Include" />
+              <e p="OutlineMask.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Outline.cs" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
+          <e p="AR" t="Include">
+            <e p="PlaceOnPlane.cs" t="Include" />
+          </e>
           <e p="ClickRecognizer.cs" t="Include" />
           <e p="Networking" t="Include">
             <e p="BoardInitializer.cs" t="Include" />
@@ -2253,14 +2268,17 @@
               <e p="Lobby.cs" t="Include" />
               <e p="Player.cs" t="Include" />
               <e p="Views" t="Include">
-                <e p="IViewOnChange.cs" t="Include" />
                 <e p="View.cs" t="Include" />
                 <e p="Views.cs" t="Include" />
               </e>
             </e>
+            <e p="NetworkingManager.cs" t="Include" />
             <e p="PieceInitializer.cs" t="Include" />
             <e p="PieceStateSynchronizer.cs" t="Include" />
             <e p="PositionSynchronizer.cs" t="Include" />
+            <e p="TurnBasedSystem" t="Include">
+              <e p="TurnManager.cs" t="Include" />
+            </e>
           </e>
           <e p="PieceStateManager.cs" t="Include" />
         </e>

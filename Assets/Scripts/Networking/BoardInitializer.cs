@@ -1,6 +1,5 @@
-﻿using Photon.Pun;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
    
 public class BoardInitializer : MonoBehaviour
@@ -8,9 +7,13 @@ public class BoardInitializer : MonoBehaviour
     public const string firstPlayerFlag = "FirstPlayer";
    
     public Transform mixedRealityPlayspace;
+
+    public List<GameObject> piecesArray;
    
     private void Start()
     {
+        mixedRealityPlayspace = GameObject.FindGameObjectWithTag("MixedRealityPlayspace").transform;   
+        
         bool firstPlayer = true;
         // check if we are the first or second player in the room
         // each player has a shared flag which is realized as a custom property
@@ -18,7 +21,6 @@ public class BoardInitializer : MonoBehaviour
         {
             if ((bool)PhotonNetwork.PlayerListOthers[i].CustomProperties[firstPlayerFlag])
             {
-                Debug.Log(PhotonNetwork.PlayerListOthers[i].ActorNumber + " is first player");
                 firstPlayer = false;
                 break;
             }
@@ -63,6 +65,8 @@ public class BoardInitializer : MonoBehaviour
                     playerDirection * (cellSize * row + cellSize / 2f)
                     );
                 gamePiece.transform.localPosition = leftBottomStartPosition + localPiecePosition;
+                
+                piecesArray.Add(gamePiece);
             }
         }
    

@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Photon.Pun;
-using UnityEngine;
+﻿using Photon.Pun;
 
 public class PieceStateSynchronizer : MonoBehaviourPun
 {
@@ -13,6 +10,7 @@ public class PieceStateSynchronizer : MonoBehaviourPun
     {
         pieceStateManager = GetComponent<PieceStateManager>();
     }
+    
     public void BroadcastStoneState()
     {
         if (pieceStateManager == null)
@@ -30,7 +28,7 @@ public class PieceStateSynchronizer : MonoBehaviourPun
         {
             pieceStateManager = GetComponent<PieceStateManager>();
         }
-        Debug.Log("Received RPC from " + info.Sender.ActorNumber + "; isKing: " + isKing);
+        
         pieceStateManager.SetIsKingRemote(isKing);
     }
 }

@@ -72,10 +72,6 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
 
         private void UpdateUI()
         {
-            if (text != null)
-            {
-                text.text = "Anchor: " + grid.Anchor;
-            }
             grid.UpdateCollection();
         }
 

@@ -34,7 +34,6 @@ public class Views : MonoBehaviour
     
     public void NavigateToView(int viewIndex)
     {
-        Debug.Log(currentView + " " + listOfViews.Count);
         if (viewIndex < listOfViews.Count-1)
         {
             listOfViews[currentView].ChangeVisibility(false);
@@ -63,6 +62,15 @@ public class Views : MonoBehaviour
             currentView--;
             listOfViews[currentView].ChangeVisibility(true);
         }
+    }
+
+    public void QuitApplication()
+    {
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+             Application.Quit();
+        #endif
     }
     
     private void ChangeCurrentViewVisibility()

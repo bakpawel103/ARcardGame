@@ -1,13 +1,14 @@
-﻿using Microsoft.MixedReality.Toolkit.UI;
-using System.Collections;
-using System.Collections.Generic;
+﻿using Microsoft.MixedReality.Toolkit.Experimental.UI;
+using Photon.Pun;
 using UnityEngine;
    
-public class PieceStateManager : MonoBehaviour
+public class PieceStateManager : MonoBehaviourPun
 {
     public GameObject topStone;
+    public GameObject turnManager;
+    
     private PieceStateSynchronizer stateSynchronizer;
-   
+
     public bool IsKing
     {
         get => topStone.activeSelf;
@@ -16,26 +17,41 @@ public class PieceStateManager : MonoBehaviour
    
     public void SetIsKingLocal(bool value)
     {
-        IsKing = value;
-        if (stateSynchronizer == null)
+        if (turnManager.GetComponent<TurnManager>().IsMyTurn())
         {
-            stateSynchronizer = GetComponent<PieceStateSynchronizer>();
+            IsKing = value;
+            if (stateSynchronizer == null)
+            {
+                stateSynchronizer = GetComponent<PieceStateSynchronizer>();
+            }
+
+            stateSynchronizer.BroadcastStoneState();
         }
-        stateSynchronizer.BroadcastStoneState();
     }
-   
+
     public void SetIsKingRemote(bool value)
     {
-        IsKing = value;
+        if (turnManager.GetComponent<TurnManager>().IsMyTurn()) {
+            IsKing = value;
+        }
     }
    
     private void Start()
     {
-        SetIsKingLocal(false);
+        topStone.SetActive(false);
     }
    
     public void ToggleState()
     {
         SetIsKingLocal(!IsKing);
+    }
+
+    public void ChangeInteractionWithPiece(bool interaction)
+    {
+        if (photonView.IsMine)
+        {
+            gameObject.GetComponent<ObjectManipulator>().enabled = interaction;
+            gameObject.GetComponent<ClickRecognizer>().enabled = interaction;
+        }
     }
 }

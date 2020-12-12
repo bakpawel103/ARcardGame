@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - RoomItems
+  - ProgressIndicator
+  - Managers
+  - PlayingField
+  - MixedRealityPlayspace
   layers:
   - Default
   - TransparentFX
