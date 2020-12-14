@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.XR.ARFoundation;
@@ -37,18 +38,28 @@ public class PlaceOnPlane : MonoBehaviour
     public OnPlacedOnPlane onPlacedOnPlane;
 
     ARRaycastManager m_RaycastManager;
+    private ARSessionOrigin m_SessionOrigin;
 
     static List<ARRaycastHit> s_Hits = new List<ARRaycastHit>();
 
     void Awake()
     {
         m_RaycastManager = GetComponent<ARRaycastManager>();
+        m_SessionOrigin = GameObject.FindGameObjectWithTag("ArSessionOrigin").GetComponent<ARSessionOrigin>();
         fieldBoardPlaced = false;
+    }
+
+    void Start()
+    {
+        if (Application.isEditor)
+        {
+            PlaceFieldBoardOnZeroPosition();
+        }
     }
 
     void Update()
     {
-        if (!fieldBoardPlaced && Input.touchCount > 0)
+        if (!Application.isEditor && !fieldBoardPlaced && Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
 
@@ -57,16 +68,31 @@ public class PlaceOnPlane : MonoBehaviour
                 if (m_RaycastManager.Raycast(touch.position, s_Hits, TrackableType.PlaneWithinPolygon))
                 {
                     Pose hitPose = s_Hits[0].pose;
-
-                    spawnedObject = Instantiate(placedPrefab, hitPose.position, hitPose.rotation);
-                    
-                    fieldBoardPlaced = true;
-
-                    onPlacedOnPlane?.Invoke();
-                    DeletePlanes();
+                    PlaceFieldBoard(hitPose.position, hitPose.rotation);
                 }
             }
         }
+    }
+
+    private void PlaceFieldBoardOnZeroPosition() {
+        PlaceFieldBoard(Vector3.zero, Quaternion.identity);
+    }
+
+    private void PlaceFieldBoard(Vector3 position, Quaternion rotation)
+    {
+        if (PhotonNetwork.IsMasterClient)
+        {
+            PhotonNetwork.CurrentRoom.IsOpen = true;
+            PhotonNetwork.CurrentRoom.IsVisible = true;
+        }
+        
+        spawnedObject = Instantiate(placedPrefab, position, rotation);
+        m_SessionOrigin.transform.position = Vector3.Lerp(m_SessionOrigin.transform.position, position, .1f);
+                    
+        fieldBoardPlaced = true;
+
+        onPlacedOnPlane?.Invoke();
+        DeletePlanes();   
     }
 
     private void DeletePlanes()

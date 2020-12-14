@@ -338,7 +338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 149fa3ae453128b41940b5caa905f8ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetTransform: {fileID: 0}
+  targetTransform: {fileID: 3656813882316597985}
   handType: 3
   proximityType: 3
   constraintOnMovement: 2
@@ -406,7 +406,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   topStone: {fileID: 3656813881744914132}
-  turnManager: {fileID: 0}
 --- !u!23 &3656813882316597982
 MeshRenderer:
   m_ObjectHideFlags: 0

@@ -2266,7 +2266,6 @@
             <e p="BoardInitializer.cs" t="Include" />
             <e p="Lobby" t="Include">
               <e p="Lobby.cs" t="Include" />
-              <e p="Player.cs" t="Include" />
               <e p="Views" t="Include">
                 <e p="View.cs" t="Include" />
                 <e p="Views.cs" t="Include" />

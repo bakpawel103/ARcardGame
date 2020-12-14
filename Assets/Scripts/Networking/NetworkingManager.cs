@@ -11,23 +11,24 @@ public class NetworkingManager : MonoBehaviourPunCallbacks
     public void Start()
     {
         if(PhotonNetwork.IsMasterClient)
-            PhotonNetwork.CurrentRoom.IsOpen = false;
+            PhotonNetwork.CurrentRoom.IsVisible = false;
     }
 
     public void StartApplication()
     {
         turnManager.GetComponent<TurnManager>().InitializeTurnManager();
-        
-        turnManager.GetComponent<TurnManager>().StartGame();
 
         ui.SetActive(true);
-        SwitchFieldBoardPosition();
-        
-        if(PhotonNetwork.IsMasterClient)
-            PhotonNetwork.CurrentRoom.IsOpen = true;
+        SwitchChangeFieldBoardPosition();
+
+        if (PhotonNetwork.IsMasterClient)
+            PhotonNetwork.CurrentRoom.IsVisible = true;
+        else
+            OnPlayerEnteredRoom(PhotonNetwork.LocalPlayer);
+
     }
 
-    public void SwitchFieldBoardPosition()
+    public void SwitchChangeFieldBoardPosition()
     {
         GameObject.FindGameObjectWithTag("PlayingField").GetComponent<ObjectManipulator>().enabled =
             !GameObject.FindGameObjectWithTag("PlayingField").GetComponent<ObjectManipulator>().enabled;

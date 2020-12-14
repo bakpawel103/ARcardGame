@@ -250,7 +250,7 @@ GameObject:
   - component: {fileID: 290399134}
   - component: {fileID: 290399133}
   m_Layer: 0
-  m_Name: ChangeFieldBoardPositionButton
+  m_Name: SwitchChangeFieldBoardPositionButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -417,7 +417,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1996068319}
-        m_MethodName: SwitchFieldBoardPosition
+        m_MethodName: SwitchChangeFieldBoardPosition
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -493,7 +493,7 @@ GameObject:
   - component: {fileID: 461725290}
   m_Layer: 0
   m_Name: AR Session Origin
-  m_TagString: Untagged
+  m_TagString: ArSessionOrigin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2258,7 +2258,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1434778477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2585,7 +2585,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Time left: 20s'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2654,13 +2654,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -0.25716722, w: 0}
   m_textInfo:
     textComponent: {fileID: 1792220741}
-    characterCount: 14
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 2
-    wordCount: 3
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -3353,4 +3353,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiGO: {fileID: 1434778476}
   playingField: {fileID: 0}
+  remainingSeconds: 0
+  maximumTurnTime: 20
   currentTurnPlayerId: 0

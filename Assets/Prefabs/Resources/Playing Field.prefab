@@ -15,8 +15,6 @@ GameObject:
   - component: {fileID: 54767984252390399}
   - component: {fileID: 4076843896949201557}
   - component: {fileID: 6503294640648897308}
-  - component: {fileID: 5821801062424971935}
-  - component: {fileID: 5500821157228372133}
   - component: {fileID: -8585783505235371240}
   m_Layer: 0
   m_Name: Playing Field
@@ -168,7 +166,7 @@ MonoBehaviour:
   scaleMaximum: 2
   flattenAxis: 0
   flattenAxisDisplayScale: 0
-  boxPadding: {x: 0.1, y: 0.1, z: 0.1}
+  boxPadding: {x: 0, y: 0, z: 0}
   boxMaterial: {fileID: 2100000, guid: 4a9aae3094118f44593e7f8000e24c31, type: 2}
   boxGrabbedMaterial: {fileID: 2100000, guid: 7e4095c5609075846b657c8917aae797, type: 2}
   showWireframe: 1
@@ -182,10 +180,10 @@ MonoBehaviour:
   scaleHandleSlatePrefab: {fileID: 100000, guid: a6473ac7ac982fb488db53a454bf0a3c,
     type: 3}
   scaleHandleSize: 0.016
-  scaleHandleColliderPadding: {x: 0.016, y: 0.016, z: 0.016}
+  scaleHandleColliderPadding: {x: 0, y: 0, z: 0}
   rotationHandlePrefab: {fileID: 100000, guid: 57c53da2552a8114ab6d68e0cd31b1eb, type: 3}
   rotationHandleSize: 0.016
-  rotateHandleColliderPadding: {x: 0.016, y: 0.016, z: 0.016}
+  rotateHandleColliderPadding: {x: 0, y: 0, z: 0}
   rotationHandlePrefabColliderType: 1
   showScaleHandles: 1
   showRotationHandleForX: 0
@@ -216,41 +214,6 @@ MonoBehaviour:
   ScaleStopped:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &5821801062424971935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54767984252390388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObservedComponentsFoldoutOpen: 1
-  Group: 0
-  prefixField: -1
-  observableSearch: 0
-  Synchronization: 3
-  OwnershipTransfer: 0
-  ObservedComponents:
-  - {fileID: 5500821157228372133}
-  viewIdField: 0
-  InstantiationId: 0
-  isRuntimeInstantiated: 0
---- !u!114 &5500821157228372133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54767984252390388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8268061a0e8d4c4ea0612af2c8b42a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &-8585783505235371240
 MonoBehaviour:
   m_ObjectHideFlags: 0

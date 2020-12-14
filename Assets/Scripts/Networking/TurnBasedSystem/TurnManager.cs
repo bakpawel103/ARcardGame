@@ -1,14 +1,21 @@
-﻿using Photon.Pun;
+﻿using System.Collections;
+using Photon.Pun;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class TurnManager : MonoBehaviourPun
 {
     public GameObject uiGO;
     public GameObject playingField;
+
+    public int remainingSeconds;
+    public int maximumTurnTime;
     
     [SerializeField]
     public int currentTurnPlayerId;
+    
+    UnityEvent TurnTimeEnded = new UnityEvent();
 
     public void InitializeTurnManager()
     {
@@ -16,18 +23,23 @@ public class TurnManager : MonoBehaviourPun
         currentTurnPlayerId = PhotonNetwork.CurrentRoom.MasterClientId;
         uiGO.transform.Find("TurnText").GetComponent<TextMeshPro>().text = IsMyTurn() ? "Your Turn" : "Opponent's turn";
         
-        foreach (var piece in playingField.GetComponent<BoardInitializer>().piecesArray)
-        {
-            piece.GetComponent<PieceStateManager>().ChangeInteractionWithPiece(false);
-        }
+        RefreshFinishButton();
     }
     
     public void StartGame()
     {
-        foreach (var piece in playingField.GetComponent<BoardInitializer>().piecesArray)
-        {
-            piece.GetComponent<PieceStateManager>().ChangeInteractionWithPiece(IsMyTurn());
-        }
+        playingField.GetComponent<BoardInitializer>().InitializeBoardPieces();
+        playingField.GetComponent<BoardInitializer>().SetPiecesInteractive(IsMyTurn());
+        
+        TurnTimeEnded.AddListener(FinishTurn);
+        StartCoroutine(StartTurnTimer());
+        StartTurn();
+    }
+
+    public void StartTurn()
+    {
+        remainingSeconds = maximumTurnTime;
+        RefreshFinishButton();
     }
 
     public void FinishTurn()
@@ -54,14 +66,30 @@ public class TurnManager : MonoBehaviourPun
         this.currentTurnPlayerId = PhotonNetwork.CurrentRoom.GetPlayer(currentTurnPlayerId).GetNext().ActorNumber;
         uiGO.transform.Find("TurnText").GetComponent<TextMeshPro>().text = IsMyTurn() ? "Your Turn" : "Opponent's turn";
 
-        foreach (var piece in playingField.GetComponent<BoardInitializer>().piecesArray)
-        {
-            piece.GetComponent<PieceStateManager>().ChangeInteractionWithPiece(IsMyTurn());
-        }
+        playingField.GetComponent<BoardInitializer>().SetPiecesInteractive(IsMyTurn());
+        
+        StartTurn();
     }
 
     private void RefreshFinishButton()
     {
         uiGO.transform.Find("FinishTurnButton").gameObject.SetActive(IsMyTurn());
+    }
+    
+    IEnumerator StartTurnTimer(){
+        while (true)
+        {
+            AddSecondToTurnTimer();
+            yield return new WaitForSeconds(1);
+        }
+    }
+    void AddSecondToTurnTimer(){
+        remainingSeconds -= 1;
+        uiGO.transform.Find("RemainingTimeText").GetComponent<TextMeshPro>().text = $"Time left: {remainingSeconds.ToString()}s";
+
+        if (remainingSeconds <= 0)
+        {
+            TurnTimeEnded.Invoke();
+        }
     }
 }

@@ -48,7 +48,7 @@ public class Lobby : MonoBehaviourPunCallbacks
     public void CreateRoom()
     {
         PhotonNetwork.JoinOrCreateRoom($"Room{Random.Range(0, 1000)}",
-            new RoomOptions {IsVisible = true, IsOpen = true, MaxPlayers = 2}, TypedLobby.Default);
+            new RoomOptions { IsVisible = false, IsOpen = false, MaxPlayers = 2 }, TypedLobby.Default);
     }
 
     public void RefreshRooms()
@@ -65,7 +65,7 @@ public class Lobby : MonoBehaviourPunCallbacks
         GenerateRoomsList();
     }
 
-    private void GenerateRoomsList()
+    public void GenerateRoomsList()
     {
         DeleteAllChildrenFromGameObject(roomsListGOContent);
 

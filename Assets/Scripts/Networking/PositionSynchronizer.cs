@@ -9,11 +9,12 @@ public class PositionSynchronizer : MonoBehaviour, IPunObservable
     {
         if (stream.IsWriting)
         {
-            stream.SendNext(transform.position);
+            stream.SendNext(transform.localPosition);
         }
         else
         {
-            transform.position = (Vector3)stream.ReceiveNext();
+            transform.localPosition = (Vector3)stream.ReceiveNext();
+            transform.parent = GameObject.FindGameObjectWithTag("PlayingField").transform;
         }
     }
 }

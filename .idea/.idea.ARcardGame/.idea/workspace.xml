@@ -21,35 +21,20 @@
   <component name="ChangeListManager">
     <list default="true" id="c267f13c-fee3-4697-9f3f-fc628d2d239c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Demos/StandardShader/Materials/OutlineGreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Demos/StandardShader/Materials/OutlineGreen.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Demos/StandardShader/Materials/OutlineOrange.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Demos/StandardShader/Materials/OutlineOrange.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Demos/StandardShader/Materials/ShaderBallCullOffCutout.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Demos/StandardShader/Materials/ShaderBallCullOffCutout.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Demos/StandardShader/Materials/VertexExtrusion.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Demos/StandardShader/Materials/VertexExtrusion.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Demos/UX/Collections/Scripts/GridObjectLayoutControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Demos/UX/Collections/Scripts/GridObjectLayoutControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Generated/CustomProfiles/MobileMixedRealityToolkitConfigurationProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Generated/CustomProfiles/MobileMixedRealityToolkitConfigurationProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Resources/GamePiece.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Resources/GamePiece.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Resources/GamePiece.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Resources/GamePiece.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Resources/Playing Field.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Resources/Playing Field.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AR/PlaceOnPlane.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AR/PlaceOnPlane.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/BoardInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Networking/BoardInitializer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Lobby.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Lobby.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Views/IViewOnChange.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Views/IViewOnChange.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Views/View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Views/View.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Views/Views.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Views/Views.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/PieceInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Networking/PieceInitializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/PieceStateSynchronizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Networking/PieceStateSynchronizer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/NetworkingManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Networking/NetworkingManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/PositionSynchronizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Networking/PositionSynchronizer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/TurnBasedSystem/TurnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Networking/TurnBasedSystem/TurnManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PieceStateManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PieceStateManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
@@ -64,6 +49,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48050808-8AEE-40CA-B708-18FF164A29D5/d0/059a18f6/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Runtime/TextMeshPro.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.15/Editor/Legacy/XRLegacyUninstaller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arfoundation@2.1.4/Runtime/AR/ARPlaneManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Lobby.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AR/PlaceOnPlane.cs" root0="FORCE_HIGHLIGHTING" />
@@ -77,23 +63,24 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Launcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Views/ViewOnChange.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Views/AViewOnChange.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Networking/PieceInitializer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Views/IViewOnChange.cs" />
         <option value="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Demos/UX/Collections/Scripts/GridObjectLayoutControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/UtilityScripts/TurnBased/PunTurnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Views/Views.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Networking/PieceStateSynchronizer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Networking/TurnManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Networking/PositionSynchronizer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Networking/TurnBasedSystem/TurnSynchronizer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PieceStateManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Lobby.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Views/View.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Networking/TurnBasedSystem/TurnManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AR/PlaceOnPlane.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PieceStateManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Networking/PieceInitializer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Networking/NetworkingManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/Lobby/LobbyMainPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Lobby.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Networking/PositionSynchronizer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Networking/BoardInitializer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AR/PlaceOnPlane.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Networking/TurnBasedSystem/TurnManager.cs" />
       </list>
     </option>
   </component>
@@ -161,6 +148,11 @@
       <workItem from="1607696219364" duration="9784000" />
       <workItem from="1607782222176" duration="14307000" />
       <workItem from="1607807238281" duration="6348000" />
+      <workItem from="1607852890712" duration="3350000" />
+      <workItem from="1607864739233" duration="563000" />
+      <workItem from="1607870024959" duration="3446000" />
+      <workItem from="1607965934922" duration="5931000" />
+      <workItem from="1607978985844" duration="4294000" />
     </task>
     <servers />
   </component>
@@ -274,10 +266,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1605909923835" />
-    <state x="489" y="124" width="941" height="801" key="find.popup" timestamp="1607811757461">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="-1008" y="140" width="941" height="801" key="find.popup" timestamp="1607980476578">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="489" y="124" width="941" height="801" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607811757461" />
+    <state x="-1008" y="140" width="941" height="801" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1607980476578" />
+    <state x="912" y="140" width="941" height="801" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607966665048" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1605907913216">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

@@ -12,31 +12,24 @@ public class BoardInitializer : MonoBehaviour
    
     private void Start()
     {
-        mixedRealityPlayspace = GameObject.FindGameObjectWithTag("MixedRealityPlayspace").transform;   
-        
-        bool firstPlayer = true;
-        // check if we are the first or second player in the room
-        // each player has a shared flag which is realized as a custom property
-        for (int i = 0; i < PhotonNetwork.PlayerListOthers.Length; i++)
+        mixedRealityPlayspace = GameObject.FindGameObjectWithTag("MixedRealityPlayspace").transform;  
+    }
+
+    public void SetPiecesInteractive(bool interactive)
+    {
+        foreach (var piece in piecesArray)
         {
-            if ((bool)PhotonNetwork.PlayerListOthers[i].CustomProperties[firstPlayerFlag])
-            {
-                firstPlayer = false;
-                break;
-            }
+            piece.GetComponent<PieceStateManager>().ChangeInteractionWithPiece(interactive);
         }
-   
-        // set the flag for this player
-        // we cannot just add the property to the player but need to re-assign the entire hashtable to distribute the changes
-        ExitGames.Client.Photon.Hashtable playerProperties = new ExitGames.Client.Photon.Hashtable();
-        playerProperties.Add(firstPlayerFlag, firstPlayer);
-        PhotonNetwork.LocalPlayer.SetCustomProperties(playerProperties);
-   
+    }
+
+    public void InitializeBoardPieces()
+    {
         float cellSize = 1 / 8f;
    
         // determine which side the player should be on
         float playerDirection;
-        if (firstPlayer)
+        if (PhotonNetwork.IsMasterClient)
         {
             playerDirection = 1;
         }
@@ -57,7 +50,7 @@ public class BoardInitializer : MonoBehaviour
                 // and then change the position relative to the board
                 GameObject gamePiece = PhotonNetwork.Instantiate("GamePiece", Vector3.zero, Quaternion.identity, 0);
                 // parent the piece to the board
-                gamePiece.transform.parent = transform;
+                gamePiece.transform.parent = GameObject.FindGameObjectWithTag("PlayingField").transform;
             
                 Vector3 localPiecePosition = new Vector3(
                     playerDirection * (cellSize * column + cellSize / 2f),
@@ -71,8 +64,13 @@ public class BoardInitializer : MonoBehaviour
         }
    
         // the second player starts on the opposite side of the board
-        if (!firstPlayer)
+        if (!PhotonNetwork.IsMasterClient)
         {
+            if (mixedRealityPlayspace == null)
+            {
+                mixedRealityPlayspace = GameObject.FindGameObjectWithTag("MixedRealityPlayspace").transform;
+            }
+            
             mixedRealityPlayspace.position = new Vector3(0, 2, 4);
             mixedRealityPlayspace.eulerAngles = new Vector3(0, 180, 0);
         }

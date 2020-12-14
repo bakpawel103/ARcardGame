@@ -1,13 +1,14 @@
-﻿using Microsoft.MixedReality.Toolkit.Experimental.UI;
+﻿using System;
+using Microsoft.MixedReality.Toolkit.Experimental.UI;
 using Photon.Pun;
 using UnityEngine;
    
 public class PieceStateManager : MonoBehaviourPun
 {
     public GameObject topStone;
-    public GameObject turnManager;
     
     private PieceStateSynchronizer stateSynchronizer;
+    private TurnManager turnManager;
 
     public bool IsKing
     {
@@ -17,7 +18,7 @@ public class PieceStateManager : MonoBehaviourPun
    
     public void SetIsKingLocal(bool value)
     {
-        if (turnManager.GetComponent<TurnManager>().IsMyTurn())
+        if (turnManager.IsMyTurn())
         {
             IsKing = value;
             if (stateSynchronizer == null)
@@ -31,11 +32,16 @@ public class PieceStateManager : MonoBehaviourPun
 
     public void SetIsKingRemote(bool value)
     {
-        if (turnManager.GetComponent<TurnManager>().IsMyTurn()) {
+        if (turnManager.IsMyTurn()) {
             IsKing = value;
         }
     }
-   
+
+    private void Awake()
+    {
+        turnManager = GameObject.Find("TurnManager").GetComponent<TurnManager>();
+    }
+
     private void Start()
     {
         topStone.SetActive(false);

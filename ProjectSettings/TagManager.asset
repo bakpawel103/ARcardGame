@@ -9,6 +9,8 @@ TagManager:
   - Managers
   - PlayingField
   - MixedRealityPlayspace
+  - ArSessionOrigin
+  - PlayingFieldMaster
   layers:
   - Default
   - TransparentFX
