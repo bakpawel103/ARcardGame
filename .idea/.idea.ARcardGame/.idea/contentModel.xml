@@ -2259,9 +2259,9 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AR" t="Include">
+            <e p="PieceStateManager.cs" t="Include" />
             <e p="PlaceOnPlane.cs" t="Include" />
           </e>
-          <e p="ClickRecognizer.cs" t="Include" />
           <e p="Networking" t="Include">
             <e p="BoardInitializer.cs" t="Include" />
             <e p="Lobby" t="Include">
@@ -2279,7 +2279,9 @@
               <e p="TurnManager.cs" t="Include" />
             </e>
           </e>
-          <e p="PieceStateManager.cs" t="Include" />
+          <e p="UI" t="Include">
+            <e p="ClickRecognizer.cs" t="Include" />
+          </e>
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">

@@ -21,22 +21,40 @@ public class TurnManager : MonoBehaviourPun
     {
         playingField = GameObject.FindGameObjectWithTag("PlayingField").gameObject;
         currentTurnPlayerId = PhotonNetwork.CurrentRoom.MasterClientId;
-        uiGO.transform.Find("TurnText").GetComponent<TextMeshPro>().text = IsMyTurn() ? "Your Turn" : "Opponent's turn";
+    }
+
+    public void InitializePrefabs()
+    {
+        playingField.GetComponent<BoardInitializer>().InitializeBoardPieces();
+        playingField.GetComponent<BoardInitializer>().SetPiecesInteractive(false);
         
-        RefreshFinishButton();
+        uiGO.transform.Find("SwitchChangeFieldBoardPositionButton").gameObject.SetActive(true);
+        
+        uiGO.transform.Find("StartGame").gameObject.SetActive(PhotonNetwork.IsMasterClient);
     }
     
     public void StartGame()
     {
-        playingField.GetComponent<BoardInitializer>().InitializeBoardPieces();
-        playingField.GetComponent<BoardInitializer>().SetPiecesInteractive(IsMyTurn());
+        uiGO.transform.Find("StartGame").gameObject.SetActive(false);
         
-        TurnTimeEnded.AddListener(FinishTurn);
-        StartCoroutine(StartTurnTimer());
-        StartTurn();
+        BroadcastGameStarted();
     }
 
-    public void StartTurn()
+    private void DisplayTurnText(string textToDisplay)
+    {
+        uiGO.transform.Find("TurnText").gameObject.SetActive(true);
+        uiGO.transform.Find("TurnText").GetComponent<TextMeshPro>().text = textToDisplay;
+        uiGO.transform.Find("TurnText").GetComponent<Animation>().Play();
+        StartCoroutine(TurnTextCoroutine());
+    }
+
+    private IEnumerator TurnTextCoroutine()
+    {
+        yield return new WaitForSeconds(2.1f);
+        uiGO.transform.Find("TurnText").gameObject.SetActive(false);
+    }
+
+    private void StartTurn()
     {
         remainingSeconds = maximumTurnTime;
         RefreshFinishButton();
@@ -61,10 +79,33 @@ public class TurnManager : MonoBehaviourPun
     }
     
     [PunRPC]
-    private void ReceiveTurnFinished(int currentTurnPlayerId, PhotonMessageInfo info)
+    private void ReceiveTurnFinished(int currentTurnPlayerId)
     {
         this.currentTurnPlayerId = PhotonNetwork.CurrentRoom.GetPlayer(currentTurnPlayerId).GetNext().ActorNumber;
-        uiGO.transform.Find("TurnText").GetComponent<TextMeshPro>().text = IsMyTurn() ? "Your Turn" : "Opponent's turn";
+
+        DisplayTurnText(IsMyTurn() ? "Your Turn" : "Opponent's turn");
+
+        playingField.GetComponent<BoardInitializer>().SetPiecesInteractive(IsMyTurn());
+        
+        StartTurn();
+    }
+    
+    private void BroadcastGameStarted()
+    {
+        photonView.RPC("ReceiveGameStarted", RpcTarget.All, currentTurnPlayerId);
+    }
+    
+    [PunRPC]
+    private void ReceiveGameStarted(int currentTurnPlayerId)
+    {
+        this.currentTurnPlayerId = PhotonNetwork.CurrentRoom.GetPlayer(currentTurnPlayerId).GetNext().ActorNumber;
+
+        TurnTimeEnded.AddListener(FinishTurn);
+        StartCoroutine(StartTurnTimer());
+        
+        uiGO.transform.Find("RemainingTimeText").gameObject.SetActive(true);
+        
+        DisplayTurnText(IsMyTurn() ? "Your Turn" : "Opponent's turn");
 
         playingField.GetComponent<BoardInitializer>().SetPiecesInteractive(IsMyTurn());
         
@@ -73,7 +114,7 @@ public class TurnManager : MonoBehaviourPun
 
     private void RefreshFinishButton()
     {
-        uiGO.transform.Find("FinishTurnButton").gameObject.SetActive(IsMyTurn());
+        uiGO.transform.Find("FinishTurn").gameObject.SetActive(IsMyTurn());
     }
     
     IEnumerator StartTurnTimer(){

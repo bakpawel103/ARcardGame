@@ -6,7 +6,6 @@ using UnityEngine;
 public class NetworkingManager : MonoBehaviourPunCallbacks
 {
     public GameObject turnManager;
-    public GameObject ui;
 
     public void Start()
     {
@@ -18,14 +17,10 @@ public class NetworkingManager : MonoBehaviourPunCallbacks
     {
         turnManager.GetComponent<TurnManager>().InitializeTurnManager();
 
-        ui.SetActive(true);
-        SwitchChangeFieldBoardPosition();
-
         if (PhotonNetwork.IsMasterClient)
             PhotonNetwork.CurrentRoom.IsVisible = true;
         else
-            OnPlayerEnteredRoom(PhotonNetwork.LocalPlayer);
-
+            turnManager.GetComponent<TurnManager>().InitializePrefabs();
     }
 
     public void SwitchChangeFieldBoardPosition()
@@ -41,7 +36,7 @@ public class NetworkingManager : MonoBehaviourPunCallbacks
         if (PhotonNetwork.CurrentRoom.PlayerCount == PhotonNetwork.CurrentRoom.MaxPlayers)
         {
             Debug.Log("Room is full");
-            turnManager.GetComponent<TurnManager>().StartGame();
+            turnManager.GetComponent<TurnManager>().InitializePrefabs();
         }
     }
 
