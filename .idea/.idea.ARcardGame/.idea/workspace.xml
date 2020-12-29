@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c267f13c-fee3-4697-9f3f-fc628d2d239c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AR/PlaceOnPlane.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AR/PlaceOnPlane.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/BoardInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Networking/BoardInitializer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +41,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AR/PlaceOnPlane.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Lobby.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.15/Editor/Legacy/XRLegacyUninstaller.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/Networking/BoardInitializer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AR/PlaceOnPlane.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1kZ5U1n4pAt5OxprrX8UCyAIl5X" />
   <component name="ProjectViewState">
@@ -112,7 +119,8 @@
       <workItem from="1607978985844" duration="4294000" />
       <workItem from="1608049924892" duration="671000" />
       <workItem from="1608131107630" duration="12376000" />
-      <workItem from="1608211028251" duration="136000" />
+      <workItem from="1608211028251" duration="738000" />
+      <workItem from="1609262886533" duration="2059000" />
     </task>
     <servers />
   </component>

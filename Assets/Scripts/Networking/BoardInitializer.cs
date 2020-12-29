@@ -45,10 +45,10 @@ public class BoardInitializer : MonoBehaviour
         {
             for (int column = row % 2; column < 8; column+=2)
             {
-                // create a networked insteance of the gamepiece
+                // create a networked instance of the gamepiece
                 // set the position and rotation to default values since we will first parent the object to the board
                 // and then change the position relative to the board
-                GameObject gamePiece = PhotonNetwork.Instantiate("GamePiece", Vector3.zero, Quaternion.identity, 0);
+                GameObject gamePiece = PhotonNetwork.Instantiate("GamePiece", Vector3.zero, Quaternion.identity);
                 // parent the piece to the board
                 gamePiece.transform.parent = GameObject.FindGameObjectWithTag("PlayingField").transform;
             

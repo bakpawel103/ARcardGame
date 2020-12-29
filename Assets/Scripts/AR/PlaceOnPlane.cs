@@ -75,7 +75,7 @@ public class PlaceOnPlane : MonoBehaviour
     }
 
     private void PlaceFieldBoardOnZeroPosition() {
-        PlaceFieldBoard(Vector3.zero, Quaternion.identity);
+        PlaceFieldBoard(new Vector3(1.0f, 0.5f, 0.0f), Quaternion.identity);
     }
 
     private void PlaceFieldBoard(Vector3 position, Quaternion rotation)
