@@ -32,9 +32,7 @@ public class PieceStateManager : MonoBehaviourPun
 
     public void SetIsKingRemote(bool value)
     {
-        if (turnManager.IsMyTurn()) {
-            IsKing = value;
-        }
+        IsKing = value;
     }
 
     private void Awake()

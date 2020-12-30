@@ -20,10 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c267f13c-fee3-4697-9f3f-fc628d2d239c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AR/PlaceOnPlane.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AR/PlaceOnPlane.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Demos/Gltf/Models/Avocado/glTF/Avocado.gltf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Demos/Gltf/Models/Avocado/glTF/Avocado.gltf.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Demos/Gltf/Models/Avocado/glTF/AvocadoMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Demos/Gltf/Models/Avocado/glTF/AvocadoMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Experimental/ExamplesHub/Profiles/MRTKExamplesHubSceneSystemProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Experimental/ExamplesHub/Profiles/MRTKExamplesHubSceneSystemProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/StandardAssets/Models/MRTK_Logo.glb.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/StandardAssets/Models/MRTK_Logo.glb.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Resources/GamePiece.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Resources/GamePiece.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AR/PieceStateManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AR/PieceStateManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/BoardInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Networking/BoardInitializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/PieceInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Networking/PieceInitializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/PositionSynchronizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Networking/PositionSynchronizer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +53,11 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/Networking/BoardInitializer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AR/PlaceOnPlane.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Networking/PieceInitializer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Networking/PositionSynchronizer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Networking/BoardInitializer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AR/PieceStateManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1kZ5U1n4pAt5OxprrX8UCyAIl5X" />
@@ -120,7 +132,8 @@
       <workItem from="1608049924892" duration="671000" />
       <workItem from="1608131107630" duration="12376000" />
       <workItem from="1608211028251" duration="738000" />
-      <workItem from="1609262886533" duration="2059000" />
+      <workItem from="1609262886533" duration="6141000" />
+      <workItem from="1609344642575" duration="8049000" />
     </task>
     <servers />
   </component>

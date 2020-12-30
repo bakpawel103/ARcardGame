@@ -1,11 +1,16 @@
-﻿using Microsoft.MixedReality.Toolkit.Experimental.UI;
+﻿using System;
+using Microsoft.MixedReality.Toolkit.Experimental.UI;
 using Photon.Pun;
 using UnityEngine;
     
 public class PieceInitializer : MonoBehaviourPun
 {
+    public Vector3 pieceLocalPosition;
+    
     [SerializeField] private Color ownerColor;
     [SerializeField] private Color guestColor;
+
+    private bool pieceInitialized = false;
     
     private void Start()
     {
@@ -33,6 +38,18 @@ public class PieceInitializer : MonoBehaviourPun
         {
             GetComponent<ObjectManipulator>().enabled = false;
             GetComponent<ClickRecognizer>().enabled = false;
+        }
+    }
+
+    private void Update()
+    {
+        if (!pieceInitialized && GameObject.FindGameObjectWithTag("PlayingField") != null && pieceLocalPosition != Vector3.zero)
+        {
+            pieceInitialized = true;
+            
+            transform.parent = GameObject.FindGameObjectWithTag("PlayingField").transform;
+            
+            gameObject.transform.localPosition = pieceLocalPosition;
         }
     }
 }

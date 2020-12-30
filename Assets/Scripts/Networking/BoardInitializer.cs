@@ -4,8 +4,6 @@ using UnityEngine;
    
 public class BoardInitializer : MonoBehaviour
 {
-    public const string firstPlayerFlag = "FirstPlayer";
-   
     public Transform mixedRealityPlayspace;
 
     public List<GameObject> piecesArray;
@@ -43,14 +41,14 @@ public class BoardInitializer : MonoBehaviour
    
         for (int row = 0; row < 3; row++)
         {
-            for (int column = row % 2; column < 8; column+=2)
+            for (int column = row % 2; column < 8; column += 2)
             {
                 // create a networked instance of the gamepiece
                 // set the position and rotation to default values since we will first parent the object to the board
                 // and then change the position relative to the board
                 GameObject gamePiece = PhotonNetwork.Instantiate("GamePiece", Vector3.zero, Quaternion.identity);
                 // parent the piece to the board
-                gamePiece.transform.parent = GameObject.FindGameObjectWithTag("PlayingField").transform;
+                gamePiece.transform.parent = gameObject.transform;
             
                 Vector3 localPiecePosition = new Vector3(
                     playerDirection * (cellSize * column + cellSize / 2f),
