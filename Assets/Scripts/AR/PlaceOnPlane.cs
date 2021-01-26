@@ -16,6 +16,12 @@ public class PlaceOnPlane : MonoBehaviour
     [Tooltip("Instantiates this prefab on a plane at the touch location.")]
     private GameObject placedPrefab;
 
+    [SerializeField]
+    private GameObject moveDeviceToScan;
+    [SerializeField]
+    private GameObject tapToPlace;
+    
+
     private bool fieldBoardPlaced;
 
     /// <summary>
@@ -46,6 +52,11 @@ public class PlaceOnPlane : MonoBehaviour
     {
         m_RaycastManager = GetComponent<ARRaycastManager>();
         m_SessionOrigin = GameObject.FindGameObjectWithTag("ArSessionOrigin").GetComponent<ARSessionOrigin>();
+        GetComponent<ARPlaneManager>().planesChanged += delegate(ARPlanesChangedEventArgs args)
+        {
+            moveDeviceToScan.SetActive(false);
+            tapToPlace.SetActive(true);
+        };
         fieldBoardPlaced = false;
     }
 
@@ -84,6 +95,7 @@ public class PlaceOnPlane : MonoBehaviour
         {
             PhotonNetwork.CurrentRoom.IsOpen = true;
             PhotonNetwork.CurrentRoom.IsVisible = true;
+            Debug.Log("Setting IsOpen and IsVisible to true");
         }
         
         spawnedObject = Instantiate(placedPrefab, position, rotation);
@@ -92,6 +104,7 @@ public class PlaceOnPlane : MonoBehaviour
         fieldBoardPlaced = true;
 
         onPlacedOnPlane?.Invoke();
+        tapToPlace.SetActive(false);
         DeletePlanes();   
     }
 

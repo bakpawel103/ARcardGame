@@ -7,12 +7,6 @@ public class NetworkingManager : MonoBehaviourPunCallbacks
 {
     public GameObject turnManager;
 
-    public void Start()
-    {
-        if(PhotonNetwork.IsMasterClient)
-            PhotonNetwork.CurrentRoom.IsVisible = false;
-    }
-
     public void StartApplication()
     {
         turnManager.GetComponent<TurnManager>().InitializeTurnManager();

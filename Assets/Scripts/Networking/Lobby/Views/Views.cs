@@ -8,7 +8,8 @@ public class Views : MonoBehaviour
     [SerializeField]
     private List<View> listOfViews;
 
-    [SerializeField] private int currentView = 0;
+    [SerializeField]
+    private int currentView = 0;
     
     void Awake()
     {

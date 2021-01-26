@@ -21,18 +21,263 @@
   <component name="ChangeListManager">
     <list default="true" id="c267f13c-fee3-4697-9f3f-fc628d2d239c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ARcardGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Demos/Gltf/Models/Avocado/glTF/Avocado.gltf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Demos/Gltf/Models/Avocado/glTF/Avocado.gltf.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Demos/Gltf/Models/Avocado/glTF/AvocadoMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Demos/Gltf/Models/Avocado/glTF/AvocadoMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Experimental/ExamplesHub/Profiles/MRTKExamplesHubSceneSystemProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/Experimental/ExamplesHub/Profiles/MRTKExamplesHubSceneSystemProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/StandardAssets/Models/MRTK_Logo.glb.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MixedRealityToolkit.Examples/StandardAssets/Models/MRTK_Logo.glb.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Resources/GamePiece.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Resources/GamePiece.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/ExternalResources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/ExternalResources/ColorWheel.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/ExternalResources/ColorWheel/ColorWheel.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/ExternalResources/ColorWheel/ColorWheel.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/ExternalResources/ColorWheel/ColorWheelControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/ExternalResources/ColorWheel/ColorWheelControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/ExternalResources/ColorWheel/ColorWheelLICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/ExternalResources/ColorWheel/ColorWheelLICENSE.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/ExternalResources/ColorWheel/Visuals.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/ExternalResources/ColorWheel/Visuals/ColorSelector.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/ExternalResources/ColorWheel/Visuals/ColorSelector.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/ExternalResources/ColorWheel/Visuals/ColorWheelMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/ExternalResources/ColorWheel/Visuals/ColorWheelMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/ExternalResources/ColorWheel/Visuals/ColorWheelShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/ExternalResources/ColorWheel/Visuals/ColorWheelShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/InternalSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/InternalSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeHierarchy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeHierarchy/HierarchyField.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeHierarchy/HierarchyField.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/ArrayField.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/ArrayField.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/BoolField.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/BoolField.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/BoundsField.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/BoundsField.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/ColorField.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/ColorField.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/EnumField.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/EnumField.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/ExposedMethodField.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/ExposedMethodField.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/GameObjectField.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/GameObjectField.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/NumberField.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/NumberField.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/NumberRangeField.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/NumberRangeField.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/ObjectField.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/ObjectField.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/ObjectReferenceField.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/ObjectReferenceField.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/RectField.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/RectField.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/StringField.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/StringField.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/TextureReferenceField.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/TextureReferenceField.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/TransformField.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/TransformField.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/Vector2Field.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/Vector2Field.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/Vector3Field.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/Vector3Field.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/Vector4Field.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Fields/Vector4Field.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Helpers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Helpers/ReferencePickerItem.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Prefabs/RuntimeInspector/Helpers/ReferencePickerItem.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/README.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Resources/RuntimeInspector.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Resources/RuntimeInspector/ColorPicker.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Resources/RuntimeInspector/ColorPicker.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Resources/RuntimeInspector/DraggedReferenceItem.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Resources/RuntimeInspector/DraggedReferenceItem.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Resources/RuntimeInspector/ObjectReferencePicker.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Resources/RuntimeInspector/ObjectReferencePicker.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Resources/RuntimeInspector/Tooltip.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Resources/RuntimeInspector/Tooltip.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/RuntimeHierarchy.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/RuntimeHierarchy.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/RuntimeInspector.Runtime.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/RuntimeInspector.Runtime.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/RuntimeInspector.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/RuntimeInspector.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy/Helpers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy/Helpers/HierarchyDragDropListener.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy/Helpers/HierarchyDragDropListener.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy/Helpers/PseudoSceneSourceTransform.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy/Helpers/PseudoSceneSourceTransform.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy/HierarchyData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy/HierarchyData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy/HierarchyDataRoot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy/HierarchyDataRoot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy/HierarchyDataRootPseudoScene.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy/HierarchyDataRootPseudoScene.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy/HierarchyDataRootScene.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy/HierarchyDataRootScene.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy/HierarchyDataRootSearch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy/HierarchyDataRootSearch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy/HierarchyDataTransform.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy/HierarchyDataTransform.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy/HierarchyField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeHierarchy/HierarchyField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Attributes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Attributes/RuntimeInspectorButtonAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Attributes/RuntimeInspectorButtonAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/ArrayField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/ArrayField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/BoolField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/BoolField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/BoundsField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/BoundsField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/ColorField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/ColorField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/EnumField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/EnumField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/ExposedMethodField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/ExposedMethodField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/GameObjectField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/GameObjectField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/InspectorField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/InspectorField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/NumberField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/NumberField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/NumberRangeField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/NumberRangeField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/ObjectField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/ObjectField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/ObjectReferenceField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/ObjectReferenceField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/RectField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/RectField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/StringField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/StringField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/TextureReferenceField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/TextureReferenceField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/TransformField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/TransformField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/Vector2Field.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/Vector2Field.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/Vector3Field.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/Vector3Field.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/Vector4Field.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/Vector4Field.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/BoundInputField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/BoundInputField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/BoundSlider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/BoundSlider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/ColorPicker.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/ColorPicker/ColorPicker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/ColorPicker/ColorPicker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/ColorPicker/ColorPickerAlphaSlider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/ColorPicker/ColorPickerAlphaSlider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/DraggedReferenceItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/DraggedReferenceItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/DraggedReferenceSourceCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/DraggedReferenceSourceCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/DraggedReferenceSourceUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/DraggedReferenceSourceUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/ExposedMethod.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/ExposedMethod.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/ExposedVariablesEnumerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/ExposedVariablesEnumerator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/NonDrawingGraphic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/NonDrawingGraphic.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/NonDrawingMaskableGraphic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/NonDrawingMaskableGraphic.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/NumberHandlers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/NumberHandlers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/ObjectReferencePicker.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/ObjectReferencePicker/ObjectReferencePicker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/ObjectReferencePicker/ObjectReferencePicker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/ObjectReferencePicker/ObjectReferencePickerItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/ObjectReferencePicker/ObjectReferencePickerItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/PointerEventListener.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/PointerEventListener.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/PopupBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/PopupBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/RecycledListView.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/RecycledListView/IListViewAdapter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/RecycledListView/IListViewAdapter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/RecycledListView/RecycledListItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/RecycledListView/RecycledListItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/RecycledListView/RecycledListView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/RecycledListView/RecycledListView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/RuntimeInspectorSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/RuntimeInspectorSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/RuntimeInspectorUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/RuntimeInspectorUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/Tooltip.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/Tooltip.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/TooltipArea.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/TooltipArea.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/VariableSet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/VariableSet.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/WindowDragHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Helpers/WindowDragHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Skin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Skin/SkinUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Skin/SkinUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Skin/SkinnedWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Skin/SkinnedWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Skin/UISkin.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Skin/UISkin.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Shaders/ColorPickerAlphaMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Shaders/ColorPickerAlphaMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Shaders/ColorPickerAlphaShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Shaders/ColorPickerAlphaShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Skins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Skins/DarkSkin.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Skins/DarkSkin.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Skins/LightSkin.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Skins/LightSkin.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/ButtonBg.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/ButtonBg.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/Checkmark.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/Checkmark.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/ColorFieldBg.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/ColorFieldBg.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/ColorFieldTransparentBg.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/ColorFieldTransparentBg.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/DownArrow.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/DownArrow.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/DragAndDropBg.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/DragAndDropBg.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/ExpandArrow.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/ExpandArrow.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/InputFieldBg.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/InputFieldBg.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/InspectReferenceArrow.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/InspectReferenceArrow.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/SearchIcon.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/SearchIcon.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/SliderBg.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/SliderBg.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/SliderThumb.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/SliderThumb.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/White.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/Sprites/White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/ThirdPartyNotices.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RuntimeInspector/ThirdPartyNotices.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AR Default Plane.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AR Default Plane.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AR/PieceStateManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AR/PieceStateManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/BoardInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Networking/BoardInitializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/PieceInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Networking/PieceInitializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/PositionSynchronizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Networking/PositionSynchronizer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AR/PlaceOnPlane.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AR/PlaceOnPlane.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Views/Views.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Views/Views.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Networking/NetworkingManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Networking/NetworkingManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,14 +295,17 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AR/PlaceOnPlane.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Lobby.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.management@3.2.15/Editor/Legacy/XRLegacyUninstaller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arfoundation@2.1.4/Runtime/AR/ARPlaneMeshVisualizer.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/AR/PlaceOnPlane.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Networking/PieceInitializer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Networking/PositionSynchronizer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Networking/BoardInitializer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AR/PieceStateManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Networking/Lobby/Views/Views.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Networking/NetworkingManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AR/PlaceOnPlane.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1kZ5U1n4pAt5OxprrX8UCyAIl5X" />
@@ -134,6 +382,11 @@
       <workItem from="1608211028251" duration="738000" />
       <workItem from="1609262886533" duration="6141000" />
       <workItem from="1609344642575" duration="8917000" />
+      <workItem from="1611160868060" duration="1490000" />
+      <workItem from="1611229043336" duration="2639000" />
+      <workItem from="1611484428729" duration="2536000" />
+      <workItem from="1611590053703" duration="699000" />
+      <workItem from="1611693411754" duration="2614000" />
     </task>
     <servers />
   </component>
