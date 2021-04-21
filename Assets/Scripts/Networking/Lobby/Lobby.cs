@@ -25,6 +25,7 @@ public class Lobby : MonoBehaviourPunCallbacks
     #endregion
 
     #region Lifecycles
+
     void Start()
     {
         //This makes sure we can use PhotonNetwork.LoadLevel() on the master client and all clients in the same room sync their level automatically
@@ -48,7 +49,7 @@ public class Lobby : MonoBehaviourPunCallbacks
     public void CreateRoom()
     {
         PhotonNetwork.JoinOrCreateRoom($"Room{Random.Range(0, 1000)}",
-            new RoomOptions { IsVisible = false, IsOpen = false, MaxPlayers = 2 }, TypedLobby.Default);
+            new RoomOptions {IsVisible = false, IsOpen = false, MaxPlayers = 2}, TypedLobby.Default);
     }
 
     public void RefreshRooms()
@@ -150,5 +151,6 @@ public class Lobby : MonoBehaviourPunCallbacks
     {
         Debug.Log("OnJoinedRoom");
     }
+
     #endregion
 }
